@@ -9,7 +9,7 @@ export default withMermaid(
     title: "AI Work 教程网",
     titleTemplate: ":title · AI Work 教程网",
     description:
-      "给白领的 AI 工作助手教程总站：WorkBuddy、Trae、Qoder、豆包工作等 work 类工具的中文实战教程，从下载安装到第一个任务，覆盖专家、连接器、自动化与 Quest 模式。",
+      "腾讯、字节、阿里三大厂办公 AI 工作台的中文实战教程总站：WorkBuddy、TraeWork、QoderWork 等给白领用的 work 类工具，从下载安装到第一个任务，覆盖技能、连接器、自动化与 IM 远程指挥。",
     cleanUrls: true,
     lastUpdated: true,
     sitemap: {
@@ -17,12 +17,18 @@ export default withMermaid(
     },
     head: [
       ["meta", { name: "theme-color", content: "#3aa675" }],
+      // Microsoft Clarity 统计分析
+      [
+        "script",
+        { type: "text/javascript" },
+        `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "yak6yh0qjj");`,
+      ],
       [
         "meta",
         {
           name: "keywords",
           content:
-            "AI办公,WorkBuddy教程,Trae教程,Qoder教程,豆包工作,AI工作助手,AI Agent,Quest模式,WorkBuddy安装,Trae IDE,白领AI办公",
+            "AI办公,WorkBuddy教程,TraeWork教程,QoderWork教程,Trae Work,Qoder Work,豆包工作,AI工作台,AI工作助手,AI Agent,办公智能体,白领AI办公",
         },
       ],
     ],
@@ -35,8 +41,8 @@ export default withMermaid(
       nav: [
         { text: "首页", link: "/" },
         { text: "WorkBuddy", link: "/workbuddy/" },
-        { text: "Trae", link: "/trae/" },
-        { text: "Qoder", link: "/qoder/" },
+        { text: "TraeWork", link: "/traework/" },
+        { text: "QoderWork", link: "/qoderwork/" },
         { text: "关于", link: "/about" },
       ],
       sidebar: {
@@ -89,66 +95,94 @@ export default withMermaid(
             ],
           },
         ],
-        "/trae/": [
-          {
-            text: "基础入门",
-            items: [
-              { text: "板块导览", link: "/trae/" },
-              { text: "Trae 简介与环境配置", link: "/trae/01-intro" },
-              { text: "基础交互模式", link: "/trae/02-interaction" },
-              { text: "实战练习：HelloWorld 项目", link: "/trae/03-hello-world" },
-              { text: "第一部分总结与进阶准备", link: "/trae/04-summary" },
-            ],
-          },
-          {
-            text: "场景实战",
-            items: [{ text: "现代前端开发实战", link: "/trae/05-frontend" }],
-          },
-        ],
-        "/qoder/": [
+        "/traework/": [
           {
             text: "上手篇",
             items: [
-              { text: "板块导览", link: "/qoder/" },
-              { text: "Qoder 是什么", link: "/qoder/01-what-is" },
-              { text: "安装与登录", link: "/qoder/02-install" },
-              { text: "核心功能速览", link: "/qoder/03-core-features" },
-              { text: "第一次 Quest 实战", link: "/qoder/04-first-quest" },
-              { text: "Spec 驱动开发", link: "/qoder/05-spec-driven" },
+              { text: "板块导览", link: "/traework/" },
+              { text: "TraeWork 是什么", link: "/traework/01-what-is" },
+              { text: "安装、登录与三端协同", link: "/traework/02-install" },
+              { text: "第一个任务", link: "/traework/03-first-task" },
+              { text: "Skills 技能", link: "/traework/04-skills" },
             ],
           },
           {
             text: "扩展篇",
             items: [
-              { text: "Repo Wiki：代码库自动文档", link: "/qoder/06-repo-wiki" },
-              { text: "记忆与规则：.qoder 目录", link: "/qoder/07-qoder-directory" },
-              { text: "全家桶：CLI、移动端与云智能体", link: "/qoder/08-ecosystem" },
+              { text: "办公助理：飞书与微信", link: "/traework/05-bot-assistant" },
+              { text: "插件与外部应用授权", link: "/traework/06-plugins-integrations" },
+              { text: "自动化定时任务", link: "/traework/07-automated-tasks" },
+              { text: "电脑与浏览器控制", link: "/traework/08-computer-browser" },
             ],
           },
           {
             text: "案例篇",
             items: [
-              { text: "从 0 到 1 搭建一个网站", link: "/qoder/case-website" },
-              { text: "啃下其他工具卡住的 Bug", link: "/qoder/case-bug" },
-              { text: "非开发者的数据、周报与原型", link: "/qoder/case-non-dev" },
-              { text: "单元测试从 0 到 70", link: "/qoder/case-testing" },
-              { text: "技术写作与内容增长闭环", link: "/qoder/case-tech-writing" },
+              { text: "做一套能上台的 PPT", link: "/traework/case-ppt" },
+              { text: "动态汇报：看板、周报与述职", link: "/traework/case-report" },
+              { text: "公众号→飞书知识库流水线", link: "/traework/case-feishu-pipeline" },
+              { text: "聊天窗里的四种日常", link: "/traework/case-im-daily" },
             ],
           },
           {
             text: "进阶篇",
             items: [
-              { text: "打造自己的 Skills 与插件", link: "/qoder/adv-skills" },
-              { text: "MCP 连接器实战", link: "/qoder/adv-mcp" },
-              { text: "并行任务与 Worktree", link: "/qoder/adv-worktree" },
-              { text: "团队落地：规范、权限与验收", link: "/qoder/adv-team" },
+              { text: "Plan、Spec、Goal 与命令", link: "/traework/adv-workflows" },
+              { text: "MCP 与云端运行环境", link: "/traework/adv-mcp-env" },
+              { text: "模型与积分避坑", link: "/traework/adv-models-credits" },
             ],
           },
           {
             text: "速查区",
             items: [
-              { text: "常用指令模板", link: "/qoder/ref-prompt-templates" },
-              { text: "场景速查表", link: "/qoder/ref-scenarios" },
+              { text: "常用指令模板", link: "/traework/ref-templates" },
+              { text: "场景速查表", link: "/traework/ref-scenarios" },
+            ],
+          },
+        ],
+        "/qoderwork/": [
+          {
+            text: "上手篇",
+            items: [
+              { text: "板块导览", link: "/qoderwork/" },
+              { text: "QoderWork 是什么", link: "/qoderwork/01-what-is" },
+              { text: "安装与登录", link: "/qoderwork/02-install" },
+              { text: "第一个任务", link: "/qoderwork/03-first-task" },
+              { text: "工作文件夹", link: "/qoderwork/04-files" },
+            ],
+          },
+          {
+            text: "扩展篇",
+            items: [
+              { text: "技能与专家套件", link: "/qoderwork/05-skills" },
+              { text: "连接器与 MCP", link: "/qoderwork/06-connectors" },
+              { text: "IM 频道", link: "/qoderwork/07-im-channels" },
+              { text: "定时任务", link: "/qoderwork/08-automation" },
+            ],
+          },
+          {
+            text: "案例篇",
+            items: [
+              { text: "文件整理与照片管理", link: "/qoderwork/case-file-organize" },
+              { text: "数据分析与调研报告", link: "/qoderwork/case-data-report" },
+              { text: "浏览器自动化实战", link: "/qoderwork/case-browser" },
+              { text: "批量文档处理与多媒体", link: "/qoderwork/case-office-docs" },
+            ],
+          },
+          {
+            text: "进阶篇",
+            items: [
+              { text: "电脑操控与语音输入", link: "/qoderwork/adv-computer-use" },
+              { text: "对话式创建技能", link: "/qoderwork/adv-skill-create" },
+              { text: "三大工作台", link: "/qoderwork/adv-workbenches" },
+              { text: "意识、成本与安全环境", link: "/qoderwork/adv-memory-cost" },
+            ],
+          },
+          {
+            text: "速查区",
+            items: [
+              { text: "常用指令模板", link: "/qoderwork/ref-templates" },
+              { text: "场景速查表", link: "/qoderwork/ref-scenarios" },
             ],
           },
         ],

@@ -3,43 +3,43 @@ layout: home
 
 hero:
   name: AI Work 教程网
-  text: WorkBuddy · Trae · Qoder
-  tagline: 一族「work」类 AI 工作助手——给白领处理文字与日常工作的工具——的中文实战教程总站。从下载安装到第一个任务，从专家系统到长程任务委派。
+  text: WorkBuddy · TraeWork · QoderWork
+  tagline: 腾讯、字节、阿里三大厂办公 AI 工作台的中文实战教程总站。给白领干活的这一族工具，从下载安装到第一个任务，从技能、连接器到定时自动化与聊天窗远程指挥。
   actions:
     - theme: brand
       text: WorkBuddy 教程
       link: /workbuddy/
     - theme: alt
-      text: Trae 教程
-      link: /trae/
+      text: TraeWork 教程
+      link: /traework/
     - theme: alt
-      text: Qoder 教程
-      link: /qoder/
+      text: QoderWork 教程
+      link: /qoderwork/
 
 features:
   - icon: 🗂️
-    title: WorkBuddy · 职场 AI 工作台
-    details: 腾讯出品的全场景 AI 智能体工作台。上手、扩展、案例、进阶、速查五篇贯通：从第一个任务到 Skill、专家团、多 Agent 系统与自动化可靠性。
+    title: WorkBuddy · 腾讯职场 AI 工作台
+    details: 一句话下达任务，交付 PPT、表格分析、调研报告。上手、扩展、案例、进阶、速查五篇贯通：从第一个任务到 Skill、专家团、多 Agent 系统与自动化可靠性。
     link: /workbuddy/
     linkText: 从安装开始
   - icon: ⚡
-    title: Trae · AI IDE
-    details: 字节跳动的 AI IDE。Chat 对话、智能补全、Builder 从需求生成项目，系统化掌握人机协作编程流程。
-    link: /trae/
-    linkText: 基础入门
+    title: TraeWork · 字节 AI 原生工作台
+    details: 让 TRAE 为你工作。三端协同、办公助理（飞书/微信）、插件与外部应用授权、定时自动化——完整五篇结构，全网首批成体系中文教程。
+    link: /traework/
+    linkText: 认识 TraeWork
   - icon: 🧭
-    title: Qoder · 智能代理编程平台
-    details: 把长程任务完整委派给 Agent：Quest 与 Spec 驱动开发、Repo Wiki、并行 Worktree，从第一次委派到团队落地。
-    link: /qoder/
-    linkText: 认识 Qoder
+    title: QoderWork · 阿里桌面智能工作助手
+    details: 你说需求，它交付结果。工作文件夹直接读写本地文件、浏览器自动化、IM 远程指挥、三大工作台——本站原创，对齐官方文档。
+    link: /qoderwork/
+    linkText: 认识 QoderWork
   - icon: 🌱
     title: 持续收录 work 类新工具
     details: 豆包工作等新一代 AI 工作助手正在加入教程路线图。本站聚焦"给白领干活"的这一族工具，出一个，教一个。
     link: /about
     linkText: 了解本站
   - icon: 📖
-    title: 内容开源可溯源
-    details: WorkBuddy 板块改编自 MIT 协议的《WorkBuddy 实战蓝皮书》，Qoder 板块融合本站原创与 MIT 协议的《Qoder 实战蓝皮书》，Trae 板块改编自 Apache-2.0 协议的《Trae 编程实战》课程。
+    title: 内容可溯源
+    details: WorkBuddy 板块改编自 MIT 协议的《WorkBuddy 实战蓝皮书》；TraeWork / QoderWork 板块为本站原创，依据官方文档核对撰写，案例改编自社区实战并注明出处。
     link: /about
     linkText: 查看致谢
 ---

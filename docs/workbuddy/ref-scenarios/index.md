@@ -15,7 +15,7 @@
 | 销售售前 | 客户调研、方案生成、跟进邮件 | [指令模板 A.6](/workbuddy/ref-prompt-templates/) |
 | HR 行政 | 简历、培训、制度问答、入职指引 | [指令模板 A.4](/workbuddy/ref-prompt-templates/) |
 | 财务法务 | 发票、报销、合同初审、风险提示 | [指令模板 A.8](/workbuddy/ref-prompt-templates/) |
-| 研发 IT | 代码理解、测试用例、技术文档、工具开发 | Trae / Qoder 板块 |
+| 研发 IT | 代码理解、测试用例、技术文档、工具开发 | 官方文档与开发者社区（本站聚焦办公场景） |
 | 管理层 | 经营分析、异常预警、战略提案 | [办公三件套](/workbuddy/case-office/) |
 | 企业管理员 | 权限、用量、Skill、知识库、审计 | [自动化可靠性](/workbuddy/adv-automation-reliability/) |
 

@@ -1,3 +1,25 @@
 {
-  "outputDirectory": "docs/.vitepress/dist"
+  "outputDirectory": "docs/.vitepress/dist",
+  "redirects": [
+    {
+      "source": "/trae",
+      "destination": "/traework/",
+      "permanent": true
+    },
+    {
+      "source": "/trae/:path*",
+      "destination": "/traework/",
+      "permanent": true
+    },
+    {
+      "source": "/qoder",
+      "destination": "/qoderwork/",
+      "permanent": true
+    },
+    {
+      "source": "/qoder/:path*",
+      "destination": "/qoderwork/",
+      "permanent": true
+    }
+  ]
 }
