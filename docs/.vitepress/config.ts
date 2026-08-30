@@ -1,15 +1,15 @@
 import { defineConfig } from "vitepress";
 import { withMermaid } from "vitepress-plugin-mermaid";
 
-const siteUrl = process.env.VITEPRESS_SITE_URL || "https://ai-tools-guide-site.vercel.app";
+const siteUrl = process.env.VITEPRESS_SITE_URL || "https://ai-work-guide.cdqyfdbymn.me";
 
 export default withMermaid(
   defineConfig({
     lang: "zh-CN",
-    title: "AI 工具实战教程网",
-    titleTemplate: ":title · WorkBuddy / Trae / Qoder 教程",
+    title: "AI Work 教程网",
+    titleTemplate: ":title · AI Work 教程网",
     description:
-      "WorkBuddy、Trae、Qoder 中文实战教程：从下载安装到第一个任务，覆盖专家、连接器、自动化、Quest 模式与 Agent 实战。",
+      "给白领的 AI 工作助手教程总站：WorkBuddy、Trae、Qoder、豆包工作等 work 类工具的中文实战教程，从下载安装到第一个任务，覆盖专家、连接器、自动化与 Quest 模式。",
     cleanUrls: true,
     lastUpdated: true,
     sitemap: {
@@ -22,7 +22,7 @@ export default withMermaid(
         {
           name: "keywords",
           content:
-            "WorkBuddy教程,Trae教程,Qoder教程,AI编程,AI办公,AI Agent,Quest模式,WorkBuddy安装,Trae IDE",
+            "AI办公,WorkBuddy教程,Trae教程,Qoder教程,豆包工作,AI工作助手,AI Agent,Quest模式,WorkBuddy安装,Trae IDE,白领AI办公",
         },
       ],
     ],
@@ -31,7 +31,7 @@ export default withMermaid(
       theme: { light: "github-light", dark: "github-dark" },
     },
     themeConfig: {
-      siteTitle: "AI 工具实战教程网",
+      siteTitle: "AI Work 教程网",
       nav: [
         { text: "首页", link: "/" },
         { text: "WorkBuddy", link: "/workbuddy/" },

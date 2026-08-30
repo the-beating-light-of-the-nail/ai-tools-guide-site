@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "AI 工具实战教程网 — WorkBuddy / Trae / Qoder 中文教程站（VitePress）",
+  "description": "AI Work 教程网 — WorkBuddy / Trae / Qoder 等 work 类 AI 工作助手中文教程站（VitePress）",
   "license": "MIT",
   "scripts": {
     "dev": "vitepress dev docs",

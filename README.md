@@ -1,6 +1,8 @@
-# ai-tools-guide-site · AI 工具实战教程网
+# ai-tools-guide-site · AI Work 教程网
 
-中文教程站，覆盖三个 AI 工具：**WorkBuddy**（腾讯职场 AI 工作台）、**Trae**（字节 AI IDE）、**Qoder**（智能代理编程平台）。
+线上地址：**https://ai-work-guide.cdqyfdbymn.me**
+
+专注「work」类 AI 工作助手（给白领处理文字与日常工作的工具）的中文教程站，当前覆盖：**WorkBuddy**（腾讯职场 AI 工作台）、**Trae**（字节 AI IDE）、**Qoder**（智能代理编程平台），后续收录豆包工作等新工具。
 
 基于 VitePress 构建，三板块各自独立侧边栏：
 

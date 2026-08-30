@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: AI 工具实战教程网
+  name: AI Work 教程网
   text: WorkBuddy · Trae · Qoder
-  tagline: 三个最值得上手的 AI 工具，一套中文实战教程——从下载安装到第一个任务，从专家系统到长程任务委派。
+  tagline: 一族「work」类 AI 工作助手——给白领处理文字与日常工作的工具——的中文实战教程总站。从下载安装到第一个任务，从专家系统到长程任务委派。
   actions:
     - theme: brand
       text: WorkBuddy 教程
@@ -32,6 +32,11 @@ features:
     details: 把长程任务完整委派给 Agent：NEXT 编辑建议、行间会话、Ask/Agent 与 Quest 任务委派，像验收者一样审查交付。
     link: /qoder/
     linkText: 认识 Qoder
+  - icon: 🌱
+    title: 持续收录 work 类新工具
+    details: 豆包工作等新一代 AI 工作助手正在加入教程路线图。本站聚焦"给白领干活"的这一族工具，出一个，教一个。
+    link: /about
+    linkText: 了解本站
   - icon: 📖
     title: 内容开源可溯源
     details: WorkBuddy 板块改编自 MIT 协议的《WorkBuddy 实战蓝皮书》，Trae 板块改编自 Apache-2.0 协议的《Trae 编程实战》课程，Qoder 板块为本站原创并对齐官方文档。
