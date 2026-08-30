@@ -42,21 +42,50 @@ export default withMermaid(
       sidebar: {
         "/workbuddy/": [
           {
-            text: "开始",
+            text: "上手篇",
             items: [
               { text: "板块导览", link: "/workbuddy/" },
               { text: "初识 WorkBuddy", link: "/workbuddy/01-intro/" },
               { text: "下载、安装、登录与更新", link: "/workbuddy/02-install/" },
               { text: "主界面、任务与工作区", link: "/workbuddy/03-interface/" },
               { text: "快速完成第一个任务", link: "/workbuddy/04-first-task/" },
+              { text: "加载一个真正用得上的 Skill", link: "/workbuddy/05-skills/" },
             ],
           },
           {
-            text: "进阶",
+            text: "扩展篇",
             items: [
               { text: "专家和专家团", link: "/workbuddy/06-experts/" },
               { text: "使用连接器", link: "/workbuddy/07-connectors/" },
+              { text: "接入小程序与 IM 助理", link: "/workbuddy/08-im-assistant/" },
+              { text: "接入外部 API", link: "/workbuddy/09-external-api/" },
               { text: "自动化任务", link: "/workbuddy/10-automation/" },
+              { text: "课外阅读：看懂 AI 工作系统", link: "/workbuddy/11-ai-work-system/" },
+            ],
+          },
+          {
+            text: "案例篇",
+            items: [
+              { text: "办公三件套：Word、Excel、PPT", link: "/workbuddy/case-office/" },
+              { text: "知识管理：收藏要能用起来", link: "/workbuddy/case-knowledge/" },
+              { text: "把投资分析变成日常", link: "/workbuddy/case-investment/" },
+              { text: "一句话召唤 AI 视频团队", link: "/workbuddy/case-video-team/" },
+              { text: "自媒体增长闭环", link: "/workbuddy/case-self-media/" },
+            ],
+          },
+          {
+            text: "进阶篇",
+            items: [
+              { text: "打造 Skill：知识蒸馏", link: "/workbuddy/adv-build-skill/" },
+              { text: "多 Agent 系统设计", link: "/workbuddy/adv-multi-agent/" },
+              { text: "自动化工作流的可靠性", link: "/workbuddy/adv-automation-reliability/" },
+            ],
+          },
+          {
+            text: "速查区",
+            items: [
+              { text: "常用指令模板", link: "/workbuddy/ref-prompt-templates/" },
+              { text: "场景速查表", link: "/workbuddy/ref-scenarios/" },
             ],
           },
         ],
@@ -78,13 +107,48 @@ export default withMermaid(
         ],
         "/qoder/": [
           {
-            text: "Qoder 教程",
+            text: "上手篇",
             items: [
               { text: "板块导览", link: "/qoder/" },
               { text: "Qoder 是什么", link: "/qoder/01-what-is" },
               { text: "安装与登录", link: "/qoder/02-install" },
               { text: "核心功能速览", link: "/qoder/03-core-features" },
               { text: "第一次 Quest 实战", link: "/qoder/04-first-quest" },
+              { text: "Spec 驱动开发", link: "/qoder/05-spec-driven" },
+            ],
+          },
+          {
+            text: "扩展篇",
+            items: [
+              { text: "Repo Wiki：代码库自动文档", link: "/qoder/06-repo-wiki" },
+              { text: "记忆与规则：.qoder 目录", link: "/qoder/07-qoder-directory" },
+              { text: "全家桶：CLI、移动端与云智能体", link: "/qoder/08-ecosystem" },
+            ],
+          },
+          {
+            text: "案例篇",
+            items: [
+              { text: "从 0 到 1 搭建一个网站", link: "/qoder/case-website" },
+              { text: "啃下其他工具卡住的 Bug", link: "/qoder/case-bug" },
+              { text: "非开发者的数据、周报与原型", link: "/qoder/case-non-dev" },
+              { text: "单元测试从 0 到 70", link: "/qoder/case-testing" },
+              { text: "技术写作与内容增长闭环", link: "/qoder/case-tech-writing" },
+            ],
+          },
+          {
+            text: "进阶篇",
+            items: [
+              { text: "打造自己的 Skills 与插件", link: "/qoder/adv-skills" },
+              { text: "MCP 连接器实战", link: "/qoder/adv-mcp" },
+              { text: "并行任务与 Worktree", link: "/qoder/adv-worktree" },
+              { text: "团队落地：规范、权限与验收", link: "/qoder/adv-team" },
+            ],
+          },
+          {
+            text: "速查区",
+            items: [
+              { text: "常用指令模板", link: "/qoder/ref-prompt-templates" },
+              { text: "场景速查表", link: "/qoder/ref-scenarios" },
             ],
           },
         ],

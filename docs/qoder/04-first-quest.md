@@ -59,6 +59,7 @@ Quest 效果好不好，一半取决于你的任务描述。一个好任务书�
 
 ## 下一步
 
+- 进阶：把需求写成验收标准，[Spec 驱动开发 →](/qoder/05-spec-driven)
 - 回顾：[核心功能速览](/qoder/03-core-features)
 - 想系统化规范 AI 生成的代码质量，可以参考社区规则模板 [lvzhaobo/qoder-rules](https://github.com/lvzhaobo/qoder-rules)（思路可借鉴，按自己项目取舍）
 - 官方进阶文档：[docs.qoder.com](https://docs.qoder.com/zh/quick-start)
