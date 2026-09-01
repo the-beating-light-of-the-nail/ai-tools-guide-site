@@ -27,7 +27,7 @@
 "AI 工具真正的门槛不是提示词，而是验收结果。"
 ```
 
-![](assets/001_image_M29JbJQ3po.png)
+![](/workbuddy/case-knowledge/assets/001_image_M29JbJQ3po.png)
 
 ## 场景二：微信收藏很多，真正写作时还是搜不到
 
@@ -37,7 +37,7 @@
 处理本周微信收藏，只读，不删除原收藏。
 ```
 
-![](assets/002_byKl8HZ2_TtombzmOwo.jpg)
+![](/workbuddy/case-knowledge/assets/002_byKl8HZ2_TtombzmOwo.jpg)
 
 ## 场景三：ima 作为移动知识入口
 
@@ -47,7 +47,7 @@ ima 的优势不是"问答更聪明"，而是手机收集、知识库读写和�
 将我刚选择的 3 份文件放入 ima"WorkBuddy 案例库"的收件箱。
 ```
 
-![](assets/003_image_D0c8blIsEo.png)
+![](/workbuddy/case-knowledge/assets/003_image_D0c8blIsEo.png)
 
 ## 场景四：Obsidian 不是文件夹，而是可维护的 Wiki
 
@@ -59,7 +59,7 @@ ima 的优势不是"问答更聪明"，而是手机收集、知识库读写和�
 
 WorkBuddy 能识别文章正文和作者，并生成 Markdown 条目。
 
-![](assets/004_test_SSsAbxS8po.jpg)
+![](/workbuddy/case-knowledge/assets/004_test_SSsAbxS8po.jpg)
 
 ---
 

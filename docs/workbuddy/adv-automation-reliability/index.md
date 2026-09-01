@@ -18,9 +18,9 @@ AI 领域更新快，每天需要从多个信息源筛选当日值得写的选�
 
 手动运行一次，WorkBuddy 会同时调用四个数据源，整合输出一份当日 AI 热点清单。跑通后，下一步就是设置为定时任务：每天早上 9:00 自动运行，结果推送到指定位置。
 
-![](assets/001_image_FGBhb1udco.png)
+![](/workbuddy/adv-automation-reliability/assets/001_image_FGBhb1udco.png)
 
-![](assets/002_image_Yuucbmf9So.png)
+![](/workbuddy/adv-automation-reliability/assets/002_image_Yuucbmf9So.png)
 
 ## 自动化前的三个门槛
 
@@ -43,9 +43,9 @@ AI 领域更新快，每天需要从多个信息源筛选当日值得写的选�
 
 WorkBuddy 会将当前 Prompt 和数据源配置保存为定时任务，按设定时间自动执行。
 
-![](assets/003_image_RNrFb50Tqo.png)
+![](/workbuddy/adv-automation-reliability/assets/003_image_RNrFb50Tqo.png)
 
-![](assets/004_image_IPtlb5D3Zo.png)
+![](/workbuddy/adv-automation-reliability/assets/004_image_IPtlb5D3Zo.png)
 
 ## 把自动化任务设计成状态机
 

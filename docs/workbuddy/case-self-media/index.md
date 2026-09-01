@@ -38,17 +38,17 @@ Skill 的作用是补上其中一个环节，不是接管账号判断。下面�
 不要把阅读量高直接解释成选题一定适合我。
 ```
 
-![](assets/001_image_TBeUbtO5Uo.png)
+![](/workbuddy/case-self-media/assets/001_image_TBeUbtO5Uo.png)
 
 WorkBuddy 先生成跨平台样本表，再把评论聚成问题簇，最后把"热度、账号匹配、新增价值、证据充足度、制作成本"分别评分，交付一张可以人工删选的选题看板。
 
-![](assets/002_image_UsfnbdO18o.png)
+![](/workbuddy/case-self-media/assets/002_image_UsfnbdO18o.png)
 
 ### 还要会找"低粉爆款"
 
 起号要找低粉爆款去**抄选题**（抄选题，不是原封不动抄内容）。推荐 [viral-topic](https://github.com/kangarooking/kangarooking-skills/tree/main/viral-topic) skill：获取各平台近期指定领域的低粉爆款内容，比如"公众号最近 7 天的 AI 领域低粉爆款文章"，也支持 X 和 YouTube。
 
-![](assets/003_image_D9dBbor45o.png)
+![](/workbuddy/case-self-media/assets/003_image_D9dBbor45o.png)
 
 ## 场景二：想要爆款标题，但不想标题党
 
@@ -67,7 +67,7 @@ WorkBuddy 先生成跨平台样本表，再把评论聚成问题簇，最后把"
 不要自动选择最终标题，先让我确认内容承诺。
 ```
 
-![](assets/007_image_YCTubyoc3o.png)
+![](/workbuddy/case-self-media/assets/007_image_YCTubyoc3o.png)
 
 **验收方法**：把标题单独给一个不了解正文的人看，请他写出"我预计点进去会得到什么"，再与正文核对——预期与实际不一致，标题分数再高也不能用。A/B 测试一次只改变一个主要变量，否则数据无法解释。
 
@@ -85,7 +85,7 @@ WorkBuddy 先生成跨平台样本表，再把评论聚成问题簇，最后把"
 不要直接上传公众号。
 ```
 
-![](assets/009_image_YB8xbAm4Zo.png)
+![](/workbuddy/case-self-media/assets/009_image_YB8xbAm4Zo.png)
 
 ## 场景四：小红书不只是"把长文切成九张图"
 
@@ -106,7 +106,7 @@ WorkBuddy 先生成跨平台样本表，再把评论聚成问题簇，最后把"
 先返回逐页文案、视觉层级和预计字数，我确认后再调用封面与长图 Skill。
 ```
 
-![](assets/010_image_FUCAbuw08o.png)
+![](/workbuddy/case-self-media/assets/010_image_FUCAbuw08o.png)
 
 ## 场景五：一段长文怎样变成可拍的短视频
 
@@ -121,7 +121,7 @@ WorkBuddy 先生成跨平台样本表，再把评论聚成问题簇，最后把"
 同时列出必须实拍、可用产品截图、可由 AI 生成的画面，禁止伪造用户反馈。
 ```
 
-![](assets/011_image_VrCsbV8TPo.png)
+![](/workbuddy/case-self-media/assets/011_image_VrCsbV8TPo.png)
 
 ## 场景六：发布前，别让自动化越过责任边界
 
@@ -146,7 +146,7 @@ WorkBuddy 先生成跨平台样本表，再把评论聚成问题簇，最后把"
 将长期有效的修改规则写入 style-guide.md；一次性热点不要写入永久规则。
 ```
 
-![](assets/015_image_QHmHbuB4Ro.png)
+![](/workbuddy/case-self-media/assets/015_image_QHmHbuB4Ro.png)
 
 ## 一套够用的自媒体 Skill 栈
 

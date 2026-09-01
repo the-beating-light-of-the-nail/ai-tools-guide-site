@@ -64,53 +64,53 @@ Skill 还有两个 Prompt 给不了的价值：一是**固定复杂工作流**�
 
 打开左侧"专家·技能·连接器"，可以从技能市场搜索，也可以用"查找技能"描述需求。
 
-![](assets/001_image_TdcLblfvIo.png)
+![](/workbuddy/05-skills/assets/001_image_TdcLblfvIo.png)
 
 也可以在 SkillHub 技能市场里找到合适的 Skill：
 
-![](assets/002_image_V3E5bsVZGo.png)
+![](/workbuddy/05-skills/assets/002_image_V3E5bsVZGo.png)
 
 除了从推荐列表里直接安装，还可以**导入自己下载的技能**：在网上看到好用的技能包，下载下来是一个 zip 压缩文件，点击"上传技能"把 zip 文件加载即可。
 
-![](assets/003_image_Oag3bNQHOo.png)
+![](/workbuddy/05-skills/assets/003_image_Oag3bNQHOo.png)
 
-![](assets/004_image_GgOebNBh3o.png)
+![](/workbuddy/05-skills/assets/004_image_GgOebNBh3o.png)
 
 ## 使用 Skill 解决一个任务
 
 比如，你让 AI 写了一篇文章，需要去除 AI 味。找到"文章去 AI 味工具"Skill，安装之后，使用时直接按 `/` 就能唤出。
 
-![](assets/005_20260708200848_NN3hbPsKAo.gif)
+![](/workbuddy/05-skills/assets/005_20260708200848_NN3hbPsKAo.gif)
 
 你只需要引用 Skill 内容，把文章给到：
 
-![](assets/006_image_Xom2btXVZo.png)
+![](/workbuddy/05-skills/assets/006_image_Xom2btXVZo.png)
 
 WorkBuddy 会先加载 Skill 的内容：
 
-![](assets/007_image_AmOVb1oGEo.png)
+![](/workbuddy/05-skills/assets/007_image_AmOVb1oGEo.png)
 
 然后根据 Skill 中的规则来执行，比如要去除"不是……而是……"、双引号等内容：
 
-![](assets/008_image_FbpQbmSswo.png)
+![](/workbuddy/05-skills/assets/008_image_FbpQbmSswo.png)
 
 修改之后可以得到结果——确实去除了 AI 味。
 
-![](assets/009_image_RhBKbRhgIo.png)
+![](/workbuddy/05-skills/assets/009_image_RhBKbRhgIo.png)
 
 ## Skill 的关闭和卸载
 
 从全部技能中，点击"我安装的"：
 
-![](assets/010_image_NGsdbBcjso.png)
+![](/workbuddy/05-skills/assets/010_image_NGsdbBcjso.png)
 
 按钮关闭（则关闭该 Skill）：
 
-![](assets/011_image_DABBb41fGo.png)
+![](/workbuddy/05-skills/assets/011_image_DABBb41fGo.png)
 
 点击"···"，可以选择删除或编辑该 Skill：
 
-![](assets/012_image_Uya3bNC9io.png)
+![](/workbuddy/05-skills/assets/012_image_Uya3bNC9io.png)
 
 ---
 

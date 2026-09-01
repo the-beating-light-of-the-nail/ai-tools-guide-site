@@ -2,7 +2,7 @@
 
 除了把自己的 SOP 沉淀为 Skill，还有一个更简单的办法：用 [cangjie-skill](https://github.com/kangarooking/cangjie-skill)（仓颉 skill，v1 蒸馏书，v2 增加视频蒸馏）把知识蒸馏成 Skill。
 
-![](assets/001_image_WcJzb4b7Yo.png)
+![](/workbuddy/adv-build-skill/assets/001_image_WcJzb4b7Yo.png)
 
 本章回答两个问题：如何将书本和视频中的方法论转化为 Agent 可自动调用的 Skill，以及这与 RAG 检索的本质差别在哪里。
 
@@ -33,7 +33,7 @@ flowchart TD
 
 以蒸馏《文案创作完全手册》为例：
 
-![](assets/005_image_NaOwbuAcQo.png)
+![](/workbuddy/adv-build-skill/assets/005_image_NaOwbuAcQo.png)
 
 ### 阶段 0：整书 / 整片理解
 
@@ -51,7 +51,7 @@ flowchart TD
 | 反例提取 | 失败案例和反面教训 |
 | 术语词典 | 专有术语及其定义 |
 
-![](assets/007_image_QMdJbhsm0o.png)
+![](/workbuddy/adv-build-skill/assets/007_image_QMdJbhsm0o.png)
 
 ### 阶段 1.5：三重验证筛选
 
@@ -65,7 +65,7 @@ flowchart TD
 
 宁缺毋滥：一本书通常有 50–100 个候选单元，通过三重验证后只保留 10–25 个。
 
-![](assets/008_image_D7z7b4DWvo.png)
+![](/workbuddy/adv-build-skill/assets/008_image_D7z7b4DWvo.png)
 
 ### 阶段 2：构造 Skill
 
@@ -93,11 +93,11 @@ book-skill/
     └── skill-01-test.md    # 每个 Skill 的测试用例
 ```
 
-![](assets/012_image_LEKGbkn2Go.png)
+![](/workbuddy/adv-build-skill/assets/012_image_LEKGbkn2Go.png)
 
 每个 Skill 文件包含触发条件、执行步骤、输出格式、边界限制、测试用例，格式兼容 darwin-skill（自动 Skill 进化工具），蒸馏产物可以持续自动优化。
 
-![](assets/013_image_Mp0ZbEmn7o.png)
+![](/workbuddy/adv-build-skill/assets/013_image_Mp0ZbEmn7o.png)
 
 ## 知识精馏 vs RAG
 
@@ -125,7 +125,7 @@ flowchart LR
     E --> F[输出 Skill 集合]
 ```
 
-![](assets/015_image_MG56bW6jlo.png)
+![](/workbuddy/adv-build-skill/assets/015_image_MG56bW6jlo.png)
 
 - **视频下载**：yt-dlp 支持 YouTube、B 站等主流平台（视频号因平台限制暂不支持自动化）；
 - **音频转写**：本地 Whisper 可用但长视频耗时（一小时视频约需 48 分钟），推荐 ASR API 批量处理；
@@ -161,7 +161,7 @@ flowchart LR
 
 以吴恩达《给所有人的 AI 入门课》（2026 版，26 个视频，约 4 小时）为例：蒸馏耗时约 1 小时，产出 25 个 Skill，全部为时效性内容，蒸馏后可直接在对应场景被 Agent 调用。
 
-![](assets/016_image_HoW7bnRYFo.png)
+![](/workbuddy/adv-build-skill/assets/016_image_HoW7bnRYFo.png)
 
 ## 总结：知识精馏在技能包体系中的位置
 

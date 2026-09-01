@@ -153,7 +153,7 @@ Phase 5 估值逻辑与风险反脆弱（历史分位、反向 DCF、空方视�
 
 八条提示词单独看都好用，但真要完整研究一只票：要手动串、换标的重来、数据靠眼睛、决策容易自嗨、交付靠手工。`stock-advisor` 把这条链路**从"一堆提示词"变成"按一次就跑完的流水线"**：
 
-![](assets/001_stock-advisor-overview_Lxy0b4axOo.png)
+![](/workbuddy/case-investment/assets/001_stock-advisor-overview_Lxy0b4axOo.png)
 
 | 模块 | 做什么 | 关键设计 |
 | --- | --- | --- |
@@ -184,11 +184,11 @@ Phase 5 估值逻辑与风险反脆弱（历史分位、反向 DCF、空方视�
 请以表格 + 文字结合的方式输出技术面速读报告。
 ```
 
-![](assets/003_image_CrgibiDW3o.png)
+![](/workbuddy/case-investment/assets/003_image_CrgibiDW3o.png)
 
 WorkBuddy 先从图里识别出这是天孚通信，当前股价约 368.70 元，然后给出结构化速读：MA5 > MA10 > MA20 标准多头排列仍在主升浪；但当日一根长上影线（最高冲 376.10 回落到 368.70）、MACD 红柱开始缩短、乖离率偏大；支撑看 MA5（347）/ MA10（319），压力看当日高点 376。这一步它没有猜涨跌，而是把"图里能读到的事实"结构化了。
 
-![](assets/004_image_WX6WbFC9Oo.png)
+![](/workbuddy/case-investment/assets/004_image_WX6WbFC9Oo.png)
 
 ### 第二步：补上财报截图，做一次全面分析
 
@@ -202,7 +202,7 @@ WorkBuddy 先从图里识别出这是天孚通信，当前股价约 368.70 元�
 4. 明确标注关键支撑位和压力位，按专业研报的格式输出。
 ```
 
-![](assets/007_image_CScebfl1io.png)
+![](/workbuddy/case-investment/assets/007_image_CScebfl1io.png)
 
 它先逐条识别截图里的财务指标（营收 39.18 亿、同比 +63.63%，ROE 31.30%，PE 146.70……），然后合成综合评级表：
 
@@ -216,7 +216,7 @@ WorkBuddy 先从图里识别出这是天孚通信，当前股价约 368.70 元�
 
 最终评级"推荐"，核心结论很克制：**中期趋势向好（CPO 高景气 + 高成长），但短期估值透支、涨幅过大，不宜追高，等回调再择机。** 估值太贵就在总分里扣回来——不会因为成长性好就无脑看多。
 
-![](assets/008_image_I6uBbecypo.png)
+![](/workbuddy/case-investment/assets/008_image_I6uBbecypo.png)
 
 ### 第三步：拿不定主意，开一场私董会
 
@@ -231,7 +231,7 @@ WorkBuddy 先从图里识别出这是天孚通信，当前股价约 368.70 元�
 请基于前两轮的分析数据展开，让幕僚们"带着数据聊"。
 ```
 
-![](assets/011_image_LuArbEta0o.png)
+![](/workbuddy/case-investment/assets/011_image_LuArbEta0o.png)
 
 私董会环节系统先联网更新了数据（2025 全年营收、2026 Q1 环比下滑、和中际旭创/新易盛的横向对比）——交叉验证模块把讨论从截图数据推进到了全网最新事实。四位幕僚观点分裂成 2:2：巴菲特回避（"PE 142，安全边际为零"）、盖茨等待（"等 PE 回到 60 倍以下，或换性价比更高的标的"）、马斯克 All in（"CPO 是光通信的 iPhone 时刻"）、乔布斯有条件持有（"前提是 CPO FAU 在 2026 H2 如期兑现"）。
 
@@ -244,9 +244,9 @@ WorkBuddy 先从图里识别出这是天孚通信，当前股价约 368.70 元�
 | 趋势投资者 | 谨慎参与 | 等回调至 MA10 / MA20 再介入 |
 | 激进投资者 | 小仓位试仓 | 最多 3 成，跌破 300 元清仓 |
 
-![](assets/015_image_Y0yvbzLRto.png)
+![](/workbuddy/case-investment/assets/015_image_Y0yvbzLRto.png)
 
-![](assets/016_image_DOOhbmIIeo.png)
+![](/workbuddy/case-investment/assets/016_image_DOOhbmIIeo.png)
 
 对话结束后可让它把整场分析生成杂志风格报告（本地存 PDF 或上传飞书）。回头看：`stock-advisor` 把八条散装提示词变成三轮对话就跑完的完整研究——**看图 → 看财报 → 开私董会 → 出报告**，而全程它没有替你做"买还是不卖"那个最关键的决定。
 

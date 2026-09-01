@@ -50,13 +50,13 @@ MCP 支持通过本地标准输入输出（stdio）或本地 HTTP 进行通信�
 
 **当前已支持 QQ 邮箱、腾讯文档、腾讯乐享、腾讯会议、TAPD 等连接器。**
 
-![](assets/001_image_IZzfbK38Ao.png)
+![](/workbuddy/07-connectors/assets/001_image_IZzfbK38Ao.png)
 
 比如加载腾讯会议连接器，
 
-![](assets/002_image_WF3ab0WSbo.png)
+![](/workbuddy/07-connectors/assets/002_image_WF3ab0WSbo.png)
 
-![](assets/003_image_ZssEbuMsdo.png)
+![](/workbuddy/07-connectors/assets/003_image_ZssEbuMsdo.png)
 
 
 
@@ -64,15 +64,15 @@ MCP 支持通过本地标准输入输出（stdio）或本地 HTTP 进行通信�
 
 帮我创建一个明天下午 3 点的会议，
 
-![](assets/004_image_KVIJbpUZdo.png)
+![](/workbuddy/07-connectors/assets/004_image_KVIJbpUZdo.png)
 
 主题“项目讨论”，时长1h
 
-![](assets/005_image_FPy1bGJJZo.png)
+![](/workbuddy/07-connectors/assets/005_image_FPy1bGJJZo.png)
 
 创建成功
 
-![](assets/006_image_WQ6Zb1Rero.png)
+![](/workbuddy/07-connectors/assets/006_image_WQ6Zb1Rero.png)
 
 
 
@@ -80,4 +80,4 @@ MCP 支持通过本地标准输入输出（stdio）或本地 HTTP 进行通信�
 
 连接器管理页右上角点“自定义连接器”，按引导配置 MCP（含服务地址、鉴权方式），并提示自定义连接器的访问范围由用户配置
 
-![](assets/007_image_M2itbQUceo.png)
+![](/workbuddy/07-connectors/assets/007_image_M2itbQUceo.png)

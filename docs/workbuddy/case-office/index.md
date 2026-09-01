@@ -57,9 +57,9 @@ Word 的真实难点通常有四个：不知道按什么结构写、语气不够
 适合直接拿去和领导确认活动方向。
 ```
 
-![](assets/001_image_PhFMbu3kTo.png)
+![](/workbuddy/case-office/assets/001_image_PhFMbu3kTo.png)
 
-![](assets/002_image_UVm5bKLrZo.png)
+![](/workbuddy/case-office/assets/002_image_UVm5bKLrZo.png)
 
 ### 二次修改不要重写，要说差异
 
@@ -75,9 +75,9 @@ Word 的真实难点通常有四个：不知道按什么结构写、语气不够
 输出修改后的 v2 版 Word 文档，并在 changelog.md 中列出本次修改内容。
 ```
 
-![](assets/003_image_IoOLbfEcvo.png)
+![](/workbuddy/case-office/assets/003_image_IoOLbfEcvo.png)
 
-![](assets/004_image_V1RpbVGuno.png)
+![](/workbuddy/case-office/assets/004_image_V1RpbVGuno.png)
 
 ### 进阶：比较两版制度、合同或方案
 
@@ -88,9 +88,9 @@ Word 的真实难点通常有四个：不知道按什么结构写、语气不够
 生成影响清单和待确认问题，不给法律结论，不修改原文件。
 ```
 
-![](assets/011_image_HqbtbVTw3o.png)
+![](/workbuddy/case-office/assets/011_image_HqbtbVTw3o.png)
 
-![](assets/012_image_MhArbb6Woo.png)
+![](/workbuddy/case-office/assets/012_image_MhArbb6Woo.png)
 
 文档对比适合发现变化，不替代法务、财务或制度责任人的最终判断。
 
@@ -127,11 +127,11 @@ Excel 的问题通常不在"会不会做图"，而在"这个表到底能回答�
 要求：保留原始数据，统计过程和公式可追溯；无法确认的原因标注为待核实，不要编造。
 ```
 
-![](assets/005_image_I118b7wyUo.png)
+![](/workbuddy/case-office/assets/005_image_I118b7wyUo.png)
 
-![](assets/006_image_BWkRb60JPo.png)
+![](/workbuddy/case-office/assets/006_image_BWkRb60JPo.png)
 
-![](assets/007_image_XtfQbkCqio.png)
+![](/workbuddy/case-office/assets/007_image_XtfQbkCqio.png)
 
 ### 进阶：多表合并、对账与异常清单
 
@@ -145,9 +145,9 @@ Excel 的问题通常不在"会不会做图"，而在"这个表到底能回答�
 金额汇总必须与各源表合计对账，差异不为 0 时不生成管理结论。
 ```
 
-![](assets/009_image_UNEqbRnJfo.png)
+![](/workbuddy/case-office/assets/009_image_UNEqbRnJfo.png)
 
-![](assets/010_image_L25tbHIUeo.png)
+![](/workbuddy/case-office/assets/010_image_L25tbHIUeo.png)
 
 **验收**：输入总量、清洗变化和输出总量守恒；公式可重算；异常没有被静默删除；图表使用的字段和汇总表一致。
 
@@ -183,7 +183,7 @@ PPT 标题尽量直接表达观点，不使用"AI Agent 介绍"这类泛化标�
 整体风格：专业、简洁、有科技感，但不要过度使用渐变、发光和装饰性元素。
 ```
 
-![](assets/008_image_ABXObcQeeo.png)
+![](/workbuddy/case-office/assets/008_image_ABXObcQeeo.png)
 
 ## 三件套联动：会议之后自动形成交付包
 

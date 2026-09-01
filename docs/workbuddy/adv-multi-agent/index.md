@@ -2,7 +2,7 @@
 
 本章以一个"产品宣传片专家团"的实际案例，回答多 Agent 系统的三个核心问题：如何设计分工、如何串联产物、何时值得拆分。
 
-![](assets/001_image_AkBibtRBOo.png)
+![](/workbuddy/adv-multi-agent/assets/001_image_AkBibtRBOo.png)
 
 ## 单 Agent 和多 Agent 的真正差别
 
@@ -17,7 +17,7 @@
 
 多 Agent 的价值来自**专业分工、并行、权限隔离或独立评审**，不来自角色数量。
 
-![](assets/002_image_WdfWbMN9Do.png)
+![](/workbuddy/adv-multi-agent/assets/002_image_WdfWbMN9Do.png)
 
 ## 任务是否值得拆分
 
@@ -38,7 +38,7 @@
 
 HyperFrames 是 HeyGen 开源的视频渲染框架，核心特点是对 AI Agent 友好：Agent 可以自动生成基于 HTML 的视频帧并渲染输出。产品宣传片有相对固定的套路——无需口播和演员，主要由产品展示、概念字幕和 BGM 构成，适合 Agent 团队分工处理。
 
-![](assets/003_image_NhwLbBH33o.png)
+![](/workbuddy/adv-multi-agent/assets/003_image_NhwLbBH33o.png)
 
 ### 工序设计
 
@@ -74,7 +74,7 @@ flowchart TD
 真实软件界面。整个过程全自动。
 ```
 
-![](assets/004_image_MdzDbUKmlo.png)
+![](/workbuddy/adv-multi-agent/assets/004_image_MdzDbUKmlo.png)
 
 团长先把"做一支宣传片"拆成一串子任务：先搞清楚产品是什么、卖给谁、核心价值是什么；再决定叙事结构、镜头数量、节奏；然后分头做素材、剪辑、配乐。
 
@@ -82,7 +82,7 @@ Brief 角色先开工，翻一遍官网和产品介绍，输出一份 brief：�
 
 最有意思的是配乐师：它不是简单写个"科技感 BGM"的 prompt 完事，而是先读分镜表，研究每个镜头的情绪曲线——哪里需要鼓点卡产品 reveal、哪里需要降下来做留白、哪里需要一个 hit point 推 CTA——然后才调用音乐模型生成候选。最后团长整合所有产物，跑最后一道剪辑输出成片。
 
-![](assets/005_image_QASabZlKzo.png)
+![](/workbuddy/adv-multi-agent/assets/005_image_QASabZlKzo.png)
 
 整个过程人基本是个旁观者：偶尔在关键节点拍板——分镜要不要这么排、BGM 喜不喜欢、字幕文案要不要改。
 
@@ -128,9 +128,9 @@ project/
 
 创建自己的专家团也很简单：专家 → 我的专家 → 创建专家，跳转到 WorkBuddy 对话框，按给定格式即可快速创建。
 
-![](assets/007_image_BNYQbIE2no.png)
+![](/workbuddy/adv-multi-agent/assets/007_image_BNYQbIE2no.png)
 
-![](assets/008_image_KXwlbyY7Oo.png)
+![](/workbuddy/adv-multi-agent/assets/008_image_KXwlbyY7Oo.png)
 
 当前专家团覆盖的典型场景：
 
@@ -142,7 +142,7 @@ project/
 | 业务支持 | SEO、销售、营销、财税合规、HR |
 | 法律合规 | 中文法律 |
 
-![](assets/009_image_HDlMbAHGTo.png)
+![](/workbuddy/adv-multi-agent/assets/009_image_HDlMbAHGTo.png)
 
 ## 质量影响因素
 

@@ -9,7 +9,7 @@
 
 这两个团队不是互相替代的关系：生成团队解决"今天怎么做一条出来"，拆解团队解决"为什么别人那条能火，我能学到什么"。一个负责生产，一个负责学习，组合起来才有持续迭代的可能。
 
-![](assets/002_two-ai-video-teams_SXcUb9mpMo.png)
+![](/workbuddy/case-video-team/assets/002_two-ai-video-teams_SXcUb9mpMo.png)
 
 ## 如何召唤：从一句话开始，但不要停在一句话
 
@@ -21,7 +21,7 @@
 
 四个核心角色：主理人**凌导**、信息采集员**灵阅**、内容策划师**灵枢**、视频制作师**灵映**。它们不是四个换名字的聊天窗口，而是一条有上下游交接关系的视频生产线。
 
-![](assets/004_video-team-roles_ZOJ8b7aQ7o.png)
+![](/workbuddy/case-video-team/assets/004_video-team-roles_ZOJ8b7aQ7o.png)
 
 | 角色 | 定位 | 交付物 |
 | --- | --- | --- |
@@ -40,13 +40,13 @@
 
 做视频最耗时间的往往不是剪辑，而是"今天到底拍什么"。灵阅抓 RSS、搜新闻、扫社媒、聚合 AI 热点并去重。这个阶段的产物至少包含：标题、来源、发布时间、事件发生时间、原始链接、热度线索、为什么值得关注。**热度只能帮助排序，不能替代事实核验。**
 
-![](assets/007_collection-report_KPn1bXgYQo.png)
+![](/workbuddy/case-video-team/assets/007_collection-report_KPn1bXgYQo.png)
 
 ### 流程二：内容策划师把主题变成镜头
 
 选题有了之后，真正费脑子的是"这条视频怎么讲"。灵枢负责选题评估、脚本、分镜、旁白、镜头节奏、BGM 节奏和情绪节点。
 
-![](assets/008_planner-full_YPM3boyNTo.png)
+![](/workbuddy/case-video-team/assets/008_planner-full_YPM3boyNTo.png)
 
 建议在这里设置**第一次人工检查**：开头 3 秒是否有钩子、46 秒是否塞入过多信息、旁白是否准确、画面是否真的支撑观点。脚本不过关，不要进入配音和渲染。
 
@@ -54,7 +54,7 @@
 
 灵映把确认后的脚本转成 HTML，再调用 HyperFrames 渲染 MP4，自动完成 Azure TTS 配音、Whisper 字幕对齐、动画与转场生成、素材拼接和视频渲染。
 
-![](assets/009_video-producer_PohnbE1jKo.png)
+![](/workbuddy/case-video-team/assets/009_video-producer_PohnbE1jKo.png)
 
 成片验收不要只看"能不能播放"：检查旁白与字幕是否一致、镜头时长是否匹配、文字是否遮挡主体、BGM 是否可用、素材是否有版权风险、画面是否适合目标平台安全区。
 
@@ -62,13 +62,13 @@
 
 发布 Agent 自动生成标题、打标签、上传封面，并通过云手机发布到抖音、视频号和 B 站。能力很强，但**默认不要直接自动发布**，除非账号、素材、标题和合规边界都已经过人工确认。
 
-![](assets/011_publish-demo_DdTYbbBxLo.png)
+![](/workbuddy/case-video-team/assets/011_publish-demo_DdTYbbBxLo.png)
 
 ## 第二支团队：爆款视频拆解团队
 
 光会生成还不够。内容创作者真正需要的是理解"为什么别人能爆"：提取视频、转录文案、分析景别运镜、剪辑节奏、色调风格，并给出仿拍建议。
 
-![](assets/013_anatomy-team_OI1Ubltu1o.png)
+![](/workbuddy/case-video-team/assets/013_anatomy-team_OI1Ubltu1o.png)
 
 | 角色 | 职责 | 工具 / 技术 |
 | --- | --- | --- |
@@ -80,7 +80,7 @@
 
 最复杂的一步是拿到视频，设计上用三层降级：官方 API → Playwright → yt-dlp，只要有一层成功流程就继续。
 
-![](assets/015_anatomy-flow_CuFcbaM9Ao.png)
+![](/workbuddy/case-video-team/assets/015_anatomy-flow_CuFcbaM9Ao.png)
 
 > 边界：视频下载和分析要遵守平台条款、版权授权和合理使用范围。拆解的目的是学习结构和方法，不是搬运原视频。
 
@@ -92,7 +92,7 @@
 
 最有意思的一步：小淼分析整条视频的景别、运镜、转场、剪辑节奏、色调、镜头时长。很多看起来"有感觉"的爆款视频，背后其实有稳定的镜头规律。
 
-![](assets/018_video-understand_VwxLb62b1o.png)
+![](/workbuddy/case-video-team/assets/018_video-understand_VwxLb62b1o.png)
 
 ## 两支团队如何形成闭环
 
