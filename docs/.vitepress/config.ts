@@ -9,7 +9,7 @@ export default withMermaid(
     title: "AI Work 教程网",
     titleTemplate: ":title · AI Work 教程网",
     description:
-      "腾讯、字节、阿里三大厂办公 AI 工作台的中文实战教程总站：WorkBuddy、TraeWork、QoderWork 等给白领用的 work 类工具，从下载安装到第一个任务，覆盖技能、连接器、自动化与 IM 远程指挥。",
+      "腾讯、字节、阿里三大厂办公 AI 工作台的中文实战教程总站：WorkBuddy、TraeWork、QoderWork、豆包工作等给白领用的 work 类工具，从下载安装到第一个任务，覆盖技能、连接器、自动化与 IM 远程指挥。",
     cleanUrls: true,
     lastUpdated: true,
     sitemap: {
@@ -39,7 +39,7 @@ export default withMermaid(
         {
           name: "keywords",
           content:
-            "AI办公,WorkBuddy教程,TraeWork教程,QoderWork教程,Trae Work,Qoder Work,豆包工作,AI工作台,AI工作助手,AI Agent,办公智能体,白领AI办公",
+            "AI办公,WorkBuddy教程,TraeWork教程,QoderWork教程,豆包工作教程,Trae Work,Qoder Work,豆包工作,AI工作台,AI工作助手,AI Agent,办公智能体,白领AI办公",
         },
       ],
     ],
@@ -54,6 +54,7 @@ export default withMermaid(
         { text: "WorkBuddy", link: "/workbuddy/" },
         { text: "TraeWork", link: "/traework/" },
         { text: "QoderWork", link: "/qoderwork/" },
+        { text: "豆包工作", link: "/doubaowork/" },
         { text: "关于", link: "/about" },
       ],
       sidebar: {
@@ -194,6 +195,102 @@ export default withMermaid(
             items: [
               { text: "常用指令模板", link: "/qoderwork/ref-templates" },
               { text: "场景速查表", link: "/qoderwork/ref-scenarios" },
+            ],
+          },
+        ],
+        "/doubaowork/": [
+          {
+            text: "上手篇",
+            items: [
+              { text: "板块导览", link: "/doubaowork/" },
+              { text: "豆包工作是什么", link: "/doubaowork/01-what-is" },
+              { text: "下载、安装与登录", link: "/doubaowork/02-install" },
+              { text: "主界面、任务和项目", link: "/doubaowork/03-interface" },
+              { text: "第一个任务：五分钟跑通", link: "/doubaowork/04-first-task" },
+              { text: "连接器：先跑个能验收的", link: "/doubaowork/05-connectors" },
+              { text: "Skill 怎么选，怎么用", link: "/doubaowork/06-skills" },
+            ],
+          },
+          {
+            text: "扩展篇",
+            items: [
+              { text: "手机遥控电脑", link: "/doubaowork/07-mobile-remote" },
+              { text: "API 服务和连接器怎么选", link: "/doubaowork/08-api-vs-connector" },
+              { text: "定时任务与资讯简报", link: "/doubaowork/09-automation" },
+            ],
+          },
+          {
+            text: "案例篇 · 日常与办公",
+            items: [
+              { text: "一份材料做三件套", link: "/doubaowork/case-office" },
+              { text: "最适配的还是飞书", link: "/doubaowork/case-feishu" },
+              { text: "整理桌面：先看方案", link: "/doubaowork/case-desktop" },
+              { text: "生活琐事先做一版", link: "/doubaowork/case-life" },
+            ],
+          },
+          {
+            text: "案例篇 · 个人提效",
+            items: [
+              { text: "收件箱排优先级", link: "/doubaowork/case-inbox" },
+              { text: "一场会议的全程落地", link: "/doubaowork/case-meeting" },
+              { text: "Word 从校对到交付", link: "/doubaowork/case-word" },
+              { text: "Excel 从清洗到仪表盘", link: "/doubaowork/case-excel" },
+              { text: "从临时调研到正式报告", link: "/doubaowork/case-research" },
+              { text: "自动日报与待办提醒", link: "/doubaowork/case-daily-report" },
+              { text: "快速读一本书", link: "/doubaowork/case-reading" },
+              { text: "用个人网站包装自己", link: "/doubaowork/case-personal-site" },
+            ],
+          },
+          {
+            text: "案例篇 · 自媒体",
+            items: [
+              { text: "选题：热点、同行与排期", link: "/doubaowork/case-topic-selection" },
+              { text: "从热点到公众号成稿", link: "/doubaowork/case-wechat-article" },
+              { text: "一份内容改多平台版本", link: "/doubaowork/case-multi-platform" },
+              { text: "从长文到口播与分镜", link: "/doubaowork/case-script-storyboard" },
+              { text: "音视频转写与高光切片", link: "/doubaowork/case-av-transcription" },
+              { text: "从评论区找下一篇", link: "/doubaowork/case-comments" },
+              { text: "个人 IP 的 GEO 体检", link: "/doubaowork/case-geo-checkup" },
+              { text: "公众号文章转短视频", link: "/doubaowork/case-viral-to-video" },
+            ],
+          },
+          {
+            text: "案例篇 · 知识管理",
+            items: [
+              { text: "从随手收藏到真正能搜", link: "/doubaowork/case-bookmarks" },
+              { text: "重复文件先看差异", link: "/doubaowork/case-duplicate-files" },
+              { text: "项目资产一起沉淀", link: "/doubaowork/case-project-archive" },
+              { text: "飞书知识库变 Skill", link: "/doubaowork/case-wiki-to-skill" },
+              { text: "一句话查企业制度", link: "/doubaowork/case-policy-search" },
+              { text: "541 个案例重新归类", link: "/doubaowork/case-prompt-library" },
+              { text: "过期知识找 Owner", link: "/doubaowork/case-knowledge-expiry" },
+            ],
+          },
+          {
+            text: "案例篇 · 电商与金融",
+            items: [
+              { text: "一张原图到整套主图", link: "/doubaowork/case-product-images" },
+              { text: "盘后复盘与观察池日报", link: "/doubaowork/case-market-review" },
+              { text: "财报：先看增长再查质量", link: "/doubaowork/case-earnings-quality" },
+              { text: "第一次研究一家公司", link: "/doubaowork/case-first-company" },
+              { text: "从筛选到估值", link: "/doubaowork/case-screening-valuation" },
+              { text: "股东、管理层与治理", link: "/doubaowork/case-governance" },
+              { text: "多空分歧与研报审计", link: "/doubaowork/case-bull-bear-audit" },
+              { text: "K 线图到投研评审会", link: "/doubaowork/case-kline-review" },
+            ],
+          },
+          {
+            text: "进阶篇",
+            items: [
+              { text: "工作伙伴还是工作小队", link: "/doubaowork/adv-buddy-or-squad" },
+              { text: "多 Agent（工作小队）实操", link: "/doubaowork/adv-multi-agent" },
+            ],
+          },
+          {
+            text: "速查区",
+            items: [
+              { text: "常用指令模板", link: "/doubaowork/ref-templates" },
+              { text: "场景速查表", link: "/doubaowork/ref-scenarios" },
             ],
           },
         ],

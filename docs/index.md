@@ -4,7 +4,7 @@ title: 办公 AI 工作台实战教程
 
 hero:
   name: AI Work 教程网
-  text: WorkBuddy · TraeWork · QoderWork
+  text: WorkBuddy · TraeWork · QoderWork · 豆包工作
   tagline: 腾讯、字节、阿里三大厂办公 AI 工作台的中文实战教程总站。给白领干活的这一族工具，从下载安装到第一个任务，从技能、连接器到定时自动化与聊天窗远程指挥。
   actions:
     - theme: brand
@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: QoderWork 教程
       link: /qoderwork/
+    - theme: alt
+      text: 豆包工作教程
+      link: /doubaowork/
 
 features:
   - icon: 🗂️
@@ -33,14 +36,14 @@ features:
     details: 你说需求，它交付结果。工作文件夹直接读写本地文件、浏览器自动化、IM 远程指挥、三大工作台——本站原创，对齐官方文档。
     link: /qoderwork/
     linkText: 认识 QoderWork
-  - icon: 🌱
-    title: 持续收录 work 类新工具
-    details: 豆包工作等新一代 AI 工作助手正在加入教程路线图。本站聚焦"给白领干活"的这一族工具，出一个，教一个。
-    link: /about
-    linkText: 了解本站
+  - icon: 🥤
+    title: 豆包工作 · 字节面向真实任务的 AI 助手
+    details: 与飞书深度打通：只给链接不碰文件，读文档写回文档。六大场景 35 篇实战——办公三件套、自媒体生产线、知识管理、电商主图到金融投研全链路。
+    link: /doubaowork/
+    linkText: 认识豆包工作
   - icon: 📖
     title: 内容可溯源
-    details: WorkBuddy 板块改编自 MIT 协议的《WorkBuddy 实战蓝皮书》；TraeWork / QoderWork 板块为本站原创，依据官方文档核对撰写，案例改编自社区实战并注明出处。
+    details: WorkBuddy、豆包工作板块改编自社区开源指南并注明出处；TraeWork / QoderWork 板块为本站原创，依据官方文档核对撰写，案例改编自社区实战并注明出处。
     link: /about
     linkText: 查看致谢
 ---
