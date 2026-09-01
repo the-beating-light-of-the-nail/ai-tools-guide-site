@@ -1,5 +1,6 @@
 ---
 layout: home
+title: 办公 AI 工作台实战教程
 
 hero:
   name: AI Work 教程网

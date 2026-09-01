@@ -15,6 +15,17 @@ export default withMermaid(
     sitemap: {
       hostname: siteUrl,
     },
+    transformHead({ page }) {
+      // cleanUrls 下目录页带尾斜杠、普通页无扩展名，与 sitemap 中的 loc 保持一致
+      const canonicalPath = page
+        .replace(/\.md$/, "")
+        .replace(/(^|\/)index$/, "$1");
+      const canonical = `${siteUrl}/${canonicalPath}`;
+      return [
+        ["link", { rel: "canonical", href: canonical }],
+        ["meta", { property: "og:url", content: canonical }],
+      ];
+    },
     head: [
       ["meta", { name: "theme-color", content: "#3aa675" }],
       // Microsoft Clarity 统计分析
