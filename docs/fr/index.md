@@ -4,7 +4,7 @@ title: Tutoriels pratiques sur les postes de travail IA
 
 hero:
   name: AI Work Tutoriels
-  text: WorkBuddy · TraeWork · QoderWork · Doubao Work
+  text: WorkBuddy · TraeWork · QoderWork · Doubao Work · Qwen Work
   tagline: "Le site de référence des tutoriels pratiques sur les postes de travail IA des trois géants — Tencent, ByteDance et Alibaba. Une famille d'outils conçus pour le quotidien des bureaux : de l'installation à votre première tâche, des skills et connecteurs à l'automatisation planifiée et au pilotage à distance par messagerie."
   actions:
     - theme: brand
@@ -41,9 +41,14 @@ features:
     details: "Intégration profonde avec Feishu : partagez simplement un lien sans manipuler de fichiers, lisez et mettez à jour vos documents. 35 tutoriels pratiques répartis en six domaines — la suite bureautique, la chaîne de production de contenu, la gestion des connaissances, et toute la chaîne des visuels e-commerce jusqu'à la recherche financière."
     link: /fr/doubaowork/
     linkText: Découvrir Doubao Work
+  - icon: 📘
+    title: Qwen Work · L'assistant bureautique IA d'Alibaba
+    details: "Adapté du guide open source « Qwen Work Blue Book V2.0 » — la méthode complète pour passer de « savoir générer » à « savoir livrer » : 13 chapitres de pratique (découpage et acceptation des tâches, livraison bureautique, parcours par poste, chaînes de preuves, pilotes et gouvernance, mesure de la valeur) + 6 annexes + 2 cas nommés."
+    link: /fr/qwenwork/
+    linkText: Lire le résumé exécutif
   - icon: 📖
     title: Contenus traçables
-    details: Les sections WorkBuddy et Doubao Work sont adaptées de guides open source de la communauté, sources citées ; les sections TraeWork / QoderWork sont une production originale de ce site, rédigées et vérifiées d'après la documentation officielle, avec des cas pratiques adaptés d'expériences communautaires dûment créditées.
+    details: Les sections WorkBuddy, Doubao Work et Qwen Work sont adaptées de guides open source de la communauté, sources citées ; les sections TraeWork / QoderWork sont une production originale de ce site, rédigées et vérifiées d'après la documentation officielle, avec des cas pratiques adaptés d'expériences communautaires dûment créditées.
     link: /fr/about
     linkText: Voir les remerciements
 ---

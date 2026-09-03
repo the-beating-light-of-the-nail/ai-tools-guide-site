@@ -238,6 +238,63 @@ const sidebar: LocaleConfig["themeConfig"]["sidebar"] = {
       ],
     },
   ],
+  "/qwenwork/": [
+    {
+      text: "Getting Started",
+      items: [
+        { text: "Section Overview", link: "/qwenwork/" },
+        { text: "Quick Start: Complete Your First Acceptable Task", link: "/qwenwork/quick-start" },
+        { text: "Executive Summary: Finish One Piece of Office Work First", link: "/qwenwork/executive-summary" },
+      ],
+    },
+    {
+      text: "From Task to Delivery (Chapters 1–5)",
+      items: [
+        { text: "The New Delivery Standard: From Answering to Completing", link: "/qwenwork/ch01-delivery-standard" },
+        { text: "Task Delivery Protocol: Define \"Done\" First", link: "/qwenwork/ch02-task-delivery-protocol" },
+        { text: "Work Environment: Three Clients, Six-Layer Diagnostics", link: "/qwenwork/ch03-work-environment" },
+        { text: "Reusable Assets: Skills, Connectors, and Expert Kits", link: "/qwenwork/ch04-skills-connectors" },
+        { text: "Automation Boundaries: Stoppable, Takeover-able, Recoverable", link: "/qwenwork/ch05-automation-boundaries" },
+      ],
+    },
+    {
+      text: "Professional Office Tasks (Chapters 6–9)",
+      items: [
+        { text: "Office Delivery: Documents, Data, Reporting, and Web", link: "/qwenwork/ch06-office-delivery" },
+        { text: "Role Roadmaps: Pick Real Tasks with the Scenario Card", link: "/qwenwork/ch07-role-roadmaps" },
+        { text: "Research and the Evidence Chain: Question Tree to Release Record", link: "/qwenwork/ch08-research-evidence-chain" },
+        { text: "Public Case Atlas: Release by Evidence Gates", link: "/qwenwork/ch09-public-case-atlas" },
+      ],
+    },
+    {
+      text: "Team Rollout (Chapters 10–13)",
+      items: [
+        { text: "Scenario Selection and the 30/60/90-Day Pilot", link: "/qwenwork/ch10-pilot-roadmap" },
+        { text: "Security Governance: Actions, Data, and Responsibility", link: "/qwenwork/ch11-security-governance" },
+        { text: "Team Workflow Operations: Success into a Maintainable Asset", link: "/qwenwork/ch12-workflow-operations" },
+        { text: "Value Measurement: From Usage Data to Recomputable Decisions", link: "/qwenwork/ch13-value-measurement" },
+      ],
+    },
+    {
+      text: "Conclusion and Cases",
+      items: [
+        { text: "Product and Ecosystem Roadmap Suggestions", link: "/qwenwork/conclusion" },
+        { text: "Pisen: Competitive Research and Product Collateral", link: "/qwenwork/case-pisen" },
+        { text: "Youkela: Product R&D and Attendance-Based Payroll", link: "/qwenwork/case-youkela" },
+      ],
+    },
+    {
+      text: "Appendices",
+      items: [
+        { text: "Prompt Templates", link: "/qwenwork/appendix-templates" },
+        { text: "Scenario Lookup and Scoring Sheet", link: "/qwenwork/appendix-scenarios" },
+        { text: "Launch Hard-Gate Checklist", link: "/qwenwork/appendix-launch-checklist" },
+        { text: "Sources and Further Reading", link: "/qwenwork/appendix-sources" },
+        { text: "Claim Evidence Ledger", link: "/qwenwork/appendix-evidence-ledger" },
+        { text: "Case Source Map", link: "/qwenwork/appendix-case-source-map" },
+      ],
+    },
+  ],
   "/": [
     {
       text: "This Site",
@@ -254,7 +311,7 @@ export const en = {
   title: "AI Work Tutorials",
   titleTemplate: ":title · AI Work Tutorials",
   description:
-    "Practical tutorials for the office AI workspaces from Tencent, ByteDance, and Alibaba: WorkBuddy, TraeWork, QoderWork, Doubao Work and other work-style tools for office workers — from download and install to your first task, covering skills, connectors, automation, and remote control over IM.",
+    "Practical tutorials for the office AI workspaces from Tencent, ByteDance, and Alibaba: WorkBuddy, TraeWork, QoderWork, Doubao Work, Qwen Work and other work-style tools for office workers — from download and install to your first task, covering skills, connectors, automation, and remote control over IM.",
   themeConfig: {
     siteTitle: "AI Work Tutorials",
     nav: [
@@ -263,6 +320,7 @@ export const en = {
       { text: "TraeWork", link: "/traework/" },
       { text: "QoderWork", link: "/qoderwork/" },
       { text: "Doubao Work", link: "/doubaowork/" },
+      { text: "Qwen Work", link: "/qwenwork/" },
       { text: "About", link: "/about" },
     ],
     sidebar,

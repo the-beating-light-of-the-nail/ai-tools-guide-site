@@ -4,7 +4,7 @@ title: 办公 AI 工作台实战教程
 
 hero:
   name: AI Work 教程网
-  text: WorkBuddy · TraeWork · QoderWork · 豆包工作
+  text: WorkBuddy · TraeWork · QoderWork · 豆包工作 · 千问办公
   tagline: 腾讯、字节、阿里三大厂办公 AI 工作台的中文实战教程总站。给白领干活的这一族工具，从下载安装到第一个任务，从技能、连接器到定时自动化与聊天窗远程指挥。
   actions:
     - theme: brand
@@ -41,9 +41,14 @@ features:
     details: 与飞书深度打通：只给链接不碰文件，读文档写回文档。六大场景 35 篇实战——办公三件套、自媒体生产线、知识管理、电商主图到金融投研全链路。
     link: /doubaowork/
     linkText: 认识豆包工作
+  - icon: 📘
+    title: 千问办公 · 阿里 AI 办公助手
+    details: 改编自开源《千问办公蓝皮书 V2.0》——从「能生成」到「能交付」的完整方法：13 章实践（任务拆解验收、办公交付、岗位路线、研究证据链、试点与治理、价值度量）+ 6 个附录 + 2 个具名案例。
+    link: /qwenwork/
+    linkText: 读执行摘要
   - icon: 📖
     title: 内容可溯源
-    details: WorkBuddy、豆包工作板块改编自社区开源指南并注明出处；TraeWork / QoderWork 板块为本站原创，依据官方文档核对撰写，案例改编自社区实战并注明出处。
+    details: WorkBuddy、豆包工作、千问办公板块改编自社区开源指南并注明出处；TraeWork / QoderWork 板块为本站原创，依据官方文档核对撰写，案例改编自社区实战并注明出处。
     link: /about
     linkText: 查看致谢
 ---

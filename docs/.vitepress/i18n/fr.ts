@@ -238,6 +238,63 @@ const sidebar: LocaleConfig["themeConfig"]["sidebar"] = {
       ],
     },
   ],
+  "/qwenwork/": [
+    {
+      text: "Prise en main",
+      items: [
+        { text: "Présentation de la section", link: "/qwenwork/" },
+        { text: "Démarrage rapide : accomplir la première tâche acceptable", link: "/qwenwork/quick-start" },
+        { text: "Résumé exécutif : terminer d'abord un vrai travail de bureau", link: "/qwenwork/executive-summary" },
+      ],
+    },
+    {
+      text: "De la tâche à la livraison (chapitres 1 à 5)",
+      items: [
+        { text: "Le nouveau standard de livraison : de la réponse au travail accompli", link: "/qwenwork/ch01-delivery-standard" },
+        { text: "Protocole de livraison des tâches : définir « terminé » d'abord", link: "/qwenwork/ch02-task-delivery-protocol" },
+        { text: "Environnement de travail : trois terminaux, diagnostic en six couches", link: "/qwenwork/ch03-work-environment" },
+        { text: "Actifs réutilisables : Skills, connecteurs et kits d'experts", link: "/qwenwork/ch04-skills-connectors" },
+        { text: "Limites de l'automatisation : arrêtable, reprenable, récupérable", link: "/qwenwork/ch05-automation-boundaries" },
+      ],
+    },
+    {
+      text: "Tâches bureautiques professionnelles (chapitres 6 à 9)",
+      items: [
+        { text: "Livraison bureautique : documents, données, reporting et web", link: "/qwenwork/ch06-office-delivery" },
+        { text: "Parcours par poste : choisir de vraies tâches avec la carte de scénario", link: "/qwenwork/ch07-role-roadmaps" },
+        { text: "Recherche et chaîne de preuves : de l'arbre de questions aux notes de publication", link: "/qwenwork/ch08-research-evidence-chain" },
+        { text: "Atlas des cas publics : publication selon les portes de preuve", link: "/qwenwork/ch09-public-case-atlas" },
+      ],
+    },
+    {
+      text: "Déploiement en équipe (chapitres 10 à 13)",
+      items: [
+        { text: "Choix des scénarios et pilote 30/60/90 jours", link: "/qwenwork/ch10-pilot-roadmap" },
+        { text: "Gouvernance de sécurité : actions, données et responsabilités", link: "/qwenwork/ch11-security-governance" },
+        { text: "Exploitation des flux d'équipe : transformer un succès en actif maintenable", link: "/qwenwork/ch12-workflow-operations" },
+        { text: "Mesure de la valeur : des données d'usage à la décision recalculable", link: "/qwenwork/ch13-value-measurement" },
+      ],
+    },
+    {
+      text: "Conclusion et cas",
+      items: [
+        { text: "Recommandations produit et écosystème", link: "/qwenwork/conclusion" },
+        { text: "Pisen : étude concurrentielle et supports produit", link: "/qwenwork/case-pisen" },
+        { text: "Youkela : R&D produit et paie sur pointage", link: "/qwenwork/case-youkela" },
+      ],
+    },
+    {
+      text: "Annexes",
+      items: [
+        { text: "Modèles de prompts usuels", link: "/qwenwork/appendix-templates" },
+        { text: "Scénarios et grilles de notation", link: "/qwenwork/appendix-scenarios" },
+        { text: "Liste de contrôle des portes dures de mise en ligne", link: "/qwenwork/appendix-launch-checklist" },
+        { text: "Sources et lectures complémentaires", link: "/qwenwork/appendix-sources" },
+        { text: "Registre des preuves des thèses", link: "/qwenwork/appendix-evidence-ledger" },
+        { text: "Correspondance des sources des cas", link: "/qwenwork/appendix-case-source-map" },
+      ],
+    },
+  ],
   "/": [
     {
       text: "Le site",
@@ -254,7 +311,7 @@ export const fr = {
   title: "AI Work Tutoriels",
   titleTemplate: ":title · AI Work Tutoriels",
   description:
-    "Le site de référence des tutoriels pratiques sur les postes de travail IA de Tencent, ByteDance et Alibaba : WorkBuddy, TraeWork, QoderWork, Doubao Work et autres outils de type work pour les employés de bureau — de l'installation à la première tâche, en passant par les skills, les connecteurs, l'automatisation et le pilotage à distance par messagerie.",
+    "Le site de référence des tutoriels pratiques sur les postes de travail IA de Tencent, ByteDance et Alibaba : WorkBuddy, TraeWork, QoderWork, Doubao Work, Qwen Work et autres outils de type work pour les employés de bureau — de l'installation à la première tâche, en passant par les skills, les connecteurs, l'automatisation et le pilotage à distance par messagerie.",
   themeConfig: {
     siteTitle: "AI Work Tutoriels",
     nav: [
@@ -263,6 +320,7 @@ export const fr = {
       { text: "TraeWork", link: "/traework/" },
       { text: "QoderWork", link: "/qoderwork/" },
       { text: "Doubao Work", link: "/doubaowork/" },
+      { text: "Qwen Work", link: "/qwenwork/" },
       { text: "À propos", link: "/about" },
     ],
     sidebar,

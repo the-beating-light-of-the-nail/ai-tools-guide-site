@@ -238,6 +238,63 @@ const sidebar: LocaleConfig["themeConfig"]["sidebar"] = {
       ],
     },
   ],
+  "/qwenwork/": [
+    {
+      text: "快速上手",
+      items: [
+        { text: "板塊導覽", link: "/qwenwork/" },
+        { text: "快速開始：完成第一個可驗收任務", link: "/qwenwork/quick-start" },
+        { text: "執行摘要：先做完一件辦公工作", link: "/qwenwork/executive-summary" },
+      ],
+    },
+    {
+      text: "從任務到交付（第 1–5 章）",
+      items: [
+        { text: "交付新標準：從回答問題到完成工作", link: "/qwenwork/ch01-delivery-standard" },
+        { text: "任務交付協議：先定義完成", link: "/qwenwork/ch02-task-delivery-protocol" },
+        { text: "工作環境架構：三端選擇與六層診斷", link: "/qwenwork/ch03-work-environment" },
+        { text: "可複用資產：Skill、連接器與專家套件", link: "/qwenwork/ch04-skills-connectors" },
+        { text: "自動化邊界：可停、可接管、可恢復", link: "/qwenwork/ch05-automation-boundaries" },
+      ],
+    },
+    {
+      text: "專業辦公任務（第 6–9 章）",
+      items: [
+        { text: "辦公交付：文件、資料、彙報與網頁", link: "/qwenwork/ch06-office-delivery" },
+        { text: "崗位路線：用統一場景卡選擇真實任務", link: "/qwenwork/ch07-role-roadmaps" },
+        { text: "研究與證據鏈：從問題樹到釋出記錄", link: "/qwenwork/ch08-research-evidence-chain" },
+        { text: "公開案例圖譜：按證據門釋出", link: "/qwenwork/ch09-public-case-atlas" },
+      ],
+    },
+    {
+      text: "團隊落地（第 10–13 章）",
+      items: [
+        { text: "場景選擇與 30/60/90 天試點", link: "/qwenwork/ch10-pilot-roadmap" },
+        { text: "安全治理：動作、資料、後果與責任", link: "/qwenwork/ch11-security-governance" },
+        { text: "團隊工作流運營：一次成功變可維護資產", link: "/qwenwork/ch12-workflow-operations" },
+        { text: "價值度量：從使用資料到可復算決策", link: "/qwenwork/ch13-value-measurement" },
+      ],
+    },
+    {
+      text: "結語與案例",
+      items: [
+        { text: "產品與生態路線建議", link: "/qwenwork/conclusion" },
+        { text: "品勝電子：競品調研與產品物料製作", link: "/qwenwork/case-pisen" },
+        { text: "優克拉：產品研發與考勤算薪", link: "/qwenwork/case-youkela" },
+      ],
+    },
+    {
+      text: "附錄",
+      items: [
+        { text: "常用指令模板", link: "/qwenwork/appendix-templates" },
+        { text: "場景速查與評分表", link: "/qwenwork/appendix-scenarios" },
+        { text: "上線硬門執行清單", link: "/qwenwork/appendix-launch-checklist" },
+        { text: "來源與延伸閱讀", link: "/qwenwork/appendix-sources" },
+        { text: "主張證據臺賬", link: "/qwenwork/appendix-evidence-ledger" },
+        { text: "案例來源對映", link: "/qwenwork/appendix-case-source-map" },
+      ],
+    },
+  ],
   "/": [
     {
       text: "本站",
@@ -254,7 +311,7 @@ export const zhTw = {
   title: "AI Work 教學網",
   titleTemplate: ":title · AI Work 教學網",
   description:
-    "騰訊、位元組、阿里三大廠辦公 AI 工作台的中文實戰教學總站：WorkBuddy、TraeWork、QoderWork、豆包工作等為上班族打造的 work 類工具，從下載安裝到第一個任務，涵蓋技能、連接器、自動化與 IM 遠端指揮。",
+    "騰訊、位元組、阿里三大廠辦公 AI 工作台的中文實戰教學總站：WorkBuddy、TraeWork、QoderWork、豆包工作、千問辦公等為上班族打造的 work 類工具，從下載安裝到第一個任務，涵蓋技能、連接器、自動化與 IM 遠端指揮。",
   themeConfig: {
     siteTitle: "AI Work 教學網",
     nav: [
@@ -263,6 +320,7 @@ export const zhTw = {
       { text: "TraeWork", link: "/traework/" },
       { text: "QoderWork", link: "/qoderwork/" },
       { text: "豆包工作", link: "/doubaowork/" },
+      { text: "千問辦公", link: "/qwenwork/" },
       { text: "關於", link: "/about" },
     ],
     sidebar,

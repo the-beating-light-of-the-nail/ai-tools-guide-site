@@ -238,6 +238,63 @@ const sidebar: LocaleConfig["themeConfig"]["sidebar"] = {
       ],
     },
   ],
+  "/qwenwork/": [
+    {
+      text: "Erste Schritte",
+      items: [
+        { text: "Bereichsübersicht", link: "/qwenwork/" },
+        { text: "Schnellstart: die erste abnehmbare Aufgabe abschließen", link: "/qwenwork/quick-start" },
+        { text: "Executive Summary: erst eine Büroaufgabe vollständig erledigen", link: "/qwenwork/executive-summary" },
+      ],
+    },
+    {
+      text: "Von der Aufgabe zur Lieferung (Kapitel 1–5)",
+      items: [
+        { text: "Neuer Lieferstandard: von der Beantwortung zur erledigten Arbeit", link: "/qwenwork/ch01-delivery-standard" },
+        { text: "Aufgaben-Lieferprotokoll: zuerst „fertig\" definieren", link: "/qwenwork/ch02-task-delivery-protocol" },
+        { text: "Arbeitsumgebung: drei Clients, sechsschichtige Diagnose", link: "/qwenwork/ch03-work-environment" },
+        { text: "Wiederverwendbare Assets: Skills, Konnektoren und Experten-Suites", link: "/qwenwork/ch04-skills-connectors" },
+        { text: "Automatisierungsgrenzen: anhaltbar, übernehmbar, wiederherstellbar", link: "/qwenwork/ch05-automation-boundaries" },
+      ],
+    },
+    {
+      text: "Professionelle Büroaufgaben (Kapitel 6–9)",
+      items: [
+        { text: "Büro-Lieferungen: Dokumente, Daten, Berichte und Webseiten", link: "/qwenwork/ch06-office-delivery" },
+        { text: "Rollen-Roadmaps: echte Aufgaben mit der Szenariokarte auswählen", link: "/qwenwork/ch07-role-roadmaps" },
+        { text: "Recherche und Beweiskette: vom Fragenbaum zum Veröffentlichungseintrag", link: "/qwenwork/ch08-research-evidence-chain" },
+        { text: "Atlas öffentlicher Fälle: Veröffentlichung nach Beweistor", link: "/qwenwork/ch09-public-case-atlas" },
+      ],
+    },
+    {
+      text: "Team-Rollout (Kapitel 10–13)",
+      items: [
+        { text: "Szenarioauswahl und 30/60/90-Tage-Pilotbetrieb", link: "/qwenwork/ch10-pilot-roadmap" },
+        { text: "Sicherheitsgovernance: Aktionen, Daten und Verantwortung", link: "/qwenwork/ch11-security-governance" },
+        { text: "Team-Workflow-Betrieb: einen Erfolg in ein wartbares Asset verwandeln", link: "/qwenwork/ch12-workflow-operations" },
+        { text: "Wertmessung: von Nutzungsdaten zur nachrechenbaren Entscheidung", link: "/qwenwork/ch13-value-measurement" },
+      ],
+    },
+    {
+      text: "Fazit und Fallbeispiele",
+      items: [
+        { text: "Empfehlungen zu Produkt- und Ökosystem-Roadmap", link: "/qwenwork/conclusion" },
+        { text: "Pisen: Wettbewerbsrecherche und Produktmaterial", link: "/qwenwork/case-pisen" },
+        { text: "Youkela: Produktentwicklung sowie Anwesenheits- und Lohnabrechnung", link: "/qwenwork/case-youkela" },
+      ],
+    },
+    {
+      text: "Anhang",
+      items: [
+        { text: "Häufig genutzte Prompt-Vorlagen", link: "/qwenwork/appendix-templates" },
+        { text: "Szenario-Schnellreferenz und Bewertungsbogen", link: "/qwenwork/appendix-scenarios" },
+        { text: "Checkliste der harten Go-live-Schranken", link: "/qwenwork/appendix-launch-checklist" },
+        { text: "Quellen und weiterführende Lektüre", link: "/qwenwork/appendix-sources" },
+        { text: "Beweisregister der Thesen", link: "/qwenwork/appendix-evidence-ledger" },
+        { text: "Fall-Quellen-Zuordnung", link: "/qwenwork/appendix-case-source-map" },
+      ],
+    },
+  ],
   "/": [
     {
       text: "Diese Seite",
@@ -254,7 +311,7 @@ export const de = {
   title: "AI Work Tutorials",
   titleTemplate: ":title · AI Work Tutorials",
   description:
-    "Praxisnahe Tutorials für die KI-Arbeitsplätze von Tencent, ByteDance und Alibaba: WorkBuddy, TraeWork, QoderWork, Doubao Work und weitere »work«-Werkzeuge für den Büroalltag – von Download und Installation bis zur ersten Aufgabe, mit Skills, Konnektoren, Automatisierung und Fernsteuerung per Chat.",
+    "Praxisnahe Tutorials für die KI-Arbeitsplätze von Tencent, ByteDance und Alibaba: WorkBuddy, TraeWork, QoderWork, Doubao Work, Qwen Work und weitere »work«-Werkzeuge für den Büroalltag – von Download und Installation bis zur ersten Aufgabe, mit Skills, Konnektoren, Automatisierung und Fernsteuerung per Chat.",
   themeConfig: {
     siteTitle: "AI Work Tutorials",
     nav: [
@@ -263,6 +320,7 @@ export const de = {
       { text: "TraeWork", link: "/traework/" },
       { text: "QoderWork", link: "/qoderwork/" },
       { text: "Doubao Work", link: "/doubaowork/" },
+      { text: "Qwen Work", link: "/qwenwork/" },
       { text: "Über uns", link: "/about" },
     ],
     sidebar,

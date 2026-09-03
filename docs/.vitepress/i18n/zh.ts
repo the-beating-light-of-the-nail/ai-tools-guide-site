@@ -238,6 +238,63 @@ const sidebar: LocaleConfig["themeConfig"]["sidebar"] = {
       ],
     },
   ],
+  "/qwenwork/": [
+    {
+      text: "快速上手",
+      items: [
+        { text: "板块导览", link: "/qwenwork/" },
+        { text: "快速开始：完成第一个可验收任务", link: "/qwenwork/quick-start" },
+        { text: "执行摘要：先做完一件办公工作", link: "/qwenwork/executive-summary" },
+      ],
+    },
+    {
+      text: "从任务到交付（第 1–5 章）",
+      items: [
+        { text: "交付新标准：从回答问题到完成工作", link: "/qwenwork/ch01-delivery-standard" },
+        { text: "任务交付协议：先定义完成", link: "/qwenwork/ch02-task-delivery-protocol" },
+        { text: "工作环境架构：三端选择与六层诊断", link: "/qwenwork/ch03-work-environment" },
+        { text: "可复用资产：Skill、连接器与专家套件", link: "/qwenwork/ch04-skills-connectors" },
+        { text: "自动化边界：可停、可接管、可恢复", link: "/qwenwork/ch05-automation-boundaries" },
+      ],
+    },
+    {
+      text: "专业办公任务（第 6–9 章）",
+      items: [
+        { text: "办公交付：文档、数据、汇报与网页", link: "/qwenwork/ch06-office-delivery" },
+        { text: "岗位路线：用统一场景卡选择真实任务", link: "/qwenwork/ch07-role-roadmaps" },
+        { text: "研究与证据链：从问题树到发布记录", link: "/qwenwork/ch08-research-evidence-chain" },
+        { text: "公开案例图谱：按证据门发布", link: "/qwenwork/ch09-public-case-atlas" },
+      ],
+    },
+    {
+      text: "团队落地（第 10–13 章）",
+      items: [
+        { text: "场景选择与 30/60/90 天试点", link: "/qwenwork/ch10-pilot-roadmap" },
+        { text: "安全治理：动作、数据、后果与责任", link: "/qwenwork/ch11-security-governance" },
+        { text: "团队工作流运营：一次成功变可维护资产", link: "/qwenwork/ch12-workflow-operations" },
+        { text: "价值度量：从使用数据到可复算决策", link: "/qwenwork/ch13-value-measurement" },
+      ],
+    },
+    {
+      text: "结语与案例",
+      items: [
+        { text: "产品与生态路线建议", link: "/qwenwork/conclusion" },
+        { text: "品胜电子：竞品调研与产品物料制作", link: "/qwenwork/case-pisen" },
+        { text: "优克拉：产品研发与考勤算薪", link: "/qwenwork/case-youkela" },
+      ],
+    },
+    {
+      text: "附录",
+      items: [
+        { text: "常用指令模板", link: "/qwenwork/appendix-templates" },
+        { text: "场景速查与评分表", link: "/qwenwork/appendix-scenarios" },
+        { text: "上线硬门执行清单", link: "/qwenwork/appendix-launch-checklist" },
+        { text: "来源与延伸阅读", link: "/qwenwork/appendix-sources" },
+        { text: "主张证据台账", link: "/qwenwork/appendix-evidence-ledger" },
+        { text: "案例来源映射", link: "/qwenwork/appendix-case-source-map" },
+      ],
+    },
+  ],
   "/": [
     {
       text: "本站",
@@ -254,7 +311,7 @@ export const zh = {
   title: "AI Work 教程网",
   titleTemplate: ":title · AI Work 教程网",
   description:
-    "腾讯、字节、阿里三大厂办公 AI 工作台的中文实战教程总站：WorkBuddy、TraeWork、QoderWork、豆包工作等给白领用的 work 类工具，从下载安装到第一个任务，覆盖技能、连接器、自动化与 IM 远程指挥。",
+    "腾讯、字节、阿里三大厂办公 AI 工作台的中文实战教程总站：WorkBuddy、TraeWork、QoderWork、豆包工作、千问办公等给白领用的 work 类工具，从下载安装到第一个任务，覆盖技能、连接器、自动化与 IM 远程指挥。",
   themeConfig: {
     siteTitle: "AI Work 教程网",
     nav: [
@@ -263,6 +320,7 @@ export const zh = {
       { text: "TraeWork", link: "/traework/" },
       { text: "QoderWork", link: "/qoderwork/" },
       { text: "豆包工作", link: "/doubaowork/" },
+      { text: "千问办公", link: "/qwenwork/" },
       { text: "关于", link: "/about" },
     ],
     sidebar,

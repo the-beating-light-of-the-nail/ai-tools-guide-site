@@ -4,7 +4,7 @@ title: Hands-On Tutorials for AI Work Tools
 
 hero:
   name: AI Work Tutorials
-  text: WorkBuddy · TraeWork · QoderWork · Doubao Work
+  text: WorkBuddy · TraeWork · QoderWork · Doubao Work · Qwen Work
   tagline: Practical, plain-English tutorials for the office AI workspaces from Tencent, ByteDance, and Alibaba. Built for office workers who just want to get things done — from downloading and installing the app to finishing your first task, then on to skills, connectors, scheduled automation, and running things remotely from a chat window.
   actions:
     - theme: brand
@@ -41,9 +41,14 @@ features:
     details: "Deeply integrated with Feishu: just paste a link — no file handling — and it reads the doc and writes back to it. 35 hands-on guides across six scenarios, from the office big three to a content-creation pipeline, knowledge management, and everything from e-commerce product images to financial research."
     link: /doubaowork/
     linkText: Get to know Doubao Work
+  - icon: 📘
+    title: Qwen Work · Alibaba's AI Office Assistant
+    details: 'Adapted from the open-source *Qwen Work Blue Book V2.0* — a complete method for going from "can generate" to "can deliver": 13 practice chapters (task breakdown and acceptance, office delivery, role roadmaps, research evidence chains, pilots and governance, value measurement), plus 6 appendices and 2 named case studies.'
+    link: /en/qwenwork/
+    linkText: Read the executive summary
   - icon: 📖
     title: Traceable Sources
-    details: The WorkBuddy and Doubao Work sections are adapted from open-source community guides with attribution. The TraeWork and QoderWork sections are original to this site, fact-checked against the official documentation, with case studies adapted from community field reports and credited inline.
+    details: The WorkBuddy, Doubao Work, and Qwen Work sections are adapted from open-source community guides with attribution. The TraeWork and QoderWork sections are original to this site, fact-checked against the official documentation, with case studies adapted from community field reports and credited inline.
     link: /en/about
     linkText: See the credits
 ---
