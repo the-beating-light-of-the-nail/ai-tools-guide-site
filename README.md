@@ -1,6 +1,6 @@
 # ai-tools-guide-site · AI Work 教程网
 
-线上地址：**https://ai-work-guide.cdqyfdbymn.me**
+线上地址：**https://www.aiworkagent.org**
 
 专注「work」类 AI 工作助手（给白领处理文字与日常工作的工具）的中文教程站，当前覆盖三大厂四个办公 AI 工作台：**WorkBuddy**（腾讯）、**TraeWork**（字节）、**QoderWork**（阿里）、**豆包工作**（字节）。
 

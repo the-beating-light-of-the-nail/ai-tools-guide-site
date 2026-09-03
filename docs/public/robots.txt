@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ai-work-guide.cdqyfdbymn.me/sitemap.xml
+Sitemap: https://www.aiworkagent.org/sitemap.xml

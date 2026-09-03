@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 import { withMermaid } from "vitepress-plugin-mermaid";
 import { locales, langPrefixes } from "./i18n";
 
-const siteUrl = process.env.VITEPRESS_SITE_URL || "https://ai-work-guide.cdqyfdbymn.me";
+const siteUrl = process.env.VITEPRESS_SITE_URL || "https://www.aiworkagent.org";
 
 // 把页面路径（含语言前缀）归一化为不含语言前缀的 key，用于生成 hreflang
 function stripLang(page: string): string {
