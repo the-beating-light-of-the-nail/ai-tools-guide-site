@@ -43,10 +43,13 @@ jobs:
               keyLocation: "https://www.aiworkagent.org/0252218f7a33061387636dcabfc017ac.txt",
               urlList: ($urls | split("\n") | map(select(length > 0)))}' > payload.json
           status=$(curl -sS -o response.txt -w '%{http_code}' \
+            --retry 3 --retry-delay 10 \
             -H 'Content-Type: application/json; charset=utf-8' \
             --data @payload.json \
             https://api.indexnow.org/indexnow)
+          echo "Response body:"
           cat response.txt || true
+          echo "Payload size: $(wc -c < payload.json) bytes, $(wc -l < urls.txt) URLs"
           # 200/202 = 接受；400/403 = 拒绝（密钥或格式问题）；422 = 部分有效
           if [ "$status" != "200" ] && [ "$status" != "202" ] && [ "$status" != "422" ]; then
             echo "IndexNow submission failed with HTTP $status" >&2
