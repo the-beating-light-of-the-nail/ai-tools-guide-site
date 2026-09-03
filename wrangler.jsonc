@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ai-tools-guide-site",
+  "compatibility_date": "2026-08-29",
+  "assets": {
+    "directory": "./docs/.vitepress/dist",
+    "not_found": "./docs/.vitepress/dist/404.html"
+  },
+  "routes": [
+    { "pattern": "www.aiworkagent.org", "custom_domain": true }
+  ]
+}
