@@ -45,6 +45,4 @@ You can pick the right model for each task, and extend WorkBuddy's tools and pro
 
 For scenarios like local file operations and terminal execution, WorkBuddy also provides high-risk command interception and permission controls to reduce the risks of autonomous AI execution.
 
-Want to rate WorkBuddy? Head over to [GuanCha](https://watcha.cn/) and share your honest review~
-
 ![](/workbuddy/01-intro/assets/003_image_Idhdsahdl.png)

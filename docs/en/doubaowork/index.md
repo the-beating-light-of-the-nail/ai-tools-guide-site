@@ -116,7 +116,3 @@ flowchart LR
 - **Heavy Feishu users**: want AI to read and write Feishu docs, sheets, wikis, and group chats directly, instead of shuffling data around
 - **Content creators**: want an AI production line that runs from topic selection through drafting, distribution, and retrospective
 - **Investment research and data roles**: want traceable, reproducible screening, earnings, and valuation workflows on a consistent basis
-
-## Want the Full Version?
-
-This section is a curated adaptation of the open-source project [AlephAITech/DoubaoWorkGuide](https://github.com/AlephAITech/DoubaoWorkGuide), the "Doubao Work Guide" (49 guides and case studies, 31 real tasks). The full version includes more screenshots and video demos—we recommend reading it online at [doubaowork.homes](https://doubaowork.homes/). That guide is a community-maintained, unofficial practice guide; product features and interfaces are subject to the current version of Doubao Work.

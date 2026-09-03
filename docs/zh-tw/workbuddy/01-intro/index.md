@@ -45,6 +45,4 @@ WorkBuddy 面向的是完整的工作任務。
 
 同時，針對本機檔案操作、終端執行等場景，WorkBuddy 還提供高危指令攔截和權限控制機制，降低 AI 自主執行過程中的風險。
 
-想對 workbuddy 打分，可以去[观猹](https://watcha.cn/)，寫出你對 workbuddy 的真實評價～
-
 ![](/workbuddy/01-intro/assets/003_image_Idhdsahdl.png)

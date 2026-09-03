@@ -116,7 +116,3 @@ flowchart LR
 - **飞书重度用户**：想让 AI 直接读写飞书文档、表格、知识库和群聊，不再搬运资料
 - **内容创作者 / 自媒体**：想要一条从选题到成稿、分发、复盘的 AI 内容生产线
 - **投研与数据岗**：想要可回源、可复算、口径统一的筛选、财报与估值工作流
-
-## 想看完整内容？
-
-本板块精选改编自开源项目 [AlephAITech/DoubaoWorkGuide](https://github.com/AlephAITech/DoubaoWorkGuide)《豆包工作指南》（49 篇指南与案例、31 个真实任务），完整版含更多截图与视频演示，推荐前往 [doubaowork.homes](https://doubaowork.homes/) 在线阅读。该指南为社区维护的非官方实践指南，产品功能与界面以豆包工作当前版本为准。

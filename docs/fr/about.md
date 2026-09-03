@@ -14,8 +14,6 @@ AI Work Tutoriels est un site dédié à une famille d'assistants de travail IA 
 
 Ces produits évoluent très vite (TraeWork publié en juin 2026, QoderWork mis à jour 56 fois en cinq mois) : pour les interfaces et les tarifs, référez-vous en temps réel aux documentations officielles respectives.
 
-Pour le contenu WorkBuddy complet et à jour, consultez le dépôt du projet et le site en ligne ([workbuddy.homes](https://workbuddy.homes/)) ; pour la version intégrale du guide Doubao Work (avec captures d'écran et démonstrations vidéo), rendez-vous sur [doubaowork.homes](https://doubaowork.homes/).
-
 ## Marques
 
 WorkBuddy, TraeWork, Trae, QoderWork, Qoder, Tongyi Lingma, Doubao ainsi que les noms et logos des produits associés appartiennent à leurs entreprises respectives. Ce site est un contenu communautaire indépendant, sans lien avec Tencent, ByteDance, Alibaba ou Qoder ; pour les fonctionnalités et les politiques des produits, référez-vous aux canaux officiels.

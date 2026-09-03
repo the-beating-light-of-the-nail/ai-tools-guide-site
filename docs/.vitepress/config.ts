@@ -54,7 +54,6 @@ export default withMermaid(
       theme: { light: "github-light", dark: "github-dark" },
     },
     themeConfig: {
-      socialLinks: [{ icon: "github", link: "https://github.com/" }],
       search: { provider: "local" },
     },
   }),

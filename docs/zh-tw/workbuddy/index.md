@@ -66,7 +66,3 @@ flowchart LR
 - **職場新手**：想用 AI 處理 Word/Excel/PPT、檔案整理、資訊彙總等日常瑣事
 - **效率玩家**：想搭一套「人機協作」的自動化工作流
 - **團隊負責人**：想了解多 Agent 協作與團隊落地方式
-
-## 想看完整內容？
-
-本板塊精選改編自開源項目 [WorkBuddy 實戰藍皮書](https://github.com/AlephAITech/WorkBuddyGuide)（MIT 協議，共 27 章 9 篇），完整版含更多案例與崗位行業落地，推薦前往 [workbuddy.homes](https://workbuddy.homes/) 線上閱讀。

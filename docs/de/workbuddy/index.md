@@ -66,7 +66,3 @@ flowchart LR
 - **Berufseinsteiger**: wollen mit KI Word/Excel/PPT, Dateisortierung, Nachrichtenzusammenfassungen und andere Alltagsaufgaben erledigen
 - **Effizienz-Fans**: wollen einen automatisierten Workflow für die Zusammenarbeit von Mensch und KI aufbauen
 - **Teamleiter**: möchten Multi-Agent-Zusammenarbeit und die Einführung im Team verstehen
-
-## Sie möchten den kompletten Inhalt?
-
-Dieser Bereich ist eine kuratierte Adaption des Open-Source-Projekts [WorkBuddy Praxis-Handbuch](https://github.com/AlephAITech/WorkBuddyGuide) (MIT-Lizenz, 27 Kapitel plus 9 Beiträge). Die Vollversion enthält weitere Fallbeispiele und branchen- und rollenspezifische Umsetzungen – empfehlenswert zum Online-Lesen auf [workbuddy.homes](https://workbuddy.homes/).

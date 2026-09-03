@@ -14,8 +14,6 @@ AI Work 教程网是一个中文教程站，专注一族「work」类 AI 工作�
 
 两个产品的迭代速度很快（TraeWork 2026-06 发布、QoderWork 五个月内更新 56 个版本），教程中的界面与价格信息以各官方文档实时内容为准。
 
-完整、最新的 WorkBuddy 原始内容请访问项目仓库及在线站点（[workbuddy.homes](https://workbuddy.homes/)）；豆包工作指南的完整版（含截图与视频演示）推荐前往 [doubaowork.homes](https://doubaowork.homes/) 在线阅读。
-
 ## 商标声明
 
 WorkBuddy、TraeWork、Trae、QoderWork、Qoder、通义灵码、豆包及相关产品名称、标志归其各自公司所有。本站为独立的中文学习社区内容，与腾讯、字节跳动、阿里巴巴、Qoder 官方均无隶属关系；产品功能与政策以各官方渠道为准。

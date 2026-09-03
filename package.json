@@ -7,6 +7,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "vitepress dev docs",
+    "check": "node scripts/check-content.mjs",
+    "prebuild": "node scripts/check-content.mjs",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs"
   },

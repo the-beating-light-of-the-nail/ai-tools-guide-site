@@ -66,7 +66,3 @@ flowchart LR
 - **Workplace newcomers**: use AI to handle daily chores like Word/Excel/PPT work, file organization, and news digests
 - **Productivity enthusiasts**: build human-AI collaborative automated workflows
 - **Team leads**: learn how multi-agent collaboration works and how to roll it out in your team
-
-## Want the Full Content?
-
-This section is a curated adaptation of the open-source project [The WorkBuddy Practical Blueprint](https://github.com/AlephAITech/WorkBuddyGuide) (MIT license, 27 chapters and 9 articles in full). The complete edition includes more case studies and role- and industry-specific guidance — we recommend reading it online at [workbuddy.homes](https://workbuddy.homes/).

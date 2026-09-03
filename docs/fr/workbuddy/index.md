@@ -66,7 +66,3 @@ flowchart LR
 - **Débutants en entreprise** : utiliser l'IA pour Word/Excel/PPT, le tri de fichiers, la veille et autres tâches du quotidien
 - **Passionnés d'efficacité** : construire un workflow automatisé de « collaboration homme-machine »
 - **Responsables d'équipe** : comprendre la collaboration multi-agents et son déploiement en équipe
-
-## Envie de voir la version complète ?
-
-Cette section est une sélection adaptée du projet open source [WorkBuddy Blue Book](https://github.com/AlephAITech/WorkBuddyGuide) (licence MIT, 27 chapitres et 9 annexes). La version complète contient davantage de cas pratiques et d'applications par métier et par secteur ; nous vous recommandons de la lire en ligne sur [workbuddy.homes](https://workbuddy.homes/).

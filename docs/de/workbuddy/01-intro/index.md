@@ -45,6 +45,4 @@ Sie können je nach Aufgabe das passende Modell wählen und WorkBuddys Werkzeuge
 
 Zugleich stellt WorkBuddy für Szenarien wie lokale Dateioperationen oder Terminal-Ausführungen Mechanismen wie die Abfrage riskanter Befehle und Zugriffskontrolle bereit, um die Risiken der autonomen Ausführung durch die KI zu senken.
 
-Wenn Sie WorkBuddy bewerten möchten, können Sie das auf [GuanCha](https://watcha.cn/) tun – schreiben Sie dort Ihre ehrliche Meinung zu WorkBuddy.
-
 ![](/workbuddy/01-intro/assets/003_image_Idhdsahdl.png)

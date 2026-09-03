@@ -116,7 +116,3 @@ flowchart LR
 - **飛書重度使用者**：想讓 AI 直接讀寫飛書文件、表格、知識庫和群聊，不再搬運資料
 - **內容創作者 / 自媒體**：想要一條從選題到成稿、發布、覆盤的 AI 內容生產線
 - **投研與資料崗**：想要可回源、可覆核、口徑統一的篩選、財報與估值工作流
-
-## 想看完整內容？
-
-本板塊精選改編自開源專案 [AlephAITech/DoubaoWorkGuide](https://github.com/AlephAITech/DoubaoWorkGuide)《豆包工作指南》（49 篇指南與案例、31 個真實任務），完整版含更多截圖與影片示範，推薦前往 [doubaowork.homes](https://doubaowork.homes/) 線上閱讀。該指南為社群維護的非官方實踐指南，產品功能與介面以豆包工作目前版本為準。

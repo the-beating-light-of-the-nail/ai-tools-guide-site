@@ -116,7 +116,3 @@ flowchart LR
 - **Utilisateurs intensifs de Feishu** : faire lire et écrire directement à l'AI les documents, tableaux, bases de connaissances et conversations Feishu, sans copier-coller
 - **Créateurs de contenu** : se construire une chaîne de production IA, du choix du sujet à la publication et au bilan
 - **Postes de recherche financière et de données** : des flux de screening, d'analyse de résultats et de valorisation traçables, recalculables et à normes cohérentes
-
-## Envie de voir le contenu complet ?
-
-Cette section est une sélection adaptée du projet open source [AlephAITech/DoubaoWorkGuide](https://github.com/AlephAITech/DoubaoWorkGuide), le « Guide Doubao Work » (49 guides et cas pratiques, 31 tâches réelles). La version complète contient plus de captures d'écran et de démonstrations vidéo ; nous vous recommandons de la lire en ligne sur [doubaowork.homes](https://doubaowork.homes/). Ce guide est un guide pratique non officiel maintenu par la communauté ; les fonctionnalités et l'interface font foi selon la version actuelle de Doubao Work.

@@ -116,7 +116,3 @@ flowchart LR
 - **Intensive Feishu-Nutzer**: möchten, dass KI Feishu-Dokumente, Tabellen, Wissensbasen und Gruppenchats direkt liest und schreibt – ohne Daten herumzukopieren
 - **Content-Creator / Self-Media**: möchten eine KI-Produktionslinie von der Themenfindung über Text, Vertrieb bis zur Retrospektive
 - **Research- und Datenrollen**: möchten nachvollziehbare, nachrechenbare, kennzahl-konsistente Workflows für Screening, Quartalszahlen und Bewertung
-
-## Vollständige Inhalte gefällig?
-
-Dieser Bereich ist eine kuratierte Bearbeitung des Open-Source-Projekts [AlephAITech/DoubaoWorkGuide](https://github.com/AlephAITech/DoubaoWorkGuide) („Doubao-Work-Handbuch", 49 Anleitungen und Fälle, 31 echte Aufgaben). Die Vollversion enthält weitere Screenshots und Videodemos – am besten online lesen unter [doubaowork.homes](https://doubaowork.homes/). Das Handbuch ist ein von der Community gepflegter, inoffizieller Praxisleitfaden; maßgeblich für Produktfunktionen und Oberfläche ist immer die aktuelle Version von Doubao Work.

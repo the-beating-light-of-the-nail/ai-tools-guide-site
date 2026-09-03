@@ -45,6 +45,4 @@ Vous pouvez choisir le modèle adapté à chaque tâche, et étendre les outils 
 
 Par ailleurs, pour les opérations sur fichiers locaux ou l'exécution dans le terminal, WorkBuddy intègre un blocage des commandes à risque et des mécanismes de contrôle des permissions, afin de limiter les risques liés à l'exécution autonome de l'IA.
 
-Envie de noter WorkBuddy ? Rendez-vous sur [GuanCha](https://watcha.cn/) pour partager votre avis sincère sur WorkBuddy !
-
 ![](/workbuddy/01-intro/assets/003_image_Idhdsahdl.png)
