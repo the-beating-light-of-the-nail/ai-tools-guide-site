@@ -1,0 +1,55 @@
+name: IndexNow
+
+# 部署后把 sitemap 里的全部 URL 提交给 IndexNow（Bing / Yandex / Seznam 等共用）
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  SITE: https://www.aiworkagent.org
+  KEY: 0252218f7a33061387636dcabfc017ac
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for deployment (key file reachable)
+        run: |
+          for i in $(seq 1 20); do
+            body=$(curl -fsS --max-time 15 "$SITE/$KEY.txt" || true)
+            if [ "$body" = "$KEY" ]; then
+              echo "Key file live."
+              exit 0
+            fi
+            echo "attempt $i: deployment not live yet, retrying in 60s..."
+            sleep 60
+          done
+          echo "Key file never became reachable; submitting anyway." >&2
+
+      - name: Collect URLs from sitemap and submit
+        run: |
+          curl -fsS --max-time 30 "$SITE/sitemap.xml" -o sitemap.xml
+          grep -o '<loc>[^<]*</loc>' sitemap.xml | sed -e 's/<loc>//' -e 's/<\/loc>//' > urls.txt
+          count=$(wc -l < urls.txt)
+          echo "Submitting $count URLs to IndexNow"
+          # IndexNow 单次上限 10000 条，本站远低于此
+          jq -n --rawfile urls urls.txt \
+            '{host: "www.aiworkagent.org",
+              key: "0252218f7a33061387636dcabfc017ac",
+              keyLocation: "https://www.aiworkagent.org/0252218f7a33061387636dcabfc017ac.txt",
+              urlList: ($urls | split("\n") | map(select(length > 0)))}' > payload.json
+          status=$(curl -sS -o response.txt -w '%{http_code}' \
+            -H 'Content-Type: application/json; charset=utf-8' \
+            --data @payload.json \
+            https://api.indexnow.org/indexnow)
+          cat response.txt || true
+          # 200/202 = 接受；400/403 = 拒绝（密钥或格式问题）；422 = 部分有效
+          if [ "$status" != "200" ] && [ "$status" != "202" ] && [ "$status" != "422" ]; then
+            echo "IndexNow submission failed with HTTP $status" >&2
+            exit 1
+          fi
+          echo "IndexNow accepted (HTTP $status)."
