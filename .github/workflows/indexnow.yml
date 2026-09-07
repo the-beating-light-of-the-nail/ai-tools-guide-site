@@ -11,7 +11,7 @@ permissions:
 
 env:
   SITE: https://www.aiworkagent.org
-  KEY: 0252218f7a33061387636dcabfc017ac
+  KEY: 3875029bdab7439d83025e91f520cabc
 
 jobs:
   submit:
@@ -38,9 +38,12 @@ jobs:
           echo "Submitting $count URLs to IndexNow"
           # IndexNow 单次上限 10000 条，本站远低于此
           jq -n --rawfile urls urls.txt \
-            '{host: "www.aiworkagent.org",
-              key: "0252218f7a33061387636dcabfc017ac",
-              keyLocation: "https://www.aiworkagent.org/0252218f7a33061387636dcabfc017ac.txt",
+            --arg host "${SITE#https://}" \
+            --arg key "$KEY" \
+            --arg keyLocation "$SITE/$KEY.txt" \
+            '{host: $host,
+              key: $key,
+              keyLocation: $keyLocation,
               urlList: ($urls | split("\n") | map(select(length > 0)))}' > payload.json
           status=$(curl -sS -o response.txt -w '%{http_code}' \
             --retry 3 --retry-delay 10 \
