@@ -60,6 +60,7 @@ flowchart LR
 | --- | --- |
 | [常用指令模板](/workbuddy/ref-prompt-templates/) | 12 个拿来即用的任务模板 |
 | [场景速查表](/workbuddy/ref-scenarios/) | 按人群和场景的词典式索引 |
+| [WorkBuddy 皮肤工坊](/workbuddy/skins/) | 12 款主题皮肤下载 + 自制皮肤教程 |
 
 ## 适合谁
 

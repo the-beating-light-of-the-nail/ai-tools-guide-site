@@ -4,3 +4,7 @@ docs/.vitepress/dist
 .vercel
 .DS_Store
 *.log
+
+# 网站克隆工作流的本地产物（对照截图/源码镜像，不进仓库）
+research/
+design-references/

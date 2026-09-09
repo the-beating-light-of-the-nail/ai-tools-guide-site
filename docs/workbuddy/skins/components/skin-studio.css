@@ -1,0 +1,799 @@
+/* ============================================================
+ * WorkBuddy 皮肤工坊 · 克隆页样式
+ * 逐行移植自 research/workbuddy-skin-studio/source-mirror/assets-css-style.css
+ * 命名空间策略：
+ *   - 组件根 .skin-studio-root（原 body 的角色，承载 token 与字体）
+ *   - html 级规则用 html:has(.skin-studio-root) 限定本页（rem 基准 17px、平滑滚动）
+ *   - 全部选择器加前缀，防止与 VitePress 主题互相污染
+ * ============================================================ */
+
+/* ===== 基础 token（原 :root） ===== */
+.skin-studio-root {
+  --bg: #0b0e16;
+  --bg-2: #0f1320;
+  --panel: rgba(255, 255, 255, 0.045);
+  --panel-bd: rgba(255, 255, 255, 0.1);
+  --text: #f0f3fa;
+  --muted: #a1aac0;
+  --brand: #8b6bff;
+  --brand-2: #22d3ee;
+  --brand-hover: #9d84ff;
+  --mgr: #34d399;
+  --gen: #f59e0b;
+  --radius: 20px;
+  --shadow: 0 22px 60px -26px rgba(0, 0, 0, 0.85);
+  --maxw: 1180px;
+}
+
+/* 原 html 规则：本页 rem 基准 17px + 锚点平滑滚动（不影响站点其它页面） */
+html:has(.skin-studio-root) {
+  scroll-behavior: smooth;
+  font-size: 17px;
+}
+
+/* 原 * 与 body 规则（不移植 overflow-x:hidden —— 会破坏 sticky 导航，横向溢出已由 .hero overflow:hidden 兜住） */
+.skin-studio-root,
+.skin-studio-root * {
+  box-sizing: border-box;
+}
+.skin-studio-root * {
+  margin: 0;
+  padding: 0;
+}
+.skin-studio-root {
+  font-family: "Inter", "Noto Sans SC", system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+.skin-studio-root a {
+  color: inherit;
+  text-decoration: none;
+}
+.skin-studio-root code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0.14em 0.48em;
+  border-radius: 7px;
+  font-size: 0.86em;
+  color: #d6deff;
+}
+
+/* ===== 按钮 / 链接 / 徽章 ===== */
+.skin-studio-root .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45em;
+  padding: 0.95rem 1.7rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.2s ease, background 0.2s ease;
+  border: 1px solid transparent;
+}
+.skin-studio-root .btn-sm { padding: 0.65rem 1.2rem; font-size: 0.95rem; }
+.skin-studio-root .btn-lg { padding: 1.05rem 2.1rem; font-size: 1.12rem; }
+.skin-studio-root .btn-primary {
+  background: linear-gradient(135deg, var(--brand), var(--brand-2));
+  color: #0b0e16;
+  box-shadow: 0 12px 36px -14px rgba(139, 107, 255, 0.75);
+}
+.skin-studio-root .btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 44px -14px rgba(139, 107, 255, 0.9);
+}
+.skin-studio-root .btn-ghost {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: var(--panel-bd);
+  color: var(--text);
+}
+.skin-studio-root .btn-ghost:hover { background: rgba(255, 255, 255, 0.14); transform: translateY(-3px); }
+.skin-studio-root .link {
+  color: var(--brand-2);
+  font-weight: 700;
+  border-bottom: 1px dashed rgba(34, 211, 238, 0.4);
+  padding-bottom: 1px;
+}
+.skin-studio-root .link:hover { color: var(--brand-hover); }
+.skin-studio-root .pill {
+  display: inline-block;
+  font-size: 0.86rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--panel-bd);
+  color: var(--muted);
+}
+.skin-studio-root .pill--mgr {
+  color: var(--mgr);
+  border-color: rgba(52, 211, 153, 0.35);
+  background: rgba(52, 211, 153, 0.09);
+}
+.skin-studio-root .grad {
+  background: linear-gradient(120deg, var(--brand-2), var(--brand));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ===== 导航 ===== */
+.skin-studio-root .nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(16px);
+  background: rgba(11, 14, 22, 0.78);
+  border-bottom: 1px solid var(--panel-bd);
+}
+.skin-studio-root .nav-inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 1rem 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.skin-studio-root .brand {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-weight: 800;
+  font-size: 1.18rem;
+}
+.skin-studio-root .brand-mark { display: block; width: 36px; height: 36px; flex: none; }
+.skin-studio-root .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  font-size: 1rem;
+  color: var(--muted);
+}
+.skin-studio-root .nav-links a:hover { color: var(--text); }
+.skin-studio-root .nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+/* ===== Hero ===== */
+.skin-studio-root .hero {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  height: 100svh;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5rem 1.4rem 3.5rem;
+  background: var(--bg);
+}
+.skin-studio-root .hero-bg { position: absolute; inset: 0; z-index: 0; }
+.skin-studio-root .orb { position: absolute; border-radius: 50%; filter: blur(90px); opacity: 0.6; }
+.skin-studio-root .orb-a { width: 580px; height: 580px; background: var(--brand); top: -180px; left: -140px; }
+.skin-studio-root .orb-b { width: 540px; height: 540px; background: var(--brand-2); bottom: -200px; right: -120px; }
+.skin-studio-root .orb-c { width: 460px; height: 460px; background: #ff5c8a; top: 48%; left: 52%; opacity: 0.32; }
+.skin-studio-root .orb-d { width: 420px; height: 420px; background: var(--brand); bottom: -150px; left: 28%; opacity: 0.28; }
+.skin-studio-root .grid-lines {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 52px 52px;
+  mask-image: radial-gradient(ellipse 80% 70% at 50% 45%, #000 25%, transparent 80%);
+}
+.skin-studio-root .hero-inner { position: relative; z-index: 1; max-width: 900px; margin: 0 auto; }
+.skin-studio-root .hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.95rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--panel-bd);
+  color: var(--muted);
+  margin-bottom: 1.3rem;
+}
+.skin-studio-root .hero-badge img { width: 20px; height: 20px; }
+.skin-studio-root .hero-title {
+  font-size: clamp(2.6rem, 6.5vw, 4.4rem);
+  line-height: 1.12;
+  font-weight: 900;
+  letter-spacing: -0.025em;
+}
+.skin-studio-root .hero-sub {
+  margin: 1.2rem auto 1.8rem;
+  color: var(--muted);
+  font-size: clamp(1.1rem, 2.4vw, 1.35rem);
+  max-width: 700px;
+}
+.skin-studio-root .hero-cta { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.skin-studio-root .hero-chips { display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem; }
+.skin-studio-root .chip {
+  font-size: 0.92rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background: var(--panel);
+  border: 1px solid var(--panel-bd);
+  color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+/* ===== 通用 section ===== */
+.skin-studio-root .section { max-width: var(--maxw); margin: 0 auto; padding: 6rem 1.4rem; }
+.skin-studio-root .section--alt {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.025), transparent);
+  border-radius: 32px;
+  max-width: none;
+  padding-left: max(1.4rem, calc((100% - var(--maxw)) / 2));
+  padding-right: max(1.4rem, calc((100% - var(--maxw)) / 2));
+}
+.skin-studio-root .section--alt > * { max-width: var(--maxw); margin-left: auto; margin-right: auto; }
+.skin-studio-root .section-head { text-align: center; margin-bottom: 3.2rem; }
+.skin-studio-root .kicker {
+  display: inline-block;
+  font-size: 0.82rem;
+  letter-spacing: 0.24em;
+  font-weight: 800;
+  color: var(--brand-2);
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+}
+.skin-studio-root .section-head h2 {
+  font-size: clamp(1.9rem, 4vw, 2.7rem);
+  font-weight: 900;
+  letter-spacing: -0.015em;
+}
+.skin-studio-root .section-head p {
+  color: var(--muted);
+  margin-top: 0.85rem;
+  font-size: 1.08rem;
+  max-width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ===== 3 步流程 ===== */
+.skin-studio-root .steps { list-style: none; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6rem; }
+.skin-studio-root .step {
+  background: var(--panel);
+  border: 1px solid var(--panel-bd);
+  border-radius: var(--radius);
+  padding: 2.1rem 1.7rem;
+  position: relative;
+  transition: transform 0.18s ease, border-color 0.2s ease;
+}
+.skin-studio-root .step:hover { transform: translateY(-5px); border-color: rgba(139, 107, 255, 0.45); }
+.skin-studio-root .step-num {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  font-size: 1.25rem;
+  color: #0b0e16;
+  background: linear-gradient(135deg, var(--brand), var(--brand-2));
+  margin-bottom: 1.2rem;
+}
+.skin-studio-root .step-body h3 { font-size: 1.28rem; margin-bottom: 0.65rem; }
+.skin-studio-root .step-body p { color: var(--muted); font-size: 1rem; margin-bottom: 1.25rem; line-height: 1.65; }
+.skin-studio-root .flow-strip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+  margin-top: 2.8rem;
+}
+.skin-studio-root .flow-node {
+  background: var(--panel);
+  border: 1px solid var(--panel-bd);
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.skin-studio-root .flow-arrow { color: var(--brand-2); font-size: 1.2rem; }
+
+/* ===== 皮肤画廊 ===== */
+.skin-studio-root .skins-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 1.8rem;
+}
+.skin-studio-root .skin-card {
+  background: var(--panel);
+  border: 1px solid var(--panel-bd);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.25s ease, border-color 0.2s ease;
+}
+.skin-studio-root .skin-card:hover {
+  transform: translateY(-7px);
+  box-shadow: var(--shadow);
+  border-color: rgba(139, 107, 255, 0.5);
+}
+.skin-studio-root .skin-thumb {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #1a1f2e;
+  cursor: zoom-in;
+}
+.skin-studio-root .skin-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+.skin-studio-root .skin-card:hover .skin-thumb img { transform: scale(1.08); }
+.skin-studio-root .skin-thumb .tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  backdrop-filter: blur(6px);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  z-index: 2;
+}
+.skin-studio-root .skin-thumb .tag.dark { background: rgba(0, 0, 0, 0.55); }
+.skin-studio-root .skin-thumb .tag.light { background: rgba(255, 255, 255, 0.65); color: #111; }
+.skin-studio-root .skin-thumb-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  background: rgba(11, 14, 22, 0.55);
+  backdrop-filter: blur(2px);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  z-index: 3;
+}
+.skin-studio-root .skin-card:hover .skin-thumb-overlay { opacity: 1; }
+.skin-studio-root .skin-thumb-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  display: grid;
+  place-items: center;
+  color: #fff;
+  backdrop-filter: blur(6px);
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+.skin-studio-root .skin-card:hover .skin-thumb-icon { transform: scale(1.1); background: rgba(255, 255, 255, 0.2); }
+.skin-studio-root .skin-thumb-hint {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  opacity: 0.95;
+}
+.skin-studio-root .skin-body {
+  padding: 1.2rem 1.2rem 1.35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  flex: 1;
+}
+.skin-studio-root .skin-name {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-weight: 800;
+  font-size: 1.1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.skin-studio-root .skin-name .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.25);
+}
+.skin-studio-root .skin-desc {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.8em;
+}
+.skin-studio-root .skin-foot { margin-top: auto; padding-top: 0.85rem; }
+.skin-studio-root .skin-dl-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  background: linear-gradient(135deg, var(--brand), var(--brand-2));
+  color: #0b0e16;
+  font-weight: 800;
+  font-size: 0.95rem;
+  padding: 0.65rem 1.1rem;
+  border-radius: 999px;
+  transition: transform 0.15s ease, box-shadow 0.2s ease;
+  width: 100%;
+}
+.skin-studio-root .skin-dl-btn:hover { transform: translateY(-2px); box-shadow: 0 12px 28px -10px rgba(139, 107, 255, 0.85); }
+.skin-studio-root .skin-accent-bar { height: 4px; width: 100%; }
+
+/* ===== 学习制作皮肤 ===== */
+.skin-studio-root .section--make {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.12), rgba(139, 107, 255, 0.1));
+  border-top: 1px solid var(--panel-bd);
+  border-bottom: 1px solid var(--panel-bd);
+}
+.skin-studio-root .make-head { text-align: center; max-width: 760px; margin: 0 auto 2.6rem; }
+.skin-studio-root .make-head h2 {
+  font-size: clamp(1.9rem, 4vw, 2.7rem);
+  font-weight: 900;
+  letter-spacing: -0.015em;
+}
+.skin-studio-root .make-head p { color: var(--muted); margin-top: 0.85rem; font-size: 1.08rem; }
+
+.skin-studio-root .make-steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.4rem;
+  max-width: var(--maxw);
+  margin: 0 auto 3rem;
+}
+.skin-studio-root .make-step {
+  background: var(--panel);
+  border: 1px solid var(--panel-bd);
+  border-radius: var(--radius);
+  padding: 1.6rem 1.4rem;
+  transition: transform 0.18s ease, border-color 0.2s ease;
+  text-align: center;
+}
+.skin-studio-root .make-step:hover { transform: translateY(-5px); border-color: rgba(245, 158, 11, 0.45); }
+.skin-studio-root .make-step-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 18px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 1rem;
+  font-size: 1.6rem;
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.18), rgba(139, 107, 255, 0.12));
+  border: 1px solid rgba(245, 158, 11, 0.25);
+}
+.skin-studio-root .make-step h4 { font-size: 1.15rem; margin-bottom: 0.45rem; font-weight: 800; }
+.skin-studio-root .make-step p { color: var(--muted); font-size: 0.95rem; line-height: 1.6; }
+
+.skin-studio-root .make-demo {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+.skin-studio-root .make-demo-card {
+  width: 100%;
+  background: #0c101a;
+  border: 1px solid var(--panel-bd);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.skin-studio-root .make-demo-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: #111626;
+  border-bottom: 1px solid var(--panel-bd);
+}
+.skin-studio-root .make-demo-bar .dot { width: 12px; height: 12px; border-radius: 50%; }
+.skin-studio-root .make-demo-bar .dot.r { background: #ff5f57; }
+.skin-studio-root .make-demo-bar .dot.y { background: #febc2e; }
+.skin-studio-root .make-demo-bar .dot.g { background: #28c840; }
+.skin-studio-root .make-demo-title { margin-left: 0.5rem; color: var(--muted); font-size: 0.9rem; font-weight: 600; }
+.skin-studio-root .make-demo-body { padding: 1.4rem; display: flex; flex-direction: column; gap: 1rem; }
+.skin-studio-root .chat-row { display: flex; gap: 0.85rem; align-items: flex-end; }
+.skin-studio-root .chat-row.user { justify-content: flex-start; }
+.skin-studio-root .chat-row.bot { justify-content: flex-end; }
+.skin-studio-root .chat-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 1.2rem;
+  flex: none;
+  background: var(--panel);
+  border: 1px solid var(--panel-bd);
+}
+.skin-studio-root .chat-bubble {
+  max-width: 75%;
+  padding: 0.85rem 1.15rem;
+  border-radius: 18px;
+  font-size: 0.98rem;
+  line-height: 1.55;
+  word-break: break-word;
+}
+.skin-studio-root .chat-row.user .chat-bubble {
+  background: linear-gradient(135deg, rgba(139, 107, 255, 0.28), rgba(34, 211, 238, 0.2));
+  border-bottom-left-radius: 5px;
+  border: 1px solid rgba(139, 107, 255, 0.25);
+}
+.skin-studio-root .chat-row.bot .chat-bubble {
+  background: rgba(255, 255, 255, 0.07);
+  border-bottom-right-radius: 5px;
+  border: 1px solid var(--panel-bd);
+}
+.skin-studio-root .chat-row.bot .chat-avatar {
+  background: linear-gradient(135deg, var(--brand), var(--brand-2));
+  border: none;
+}
+.skin-studio-root .chat-meta { font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem; }
+.skin-studio-root .muted { color: var(--muted); font-size: 0.86rem; }
+
+/* ===== FAQ ===== */
+.skin-studio-root .faq-list { display: grid; gap: 1.1rem; max-width: 880px; margin: 0 auto; }
+.skin-studio-root .faq {
+  background: var(--panel);
+  border: 1px solid var(--panel-bd);
+  border-radius: 16px;
+  overflow: hidden;
+}
+.skin-studio-root .faq summary {
+  cursor: pointer;
+  padding: 1.25rem 1.5rem;
+  font-weight: 700;
+  font-size: 1.05rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.skin-studio-root .faq summary::-webkit-details-marker { display: none; }
+.skin-studio-root .faq-body { padding: 0 1.5rem 1.4rem; color: var(--muted); font-size: 0.98rem; line-height: 1.7; }
+.skin-studio-root .faq-body p { margin-bottom: 0.8rem; }
+.skin-studio-root .step-mini {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--panel-bd);
+  border-radius: 12px;
+  padding: 0.95rem 1.1rem;
+  margin-bottom: 0.8rem;
+}
+.skin-studio-root .step-mini p { margin: 0.35rem 0 0; font-size: 0.92rem; }
+.skin-studio-root pre {
+  background: #0a0d16;
+  border: 1px solid var(--panel-bd);
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  overflow: auto;
+  margin: 0.6rem 0;
+}
+.skin-studio-root pre code { background: none; padding: 0; color: #cbd5ff; }
+
+/* ===== 页脚 ===== */
+.skin-studio-root .footer {
+  border-top: 1px solid var(--panel-bd);
+  margin-top: 2.5rem;
+  padding: 3.5rem 1.4rem;
+  text-align: center;
+  background: var(--bg-2);
+}
+.skin-studio-root .footer-inner { max-width: var(--maxw); margin: 0 auto; }
+.skin-studio-root .footer-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  font-weight: 800;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.skin-studio-root .footer-brand .brand-mark { width: 36px; height: 36px; }
+.skin-studio-root .footer-motto { color: var(--muted); margin-bottom: 1.2rem; font-size: 1.05rem; }
+.skin-studio-root .footer-copy { color: var(--muted); font-size: 0.9rem; }
+
+/* ===== 大图弹窗（灯箱挂在 body 下，需脱离 .skin-studio-root 前缀；类名唯一性足够） ===== */
+.skin-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  font-family: "Inter", "Noto Sans SC", system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+.skin-lightbox.open { opacity: 1; pointer-events: auto; }
+.skin-lightbox .lightbox-backdrop { position: absolute; inset: 0; background: rgba(0, 0, 0, 0.88); backdrop-filter: blur(6px); }
+.skin-lightbox .lightbox-close {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  z-index: 2;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 1;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+.skin-lightbox .lightbox-close:hover { background: rgba(255, 255, 255, 0.2); transform: scale(1.08); }
+.skin-lightbox .lightbox-img {
+  position: relative;
+  z-index: 1;
+  max-width: 92vw;
+  max-height: 82vh;
+  object-fit: contain;
+  border-radius: 14px;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.skin-lightbox .lightbox-caption {
+  position: relative;
+  z-index: 1;
+  margin-top: 1rem;
+  font-size: 1.05rem;
+  color: #f0f3fa;
+  text-align: center;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+  padding: 0 1rem;
+}
+
+/* ===== 皮肤效果轮播 ===== */
+.skin-studio-root .section--showcase {
+  background: linear-gradient(180deg, rgba(139, 107, 255, 0.06), transparent);
+  border-top: 1px solid var(--panel-bd);
+  border-bottom: 1px solid var(--panel-bd);
+}
+.skin-studio-root .showcase-carousel { position: relative; max-width: 1080px; margin: 0 auto; }
+.skin-studio-root .showcase-viewport {
+  overflow: hidden;
+  border-radius: var(--radius);
+  border: 1px solid var(--panel-bd);
+  box-shadow: var(--shadow);
+  background: #0c101a;
+}
+.skin-studio-root .showcase-track {
+  display: flex;
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  will-change: transform;
+}
+.skin-studio-root .showcase-slide { flex: 0 0 100%; padding: 0; }
+.skin-studio-root .showcase-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 16 / 7.5;
+  object-fit: cover;
+}
+.skin-studio-root .showcase-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(11, 14, 22, 0.72);
+  color: #fff;
+  font-size: 2rem;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: background 0.2s ease, transform 0.15s ease, opacity 0.2s ease;
+}
+.skin-studio-root .showcase-arrow:hover {
+  background: rgba(139, 107, 255, 0.85);
+  transform: translateY(-50%) scale(1.08);
+  border-color: rgba(139, 107, 255, 0.6);
+}
+.skin-studio-root .showcase-arrow.prev { left: -26px; }
+.skin-studio-root .showcase-arrow.next { right: -26px; }
+.skin-studio-root .showcase-dots { display: flex; justify-content: center; gap: 0.55rem; margin-top: 1.4rem; }
+.skin-studio-root .showcase-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+.skin-studio-root .showcase-dot.active {
+  background: linear-gradient(135deg, var(--brand), var(--brand-2));
+  transform: scale(1.25);
+}
+.skin-studio-root .showcase-dot:hover { background: rgba(255, 255, 255, 0.4); }
+
+/* ===== 响应式 ===== */
+@media (max-width: 900px) {
+  .skin-studio-root .steps { grid-template-columns: 1fr; }
+  .skin-studio-root .make-steps-grid { grid-template-columns: 1fr; }
+  .skin-studio-root .skins-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+}
+@media (max-width: 860px) {
+  .skin-studio-root .nav-links {
+    position: absolute;
+    top: 100%;
+    right: 1rem;
+    left: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    background: rgba(11, 14, 22, 0.97);
+    border: 1px solid var(--panel-bd);
+    border-radius: 16px;
+    padding: 1rem 1.2rem;
+    display: none;
+  }
+  .skin-studio-root .nav-links.open { display: flex; }
+  .skin-studio-root .nav-toggle { display: block; }
+  .skin-studio-root .chat-bubble { max-width: 82%; }
+}
+@media (max-width: 760px) {
+  .skin-studio-root .showcase-arrow { width: 44px; height: 44px; font-size: 1.6rem; }
+  .skin-studio-root .showcase-arrow.prev { left: 10px; }
+  .skin-studio-root .showcase-arrow.next { right: 10px; }
+}
+@media (max-width: 560px) {
+  html:has(.skin-studio-root) { font-size: 15px; }
+  .skin-studio-root .hero { padding: 4.5rem 1rem 3.5rem; }
+  .skin-studio-root .section { padding: 4rem 1rem; }
+  .skin-studio-root .skins-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 1.2rem; }
+  .skin-studio-root .make-demo-body { padding: 1rem; }
+  .skin-studio-root .chat-avatar { width: 34px; height: 34px; font-size: 1rem; }
+  .skin-studio-root .showcase-arrow { display: none; }
+}
+
+/* ===== VitePress 页面级覆写 =====
+ * 以组件根 .skin-studio-root 为锚（pageClass 的落点在不同版本有差异，不依赖它），
+ * 隐藏站点导航/页脚、清零内容容器边距，实现全出血落地页 */
+body:has(.skin-studio-root) { background: #0b0e16; }
+body:has(.skin-studio-root) .VPNav { display: none; }
+body:has(.skin-studio-root) .VPFooter { display: none; }
+body:has(.skin-studio-root) .VPContent { padding-top: 0 !important; padding-bottom: 0 !important; }
+body:has(.skin-studio-root) .VPPage,
+.VPPage.skin-studio { padding: 0 !important; max-width: none !important; }
+body:has(.skin-studio-root) .VPPage .container,
+.VPPage.skin-studio .container { max-width: none !important; padding: 0 !important; margin: 0 !important; }
+body:has(.skin-studio-root) .VPPage .content,
+.VPPage.skin-studio .content { max-width: none !important; padding: 0 !important; margin: 0 !important; min-height: 0 !important; }

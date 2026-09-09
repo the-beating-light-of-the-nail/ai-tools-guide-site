@@ -1,0 +1,153 @@
+// 皮肤工坊静态数据 —— 逐字来自竞品站 manifest.json（2026-09-09 抓取）
+// 原站为运行时 fetch，克隆版改为构建期静态导入，数据与资产结构完全一致。
+
+export interface Skin {
+  /** .wbskin 文件名（不含路径），id = file 去掉扩展名 */
+  file: string
+  /** 展示名 */
+  name: string
+  /** 主题明暗 */
+  theme: 'dark' | 'light'
+  /** 强调色（名称前圆点 + 卡片底部渐变条） */
+  accent: string
+  /** 表面色（原站有此字段但未在 UI 使用，保留以对齐数据） */
+  surface: string
+  /** 描述文案（卡片两行截断） */
+  desc: string
+  /** 背景大图文件名（灯箱展示） */
+  bg: string
+}
+
+/** 轮播展示图（6 张，16:7.5 应用截图） */
+export const SHOWCASE_IMAGES: string[] = [
+  '/sites/skin-studio/showcase/showcase-01.jpg',
+  '/sites/skin-studio/showcase/showcase-02.jpg',
+  '/sites/skin-studio/showcase/showcase-03.jpg',
+  '/sites/skin-studio/showcase/showcase-04.jpg',
+  '/sites/skin-studio/showcase/showcase-05.jpg',
+  '/sites/skin-studio/showcase/showcase-06.jpg',
+]
+
+/** 站点静态资产前缀（缩略图 / 背景大图 / logo） */
+export const ASSET_BASE = '/sites/skin-studio'
+
+/** 皮肤包下载外链前缀 —— 指向原站（不搬运 .wbskin 二进制，尊重原作者分发权） */
+export const SKIN_DL_BASE = 'https://dreamsoldierwang-spec.github.io/workbuddy-skin-studio/downloads/skins'
+
+/** 皮肤管理器 App 下载（原站 GitHub Releases 外链） */
+export const MGR_DMG_URL =
+  'https://github.com/dreamsoldierwang-spec/workbuddy-skin-manager/releases/download/v1.0/WorkBuddySkinManager.dmg'
+
+/** skin-generator Skill 下载（原站外链） */
+export const SKILL_ZIP_URL = 'https://dreamsoldierwang-spec.github.io/workbuddy-skin-studio/downloads/skin-generator.zip'
+
+export const SKINS: Skin[] = [
+  {
+    file: 'odyssey-spartan.wbskin',
+    name: '奥德赛·斯巴达',
+    theme: 'dark',
+    accent: '#B83022',
+    surface: '#0F141C',
+    desc: '以古希腊战场为氛围的深蓝灰冷色调皮肤，红色羽冠作强调色，背景保持清晰，面板毛玻璃保证可读性。',
+    bg: 'odyssey-spartan-bg.jpg',
+  },
+  {
+    file: 'three-kingdoms-luoyang.wbskin',
+    name: '三国·争洛阳',
+    theme: 'dark',
+    accent: '#B8574A',
+    surface: '#1E1812',
+    desc: '基于三国古战场画面：尘土褐金、暗红旌旗、烟霾暖灰。背景图保留更多战场氛围，面板轻薄毛玻璃，兼顾可读与壁纸可见。',
+    bg: 'three-kingdoms-luoyang-bg.jpg',
+  },
+  {
+    file: 'super-mario-galaxy.wbskin',
+    name: '超级马里奥·银河',
+    theme: 'dark',
+    accent: '#E52521',
+    surface: '#0A1628',
+    desc: '以《超级马里奥》银河冒险为氛围，马里奥红与太空蓝紫交织，深色背景保证文字清晰可读。',
+    bg: 'super-mario-galaxy-bg.jpg',
+  },
+  {
+    file: 'cold-war-1994.wbskin',
+    name: '寒战 1994',
+    theme: 'dark',
+    accent: '#C9A45C',
+    surface: '#1A1510',
+    desc: '以《寒战 1994》的港式警匪氛围为灵感，暖棕皮革与暗金灯光交织，沉稳冷峻。',
+    bg: 'cold-war-1994-bg.jpg',
+  },
+  {
+    file: 'fire-shades.wbskin',
+    name: '火遮眼',
+    theme: 'dark',
+    accent: '#00D4FF',
+    surface: '#0D0818',
+    desc: '以《火遮眼》霓虹夜店为氛围，蓝紫赛博光效与暗调背景碰撞，锐利动感。',
+    bg: 'fire-shades-bg.jpg',
+  },
+  {
+    file: 'toy-story-5.wbskin',
+    name: '玩具总动员 5',
+    theme: 'light',
+    accent: '#76B041',
+    surface: '#FDF9F0',
+    desc: '以《玩具总动员 5》明亮房间为氛围，胡迪黄与巴斯绿点缀，清新活泼的浅色主题。',
+    bg: 'toy-story-5-bg.jpg',
+  },
+  {
+    file: 'minions-medieval.wbskin',
+    name: '小黄人·中世纪',
+    theme: 'dark',
+    accent: '#FCE029',
+    surface: '#1C1D21',
+    desc: '以《小黄人》中世纪盔甲造型为灵感，明黄与银灰盔甲碰撞，俏皮又复古。',
+    bg: 'minions-medieval-bg.jpg',
+  },
+  {
+    file: 'spider-man-nyc.wbskin',
+    name: '蜘蛛侠·纽约',
+    theme: 'dark',
+    accent: '#E23636',
+    surface: '#0A1628',
+    desc: '以《蜘蛛侠》纽约高楼飞荡为氛围，经典红蓝战衣配色，都市高空背景。',
+    bg: 'spider-man-nyc-bg.jpg',
+  },
+  {
+    file: 'spider-verse-cross.wbskin',
+    name: '蜘蛛侠纵横宇宙',
+    theme: 'dark',
+    accent: '#FF6A00',
+    surface: '#1F0A00',
+    desc: '暗色火焰金橙主题，毛玻璃面板搭配高燃橙红强调色，预装在皮肤管理器中。',
+    bg: 'spider-verse-cross-bg.jpg',
+  },
+  {
+    file: 'eight-immortals.wbskin',
+    name: '八仙',
+    theme: 'dark',
+    accent: '#E8B84D',
+    surface: '#1A0F0A',
+    desc: '以《八仙》神话修仙画面为氛围，暖金夕照与暗红云涛交织，仙气缭绕的暗色主题。',
+    bg: 'eight-immortals-bg.jpg',
+  },
+  {
+    file: 'zootopia.wbskin',
+    name: '疯狂动物城',
+    theme: 'light',
+    accent: '#4CAF50',
+    surface: '#F4F7F2',
+    desc: '以《疯狂动物城》葱郁城市为氛围，草木青绿与暖木棕搭配，清新明快的浅色主题。',
+    bg: 'zootopia-bg.jpg',
+  },
+  {
+    file: 'wandering-earth.wbskin',
+    name: '流浪地球',
+    theme: 'dark',
+    accent: '#4FC3F7',
+    surface: '#0B1218',
+    desc: '以《流浪地球》行星发动机与云海为氛围，冷冽蓝白与钢铁灰交织，宏大科幻的暗色主题。',
+    bg: 'wandering-earth-bg.jpg',
+  },
+]
