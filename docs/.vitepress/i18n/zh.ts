@@ -48,6 +48,7 @@ const sidebar: LocaleConfig["themeConfig"]["sidebar"] = {
       items: [
         { text: "常用指令模板", link: "/workbuddy/ref-prompt-templates/" },
         { text: "场景速查表", link: "/workbuddy/ref-scenarios/" },
+        { text: "🎨 皮肤工坊", link: "/workbuddy/skins/" },
       ],
     },
   ],
@@ -316,7 +317,13 @@ export const zh = {
     siteTitle: "AI Work 教程网",
     nav: [
       { text: "首页", link: "/" },
-      { text: "WorkBuddy", link: "/workbuddy/" },
+      {
+        text: "WorkBuddy",
+        items: [
+          { text: "教程中心", link: "/workbuddy/" },
+          { text: "🎨 皮肤工坊", link: "/workbuddy/skins/" },
+        ],
+      },
       { text: "TraeWork", link: "/traework/" },
       { text: "QoderWork", link: "/qoderwork/" },
       { text: "豆包工作", link: "/doubaowork/" },

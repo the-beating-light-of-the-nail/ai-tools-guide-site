@@ -618,6 +618,7 @@ html:has(.skin-studio-root) {
 }
 .skin-studio-root .footer-brand .brand-mark { width: 36px; height: 36px; }
 .skin-studio-root .footer-motto { color: var(--muted); margin-bottom: 1.2rem; font-size: 1.05rem; }
+.skin-studio-root .footer-back { display: inline-block; margin-bottom: 1.1rem; font-size: 0.95rem; }
 .skin-studio-root .footer-copy { color: var(--muted); font-size: 0.9rem; }
 
 /* ===== 大图弹窗（灯箱挂在 body 下，需脱离 .skin-studio-root 前缀；类名唯一性足够） ===== */
