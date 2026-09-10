@@ -1,5 +1,6 @@
 ---
 layout: page
+sidebar: false
 title: 办公 AI 工作台实战教程
 description: 腾讯、字节、阿里三大厂办公 AI 工作台中文实战教程总站：WorkBuddy、豆包工作、千问办公、TraeWork、QoderWork 五大工作台，从下载安装到定时自动化与聊天窗远程指挥。
 ---

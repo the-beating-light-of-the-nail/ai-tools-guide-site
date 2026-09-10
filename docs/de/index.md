@@ -1,5 +1,6 @@
 ---
 layout: page
+sidebar: false
 title: Praxis-Tutorials für KI-Arbeitsplätze
 description: "Praxisnahe Tutorials für die KI-Arbeitsplätze von Tencent, ByteDance und Alibaba: WorkBuddy, TraeWork, QoderWork, Doubao Work, Qwen Work und weitere »work«-Werkzeuge für den Büroalltag – von Download und Installation bis zur ersten Aufgabe, mit Skills, Konnektoren, Automatisierung und Fernsteuerung per Chat."
 ---

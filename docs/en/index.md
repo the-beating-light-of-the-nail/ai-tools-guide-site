@@ -1,5 +1,6 @@
 ---
 layout: page
+sidebar: false
 title: Hands-On Tutorials for AI Work Tools
 description: "Practical tutorials for the office AI workspaces from Tencent, ByteDance, and Alibaba: WorkBuddy, TraeWork, QoderWork, Doubao Work, Qwen Work and other work-style tools for office workers — from download and install to your first task, covering skills, connectors, automation, and remote control over IM."
 ---
