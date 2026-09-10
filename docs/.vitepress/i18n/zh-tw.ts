@@ -317,10 +317,10 @@ export const zhTw = {
     nav: [
       { text: "首頁", link: "/" },
       { text: "WorkBuddy", link: "/workbuddy/" },
-      { text: "TraeWork", link: "/traework/" },
-      { text: "QoderWork", link: "/qoderwork/" },
       { text: "豆包工作", link: "/doubaowork/" },
       { text: "千問辦公", link: "/qwenwork/" },
+      { text: "TraeWork", link: "/traework/" },
+      { text: "QoderWork", link: "/qoderwork/" },
       { text: "關於", link: "/about" },
     ],
     sidebar,

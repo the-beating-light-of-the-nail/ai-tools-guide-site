@@ -317,10 +317,10 @@ export const en = {
     nav: [
       { text: "Home", link: "/" },
       { text: "WorkBuddy", link: "/workbuddy/" },
-      { text: "TraeWork", link: "/traework/" },
-      { text: "QoderWork", link: "/qoderwork/" },
       { text: "Doubao Work", link: "/doubaowork/" },
       { text: "Qwen Work", link: "/qwenwork/" },
+      { text: "TraeWork", link: "/traework/" },
+      { text: "QoderWork", link: "/qoderwork/" },
       { text: "About", link: "/about" },
     ],
     sidebar,
