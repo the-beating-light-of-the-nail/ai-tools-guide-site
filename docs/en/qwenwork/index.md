@@ -1,6 +1,6 @@
 # Qwen Work Blue Book
 
-**Qwen Work** (qwenwork.cn, an AI office assistant from Alibaba built for real work tasks) is not yet another "chat-capable" AI. State your goal in one plain sentence, and it reads the materials you authorize, plans the steps, invokes Skills and connectors, and delivers editable, verifiable, and transferable work products—Word documents, Excel spreadsheets, PPT decks, research reports—rather than a block of text you can only copy.
+**Qwen Work** (qwenwork.cn, an AI office assistant from Alibaba built for real work tasks) is not yet another "chat-capable" AI. State your goal in one plain sentence and it reads the materials you authorize, lays out the steps, invokes Skills and connectors, and delivers work products that are editable, verifiable, and transferable: Word documents, Excel spreadsheets, PPT decks, research reports—not a block of text you can copy but never build on.
 
 This section is adapted from the *Qwen Work Blue Book V2.0*, which answers one core question throughout: how to move AI from "can generate" to "can deliver"—generating content is not the same as completing work; only when the result is editable, verifiable, and transferable does it count as an acceptable delivery. Around this main thread, the Blue Book provides a set of practical team standards covering the task delivery protocol, work environment architecture, automation boundaries, security governance, and value measurement.
 

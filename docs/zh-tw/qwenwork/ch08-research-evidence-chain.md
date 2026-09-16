@@ -13,7 +13,7 @@ sources:
 
 <span id="claim-evidence-card-fields-01" data-claim-id="claim-evidence-card-fields-01"></span>本章將證據卡（記錄來源、口徑和限制的小卡片）唯一規範定義為九個欄位：主張、來源原文、來源型別、日期、統計口徑、適用範圍、限制、衝突、狀態。
 
-<span id="claim-research-question-tree-01" data-claim-id="claim-research-question-tree-01"></span>本書建議：研究先把決策問題拆成可由證據回答的問題樹（把大問題拆成小問題的提問框架），再檢索和寫作，避免"搜尋到什麼就寫什麼"。
+<span id="claim-research-question-tree-01" data-claim-id="claim-research-question-tree-01"></span>本書建議：研究先把決策問題拆成可由證據回答的問題樹（把大問題拆成小問題的提問框架），再檢索和寫作，避免“搜尋到什麼就寫什麼”。
 
 ## 你可能遇到的場景
 

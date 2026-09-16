@@ -1,6 +1,6 @@
 # QoderWork Tutorial
 
-**QoderWork** is a desktop intelligent work assistant from the Alibaba camp ("you state the need, it delivers the result"): file organization, data processing, document generation, browser automation, scheduled tasks, and remote command via IM—what you get are real files saved to your computer, not chat logs.
+**QoderWork** is a desktop intelligent work assistant from the Alibaba camp—"you state the need, it delivers the result." File organization, data processing, document generation, browser automation, scheduled tasks, remote command via IM: every one of those jobs ends up on your own drive as real files. Acceptance is simple too—skip the chat log and open the folder.
 
 > Official download: [qoderwork.com](https://qoderwork.com) (China edition at [qoder.com.cn/qoderwork](https://qoder.com.cn/qoderwork)) | Official docs: [docs.qoder.com/zh/qoderwork](https://docs.qoder.com/zh/qoderwork/introduction)
 

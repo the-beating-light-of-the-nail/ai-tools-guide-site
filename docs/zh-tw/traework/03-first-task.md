@@ -69,4 +69,4 @@ HTML 產物（需求文件、產品原型、分析報告）支援**原型與文�
 
 ---
 
-下一步：給 AI 裝上"標準做法"——[Skills 技能 →](/zh-tw/traework/04-skills)
+下一步：給 AI 裝上“標準做法”——[Skills 技能 →](/zh-tw/traework/04-skills)

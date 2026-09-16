@@ -1,6 +1,6 @@
 # QoderWork-Tutorial
 
-**QoderWork** ist der Desktop-Arbeitsassistent aus dem Alibaba-Umfeld („Sie sagen das Ziel, er liefert das Ergebnis"): Dateien sortieren, Daten verarbeiten, Dokumente erzeugen, Browser-Automatisierung, zeitgesteuerte Aufgaben, Fernsteuerung über IM – das Ergebnis sind echte Dateien auf Ihrem Rechner, keine Chatverläufe.
+**QoderWork** ist der Desktop-Arbeitsassistent aus dem Alibaba-Umfeld, Motto: „Sie sagen das Ziel, er liefert das Ergebnis". Dateien sortieren, Daten verarbeiten, Dokumente erzeugen, Browser-Automatisierung, zeitgesteuerte Aufgaben, Fernsteuerung über IM – jede dieser Aufgaben landet am Ende als echte Datei auf Ihrem Rechner. Die Abnahme ist ebenso einfach: Chatverlauf beiseitelassen, Ordner öffnen und Ergebnis prüfen.
 
 > Offizieller Download: [qoderwork.com](https://qoderwork.com) (chinesische Version [qoder.com.cn/qoderwork](https://qoder.com.cn/qoderwork)) ｜ Offizielle Dokumentation: [docs.qoder.com/zh/qoderwork](https://docs.qoder.com/zh/qoderwork/introduction)
 

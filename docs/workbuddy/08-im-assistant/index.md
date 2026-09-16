@@ -1,6 +1,6 @@
 # 第 8 章 WorkBuddy 接入小程序与 IM 助理
 
-装好客户端只是第一步。这一章把 WorkBuddy 从"坐在电脑前才能用"变成"手机上随时派活"：小程序让你远程查看与调度，IM 助理让你在微信、飞书、钉钉里直接下任务。
+装好客户端只是第一步。这一章把 WorkBuddy 从“坐在电脑前才能用”变成“手机上随时派活”：小程序让你远程查看与调度，IM 助理让你在微信、飞书、钉钉里直接下任务。
 
 ## 小程序的两种模式
 
@@ -31,11 +31,11 @@ sequenceDiagram
 
 ## 接入微信助理：扫码绑定即可
 
-1. 打开 WorkBuddy，在左侧"助理"栏点击齿轮，进入"助理设置"；
+1. 打开 WorkBuddy，在左侧“助理”栏点击齿轮，进入“助理设置”；
 
 ![](/workbuddy/08-im-assistant/assets/002_微信助理-进入助理设置_NbI2b9v4fo.png)
 
-2. 找到"微信助理集成"，点击"配置"；
+2. 找到“微信助理集成”，点击“配置”；
 
 ![](/workbuddy/08-im-assistant/assets/003_微信助理-选择集成_S9HlbaEmdo.png)
 
@@ -43,13 +43,13 @@ sequenceDiagram
 
 ![](/workbuddy/08-im-assistant/assets/004_微信助理-扫码绑定_TElmbNPG5o.png)
 
-4. 卡片显示"已绑定"后，先发送一条只读测试指令；
+4. 卡片显示“已绑定”后，先发送一条只读测试指令；
 
 ![](/workbuddy/08-im-assistant/assets/005_微信助理-已绑定_ZQtrb6jCmo.png)
 
 5. 需要切换微信账号时，先解绑当前账号，再重新扫码。
 
-> 二维码有时效限制。停留在"绑定中"、二维码过期或扫码失败时，关闭配置窗口后重新进入，必要时重启 WorkBuddy 并重新生成二维码。
+> 二维码有时效限制。停留在“绑定中”、二维码过期或扫码失败时，关闭配置窗口后重新进入，必要时重启 WorkBuddy 并重新生成二维码。
 
 ## 接入飞书
 
@@ -69,7 +69,7 @@ sequenceDiagram
 
 ![](/workbuddy/08-im-assistant/assets/009_飞书-批量导入权限_MRdCbm3Dvo.png)
 
-5. 在"凭证与基础信息"获取 App ID 和 App Secret；
+5. 在“凭证与基础信息”获取 App ID 和 App Secret；
 
 ![](/workbuddy/08-im-assistant/assets/010_飞书-应用凭证_CnItbspOUo.png)
 
@@ -91,7 +91,7 @@ sequenceDiagram
 
 ![](/workbuddy/08-im-assistant/assets/015_image_RRhMbPo5uo.png)
 
-1. 使用企业管理员账号登录钉钉开发者后台，进入"应用开发"，创建应用；
+1. 使用企业管理员账号登录钉钉开发者后台，进入“应用开发”，创建应用；
 
 ![](/workbuddy/08-im-assistant/assets/016_钉钉-创建应用_NuNTbdscZo.png)
 
@@ -109,4 +109,4 @@ sequenceDiagram
 
 ---
 
-> 绑定 IM 助理后，配合[自动化任务](/workbuddy/10-automation/)可以把"定时跑 + 推送到 IM"串成一条线。
+> 绑定 IM 助理后，配合[自动化任务](/workbuddy/10-automation/)可以把“定时跑 + 推送到 IM”串成一条线。

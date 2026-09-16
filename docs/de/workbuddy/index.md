@@ -1,6 +1,6 @@
 # WorkBuddy Tutorial
 
-**WorkBuddy** ist ein von Tencent entwickelter KI-Agenten-Arbeitsplatz für alle Büro-Szenarien. Sie beschreiben Ihr Ziel in einem natürlichsprachlichen Satz – WorkBuddy plant dann eigenständig die einzelnen Schritte, liest und schreibt Dateien auf Ihrem lokalen Rechner und liefert echte Ergebnisse wie Präsentationen, Tabellenanalysen, Dokumente oder Research-Berichte – statt nur „Fragen zu beantworten".
+**WorkBuddy** ist ein von Tencent entwickelter KI-Agenten-Arbeitsplatz für alle Büro-Szenarien. Formulieren Sie das Ziel in einem klaren Satz, plant WorkBuddy die Schritte eigenständig auf Ihrem lokalen Rechner, liest und schreibt Dateien und liefert Ergebnisse, mit denen Sie direkt weiterarbeiten können: Präsentationen, Tabellenanalysen, Dokumente, Research-Berichte. Der Unterschied zu einem Chatbot passt in einen Satz: WorkBuddy „beantwortet" nicht nur Fragen, sondern erledigt die Arbeit.
 
 Dieser Bereich ist in fünf Gruppen gegliedert: „Loslegen → Erweitern → Fallbeispiele → Fortgeschritten → Nachschlagen". Er führt Sie von der Installation bis zum Aufbau Ihres eigenen KI-Arbeitssystems.
 

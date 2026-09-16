@@ -1,6 +1,6 @@
 # Qwen Work Bluebook
 
-**Qwen Work** (qwenwork.cn, ein von Alibaba vorgestellter KI-Büroassistent für echte Arbeitsaufgaben) ist nicht noch eine KI, die „chatten kann". Sie beschreiben Ihr Ziel in einem einzigen Satz auf natürliche Sprache – Qwen Work liest die von Ihnen freigegebenen Materialien, plant die Schritte, ruft Skills und Konnektoren auf und liefert Arbeitsergebnisse, die editierbar, überprüfbar und weiter übertragbar sind: Word, Excel, PPT, Research-Berichte – statt einer Antwort, die man nur kopieren kann.
+**Qwen Work** (qwenwork.cn, ein von Alibaba vorgestellter KI-Büroassistent für echte Arbeitsaufgaben) ist nicht noch eine KI, die „chatten kann". Formulieren Sie das Ziel in einem klaren Satz – Qwen Work liest die freigegebenen Materialien, legt die Schritte fest, ruft Skills und Konnektoren auf und liefert Arbeitsergebnisse, die editierbar, überprüfbar und übertragbar sind: Word, Excel, PPT, Research-Berichte – nicht nur eine Antwort zum Kopieren, mit der sich nicht weiterarbeiten lässt.
 
 Dieser Bereich ist adaptiert aus dem „Qwen Work Bluebook V2.0". Das gesamte Buch beantwortet nur eine Kernfrage: Wie kommt die KI von „kann generieren" zu „kann liefern" – generierter Inhalt ist noch keine erledigte Arbeit; erst wenn das Ergebnis editierbar, überprüfbar und übertragbar ist, liegt eine abnehmbare Lieferung vor. Um diese Hauptlinie herum bietet das Bluebook eine umsetzbare Reihe von Teamstandards: Aufgaben-Lieferprotokoll, Arbeitsumgebungsarchitektur, Automatisierungsgrenzen, Sicherheitsgovernance und Wertmessung.
 

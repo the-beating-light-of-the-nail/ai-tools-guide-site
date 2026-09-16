@@ -1,6 +1,6 @@
 # Doubao Work Tutorial
 
-**Doubao Work** (doubao.com/work) ist ein von ByteDance entwickelter KI-Assistent für echte Arbeitsaufgaben. Sie beschreiben Ihr Ziel in einem einzigen Satz auf natürliche Sprache – Doubao Work liest die von Ihnen freigegebenen Unterlagen, zerlegt die Aufgabe in Schritte, ruft Skills und Konnektoren auf und liefert Arbeitsergebnisse, die sich weiterbearbeiten lassen: Word, Excel, PPT, Research-Berichte und mehr – statt nur „Fragen zu beantworten". Es ist tief in Feishu integriert: Dokumente, Tabellen, Meeting-Protokolle, Gruppenchats und Bitable-Daten können direkt gelesen und auch zurückgeschrieben werden.
+**Doubao Work** (doubao.com/work) ist ein KI-Assistent von ByteDance für echte Arbeitsaufgaben. Formulieren Sie das Ziel in einem klaren Satz – Doubao Work liest die freigegebenen Unterlagen, zerlegt die Aufgabe selbst in Schritte, ruft Skills und Konnektoren auf und liefert Word, Excel, PPT und Research-Berichte zurück, die sich weiterbearbeiten lassen; die Aufgabe gilt für ihn nicht schon mit der Antwort als erledigt. Tief integriert in Feishu: Dokumente, Tabellen, Meeting-Protokolle, Gruppenchats und Bitable-Daten lassen sich lesen und auch zurückschreiben.
 
 Dieser Bereich ist in fünf Gruppen gegliedert: „Erste Schritte → Erweiterung → Praxisfälle → Fortgeschritten → Nachschlagen". Der Praxisteil umfasst 35 Fallbeispiele aus sechs Szenarien: Büroalltag, persönliche Produktivität, Social-Media, Wissensmanagement, E-Commerce und Finanzen.
 

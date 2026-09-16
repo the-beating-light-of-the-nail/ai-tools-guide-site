@@ -9,7 +9,7 @@
 | 免安装先体验 | 网页版 work.trae.cn | [安装与三端协同](/traework/02-install) |
 | 操作本地文件 | 桌面版 + 本地任务 | [安装与三端协同](/traework/02-install) |
 | 通勤路上派活 | 移动端 + 云端执行 | [安装与三端协同](/traework/02-install) |
-| 给 AI 装"标准做法" | 技能 Skills | [Skills](/traework/04-skills) |
+| 给 AI 装“标准做法” | 技能 Skills | [Skills](/traework/04-skills) |
 | 把常用 Prompt 固化 | 自定义命令 | [三种工作流与命令](/traework/adv-workflows) |
 | 在微信/飞书里派活 | 办公助理 | [办公助理](/traework/05-bot-assistant) |
 | 读写飞书云文档/多维表格 | 外部应用授权（飞书） | [插件与外部应用](/traework/06-plugins-integrations) |

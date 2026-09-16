@@ -62,7 +62,7 @@ sources:
 
 ## 方法或模型
 
-<span id="claim-delivery-criteria-01" data-claim-id="claim-delivery-criteria-01"></span>本書建議：用"可編輯、可驗證、可流轉"三個判據共同定義業務交付；任一判據不滿足，都應把任務視為未完成或降級為草稿。
+<span id="claim-delivery-criteria-01" data-claim-id="claim-delivery-criteria-01"></span>本書建議：用“可編輯、可驗證、可流轉”三個判據共同定義業務交付；任一判據不滿足，都應把任務視為未完成或降級為草稿。
 
 | 判據 | 通過條件 | 最小驗收證據 |
 |---|---|---|

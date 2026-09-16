@@ -1,6 +1,6 @@
 # 進階：模型管理與積分避坑
 
-TraeWork 按"積分"計費，模型選擇直接影響消耗速度。這一章把官方計費文件裡最容易踩的坑整理成一張避坑地圖。
+TraeWork 按“積分”計費，模型選擇直接影響消耗速度。這一章把官方計費文件裡最容易踩的坑整理成一張避坑地圖。
 
 > 官方文件：[work_models](https://docs.trae.cn/work_models) ｜ [ide_plans-and-billing](https://docs.trae.cn/ide_plans-and-billing)。**價格與套餐截至 2026-08-31，以 [trae.cn/pricing](https://www.trae.cn/pricing) 實時資訊為準。**
 

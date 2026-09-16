@@ -1,6 +1,6 @@
 # WorkBuddy Tutorial
 
-**WorkBuddy** is an all-scenario workplace AI agent workbench from Tencent. Describe your goal in one plain sentence, and it autonomously plans the steps, reads and writes files on your local computer, and delivers real work products — presentations, spreadsheet analyses, documents, research reports, and more — instead of just "answering questions."
+**WorkBuddy** is an all-scenario workplace AI agent workbench from Tencent. State the goal in one plain sentence and it plans the steps itself on your local machine, reads and writes files, and hands back work you can keep building on—presentations, spreadsheet analyses, documents, research reports. The difference from a chatbot fits in one line: it doesn't just "answer questions," it gets the job done.
 
 This section is organized into five groups — Getting Started → Extending → Case Studies → Advanced → Reference — taking you all the way from installation to building your own AI work system.
 

@@ -1,6 +1,6 @@
 # 进阶：对话式创建技能（/create-skill）
 
-第三遍写同一段任务说明时，就该把它做成技能了。QoderWork 把这件事的门槛降到了"说人话"——内置 `/create-skill` 指令，对话式生成 SKILL.md。
+第三遍写同一段任务说明时，就该把它做成技能了。QoderWork 把这件事的门槛降到了“说人话”——内置 `/create-skill` 指令，对话式生成 SKILL.md。
 
 > 官方文档：[skills](https://docs.qoder.com/zh/qoderwork/skills) ｜ 实战素材见官方用户案例库。
 
@@ -21,7 +21,7 @@
 ```
 
 3. QoderWork 生成 SKILL.md 并存入 `~/.qoderwork/skills/`；
-4. 以后任何新任务里输入 `/`，选"销售周报"，或直接说"生成本周销售周报"触发。
+4. 以后任何新任务里输入 `/`，选“销售周报”，或直接说“生成本周销售周报”触发。
 
 更彻底的资产化样本（官方用户案例，律师）：
 
@@ -49,7 +49,7 @@
 
 | 渠道 | 说明 |
 | --- | --- |
-| 对话搜索 | "帮我找一个 XX 技能"→ find-skills 推荐，一键安装 |
+| 对话搜索 | “帮我找一个 XX 技能”→ find-skills 推荐，一键安装 |
 | Skill 广场 | 扩展 → 技能，浏览市场 |
 | 开源社区 | 发 GitHub 仓库链接自动拉取，如 [lexburner/skill-collection](https://github.com/lexburner/skill-collection)（qoder-ppt、信息图等） |
 | 手动上传 | 「安装技能」上传 SKILL.md（zip 根目录必须含 SKILL.md） |
@@ -57,6 +57,6 @@
 
 ## 从技能到团队标准
 
-官方推荐的进阶路线：**先用 Skill 跑通最佳实践 → 打包为[专家套件](/qoderwork/05-skills) → 团队统一使用**。判断某类工作值不值得做技能，就看一句话——"选择你最近一周内重复做过两次以上的工作"。
+官方推荐的进阶路线：**先用 Skill 跑通最佳实践 → 打包为[专家套件](/qoderwork/05-skills) → 团队统一使用**。判断某类工作值不值得做技能，就看一句话——“选择你最近一周内重复做过两次以上的工作”。
 
 > 跨工具视角：Skill 的 SKILL.md 规范在 WorkBuddy / TraeWork / QoderWork 三家之间高度相通，学会一次，三处通用。深度方法论（把书和视频蒸馏成技能集）见 WorkBuddy 板块的[打造 Skill：知识蒸馏](/workbuddy/adv-build-skill/)。

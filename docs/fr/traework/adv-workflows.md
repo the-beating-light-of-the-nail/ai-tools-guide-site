@@ -1,6 +1,6 @@
 # Approfondissement : les workflows Plan, Spec, Goal et les commandes personnalisées
 
-TraeWork intègre trois workflows de tâches (Plan / Spec / Goal) et un mécanisme de commandes personnalisées. Avec le bon workflow, la fiabilité des longues tâches s'améliore nettement.
+TraeWork intègre trois workflows de tâches (Plan / Spec / Goal) et un mécanisme de commandes personnalisées. Avec le bon workflow, les longues tâches déraillent bien moins souvent en cours de route.
 
 > Documentation officielle : [work_spec-and-plan](https://docs.trae.cn/work_spec-and-plan) ｜ [work_commands](https://docs.trae.cn/work_commands)
 

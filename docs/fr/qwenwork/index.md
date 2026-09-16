@@ -1,6 +1,6 @@
 # Livre blanc Qwen Work
 
-**Qwen Work** (qwenwork.cn, assistant AI d'Alibaba dédié aux vraies tâches professionnelles) n'est pas une énième AI « qui sait chatter ». Décrivez votre objectif en une phrase en langage naturel : il lit les documents que vous autorisez, planifie les étapes, mobilise des Skills et des connecteurs, et livre des résultats de travail modifiables, vérifiables et transférables — Word, Excel, PPT, rapports d'étude — au lieu d'une simple réponse que l'on ne peut que copier.
+**Qwen Work** (qwenwork.cn, assistant AI d'Alibaba dédié aux vraies tâches professionnelles) n'est pas une énième AI « qui sait chatter ». Énoncez l'objectif en une phrase claire : il lit les documents que vous autorisez, organise les étapes, mobilise des Skills et des connecteurs, et livre des résultats de travail modifiables, vérifiables et transférables — Word, Excel, PPT, rapports d'étude — et non une réponse faite pour être copiée, sur laquelle on ne peut rien bâtir.
 
 Cette section est adaptée du « Livre blanc Qwen Work V2.0 », qui répond à une seule question centrale : comment faire passer l'AI de « savoir générer » à « savoir livrer » — générer du contenu ne revient pas à accomplir un travail ; un résultat n'est modifiable, vérifiable et transférable que s'il constitue une livraison acceptée. Autour de ce fil conducteur, le livre blanc propose un ensemble de règles d'équipe applicables : protocole de livraison des tâches, architecture de l'environnement de travail, limites de l'automatisation, gouvernance de sécurité, mesure de la valeur.
 

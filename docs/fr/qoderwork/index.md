@@ -1,6 +1,6 @@
 # Tutoriel QoderWork
 
-**QoderWork** est un assistant de travail intelligent de bureau issu de l'écosystème Alibaba (« vous énoncez le besoin, il livre le résultat ») : organisation de fichiers, traitement de données, génération de documents, automatisation du navigateur, tâches planifiées, pilotage à distance par IM — les livrables sont de vrais fichiers déposés sur votre ordinateur, pas un historique de chat.
+**QoderWork** est un assistant de travail intelligent de bureau issu de l'écosystème Alibaba, « vous énoncez le besoin, il livre le résultat ». Organisation de fichiers, traitement de données, génération de documents, automatisation du navigateur, tâches planifiées, pilotage à distance par IM : chaque tâche finit en vrais fichiers déposés sur votre ordinateur. La recette est tout aussi simple — inutile de relire l'historique de chat, ouvrez le dossier et regardez le résultat.
 
 > Téléchargement officiel : [qoderwork.com](https://qoderwork.com) (version Chine [qoder.com.cn/qoderwork](https://qoder.com.cn/qoderwork)) ｜ Documentation officielle : [docs.qoder.com/zh/qoderwork](https://docs.qoder.com/zh/qoderwork/introduction)
 

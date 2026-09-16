@@ -1,6 +1,6 @@
 # Tutoriel WorkBuddy
 
-**WorkBuddy** est un poste de travail IA à agents, conçu par Tencent pour couvrir tous les scénarios professionnels. Décrivez votre objectif en une phrase en langage naturel : il planifie ensuite lui-même les étapes sur votre ordinateur local, lit et écrit des fichiers, et livre de véritables livrables — PPT, analyses de tableaux, documents, rapports d'étude — au lieu de se contenter de « répondre à des questions ».
+**WorkBuddy** est un poste de travail IA à agents, conçu par Tencent pour couvrir tous les scénarios professionnels. Énoncez l'objectif en une phrase claire : il planifie lui-même les étapes sur votre ordinateur local, lit et écrit des fichiers, et vous rend un travail sur lequel vous pouvez continuer — PPT, analyses de tableaux, documents, rapports d'étude. La différence avec un chatbot tient en une ligne : il ne se contente pas de « répondre à des questions », il mène le travail à son terme.
 
 Cette section est organisée en cinq parties — « Démarrage → Extensions → Cas pratiques → Perfectionnement → Référence » — et vous accompagne de l'installation jusqu'à la construction de votre propre système de travail IA.
 

@@ -1,6 +1,6 @@
 # Fortgeschritten: Die drei Workflows Plan, Spec und Goal sowie eigene Befehle
 
-TraeWork bringt drei Aufgaben-Workflows (Plan / Spec / Goal) und einen Mechanismus für eigene Befehle mit. Wer den passenden Workflow nutzt, erhöht die Zuverlässigkeit langer Aufgaben deutlich.
+TraeWork bringt drei Aufgaben-Workflows (Plan / Spec / Goal) und einen Mechanismus für eigene Befehle mit. Mit dem passenden Workflow geraten lange Aufgaben seltener halbwegs aus der Spur.
 
 > Offizielle Dokumentation: [work_spec-and-plan](https://docs.trae.cn/work_spec-and-plan) ｜ [work_commands](https://docs.trae.cn/work_commands)
 

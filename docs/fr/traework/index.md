@@ -1,6 +1,6 @@
 # Tutoriel TraeWork
 
-**TraeWork** est un espace de travail natif IA lancé par ByteDance (publié en juin 2026, slogan « laissez TRAE travailler pour vous ») : décrivez votre objectif en une phrase en langage naturel, et l'IA décompose elle-même les étapes, mobilise les Skills et les outils, puis livre des résultats concrets — documents, rapports, présentations, pages web. La version web, la version bureau et l'application mobile partagent le même compte et les mêmes données de tâches.
+**TraeWork** est un espace de travail natif IA lancé par ByteDance en juin 2026, slogan « laissez TRAE travailler pour vous ». Le mode d'emploi tient en une phrase : énoncez clairement l'objectif et confiez le reste — il décompose les étapes, mobilise les Skills et les outils, et vous rend des documents, rapports, présentations ou pages web directement utilisables. Les versions web, bureau et mobile partagent un même compte et les mêmes données de tâches : ce qui n'a pas été suivi jusqu'au bout au bureau se poursuit en chemin.
 
 > À noter : TraeWork est un **espace de travail bureautique**, conçu pour les employés de bureau ; l'IDE TraeCode destiné aux développeurs ne fait pas partie du périmètre de ce site. Site officiel : [trae.cn/work](https://www.trae.cn/work) ｜ Documentation : [docs.trae.cn](https://docs.trae.cn/)
 

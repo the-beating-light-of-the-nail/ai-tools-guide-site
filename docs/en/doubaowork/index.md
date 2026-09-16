@@ -1,6 +1,6 @@
 # Doubao Work Tutorial
 
-**Doubao Work** (doubao.com/work) is an AI assistant from ByteDance built for real work tasks. Describe your goal in one plain sentence, and it can read the materials you authorize, break the work into steps, invoke Skills and connectors, and deliver editable work products—Word documents, Excel spreadsheets, PPT decks, research reports—rather than just "answering questions." It integrates deeply with Feishu: documents, sheets, meeting notes, group chats, and Base tables can all be read and written back directly.
+**Doubao Work** (doubao.com/work) is an AI assistant from ByteDance built for real work tasks. State the goal in one plain sentence and it goes off to read the materials you authorized, break the work into steps, call on Skills and connectors, and come back with editable deliverables—Word documents, Excel spreadsheets, PPT decks, research reports—instead of calling the task done after an answer. It integrates deeply with Feishu: documents, sheets, meeting notes, group chats, and Base tables go in, and come back written.
 
 This section is organized into five groups—Getting Started, Extending, Case Studies, Advanced, and Quick Reference. The case-study track covers six scenarios (everyday office work, personal productivity, content creation, knowledge management, e-commerce, and finance) across 35 hands-on walkthroughs.
 

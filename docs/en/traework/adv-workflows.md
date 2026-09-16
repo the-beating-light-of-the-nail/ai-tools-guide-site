@@ -1,6 +1,6 @@
 # Advanced: The Plan, Spec, and Goal Workflows and Custom Commands
 
-TraeWork ships with three task workflows (Plan / Spec / Goal) plus a custom command mechanism. Choosing the right workflow noticeably improves reliability on long tasks.
+TraeWork ships with three task workflows (Plan / Spec / Goal) plus a custom command mechanism. With the right workflow, long tasks are far less likely to drift off course halfway through.
 
 > Official docs: [work_spec-and-plan](https://docs.trae.cn/work_spec-and-plan) | [work_commands](https://docs.trae.cn/work_commands)
 

@@ -1,6 +1,6 @@
 # QoderWork 教程
 
-**QoderWork** 是阿里系的桌面端智慧工作助手（"你說需求，它交付結果"）：檔案整理、資料處理、檔案生成、瀏覽器自動化、定時任務、IM 遠端指揮——產物是落到你電腦上的真實檔案，而不是聊天記錄。
+**QoderWork** 是阿里系的桌面端智慧工作助手，「你說需求，它交付結果」。檔案整理、資料處理、檔案生成、瀏覽器自動化、定時任務、IM 遠端指揮，每一樣活最後都落到你電腦上，產出的是真實檔案。驗收也簡單：不用翻聊天記錄，直接打開硬碟看產物。
 
 > 官網下載：[qoderwork.com](https://qoderwork.com)（國內版 [qoder.com.cn/qoderwork](https://qoder.com.cn/qoderwork)） ｜ 官方檔案：[docs.qoder.com/zh/qoderwork](https://docs.qoder.com/zh/qoderwork/introduction)
 

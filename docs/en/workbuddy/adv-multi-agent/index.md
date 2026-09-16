@@ -149,7 +149,7 @@ Typical scenarios the current expert teams cover:
 
 - **The Agent's base model**: instruction-following and reasoning ability directly affect storyboard quality and task-breakdown accuracy;
 - **The image generation model**: affects the clarity of product screenshots and the visual quality of concept art;
-- **User-provided materials**: placing materials into the asset space in advance significantly improves the final cut;
+- **User-provided materials**: placing materials into the asset space in advance keeps the final cut close to your real product, instead of the Agent padding it with generic material;
 - **Browser tool integration**: when the Agent can operate a browser, it can automatically capture website screenshots and product UI.
 
 A fully automatic pipeline suits quick turnarounds; for quality-critical work, treat the Agent's output as a base and do an extra round of human editing.

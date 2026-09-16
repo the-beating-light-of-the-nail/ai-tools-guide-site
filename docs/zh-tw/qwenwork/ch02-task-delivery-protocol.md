@@ -11,7 +11,7 @@ sources:
 
 ## 30 秒結論
 
-<span id="claim-define-done-first-01" data-claim-id="claim-define-done-first-01"></span>本書建議：在啟動 AI 任務前先定義"完成"，再決定提示詞、工具和自動化方式。
+<span id="claim-define-done-first-01" data-claim-id="claim-define-done-first-01"></span>本書建議：在啟動 AI 任務前先定義“完成”，再決定提示詞、工具和自動化方式。
 
 <span id="claim-task-card-fields-01" data-claim-id="claim-task-card-fields-01"></span>本章將任務卡唯一規範定義為五個欄位：目標、輸入、約束、交付、驗收。其他章節和附錄只引用這一定義，不另建同義欄位體系。
 

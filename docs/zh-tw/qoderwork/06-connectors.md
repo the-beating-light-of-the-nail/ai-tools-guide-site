@@ -69,7 +69,7 @@ MCP（Model Context Protocol）是標準化 AI 應用與外部工具連線方式
 
 **最佳實踐**：Prompt 裡直接給 URL；聯結器與本地檔案讀寫結合；複雜流程先手動跑通，再固化為 Skill 或定時任務。
 
-> MCP 的通用原理與安全邊界（它和 API 的關係、"怎麼連"與"連了安不安全"），見 WorkBuddy 板塊的[看懂 AI 工作系統](/zh-tw/workbuddy/11-ai-work-system/)。
+> MCP 的通用原理與安全邊界（它和 API 的關係、“怎麼連”與“連了安不安全”），見 WorkBuddy 板塊的[看懂 AI 工作系統](/zh-tw/workbuddy/11-ai-work-system/)。
 
 ---
 

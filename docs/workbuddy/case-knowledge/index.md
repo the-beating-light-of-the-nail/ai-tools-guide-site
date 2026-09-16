@@ -2,7 +2,7 @@
 
 ## 工具都装了，知识还是散的
 
-如果一个人同时使用 WPS、ima、Obsidian、微信收藏、会议记录和本地文件，怎样分工才能避免"每个地方都有一份，但没有一份可信"？
+如果一个人同时使用 WPS、ima、Obsidian、微信收藏、会议记录和本地文件，怎样分工才能避免“每个地方都有一份，但没有一份可信”？
 
 ## 先决定主版本，再连接工具
 
@@ -41,7 +41,7 @@
 
 ## 场景三：ima 作为移动知识入口
 
-ima 的优势不是"问答更聪明"，而是手机收集、知识库读写和微信上下文衔接。使用 [ima-skills](https://skillhub.cn/skills/ima-skills) 时，先明确目标知识库和写入规则。
+ima 的优势不是“问答更聪明”，而是手机收集、知识库读写和微信上下文衔接。使用 [ima-skills](https://skillhub.cn/skills/ima-skills) 时，先明确目标知识库和写入规则。
 
 ```text
 将我刚选择的 3 份文件放入 ima"WorkBuddy 案例库"的收件箱。
@@ -63,4 +63,4 @@ WorkBuddy 能识别文章正文和作者，并生成 Markdown 条目。
 
 ---
 
-> 更系统的"AI 依据什么"（知识库、RAG 与记忆的区别），见[课外阅读：看懂 AI 工作系统](/workbuddy/11-ai-work-system/)。
+> 更系统的“AI 依据什么”（知识库、RAG 与记忆的区别），见[课外阅读：看懂 AI 工作系统](/workbuddy/11-ai-work-system/)。

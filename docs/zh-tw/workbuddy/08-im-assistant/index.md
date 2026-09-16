@@ -1,6 +1,6 @@
 # 第 8 章 WorkBuddy 接入小程式與 IM 助理
 
-裝好客戶端只是第一步。這一章把 WorkBuddy 從"坐在電腦前才能用"變成"手機上隨時派活"：小程式讓你遠端檢視與排程，IM 助理讓你在微信、飛書、釘釘裡直接下任務。
+裝好客戶端只是第一步。這一章把 WorkBuddy 從“坐在電腦前才能用”變成“手機上隨時派活”：小程式讓你遠端檢視與排程，IM 助理讓你在微信、飛書、釘釘裡直接下任務。
 
 ## 小程式的兩種模式
 
@@ -31,11 +31,11 @@ sequenceDiagram
 
 ## 接入微信助理：掃碼繫結即可
 
-1. 開啟 WorkBuddy，在左側"助理"欄點選齒輪，進入"助理設定"；
+1. 開啟 WorkBuddy，在左側“助理”欄點選齒輪，進入“助理設定”；
 
 ![](/workbuddy/08-im-assistant/assets/002_微信助理-进入助理设置_NbI2b9v4fo.png)
 
-2. 找到"微信助理整合"，點選"配置"；
+2. 找到“微信助理整合”，點選“配置”；
 
 ![](/workbuddy/08-im-assistant/assets/003_微信助理-选择集成_S9HlbaEmdo.png)
 
@@ -43,13 +43,13 @@ sequenceDiagram
 
 ![](/workbuddy/08-im-assistant/assets/004_微信助理-扫码绑定_TElmbNPG5o.png)
 
-4. 卡片顯示"已繫結"後，先傳送一條只讀測試指令；
+4. 卡片顯示“已繫結”後，先傳送一條只讀測試指令；
 
 ![](/workbuddy/08-im-assistant/assets/005_微信助理-已绑定_ZQtrb6jCmo.png)
 
 5. 需要切換微信賬號時，先解綁當前賬號，再重新掃碼。
 
-> 二維碼有時效限制。停留在"繫結中"、二維碼過期或掃碼失敗時，關閉配置視窗後重新進入，必要時重啟 WorkBuddy 並重新生成二維碼。
+> 二維碼有時效限制。停留在“繫結中”、二維碼過期或掃碼失敗時，關閉配置視窗後重新進入，必要時重啟 WorkBuddy 並重新生成二維碼。
 
 ## 接入飛書
 
@@ -69,7 +69,7 @@ sequenceDiagram
 
 ![](/workbuddy/08-im-assistant/assets/009_飞书-批量导入权限_MRdCbm3Dvo.png)
 
-5. 在"憑證與基礎資訊"獲取 App ID 和 App Secret；
+5. 在“憑證與基礎資訊”獲取 App ID 和 App Secret；
 
 ![](/workbuddy/08-im-assistant/assets/010_飞书-应用凭证_CnItbspOUo.png)
 
@@ -91,7 +91,7 @@ sequenceDiagram
 
 ![](/workbuddy/08-im-assistant/assets/015_image_RRhMbPo5uo.png)
 
-1. 使用企業管理員賬號登入釘釘開發者後臺，進入"應用開發"，建立應用；
+1. 使用企業管理員賬號登入釘釘開發者後臺，進入“應用開發”，建立應用；
 
 ![](/workbuddy/08-im-assistant/assets/016_钉钉-创建应用_NuNTbdscZo.png)
 
@@ -109,4 +109,4 @@ sequenceDiagram
 
 ---
 
-> 繫結 IM 助理後，配合[自動化任務](/zh-tw/workbuddy/10-automation/)可以把"定時跑 + 推送到 IM"串成一條線。
+> 繫結 IM 助理後，配合[自動化任務](/zh-tw/workbuddy/10-automation/)可以把“定時跑 + 推送到 IM”串成一條線。

@@ -1,6 +1,6 @@
 # 定时任务：到点自己干
 
-官方定位一句话："定时任务让 QoderWork 从「你问它才动」变成「到点自己干」。"
+官方定位一句话：“定时任务让 QoderWork 从「你问它才动」变成「到点自己干」。”
 
 > 官方文档：[docs.qoder.com/zh/qoderwork/scheduled-tasks](https://docs.qoder.com/zh/qoderwork/scheduled-tasks)
 
@@ -55,9 +55,9 @@
 无人值守的对话，提示词越细越稳：
 
 - [ ] 数据来源写明确（哪个文件/哪个网页/哪个系统）
-- [ ] 输出格式与存储位置写明确（"输出 Markdown 存到 reports/ 目录"）
-- [ ] 判断标准写明确（"环比跌幅超过 20% 标红"）
-- [ ] 异常处理写明确（"数据为空时输出说明，不要硬凑"）
+- [ ] 输出格式与存储位置写明确（“输出 Markdown 存到 reports/ 目录”）
+- [ ] 判断标准写明确（“环比跌幅超过 20% 标红”）
+- [ ] 异常处理写明确（“数据为空时输出说明，不要硬凑”）
 - [ ] **先手动跑通一次，调好 Prompt 再固化**
 
 一个完整模板：
@@ -73,4 +73,4 @@ Prompt：读取 data/ 目录下昨日的运营数据文件，生成早报：
 
 推送 IM 需要[IM 频道](/qoderwork/07-im-channels)已配置——定时任务 + IM 是 QoderWork 自动化的黄金组合。
 
-进阶玩法（把"跑一下"变成一句话触发）见[电商日报案例](/qoderwork/case-browser)与[对话式创建技能](/qoderwork/adv-skill-create)。
+进阶玩法（把“跑一下”变成一句话触发）见[电商日报案例](/qoderwork/case-browser)与[对话式创建技能](/qoderwork/adv-skill-create)。

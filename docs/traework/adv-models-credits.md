@@ -1,6 +1,6 @@
 # 进阶：模型管理与积分避坑
 
-TraeWork 按"积分"计费，模型选择直接影响消耗速度。这一章把官方计费文档里最容易踩的坑整理成一张避坑地图。
+TraeWork 按“积分”计费，模型选择直接影响消耗速度。这一章把官方计费文档里最容易踩的坑整理成一张避坑地图。
 
 > 官方文档：[work_models](https://docs.trae.cn/work_models) ｜ [ide_plans-and-billing](https://docs.trae.cn/ide_plans-and-billing)。**价格与套餐截至 2026-08-31，以 [trae.cn/pricing](https://www.trae.cn/pricing) 实时信息为准。**
 

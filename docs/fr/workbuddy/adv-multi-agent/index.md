@@ -148,7 +148,7 @@ Scénarios typiques couverts par les équipes actuelles :
 
 - **Modèle sous-jacent de l'Agent** : le suivi d'instructions et le raisonnement pèsent directement sur la qualité du storyboard et l'exactitude de la décomposition ;
 - **Modèle de génération d'images** : influe sur la netteté des captures produit et la qualité visuelle des concept arts ;
-- **Ressources fournies par l'utilisateur** : les placer à l'avance dans l'espace de ressources améliore nettement le film final ;
+- **Ressources fournies par l'utilisateur** : les placer à l'avance dans l'espace de ressources garde le film final proche du vrai produit, au lieu de laisser l'Agent combler les vides avec des ressources génériques ;
 - **Connectivité navigateur** : avec des capacités de navigation, l'Agent capture automatiquement les captures du site et des interfaces produit.
 
 La solution tout-automatique convient à une production rapide ; pour les exigences élevées de qualité, mieux vaut partir des livrables de l'Agent pour un second montage humain.

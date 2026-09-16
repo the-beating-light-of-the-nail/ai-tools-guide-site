@@ -1,6 +1,6 @@
 # TraeWork-Tutorial
 
-**TraeWork** ist ein KI-nativer Arbeitsplatz von ByteDance (veröffentlicht im Juni 2026, Motto: „Lass TRAE für dich arbeiten“): Sie beschreiben Ihr Ziel in einem einzigen Satz in natürlicher Sprache, die KI zerlegt die Schritte selbstständig, ruft Skills und Tools auf und liefert echte Ergebnisse wie Dokumente, Berichte, Präsentationen oder Webseiten. Web-, Desktop- und mobile Version teilen sich denselben Account und dieselben Aufgabendaten.
+**TraeWork** ist ein KI-nativer Arbeitsplatz von ByteDance, veröffentlicht im Juni 2026, Motto: „Lass TRAE für dich arbeiten“. Das Nutzungsprinzip passt in einen Satz: Ziel klar formulieren, den Rest übergeben – TraeWork zerlegt die Schritte, ruft Skills und Tools auf und liefert Dokumente, Berichte, Präsentationen oder Webseiten zurück, die direkt einsatzbereit sind. Web-, Desktop- und mobile Version teilen sich einen Account und dieselben Aufgabendaten; was im Büro nicht zu Ende beobachtet wurde, lässt sich unterwegs weiterverfolgen.
 
 > Hinweis: TraeWork ist ein **Office-Arbeitsplatz** für Bürobeschäftigte; die TraeCode IDE für Programmierer gehört nicht zum Thema dieser Website. Produktseite: [trae.cn/work](https://www.trae.cn/work) | Dokumentation: [docs.trae.cn](https://docs.trae.cn/)
 

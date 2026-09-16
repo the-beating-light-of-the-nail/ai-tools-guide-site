@@ -149,7 +149,7 @@ Typische Szenarien der aktuellen Expertenteams:
 
 - **Basis-Modell des Agenten**: Befehlsfolge und Schlusskraft wirken direkt auf Storyboard-Qualität und Genauigkeit der Aufgabenzerlegung;
 - **Bildgenerierungsmodell**: beeinflusst Schärfe der Produkt-Screenshots und visuelle Qualität der Konzeptbilder;
-- **Vom Nutzer geliefertes Material**: Vorab im Materialraum abgelegtes Material hebt die Qualität des fertigen Films deutlich;
+- **Vom Nutzer geliefertes Material**: Vorab im Materialraum abgelegt, hält es den fertigen Film nah am echten Produkt, statt dass der Agent mit generischem Material aushilft;
 - **Browser-Werkzeuganbindung**: Kann der Agent einen Browser bedienen, holt er automatisch Screenshots der Website und der Produktoberfläche.
 
 Der Vollautomatik-Weg passt für schnelle Ergebnisse; bei hohen Qualitätsansprüchen empfiehlt sich auf Basis der Agent-Ergebnisse eine zusätzliche manuelle Nachbearbeitung.

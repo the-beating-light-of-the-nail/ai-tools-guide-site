@@ -2,7 +2,7 @@
 
 ## 工具都裝了，知識還是散的
 
-如果一個人同時使用 WPS、ima、Obsidian、微信收藏、會議記錄和本地檔案，怎樣分工才能避免"每個地方都有一份，但沒有一份可信"？
+如果一個人同時使用 WPS、ima、Obsidian、微信收藏、會議記錄和本地檔案，怎樣分工才能避免“每個地方都有一份，但沒有一份可信”？
 
 ## 先決定主版本，再連線工具
 
@@ -41,7 +41,7 @@
 
 ## 場景三：ima 作為移動知識入口
 
-ima 的優勢不是"問答更聰明"，而是手機收集、知識庫讀寫和微信上下文銜接。使用 [ima-skills](https://skillhub.cn/skills/ima-skills) 時，先明確目標知識庫和寫入規則。
+ima 的優勢不是“問答更聰明”，而是手機收集、知識庫讀寫和微信上下文銜接。使用 [ima-skills](https://skillhub.cn/skills/ima-skills) 時，先明確目標知識庫和寫入規則。
 
 ```text
 將我剛選擇的 3 份檔案放入 ima"WorkBuddy 案例庫"的收件箱。
@@ -63,4 +63,4 @@ WorkBuddy 能識別文章正文和作者，並生成 Markdown 條目。
 
 ---
 
-> 更系統的"AI 依據什麼"（知識庫、RAG 與記憶的區別），見[課外閱讀：看懂 AI 工作系統](/zh-tw/workbuddy/11-ai-work-system/)。
+> 更系統的“AI 依據什麼”（知識庫、RAG 與記憶的區別），見[課外閱讀：看懂 AI 工作系統](/zh-tw/workbuddy/11-ai-work-system/)。

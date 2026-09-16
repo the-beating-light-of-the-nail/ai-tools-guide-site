@@ -1,6 +1,6 @@
 # TraeWork Tutorial
 
-**TraeWork** is an AI-native workbench from ByteDance (released June 2026, with the tagline "Let TRAE work for you"): describe your goal in one plain-language sentence, and the AI breaks down the steps on its own, invokes skills and tools to execute, and delivers real outputs such as documents, reports, slide decks, and web pages. The web, desktop, and mobile versions share the same account and task data.
+**TraeWork** is an AI-native workbench from ByteDance, released in June 2026 under the tagline "Let TRAE work for you." The whole usage model fits in one sentence: state the goal clearly and hand over the rest—it breaks down the steps, invokes skills, runs tools, and hands back documents, reports, slide decks, or web pages you can use as-is. Web, desktop, and mobile share one account and one set of task data, so whatever you didn't finish watching at the office you can keep an eye on from the road.
 
 > Note: TraeWork is an **office workbench** built for office workers; the TraeCode IDE for programmers is out of scope for this site. Product page: [trae.cn/work](https://www.trae.cn/work) | Docs: [docs.trae.cn](https://docs.trae.cn/)
 

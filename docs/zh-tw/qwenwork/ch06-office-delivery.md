@@ -11,7 +11,7 @@ sources:
 
 ## 30 秒結論
 
-<span id="claim-office-delivery-acceptance-01" data-claim-id="claim-office-delivery-acceptance-01"></span>本書建議：文件、資料、彙報和網頁任務都按"輸入—處理—產物—驗收—風險—人工確認"設計，不能把檔案成功生成當成交付通過。
+<span id="claim-office-delivery-acceptance-01" data-claim-id="claim-office-delivery-acceptance-01"></span>本書建議：文件、資料、彙報和網頁任務都按“輸入—處理—產物—驗收—風險—人工確認”設計，不能把檔案成功生成當成交付通過。
 
 - 文件優先檢查事實、結構、版本和可編輯性。
 - 資料與彙報必須保留口徑、勾稽和結論證據。

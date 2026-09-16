@@ -1,6 +1,6 @@
 # 定時任務：到點自己幹
 
-官方定位一句話："定時任務讓 QoderWork 從「你問它才動」變成「到點自己幹」。"
+官方定位一句話：“定時任務讓 QoderWork 從「你問它才動」變成「到點自己幹」。”
 
 > 官方檔案：[docs.qoder.com/zh/qoderwork/scheduled-tasks](https://docs.qoder.com/zh/qoderwork/scheduled-tasks)
 
@@ -55,9 +55,9 @@
 無人值守的對話，提示詞越細越穩：
 
 - [ ] 資料來源寫明確（哪個檔案/哪個網頁/哪個系統）
-- [ ] 輸出格式與儲存位置寫明確（"輸出 Markdown 存到 reports/ 目錄"）
-- [ ] 判斷標準寫明確（"環比跌幅超過 20% 標紅"）
-- [ ] 異常處理寫明確（"資料為空時輸出說明，不要硬湊"）
+- [ ] 輸出格式與儲存位置寫明確（“輸出 Markdown 存到 reports/ 目錄”）
+- [ ] 判斷標準寫明確（“環比跌幅超過 20% 標紅”）
+- [ ] 異常處理寫明確（“資料為空時輸出說明，不要硬湊”）
 - [ ] **先手動跑通一次，調好 Prompt 再固化**
 
 一個完整模板：
@@ -73,4 +73,4 @@ Prompt：讀取 data/ 目錄下昨日的運營資料檔案，生成早報：
 
 推送 IM 需要[IM 頻道](/zh-tw/qoderwork/07-im-channels)已配置——定時任務 + IM 是 QoderWork 自動化的黃金組合。
 
-進階玩法（把"跑一下"變成一句話觸發）見[電商日報案例](/zh-tw/qoderwork/case-browser)與[對話式建立技能](/zh-tw/qoderwork/adv-skill-create)。
+進階玩法（把“跑一下”變成一句話觸發）見[電商日報案例](/zh-tw/qoderwork/case-browser)與[對話式建立技能](/zh-tw/qoderwork/adv-skill-create)。

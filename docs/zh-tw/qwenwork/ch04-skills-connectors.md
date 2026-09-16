@@ -12,7 +12,7 @@ sources:
 
 ## 30 秒結論
 
-<span id="claim-skill-asset-boundary-01" data-claim-id="claim-skill-asset-boundary-01"></span>本書將 Skill 定義為封裝可重複方法和工具步驟的版本化資產；它解決"這件事按什麼步驟做"，不自動取得資料許可權，也不替代專業驗收。
+<span id="claim-skill-asset-boundary-01" data-claim-id="claim-skill-asset-boundary-01"></span>本書將 Skill 定義為封裝可重複方法和工具步驟的版本化資產；它解決“這件事按什麼步驟做”，不自動取得資料許可權，也不替代專業驗收。
 
 - 連接器規定經授權的資料和動作邊界，不承載完整業務方法。
 - 專家套件組合多個已釋出工作流和崗位標準，不是若干提示詞的打包。
@@ -79,7 +79,7 @@ sources:
 | 許可權 | 資料物件、讀寫範圍、憑證歸屬和有效期 | 授權記錄、最小許可權檢查 |
 | 釋出門 | 當前階段、通過條件、停止條件和核准人 | 階段評審記錄和釋出決定 |
 
-<span id="claim-connector-authorization-01" data-claim-id="claim-connector-authorization-01"></span>連接器的產品作用是連線外部資料或工具；實際可訪問的資料和可執行動作受當前授權與可用範圍約束，不能因"已連線"推定擁有完整讀寫許可權。
+<span id="claim-connector-authorization-01" data-claim-id="claim-connector-authorization-01"></span>連接器的產品作用是連線外部資料或工具；實際可訪問的資料和可執行動作受當前授權與可用範圍約束，不能因“已連線”推定擁有完整讀寫許可權。
 
 <span id="claim-expert-kit-release-01" data-claim-id="claim-expert-kit-release-01"></span>本書建議：專家套件只能組合已經通過崗位階段門的工作流，不能用套件名稱替代組成資產的測試、許可權和責任記錄。
 
