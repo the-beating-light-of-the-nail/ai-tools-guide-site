@@ -4,11 +4,11 @@
 
 To download WorkBuddy, open the official site (https://www.codebuddy.cn/work/), select WorkBuddy, and click "Download WorkBuddy."
 
-![](/workbuddy/02-install/assets/001_image_GGeabJkE2o.png)
+![Official site download page](/workbuddy/02-install/assets/001_image_GGeabJkE2o.png)
 
 The site automatically detects your device and determines which build you need â€” Mac ARM64, Mac x64, or Windows x64.
 
-![](/workbuddy/02-install/assets/002_image_HaXcbwaJXo.png)
+![Auto-detected platform version](/workbuddy/02-install/assets/002_image_HaXcbwaJXo.png)
 
 ***Important: always download from the official site. Do not get installers from cloud drives or unknown mirrors.***
 
@@ -18,37 +18,37 @@ The site automatically detects your device and determines which build you need â
 
 1. Once the download finishes, double-click the installer.
 
-![](/workbuddy/02-install/assets/003_image_Ehpebt4Eso.png)
+![Double-click the installer](/workbuddy/02-install/assets/003_image_Ehpebt4Eso.png)
 
 1. If your system shows a security warning, first verify the publisher and download source before deciding whether to continue.
 
-![](/workbuddy/02-install/assets/004_image_LG3MbcWpvo.png)
+![Verify the publisher and continue](/workbuddy/02-install/assets/004_image_LG3MbcWpvo.png)
 
 2. Follow the installation wizard to finish installing and launch WorkBuddy.
 
-![](/workbuddy/02-install/assets/005_image_CMvYbYWFOo.png)
+![Installation wizard](/workbuddy/02-install/assets/005_image_CMvYbYWFOo.png)
 
-![](/workbuddy/02-install/assets/006_image_Wujkbd9eTo.png)
+![Installation wizard](/workbuddy/02-install/assets/006_image_Wujkbd9eTo.png)
 
-![](/workbuddy/02-install/assets/007_image_V9L2bhWF2o.png)
+![Installation wizard](/workbuddy/02-install/assets/007_image_V9L2bhWF2o.png)
 
-![](/workbuddy/02-install/assets/008_image_DjcGbKYJSo.png)
+![Installation complete](/workbuddy/02-install/assets/008_image_DjcGbKYJSo.png)
 
 3. Wait while the runtime environment is prepared.
 
-![](/workbuddy/02-install/assets/009_image_Q0l3bAkUPo.png)
+![Preparing the runtime](/workbuddy/02-install/assets/009_image_Q0l3bAkUPo.png)
 
 ## Installing on macOS
 
 1. Open the installer file and drag WorkBuddy into "Applications";
 
-![](/workbuddy/02-install/assets/010_image_TmYPbu7Ibo.png)
+![Drag into Applications](/workbuddy/02-install/assets/010_image_TmYPbu7Ibo.png)
 
-![](/workbuddy/02-install/assets/011_image_UlJcbVqX7o.png)
+![Drag into Applications](/workbuddy/02-install/assets/011_image_UlJcbVqX7o.png)
 
 2. Launch it from "Applications";
 
-![](/workbuddy/02-install/assets/012_image_LtqPbQ2z6o.png)
+![Launch from the Applications folder](/workbuddy/02-install/assets/012_image_LtqPbQ2z6o.png)
 
 
 
@@ -56,19 +56,19 @@ The site automatically detects your device and determines which build you need â
 
 Click the sign-in button
 
-![](/workbuddy/02-install/assets/013_image_MMIXbZJafo.png)
+![Click the sign-in button](/workbuddy/02-install/assets/013_image_MMIXbZJafo.png)
 
 Your browser will open automatically for sign-in
 
-![](/workbuddy/02-install/assets/014_image_MdmYbB2Avo.png)
+![Redirect to web sign-in](/workbuddy/02-install/assets/014_image_MdmYbB2Avo.png)
 
 Scan the QR code with WeChat to sign in, or use your phone number instead
 
-![](/workbuddy/02-install/assets/015_image_WZrBbbWono.png)
+![Sign in with WeChat QR code or phone number](/workbuddy/02-install/assets/015_image_WZrBbbWono.png)
 
 Once done, you're ready to start working with WorkBuddy
 
-![](/workbuddy/02-install/assets/016_image_Pmh8b7xc8o.png)
+![Signed in](/workbuddy/02-install/assets/016_image_Pmh8b7xc8o.png)
 
 *PS: If software installation is blocked on your work computer, don't try to bypass endpoint security policies â€” contact your IT administrator about whitelisting or enterprise deployment options.*
 
@@ -79,7 +79,7 @@ Once done, you're ready to start working with WorkBuddy
 
 Click your profile in the lower-left corner and select "Check for Updates." If a new version is available, you can update right there.
 
-![](/workbuddy/02-install/assets/017_image_Qt1gbb7J3o.png)
+![Check for updates](/workbuddy/02-install/assets/017_image_Qt1gbb7J3o.png)
 
 
 

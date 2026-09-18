@@ -4,11 +4,11 @@
 
 下載 WorkBuddy，點擊官方地址（https://www.codebuddy.cn/work/），選擇 WorkBuddy，點擊「下載 WorkBuddy」即可下載。
 
-![](/workbuddy/02-install/assets/001_image_GGeabJkE2o.png)
+![官網下載入口](/workbuddy/02-install/assets/001_image_GGeabJkE2o.png)
 
 網站會自動檢查你目前裝置，判斷你是什麼版本，Mac ARM64、Mac x64 或者 Windows x64。
 
-![](/workbuddy/02-install/assets/002_image_HaXcbwaJXo.png)
+![自動偵測裝置版本](/workbuddy/02-install/assets/002_image_HaXcbwaJXo.png)
 
 ***切記：從官方入口進入下載，不從網盤或不明鏡像獲取安裝包。***
 
@@ -18,37 +18,37 @@
 
 1. 下載完成後雙擊安裝檔案。
 
-![](/workbuddy/02-install/assets/003_image_Ehpebt4Eso.png)
+![雙擊安裝檔](/workbuddy/02-install/assets/003_image_Ehpebt4Eso.png)
 
 1. 如系統彈出安全提示，先核對發布者與下載來源，再決定是否繼續。
 
-![](/workbuddy/02-install/assets/004_image_LG3MbcWpvo.png)
+![核對發行者後繼續](/workbuddy/02-install/assets/004_image_LG3MbcWpvo.png)
 
 2. 按安裝精靈完成安裝並啟動 WorkBuddy。
 
-![](/workbuddy/02-install/assets/005_image_CMvYbYWFOo.png)
+![安裝精靈](/workbuddy/02-install/assets/005_image_CMvYbYWFOo.png)
 
-![](/workbuddy/02-install/assets/006_image_Wujkbd9eTo.png)
+![安裝精靈](/workbuddy/02-install/assets/006_image_Wujkbd9eTo.png)
 
-![](/workbuddy/02-install/assets/007_image_V9L2bhWF2o.png)
+![安裝精靈](/workbuddy/02-install/assets/007_image_V9L2bhWF2o.png)
 
-![](/workbuddy/02-install/assets/008_image_DjcGbKYJSo.png)
+![安裝完成](/workbuddy/02-install/assets/008_image_DjcGbKYJSo.png)
 
 3. 進入準備執行環境
 
-![](/workbuddy/02-install/assets/009_image_Q0l3bAkUPo.png)
+![準備執行環境](/workbuddy/02-install/assets/009_image_Q0l3bAkUPo.png)
 
 ## macOS 安裝
 
 1. 打開安裝檔案，將 WorkBuddy 拖入「應用程式」；
 
-![](/workbuddy/02-install/assets/010_image_TmYPbu7Ibo.png)
+![拖入應用程式](/workbuddy/02-install/assets/010_image_TmYPbu7Ibo.png)
 
-![](/workbuddy/02-install/assets/011_image_UlJcbVqX7o.png)
+![拖入應用程式](/workbuddy/02-install/assets/011_image_UlJcbVqX7o.png)
 
 2. 從「應用程式」啟動；
 
-![](/workbuddy/02-install/assets/012_image_LtqPbQ2z6o.png)
+![從應用程式啟動](/workbuddy/02-install/assets/012_image_LtqPbQ2z6o.png)
 
 
 
@@ -56,19 +56,19 @@
 
 點擊登入按鈕
 
-![](/workbuddy/02-install/assets/013_image_MMIXbZJafo.png)
+![點擊登入按鈕](/workbuddy/02-install/assets/013_image_MMIXbZJafo.png)
 
 自動跳轉網頁登入
 
-![](/workbuddy/02-install/assets/014_image_MdmYbB2Avo.png)
+![跳轉到網頁登入](/workbuddy/02-install/assets/014_image_MdmYbB2Avo.png)
 
 選擇微信掃碼登入，也可以手機號登入
 
-![](/workbuddy/02-install/assets/015_image_WZrBbbWono.png)
+![微信掃碼或手機號碼登入](/workbuddy/02-install/assets/015_image_WZrBbbWono.png)
 
 完成後，即可使用 WorkBuddy 進行工作
 
-![](/workbuddy/02-install/assets/016_image_Pmh8b7xc8o.png)
+![登入完成](/workbuddy/02-install/assets/016_image_Pmh8b7xc8o.png)
 
 *PS：若公司電腦禁止安裝軟體，不要繞過終端安全策略，應聯絡 IT 管理員確認白名單或企業部署方式。*
 
@@ -79,7 +79,7 @@
 
 點擊左下角個人中心，選擇「檢查更新」，檢查是否有新版本，若有新版本，可更新
 
-![](/workbuddy/02-install/assets/017_image_Qt1gbb7J3o.png)
+![檢查更新](/workbuddy/02-install/assets/017_image_Qt1gbb7J3o.png)
 
 
 

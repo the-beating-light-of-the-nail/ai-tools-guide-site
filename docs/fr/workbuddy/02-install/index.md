@@ -4,11 +4,11 @@
 
 Pour télécharger WorkBuddy, ouvrez l'adresse officielle (https://www.codebuddy.cn/work/), choisissez WorkBuddy, puis cliquez sur « Télécharger WorkBuddy ».
 
-![](/workbuddy/02-install/assets/001_image_GGeabJkE2o.png)
+![Page de téléchargement du site officiel](/workbuddy/02-install/assets/001_image_GGeabJkE2o.png)
 
 Le site détecte automatiquement votre appareil et détermine la version adaptée : Mac ARM64, Mac x64 ou Windows x64.
 
-![](/workbuddy/02-install/assets/002_image_HaXcbwaJXo.png)
+![Version de l'appareil détectée automatiquement](/workbuddy/02-install/assets/002_image_HaXcbwaJXo.png)
 
 ***Règle d'or : téléchargez toujours depuis le site officiel, jamais depuis un partage réseau ou un miroir douteux.***
 
@@ -18,37 +18,37 @@ Le site détecte automatiquement votre appareil et détermine la version adapté
 
 1. Une fois le téléchargement terminé, double-cliquez sur le fichier d'installation.
 
-![](/workbuddy/02-install/assets/003_image_Ehpebt4Eso.png)
+![Double-cliquer sur le fichier d'installation](/workbuddy/02-install/assets/003_image_Ehpebt4Eso.png)
 
 1. Si le système affiche un avertissement de sécurité, vérifiez d'abord l'éditeur et la source du téléchargement avant de poursuivre.
 
-![](/workbuddy/02-install/assets/004_image_LG3MbcWpvo.png)
+![Vérifier l'éditeur et continuer](/workbuddy/02-install/assets/004_image_LG3MbcWpvo.png)
 
 2. Suivez l'assistant d'installation, puis lancez WorkBuddy.
 
-![](/workbuddy/02-install/assets/005_image_CMvYbYWFOo.png)
+![Assistant d'installation](/workbuddy/02-install/assets/005_image_CMvYbYWFOo.png)
 
-![](/workbuddy/02-install/assets/006_image_Wujkbd9eTo.png)
+![Assistant d'installation](/workbuddy/02-install/assets/006_image_Wujkbd9eTo.png)
 
-![](/workbuddy/02-install/assets/007_image_V9L2bhWF2o.png)
+![Assistant d'installation](/workbuddy/02-install/assets/007_image_V9L2bhWF2o.png)
 
-![](/workbuddy/02-install/assets/008_image_DjcGbKYJSo.png)
+![Installation terminée](/workbuddy/02-install/assets/008_image_DjcGbKYJSo.png)
 
 3. Passez à la préparation de l'environnement d'exécution
 
-![](/workbuddy/02-install/assets/009_image_Q0l3bAkUPo.png)
+![Préparation de l'environnement d'exécution](/workbuddy/02-install/assets/009_image_Q0l3bAkUPo.png)
 
 ## Installation sous macOS
 
 1. Ouvrez le fichier d'installation et faites glisser WorkBuddy dans « Applications » ;
 
-![](/workbuddy/02-install/assets/010_image_TmYPbu7Ibo.png)
+![Glisser dans Applications](/workbuddy/02-install/assets/010_image_TmYPbu7Ibo.png)
 
-![](/workbuddy/02-install/assets/011_image_UlJcbVqX7o.png)
+![Glisser dans Applications](/workbuddy/02-install/assets/011_image_UlJcbVqX7o.png)
 
 2. Lancez-le depuis « Applications » ;
 
-![](/workbuddy/02-install/assets/012_image_LtqPbQ2z6o.png)
+![Lancer depuis le dossier Applications](/workbuddy/02-install/assets/012_image_LtqPbQ2z6o.png)
 
 
 
@@ -56,19 +56,19 @@ Le site détecte automatiquement votre appareil et détermine la version adapté
 
 Cliquez sur le bouton de connexion
 
-![](/workbuddy/02-install/assets/013_image_MMIXbZJafo.png)
+![Cliquer sur le bouton de connexion](/workbuddy/02-install/assets/013_image_MMIXbZJafo.png)
 
 La page de connexion s'ouvre automatiquement dans le navigateur
 
-![](/workbuddy/02-install/assets/014_image_MdmYbB2Avo.png)
+![Redirection vers la connexion web](/workbuddy/02-install/assets/014_image_MdmYbB2Avo.png)
 
 Connectez-vous en scannant le code QR avec WeChat, ou utilisez votre numéro de téléphone
 
-![](/workbuddy/02-install/assets/015_image_WZrBbbWono.png)
+![Connexion par QR code WeChat ou numéro de téléphone](/workbuddy/02-install/assets/015_image_WZrBbbWono.png)
 
 Une fois connecté, vous pouvez commencer à travailler avec WorkBuddy
 
-![](/workbuddy/02-install/assets/016_image_Pmh8b7xc8o.png)
+![Connexion réussie](/workbuddy/02-install/assets/016_image_Pmh8b7xc8o.png)
 
 *NB : si l'installation de logiciels est interdite sur l'ordinateur de votre entreprise, ne contournez pas la politique de sécurité ; contactez votre administrateur IT pour demander une liste blanche ou un déploiement d'entreprise.*
 
@@ -78,7 +78,7 @@ Une fois connecté, vous pouvez commencer à travailler avec WorkBuddy
 
 Cliquez sur votre profil en bas à gauche, puis sélectionnez « Vérifier les mises à jour ». Si une nouvelle version est disponible, vous pouvez lancer la mise à jour.
 
-![](/workbuddy/02-install/assets/017_image_Qt1gbb7J3o.png)
+![Rechercher les mises à jour](/workbuddy/02-install/assets/017_image_Qt1gbb7J3o.png)
 
 
 

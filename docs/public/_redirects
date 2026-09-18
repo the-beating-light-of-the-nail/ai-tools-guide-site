@@ -1,0 +1,6 @@
+# 旧板块（Trae IDE / Qoder 编程平台，2026-08 下线）301 到对应 Work 版板块
+# Cloudflare Workers assets 与 Vercel 均原生读取构建产物根目录的 _redirects
+/trae /traework/ 301
+/trae/* /traework/ 301
+/qoder /qoderwork/ 301
+/qoder/* /qoderwork/ 301

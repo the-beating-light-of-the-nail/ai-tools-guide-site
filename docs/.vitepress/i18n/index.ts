@@ -56,11 +56,12 @@ export const locales: LocaleConfig = {
   fr: applyPrefix(fr as LocaleSource, "fr"),
 };
 
-// 供 sitemap/JSON-LD 使用的语言→路径前缀映射
+// 供 hreflang 输出使用的语言→路径前缀映射；
+// 语言代码用完整区域码，与各 locale 的 lang 字段、sitemap 的 xhtml:link 保持一致
 export const langPrefixes: Record<string, string> = {
   "zh-CN": "",
-  en: "en/",
+  "en-US": "en/",
   "zh-TW": "zh-tw/",
-  de: "de/",
-  fr: "fr/",
+  "de-DE": "de/",
+  "fr-FR": "fr/",
 };
