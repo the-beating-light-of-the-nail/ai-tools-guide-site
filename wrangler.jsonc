@@ -4,7 +4,7 @@
   "compatibility_date": "2026-08-29",
   "assets": {
     "directory": "./docs/.vitepress/dist",
-    "not_found": "./docs/.vitepress/dist/404.html"
+    "not_found_handling": "404-page"
   },
   "routes": [
     { "pattern": "www.aiworkagent.org", "custom_domain": true }
