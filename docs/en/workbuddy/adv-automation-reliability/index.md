@@ -18,9 +18,9 @@ Sources:
 
 Run it once manually and WorkBuddy calls all four data sources in parallel and produces a consolidated list of the day's AI hotspots. Once that works, the next step is turning it into a scheduled task: run automatically at 9:00 every morning and push the results to a designated destination.
 
-![](/workbuddy/adv-automation-reliability/assets/001_image_FGBhb1udco.png)
+![Manual run: daily AI hotlist from four sources](/workbuddy/adv-automation-reliability/assets/001_image_FGBhb1udco.png)
 
-![](/workbuddy/adv-automation-reliability/assets/002_image_Yuucbmf9So.png)
+![Sample output of the hotlist](/workbuddy/adv-automation-reliability/assets/002_image_Yuucbmf9So.png)
 
 ## Three Thresholds Before Automating
 
@@ -43,9 +43,9 @@ and send the results to [a designated Feishu group / email / WeCom notification]
 
 WorkBuddy saves the current Prompt and data source configuration as a scheduled task and runs it automatically at the set time.
 
-![](/workbuddy/adv-automation-reliability/assets/003_image_RNrFb50Tqo.png)
+![Saving the prompt and sources as a scheduled task](/workbuddy/adv-automation-reliability/assets/003_image_RNrFb50Tqo.png)
 
-![](/workbuddy/adv-automation-reliability/assets/004_image_IPtlb5D3Zo.png)
+![Scheduled task: runs and pushes daily at 9:00](/workbuddy/adv-automation-reliability/assets/004_image_IPtlb5D3Zo.png)
 
 ## Designing the Automated Task as a State Machine
 

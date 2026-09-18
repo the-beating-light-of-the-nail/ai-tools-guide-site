@@ -2,7 +2,7 @@
 
 除了把自己的 SOP 沉澱為 Skill，還有一個更簡單的辦法：用 [cangjie-skill](https://github.com/kangarooking/cangjie-skill)（倉頡 skill，v1 蒸餾書，v2 增加影片蒸餾）把知識蒸餾成 Skill。
 
-![](/workbuddy/adv-build-skill/assets/001_image_WcJzb4b7Yo.png)
+![cangjie-skill：把書和影片蒸餾成 Skill 的工具](/workbuddy/adv-build-skill/assets/001_image_WcJzb4b7Yo.png)
 
 本章回答兩個問題：如何將書本和影片中的方法論轉化為 Agent 可自動呼叫的 Skill，以及這與 RAG 檢索的本質差別在哪裡。
 
@@ -33,7 +33,7 @@ flowchart TD
 
 以蒸餾《文案創作完全手冊》為例：
 
-![](/workbuddy/adv-build-skill/assets/005_image_NaOwbuAcQo.png)
+![蒸餾《文案創作完全手冊》的實操範例](/workbuddy/adv-build-skill/assets/005_image_NaOwbuAcQo.png)
 
 ### 階段 0：整書 / 整片理解
 
@@ -51,7 +51,7 @@ flowchart TD
 | 反例提取 | 失敗案例和反面教訓 |
 | 術語詞典 | 專有術語及其定義 |
 
-![](/workbuddy/adv-build-skill/assets/007_image_QMdJbhsm0o.png)
+![五個維度並行提取：框架、原則、案例、反例、術語](/workbuddy/adv-build-skill/assets/007_image_QMdJbhsm0o.png)
 
 ### 階段 1.5：三重驗證篩選
 
@@ -65,7 +65,7 @@ flowchart TD
 
 寧缺毋濫：一本書通常有 50–100 個候選單元，透過三重驗證後只保留 10–25 個。
 
-![](/workbuddy/adv-build-skill/assets/008_image_D7z7b4DWvo.png)
+![三重驗證篩選：候選單元只保留 10–25 個](/workbuddy/adv-build-skill/assets/008_image_D7z7b4DWvo.png)
 
 ### 階段 2：構造 Skill
 
@@ -93,11 +93,11 @@ book-skill/
     └── skill-01-test.md    # 每個 Skill 的測試用例
 ```
 
-![](/workbuddy/adv-build-skill/assets/012_image_LEKGbkn2Go.png)
+![蒸餾產物目錄結構：skills、index 與測試案例](/workbuddy/adv-build-skill/assets/012_image_LEKGbkn2Go.png)
 
 每個 Skill 檔案包含觸發條件、執行步驟、輸出格式、邊界限制、測試用例，格式相容 darwin-skill（自動 Skill 進化工具），蒸餾產物可以持續自動最佳化。
 
-![](/workbuddy/adv-build-skill/assets/013_image_Mp0ZbEmn7o.png)
+![單個 Skill 檔案：觸發條件、步驟、邊界與測試](/workbuddy/adv-build-skill/assets/013_image_Mp0ZbEmn7o.png)
 
 ## 知識精餾 vs RAG
 
@@ -125,7 +125,7 @@ flowchart LR
     E --> F[輸出 Skill 集合]
 ```
 
-![](/workbuddy/adv-build-skill/assets/015_image_MG56bW6jlo.png)
+![影片蒸餾工作流：下載、轉寫、六階段蒸餾](/workbuddy/adv-build-skill/assets/015_image_MG56bW6jlo.png)
 
 - **影片下載**：yt-dlp 支援 YouTube、B 站等主流平臺（影片號因平臺限制暫不支援自動化）；
 - **音訊轉寫**：本地 Whisper 可用但長影片耗時（一小時影片約需 48 分鐘），推薦 ASR API 批次處理；
@@ -161,7 +161,7 @@ flowchart LR
 
 以吳恩達《給所有人的 AI 入門課》（2026 版，26 個影片，約 4 小時）為例：蒸餾耗時約 1 小時，產出 25 個 Skill，全部為時效性內容，蒸餾後可直接在對應場景被 Agent 呼叫。
 
-![](/workbuddy/adv-build-skill/assets/016_image_HoW7bnRYFo.png)
+![吳恩達 AI 入門課蒸餾結果：25 個 Skill](/workbuddy/adv-build-skill/assets/016_image_HoW7bnRYFo.png)
 
 ## 總結：知識精餾在技能包體系中的位置
 

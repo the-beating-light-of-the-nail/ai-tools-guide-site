@@ -2,7 +2,7 @@
 
 Neben dem Einspeisen eigener SOPs als Skill gibt es einen noch einfacheren Weg: mit [cangjie-skill](https://github.com/kangarooking/cangjie-skill) (Cangjie-Skill; v1 destilliert Bücher, v2 ergänzt Videodestillation) Wissen in Skills destillieren.
 
-![](/workbuddy/adv-build-skill/assets/001_image_WcJzb4b7Yo.png)
+![cangjie-skill: destilliert Bücher und Videos zu Skills](/workbuddy/adv-build-skill/assets/001_image_WcJzb4b7Yo.png)
 
 Dieses Kapitel beantwortet zwei Fragen: Wie verwandelt man die Methodik aus Büchern und Videos in Skills, die ein Agent automatisch aufrufen kann – und worin der wesentliche Unterschied zur RAG-Suche besteht.
 
@@ -33,7 +33,7 @@ flowchart TD
 
 Am Beispiel der Destillation von „The Copywriter's Handbook":
 
-![](/workbuddy/adv-build-skill/assets/005_image_NaOwbuAcQo.png)
+![Praxisbeispiel: Destillation des Copywriting-Handbuchs](/workbuddy/adv-build-skill/assets/005_image_NaOwbuAcQo.png)
 
 ### Stufe 0: Das ganze Buch / Video verstehen
 
@@ -51,7 +51,7 @@ Fünf Agenten durchsuchen den Text gleichzeitig aus fünf Dimensionen – unabh�
 | Gegenbeispiel-Extraktion | Fehlschläge und Lehren daraus |
 | Begriffswörterbuch | Fachbegriffe und ihre Definitionen |
 
-![](/workbuddy/adv-build-skill/assets/007_image_QMdJbhsm0o.png)
+![Parallele Extraktion in fünf Dimensionen: Rahmen, Prinzipien, Fälle, Gegenbeispiele, Begriffe](/workbuddy/adv-build-skill/assets/007_image_QMdJbhsm0o.png)
 
 ### Stufe 1.5: Dreifache Prüfung und Filterung
 
@@ -65,7 +65,7 @@ Jede Kandidaten-Wissenseinheit muss drei Hürden überstehen; wer durchfällt, s
 
 Lieber weniger als zu viel: Ein Buch hat üblicherweise 50–100 Kandidateneinheiten; nach der dreifachen Prüfung bleiben nur 10–25 übrig.
 
-![](/workbuddy/adv-build-skill/assets/008_image_D7z7b4DWvo.png)
+![Dreifache Validierung: nur 10–25 Einträge bleiben](/workbuddy/adv-build-skill/assets/008_image_D7z7b4DWvo.png)
 
 ### Stufe 2: Skill konstruieren
 
@@ -93,11 +93,11 @@ book-skill/
     └── skill-01-test.md    # Testfälle für jeden Skill
 ```
 
-![](/workbuddy/adv-build-skill/assets/012_image_LEKGbkn2Go.png)
+![Struktur der Destillatausgabe: skills, index und Tests](/workbuddy/adv-build-skill/assets/012_image_LEKGbkn2Go.png)
 
 Jede Skill-Datei enthält Triggerbedingungen, Ausführungsschritte, Ausgabeformat, Grenzen und Testfälle. Das Format ist mit darwin-skill (Werkzeug zur automatischen Skill-Evolution) kompatibel, sodass das Destillat laufend automatisch optimiert werden kann.
 
-![](/workbuddy/adv-build-skill/assets/013_image_Mp0ZbEmn7o.png)
+![Eine einzelne Skill-Datei: Auslöser, Schritte, Grenzen, Tests](/workbuddy/adv-build-skill/assets/013_image_Mp0ZbEmn7o.png)
 
 ## Wissensdestillation vs. RAG
 
@@ -125,7 +125,7 @@ flowchart LR
     E --> F[Skill-Sammlung ausgeben]
 ```
 
-![](/workbuddy/adv-build-skill/assets/015_image_MG56bW6jlo.png)
+![Video-Destillationsworkflow: Download, Transkription, sechs Stufen](/workbuddy/adv-build-skill/assets/015_image_MG56bW6jlo.png)
 
 - **Video-Download**: yt-dlp unterstützt YouTube, Bilibili und weitere gängige Plattformen (WeChat Channels sind wegen Plattformbeschränkungen derzeit nicht automatisierbar);
 - **Audio-Transkription**: Lokales Whisper funktioniert, ist bei langen Videos aber zeitaufwendig (rund 48 Minuten pro Stunde Video); für den Massenverarbeitungsfall sind ASR-APIs zu empfehlen;
@@ -161,7 +161,7 @@ Modellwahl: Für Aufgabenzerlegung und Destillationskoordination ein Modell mit 
 
 Am Beispiel von Andrew Ngs „KI-Einführungskurs für alle" (Version 2026, 26 Videos, rund 4 Stunden): Die Destillation dauerte etwa 1 Stunde, das Ergebnis sind 25 Skills – ausnahmslos zeitkritische Inhalte, die nach der Destillation vom Agenten direkt in den passenden Szenarien aufgerufen werden können.
 
-![](/workbuddy/adv-build-skill/assets/016_image_HoW7bnRYFo.png)
+![Destillation von Andrew Ngs AI-Kurs: 25 Skills](/workbuddy/adv-build-skill/assets/016_image_HoW7bnRYFo.png)
 
 ## Fazit: Der Ort der Wissensdestillation im Skill-System
 

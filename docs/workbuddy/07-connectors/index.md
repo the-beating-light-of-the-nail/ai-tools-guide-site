@@ -1,3 +1,7 @@
+---
+description: "你用 WorkBuddy 写完一份纪要，想顺手发到腾讯文档、或者让它帮你建个明天的会议。可它默认碰不到这些外部服务——它待在自己的世界里，看不见你的邮箱和日历。"
+---
+
 # WorkBuddy 的连接器是什么？接上腾讯系工具让它直接替你办事
 
 你用 WorkBuddy 写完一份纪要，想顺手发到腾讯文档、或者让它帮你建个明天的会议。可它默认碰不到这些外部服务——它待在自己的世界里，看不见你的邮箱和日历。连接器就是那道门：你把微信、腾讯文档、腾讯会议这些账号授权给它，它就能真的去发消息、建会议、读文档，而不只是口头说说。
@@ -42,31 +46,31 @@ MCP 支持通过本地标准输入输出（stdio）或本地 HTTP 通信。这�
 
 当前已支持 QQ 邮箱、腾讯文档、腾讯乐享、腾讯会议、TAPD 等连接器。你要接现成连接器，步骤如下：
 
-![](/workbuddy/07-connectors/assets/001_image_IZzfbK38Ao.png)
+![连接器列表：QQ 邮箱、腾讯文档、腾讯会议等](/workbuddy/07-connectors/assets/001_image_IZzfbK38Ao.png)
 
 比如加载腾讯会议连接器，你按引导走：
 
-![](/workbuddy/07-connectors/assets/002_image_WF3ab0WSbo.png)
+![按引导加载腾讯会议连接器](/workbuddy/07-connectors/assets/002_image_WF3ab0WSbo.png)
 
-![](/workbuddy/07-connectors/assets/003_image_ZssEbuMsdo.png)
+![腾讯会议连接器授权确认](/workbuddy/07-connectors/assets/003_image_ZssEbuMsdo.png)
 
 ## 创建一个任务
 
 你试着下一条指令，让它「帮我创建一个明天下午 3 点的会议」，主题「项目讨论」，时长 1h：
 
-![](/workbuddy/07-connectors/assets/004_image_KVIJbpUZdo.png)
+![下指令让它创建明天下午 3 点的会议](/workbuddy/07-connectors/assets/004_image_KVIJbpUZdo.png)
 
-![](/workbuddy/07-connectors/assets/005_image_FPy1bGJJZo.png)
+![连接器读取指令并执行建会议](/workbuddy/07-connectors/assets/005_image_FPy1bGJJZo.png)
 
 创建成功：
 
-![](/workbuddy/07-connectors/assets/006_image_WQ6Zb1Rero.png)
+![会议创建成功的结果反馈](/workbuddy/07-connectors/assets/006_image_WQ6Zb1Rero.png)
 
 ## 新建连接器
 
 你还想接自己的业务系统？你到连接器管理页右上角点「自定义连接器」，按引导配置 MCP（含服务地址、鉴权方式），并留意自定义连接器的访问范围由你自己配置。
 
-![](/workbuddy/07-connectors/assets/007_image_M2itbQUceo.png)
+![「自定义连接器」：配置 MCP 服务地址与鉴权](/workbuddy/07-connectors/assets/007_image_M2itbQUceo.png)
 
 ## 新手常见问题
 

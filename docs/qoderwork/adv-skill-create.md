@@ -1,3 +1,7 @@
+---
+description: "第三遍写同一段任务说明时，就该把它做成技能了。QoderWork 把这件事的门槛降到了“说人话”——内置 /create-skill 指令，对话式生成 SKILL.md。"
+---
+
 # 进阶：对话式创建技能（/create-skill）
 
 第三遍写同一段任务说明时，就该把它做成技能了。QoderWork 把这件事的门槛降到了“说人话”——内置 `/create-skill` 指令，对话式生成 SKILL.md。

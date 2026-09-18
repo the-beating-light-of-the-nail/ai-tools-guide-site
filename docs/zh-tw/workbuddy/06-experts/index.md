@@ -43,17 +43,17 @@ WorkBuddy 本身是一個通用 Agent，什麼任務都能接。但通用不意�
 
 1. 打開「專家·技能·連接器」，選擇「專家」；
 
-![](/workbuddy/06-experts/assets/001_image_T8L2bOcbBo.png)
+![「專家·技能·連接器」選擇「專家」](/workbuddy/06-experts/assets/001_image_T8L2bOcbBo.png)
 
 
 
 2. 點擊「召喚專家」；以「高考我幫你」專家舉例
 
-![](/workbuddy/06-experts/assets/002_image_TlTJbNIQOo.png)
+![點「召喚專家」，以「高考我幫你」為例](/workbuddy/06-experts/assets/002_image_TlTJbNIQOo.png)
 
 3. 提供任務內容，比如「幫我查一下 2026 年高考數學真題」
 
-![](/workbuddy/06-experts/assets/003_image_Hfv9bPfcIo.png)
+![輸入任務內容，如查高考數學真題](/workbuddy/06-experts/assets/003_image_Hfv9bPfcIo.png)
 
 4. 等待結果
 
@@ -63,19 +63,19 @@ WorkBuddy 本身是一個通用 Agent，什麼任務都能接。但通用不意�
 
 點擊我的專家，建立專家，即可
 
-![](/workbuddy/06-experts/assets/004_20260708204254_Nvfjb5QwFo.gif)
+![「我的專家」裡建立專家](/workbuddy/06-experts/assets/004_20260708204254_Nvfjb5QwFo.gif)
 
 比如建立一個公眾號創作專家，
 
-![](/workbuddy/06-experts/assets/005_image_Bzc4b6Ukko.png)
+![填寫公眾號創作專家的人設與方法論](/workbuddy/06-experts/assets/005_image_Bzc4b6Ukko.png)
 
 生成結束，可以測試
 
-![](/workbuddy/06-experts/assets/006_image_Oz4wbqMTqo.png)
+![產生專家後直接測試效果](/workbuddy/06-experts/assets/006_image_Oz4wbqMTqo.png)
 
 在我的專家中，也可以找到。
 
-![](/workbuddy/06-experts/assets/007_image_TDP4b0emBo.png)
+![在「我的專家」中找到新建的專家](/workbuddy/06-experts/assets/007_image_TDP4b0emBo.png)
 
 ## 召喚一個專家團
 
@@ -85,6 +85,6 @@ WorkBuddy 本身是一個通用 Agent，什麼任務都能接。但通用不意�
 
 打開「專家·技能·連接器」，選擇「專家團」，點擊召喚
 
-![](/workbuddy/06-experts/assets/008_image_MHngbV84ro.png)
+![「專家團」入口：點「召喚」](/workbuddy/06-experts/assets/008_image_MHngbV84ro.png)
 
-![](/workbuddy/06-experts/assets/009_image_LUaZbwcddo.png)
+![專家團列表與召喚入口](/workbuddy/06-experts/assets/009_image_LUaZbwcddo.png)

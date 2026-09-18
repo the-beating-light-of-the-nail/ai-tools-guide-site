@@ -4,39 +4,39 @@
 
 1. Klicken Sie auf „Neue Aufgabe";
 
-![](/workbuddy/04-first-task/assets/001_image_C4q3bdNKso.png)
+![Auf den Einstieg Neue Aufgabe klicken](/workbuddy/04-first-task/assets/001_image_C4q3bdNKso.png)
 
 2. Wählen Sie ein eigenständiges Arbeitsverzeichnis oder legen Sie eines an;
 
 *Hinweis: WorkBuddy arbeitet mit Ordner-basierten Berechtigungen und Abfrage riskanter Befehle. Führen Sie erste Schritte in einem Übungsverzeichnis durch, achten Sie auf die Berechtigungsumfänge und bestätigen Sie sorgfältig, bevor Sie echte Geschäftsdaten verarbeiten.*
 
-![](/workbuddy/04-first-task/assets/002_image_GeeybIFZLo.png)
+![Eigenes Arbeitsverzeichnis wählen oder anlegen](/workbuddy/04-first-task/assets/002_image_GeeybIFZLo.png)
 
 3. Entscheiden Sie, welcher Modus geeignet ist. Standard ist Craft; Sie können auch Ask oder Plan einstellen;
 
-![](/workbuddy/04-first-task/assets/003_image_DZ55bxbCvo.png)
+![Arbeitsmodus wählen: Craft, Ask oder Plan](/workbuddy/04-first-task/assets/003_image_DZ55bxbCvo.png)
 
 4. Wählen Sie das Modell. Sie können das gewünschte Modell festlegen; die Modelle verursachen unterschiedliche Credits-Kosten.
 
-![](/workbuddy/04-first-task/assets/004_image_JiigbkdTKo.png)
+![Modell für die Aufgabe auswählen](/workbuddy/04-first-task/assets/004_image_JiigbkdTKo.png)
 
 5. Geben Sie die Aufgabenbeschreibung ein: „Analysiere die Daten in ‚E-Commerce-Vertriebsdaten.xlsx' und erstelle daraus eine Berichts-Präsentation."
 
-![](/workbuddy/04-first-task/assets/005_image_ReDxbwNkYo.png)
+![Aufgabenbeschreibung ins Eingabefeld schreiben](/workbuddy/04-first-task/assets/005_image_ReDxbwNkYo.png)
 
 6. Geben Sie bei Bedarf Skills, Experten, Konnektoren oder Datenbanken an – hier zunächst weglassen
 
-![](/workbuddy/04-first-task/assets/006_image_INLGb7TDQo.png)
+![Optional: Skills, Experten, Konnektoren angeben](/workbuddy/04-first-task/assets/006_image_INLGb7TDQo.png)
 
 7. Beobachten Sie nach dem Senden Plan, Werkzeugaufrufe und Dateiänderungen;
 
-![](/workbuddy/04-first-task/assets/007_image_BD1FbDdcEo.png)
+![Nach dem Senden Plan und Tool-Aufrufe beobachten](/workbuddy/04-first-task/assets/007_image_BD1FbDdcEo.png)
 
 8. Sehen Sie sich die Ergebnisse im Ergebnisbereich in der Vorschau an und nehmen Sie sie ab.
 
 Dateien lassen sich lokal öffnen, in die Cloud hochladen oder teilen. Prüfen Sie vor dem Teilen unbedingt, dass die Ergebnisse keine sensiblen oder vertraulichen Informationen enthalten, und wählen Sie den Freigabeumfang gemäß den Unternehmensvorgaben.
 
-![](/workbuddy/04-first-task/assets/008_image_TzOAb2lxIo.png)
+![Erzeugte Präsentation im Ergebnisbereich prüfen und abnehmen](/workbuddy/04-first-task/assets/008_image_TzOAb2lxIo.png)
 
 
 

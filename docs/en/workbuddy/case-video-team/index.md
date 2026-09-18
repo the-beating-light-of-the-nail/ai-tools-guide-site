@@ -9,7 +9,7 @@ In WorkBuddy, split short-video work into two AI expert teams: one produces vide
 
 The two teams don't replace each other: the generation team solves "how do I make one today," while the breakdown team solves "why did theirs go viral, and what can I learn." One produces, one learns — only together do they enable continuous iteration.
 
-![](/workbuddy/case-video-team/assets/002_two-ai-video-teams_SXcUb9mpMo.png)
+![Two AI video teams: production and teardown](/workbuddy/case-video-team/assets/002_two-ai-video-teams_SXcUb9mpMo.png)
 
 ## How to Summon: Start with One Sentence, but Don't Stop There
 
@@ -21,7 +21,7 @@ Summon the video generation team and make a 46-second AI weekly report short vid
 
 Four core roles: the producer **Ling Dao**, information scout **Ling Yue**, content planner **Ling Shu**, and video producer **Ling Ying**. They aren't four renamed chat windows — they're a video production line with clear upstream and downstream handoffs.
 
-![](/workbuddy/case-video-team/assets/004_video-team-roles_ZOJ8b7aQ7o.png)
+![Four roles on the pipeline: director, researcher, planner, producer](/workbuddy/case-video-team/assets/004_video-team-roles_ZOJ8b7aQ7o.png)
 
 | Role | Position | Deliverables |
 | --- | --- | --- |
@@ -40,13 +40,13 @@ The pipeline is built on HyperFrames (an open-source video rendering framework):
 
 The most time-consuming part of making videos usually isn't editing — it's "what do we even shoot today." Ling Yue pulls RSS feeds, searches news, scans social media, aggregates and deduplicates AI hot topics. This stage's output includes at minimum: title, source, publish time, event time, original link, heat signals, and why it deserves attention. **Heat helps ranking; it never replaces fact-checking.**
 
-![](/workbuddy/case-video-team/assets/007_collection-report_KPn1bXgYQo.png)
+![The researcher's digest: titles, sources, heat signals](/workbuddy/case-video-team/assets/007_collection-report_KPn1bXgYQo.png)
 
 ### Step 2: The Planner Turns the Topic into Shots
 
 Once topics are in hand, the real brain work is "how do we tell it." Ling Shu handles topic evaluation, script, storyboard, narration, shot pacing, BGM rhythm, and emotional beats.
 
-![](/workbuddy/case-video-team/assets/008_planner-full_YPM3boyNTo.png)
+![The planner: topic scoring, script and storyboard](/workbuddy/case-video-team/assets/008_planner-full_YPM3boyNTo.png)
 
 We recommend setting the **first human check** here: does the opening 3 seconds have a hook, does 46 seconds cram in too much, is the narration accurate, do the visuals actually support the point? If the script doesn't pass, don't move on to voiceover and rendering.
 
@@ -54,7 +54,7 @@ We recommend setting the **first human check** here: does the opening 3 seconds 
 
 Ling Ying converts the confirmed script into HTML, then calls HyperFrames to render the MP4, automatically handling Azure TTS voiceover, Whisper subtitle alignment, animation and transition generation, asset assembly, and video rendering.
 
-![](/workbuddy/case-video-team/assets/009_video-producer_PohnbE1jKo.png)
+![The producer: script to HTML, render, voice, subtitles](/workbuddy/case-video-team/assets/009_video-producer_PohnbE1jKo.png)
 
 When accepting the final cut, don't just check "does it play": check narration-subtitle consistency, shot durations, whether text blocks the subject, whether the BGM is usable, copyright risk in the assets, and whether the visuals fit the target platform's safe area.
 
@@ -62,13 +62,13 @@ When accepting the final cut, don't just check "does it play": check narration-s
 
 The publishing Agent auto-generates titles, tags, uploads the cover, and publishes to Douyin, WeChat Channels, and Bilibili via a cloud phone. Powerful — but **do not auto-publish by default**, unless the account, assets, titles, and compliance boundaries have all been human-confirmed.
 
-![](/workbuddy/case-video-team/assets/011_publish-demo_DdTYbbBxLo.png)
+![The publishing agent: titles, tags, covers, multi-platform upload](/workbuddy/case-video-team/assets/011_publish-demo_DdTYbbBxLo.png)
 
 ## Team Two: The Viral Video Breakdown Team
 
 Generation alone isn't enough. What content creators really need is understanding "why theirs went viral": extract the video, transcribe the script, analyze shot types and camera moves, editing rhythm, and color style, then get reshoot suggestions.
 
-![](/workbuddy/case-video-team/assets/013_anatomy-team_OI1Ubltu1o.png)
+![The teardown team: download, transcribe, analyze shots](/workbuddy/case-video-team/assets/013_anatomy-team_OI1Ubltu1o.png)
 
 | Role | Responsibility | Tools / tech |
 | --- | --- | --- |
@@ -80,7 +80,7 @@ Generation alone isn't enough. What content creators really need is understandin
 
 Getting the video is the trickiest step; the design uses three fallback layers: official API → Playwright → yt-dlp. As soon as one layer succeeds, the pipeline continues.
 
-![](/workbuddy/case-video-team/assets/015_anatomy-flow_CuFcbaM9Ao.png)
+![Three-tier video fetching: API → Playwright → yt-dlp](/workbuddy/case-video-team/assets/015_anatomy-flow_CuFcbaM9Ao.png)
 
 > Boundary: video downloads and analysis must respect platform terms, copyright licenses, and fair use. The purpose of breakdown is to learn structure and method, not to re-upload the original video.
 
@@ -92,7 +92,7 @@ Xiao Kai uses ffmpeg to convert video.mp4 to audio.mp3, then calls a speech reco
 
 The most fascinating step: Xiao Miao analyzes the whole video's shot types, camera moves, transitions, editing rhythm, color grading, and shot durations. Many viral videos that "just feel right" actually rest on stable patterns of cinematography.
 
-![](/workbuddy/case-video-team/assets/018_video-understand_VwxLb62b1o.png)
+![Shot-language analysis: framing, movement, rhythm, palette](/workbuddy/case-video-team/assets/018_video-understand_VwxLb62b1o.png)
 
 ## How the Two Teams Close the Loop
 

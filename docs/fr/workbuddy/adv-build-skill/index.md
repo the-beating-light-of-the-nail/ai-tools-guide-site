@@ -2,7 +2,7 @@
 
 Au-delà de la conversion de vos propres SOP en Skills, il existe une voie plus simple : [cangjie-skill](https://github.com/kangarooking/cangjie-skill) (skill Cangjie ; v1 distille les livres, la v2 ajoute la distillation vidéo) pour distiller la connaissance en Skills.
 
-![](/workbuddy/adv-build-skill/assets/001_image_WcJzb4b7Yo.png)
+![cangjie-skill : distille livres et vidéos en skills](/workbuddy/adv-build-skill/assets/001_image_WcJzb4b7Yo.png)
 
 Ce chapitre répond à deux questions : comment transformer les méthodes contenues dans les livres et vidéos en Skills que l'Agent peut appeler automatiquement, et en quoi cela diffère fondamentalement de la recherche RAG.
 
@@ -33,7 +33,7 @@ flowchart TD
 
 Prenons la distillation de « The Copywriter's Handbook » :
 
-![](/workbuddy/adv-build-skill/assets/005_image_NaOwbuAcQo.png)
+![Exemple : distillation du manuel de copywriting](/workbuddy/adv-build-skill/assets/005_image_NaOwbuAcQo.png)
 
 ### Phase 0 : comprendre l'ensemble du livre ou de la vidéo
 
@@ -51,7 +51,7 @@ Cinq Agents balaient simultanément le texte selon cinq dimensions, indépendamm
 | Contre-exemples | Échecs et leçons inverses |
 | Terminologie | Termes spécialisés et leurs définitions |
 
-![](/workbuddy/adv-build-skill/assets/007_image_QMdJbhsm0o.png)
+![Extraction parallèle en cinq dimensions : cadres, principes, cas, contre-exemples, termes](/workbuddy/adv-build-skill/assets/007_image_QMdJbhsm0o.png)
 
 ### Phase 1.5 : filtre à triple vérification
 
@@ -65,7 +65,7 @@ Chaque unité candidate doit franchir trois portes ; hors-jeu immédiat en cas d
 
 Privilégier la qualité à la quantité : un livre donne généralement 50 à 100 unités candidates, la triple vérification n'en retient que 10 à 25.
 
-![](/workbuddy/adv-build-skill/assets/008_image_D7z7b4DWvo.png)
+![Triple validation : seuls 10 à 25 éléments conservés](/workbuddy/adv-build-skill/assets/008_image_D7z7b4DWvo.png)
 
 ### Phase 2 : construire le Skill
 
@@ -93,11 +93,11 @@ book-skill/
     └── skill-01-test.md    # Cas de test de chaque Skill
 ```
 
-![](/workbuddy/adv-build-skill/assets/012_image_LEKGbkn2Go.png)
+![Structure produite : skills, index et tests](/workbuddy/adv-build-skill/assets/012_image_LEKGbkn2Go.png)
 
 Chaque fichier de Skill contient conditions de déclenchement, étapes d'exécution, format de sortie, limites et cas de test ; le format est compatible avec darwin-skill (outil d'évolution automatique des Skills), si bien que le produit peut s'améliorer en continu.
 
-![](/workbuddy/adv-build-skill/assets/013_image_Mp0ZbEmn7o.png)
+![Un fichier skill : déclencheurs, étapes, limites, tests](/workbuddy/adv-build-skill/assets/013_image_Mp0ZbEmn7o.png)
 
 ## Distillation de connaissances vs RAG
 
@@ -125,7 +125,7 @@ flowchart LR
     E --> F[Ensemble de Skills en sortie]
 ```
 
-![](/workbuddy/adv-build-skill/assets/015_image_MG56bW6jlo.png)
+![Flux de distillation vidéo : téléchargement, transcription, six étapes](/workbuddy/adv-build-skill/assets/015_image_MG56bW6jlo.png)
 
 - **Téléchargement vidéo** : yt-dlp prend en charge YouTube, Bilibili et les grandes plateformes (WeChat Channels non automatisable pour l'instant, restriction de plateforme) ;
 - **Transcription audio** : Whisper local possible mais lent sur les longues vidéos (environ 48 minutes pour une heure) ; recommandé : API ASR en traitement par lots ;
@@ -161,7 +161,7 @@ Choix du modèle : décomposition de la tâche et coordination pour un modèle �
 
 Avec « AI for Everyone » d'Andrew Ng (édition 2026, 26 vidéos, environ 4 heures) : distillation en environ 1 heure, 25 Skills produits, tous d'actualité, directement mobilisables par l'Agent dans leurs scénarios respectifs.
 
-![](/workbuddy/adv-build-skill/assets/016_image_HoW7bnRYFo.png)
+![Distillation du cours d'IA d'Andrew Ng : 25 skills](/workbuddy/adv-build-skill/assets/016_image_HoW7bnRYFo.png)
 
 ## En résumé : la place de la distillation dans l'écosystème des Skills
 

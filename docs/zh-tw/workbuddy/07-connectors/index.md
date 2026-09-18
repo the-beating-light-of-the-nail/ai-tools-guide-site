@@ -50,13 +50,13 @@ MCP 支援透過本機標準輸入輸出（stdio）或本機 HTTP 進行通信�
 
 **目前已支援 QQ 信箱、騰訊文件、騰訊樂享、騰訊會議、TAPD 等連接器。**
 
-![](/workbuddy/07-connectors/assets/001_image_IZzfbK38Ao.png)
+![連接器列表：QQ 郵箱、騰訊文件、騰訊會議等](/workbuddy/07-connectors/assets/001_image_IZzfbK38Ao.png)
 
 比如載入騰訊會議連接器，
 
-![](/workbuddy/07-connectors/assets/002_image_WF3ab0WSbo.png)
+![按引導載入騰訊會議連接器](/workbuddy/07-connectors/assets/002_image_WF3ab0WSbo.png)
 
-![](/workbuddy/07-connectors/assets/003_image_ZssEbuMsdo.png)
+![騰訊會議連接器授權確認](/workbuddy/07-connectors/assets/003_image_ZssEbuMsdo.png)
 
 
 
@@ -64,15 +64,15 @@ MCP 支援透過本機標準輸入輸出（stdio）或本機 HTTP 進行通信�
 
 幫我建立一個明天下午 3 點的會議，
 
-![](/workbuddy/07-connectors/assets/004_image_KVIJbpUZdo.png)
+![下指令讓它建立明天下午 3 點的會議](/workbuddy/07-connectors/assets/004_image_KVIJbpUZdo.png)
 
 主題「項目討論」，時長 1h
 
-![](/workbuddy/07-connectors/assets/005_image_FPy1bGJJZo.png)
+![連接器讀取指令並執行建會議](/workbuddy/07-connectors/assets/005_image_FPy1bGJJZo.png)
 
 建立成功
 
-![](/workbuddy/07-connectors/assets/006_image_WQ6Zb1Rero.png)
+![會議建立成功的結果回饋](/workbuddy/07-connectors/assets/006_image_WQ6Zb1Rero.png)
 
 
 
@@ -80,4 +80,4 @@ MCP 支援透過本機標準輸入輸出（stdio）或本機 HTTP 進行通信�
 
 連接器管理頁右上角點「自訂連接器」，按引導設定 MCP（含服務地址、鑑權方式），並提示自訂連接器的存取範圍由用戶設定
 
-![](/workbuddy/07-connectors/assets/007_image_M2itbQUceo.png)
+![「自訂連接器」：設定 MCP 服務位址與鑑權](/workbuddy/07-connectors/assets/007_image_M2itbQUceo.png)

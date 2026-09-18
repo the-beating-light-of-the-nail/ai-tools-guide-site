@@ -1,3 +1,7 @@
+---
+description: "你每天打开同样的页面，收差不多的信息，整理成同一种格式，再发给同一批人。活不难，可它吞掉你最贵的东西——时间，而且你一忙就容易忘、一换人就走样。"
+---
+
 # WorkBuddy 能把每天重复的活自动跑了吗？定好时它自己按时交差
 
 你每天打开同样的页面，收差不多的信息，整理成同一种格式，再发给同一批人。活不难，可它吞掉你最贵的东西——时间，而且你一忙就容易忘、一换人就走样。WorkBuddy 自动化的价值，就是把这些「时间固定、步骤相似、结果可检查」的活，变成到点自己跑的 Agent 任务。你想偷的这个懒，它正好替你扛。
@@ -76,21 +80,21 @@
 
 你点「自动化」：
 
-![](/workbuddy/10-automation/assets/001_image_RklAba93No.png)
+![左侧「自动化」入口](/workbuddy/10-automation/assets/001_image_RklAba93No.png)
 
 你再点「添加自动化」，就能自定义你的任务：
 
-![](/workbuddy/10-automation/assets/002_image_MhojbPRsOo.png)
+![点「添加自动化」自定义任务](/workbuddy/10-automation/assets/002_image_MhojbPRsOo.png)
 
 比如，每日 AI 资讯新闻推送，定时 8 点发送：
 
-![](/workbuddy/10-automation/assets/003_image_Ff6fbYuGoo.png)
+![每日 AI 资讯推送：定时 8 点发送](/workbuddy/10-automation/assets/003_image_Ff6fbYuGoo.png)
 
 ## 不想从零写 Prompt，可以先用模板
 
 官方任务模板覆盖新闻推送、周报生成、体检预约和学习计划等常见场景。你挑一个最接近的，模板的价值是提供基本字段和任务结构，但它不是最终答案。你选用后仍应修改数据来源、时间范围、输出位置、验收标准和禁止动作，你别直接照搬。
 
-![](/workbuddy/10-automation/assets/004_%E8%87%AA%E5%8A%A8%E5%8C%96-%E4%BB%BB%E5%8A%A1%E6%A8%A1%E6%9D%BF_FYNwbDWqbo.png)
+![官方任务模板：新闻推送、周报生成等](/workbuddy/10-automation/assets/004_%E8%87%AA%E5%8A%A8%E5%8C%96-%E4%BB%BB%E5%8A%A1%E6%A8%A1%E6%9D%BF_FYNwbDWqbo.png)
 
 ## 更多值得一试的自动化场景
 

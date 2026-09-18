@@ -18,9 +18,9 @@ AI 領域更新快，每天需要從多個資訊源篩選當日值得寫的選�
 
 手動執行一次，WorkBuddy 會同時呼叫四個資料來源，整合輸出一份當日 AI 熱點清單。跑通後，下一步就是設定為定時任務：每天早上 9:00 自動執行，結果推送到指定位置。
 
-![](/workbuddy/adv-automation-reliability/assets/001_image_FGBhb1udco.png)
+![手動執行：聚合四個資料來源的當日 AI 熱點清單](/workbuddy/adv-automation-reliability/assets/001_image_FGBhb1udco.png)
 
-![](/workbuddy/adv-automation-reliability/assets/002_image_Yuucbmf9So.png)
+![熱點清單的輸出結果範例](/workbuddy/adv-automation-reliability/assets/002_image_Yuucbmf9So.png)
 
 ## 自動化前的三個門檻
 
@@ -43,9 +43,9 @@ AI 領域更新快，每天需要從多個資訊源篩選當日值得寫的選�
 
 WorkBuddy 會將當前 Prompt 和資料來源配置儲存為定時任務，按設定時間自動執行。
 
-![](/workbuddy/adv-automation-reliability/assets/003_image_RNrFb50Tqo.png)
+![把 Prompt 與資料來源儲存為定時任務](/workbuddy/adv-automation-reliability/assets/003_image_RNrFb50Tqo.png)
 
-![](/workbuddy/adv-automation-reliability/assets/004_image_IPtlb5D3Zo.png)
+![定時任務設定：每天 9:00 自動執行並推送](/workbuddy/adv-automation-reliability/assets/004_image_IPtlb5D3Zo.png)
 
 ## 把自動化任務設計成狀態機
 

@@ -2,7 +2,7 @@
 
 WorkBuddy 主介面可以理解為三個區域：左側（側邊欄）管理任務，中間（對話區）下達和追蹤任務，右側（結果區）查看檔案、變更、預覽和最終產物。
 
-![](/workbuddy/03-interface/assets/001_image_MuLCbdPyDo.png)
+![主介面三區佈局：左側任務欄、中間對話區、右側結果區](/workbuddy/03-interface/assets/001_image_MuLCbdPyDo.png)
 
 
 
@@ -28,7 +28,7 @@ WorkBuddy 主介面可以理解為三個區域：左側（側邊欄）管理任�
 
 同時，可以對目錄空間的權限進行設定，當開啟「允許完全存取」（開啟完全存取後智能體可讀寫授權目錄外檔案，請謹慎使用並優先按任務限定目錄。）
 
-![](/workbuddy/03-interface/assets/002_image_DtASbQcrto.png)
+![目錄空間權限設定：「允許完全存取」開關](/workbuddy/03-interface/assets/002_image_DtASbQcrto.png)
 
 
 
@@ -42,7 +42,7 @@ WorkBuddy 提供三種工作模式：
 | Craft | 做一做 | 可直接操作本機檔案、執行程式碼及系統指令 | 路徑清楚、風險較低的任務 |
 | Plan | 想一想 | 先生成計畫，確認後再執行 | 多步驟、跨系統、重要檔案任務 |
 
-![](/workbuddy/03-interface/assets/003_image_W7VqbwVeJo.png)
+![三種工作模式選擇：Ask、Craft、Plan](/workbuddy/03-interface/assets/003_image_W7VqbwVeJo.png)
 
 
 
@@ -50,7 +50,7 @@ WorkBuddy 提供三種工作模式：
 
 預設為自動模式，可以指定你想使用的模型，不同模型積分消耗不同。
 
-![](/workbuddy/03-interface/assets/004_image_OzThbMYn5o.png)
+![模型選擇：自動模式或指定具體模型](/workbuddy/03-interface/assets/004_image_OzThbMYn5o.png)
 
 | 任務特徵 | 優先關注 |
 |-|-|

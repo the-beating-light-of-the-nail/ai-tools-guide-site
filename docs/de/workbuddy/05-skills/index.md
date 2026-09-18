@@ -64,53 +64,53 @@ Ein Skill bietet zwei weitere Werte, die ein Prompt nicht liefern kann: Erstens 
 
 Öffnen Sie links „Experten · Skills · Konnektoren". Sie können im Skill-Markt suchen oder Ihren Bedarf über „Skill suchen" beschreiben.
 
-![](/workbuddy/05-skills/assets/001_image_TdcLblfvIo.png)
+![Einstieg Experten·Skills·Konnektoren und Skill-Suche](/workbuddy/05-skills/assets/001_image_TdcLblfvIo.png)
 
 Alternativ finden Sie passende Skills im SkillHub-Markt:
 
-![](/workbuddy/05-skills/assets/002_image_V3E5bsVZGo.png)
+![Der SkillHub-Marktplatz](/workbuddy/05-skills/assets/002_image_V3E5bsVZGo.png)
 
 Neben der direkten Installation aus den Empfehlungen können Sie auch **selbst heruntergeladene Skills importieren**: Wenn Sie im Netz ein nützliches Skill-Paket finden, erhalten Sie eine ZIP-Datei – klicken Sie auf „Skill hochladen" und laden Sie die ZIP-Datei.
 
-![](/workbuddy/05-skills/assets/003_image_Oag3bNQHOo.png)
+![Skill-Paket per Skill hochladen importieren](/workbuddy/05-skills/assets/003_image_Oag3bNQHOo.png)
 
-![](/workbuddy/05-skills/assets/004_image_GgOebNBh3o.png)
+![Lokale ZIP-Datei für den Skill-Upload auswählen](/workbuddy/05-skills/assets/004_image_GgOebNBh3o.png)
 
 ## Eine Aufgabe mit einem Skill lösen
 
 Angenommen, die KI hat für Sie einen Artikel geschrieben, der noch etwas „KI-Flavour" hat. Suchen Sie den Skill „Artikel-EntKI-er" – nach der Installation rufen Sie ihn per `/` direkt auf.
 
-![](/workbuddy/05-skills/assets/005_20260708200848_NN3hbPsKAo.gif)
+![Mit / einen installierten Skill aufrufen](/workbuddy/05-skills/assets/005_20260708200848_NN3hbPsKAo.gif)
 
 Sie müssen nur den Skill-Inhalt referenzieren und den Artikel übergeben:
 
-![](/workbuddy/05-skills/assets/006_image_Xom2btXVZo.png)
+![Skill referenzieren und den Artikel übergeben](/workbuddy/05-skills/assets/006_image_Xom2btXVZo.png)
 
 WorkBuddy lädt zuerst den Inhalt des Skills:
 
-![](/workbuddy/05-skills/assets/007_image_AmOVb1oGEo.png)
+![WorkBuddy lädt die Skill-Inhalte](/workbuddy/05-skills/assets/007_image_AmOVb1oGEo.png)
 
 Anschließend arbeitet es nach den Regeln des Skills – etwa um Konstruktionen wie „nicht …, sondern …" oder doppelte Anführungszeichen zu entfernen:
 
-![](/workbuddy/05-skills/assets/008_image_FbpQbmSswo.png)
+![Regeln des Skills zum Entfernen des AI-Stils anwenden](/workbuddy/05-skills/assets/008_image_FbpQbmSswo.png)
 
 Nach den Änderungen erhalten Sie das Ergebnis – der KI-Flavour ist tatsächlich verschwunden.
 
-![](/workbuddy/05-skills/assets/009_image_RhBKbRhgIo.png)
+![Ergebnis nach dem Entfernen des AI-Stils](/workbuddy/05-skills/assets/009_image_RhBKbRhgIo.png)
 
 ## Skill deaktivieren und entfernen
 
 Klicken Sie in allen Skills auf „Von mir installiert":
 
-![](/workbuddy/05-skills/assets/010_image_NGsdbBcjso.png)
+![Skill-Liste auf Von mir installiert umschalten, fr: Basculer la liste des skills sur « Mes installations »](/workbuddy/05-skills/assets/010_image_NGsdbBcjso.png)
 
 Mit der Schaltfläche deaktivieren (der Skill wird dann abgeschaltet):
 
-![](/workbuddy/05-skills/assets/011_image_DABBb41fGo.png)
+![Skill per Schalter deaktivieren](/workbuddy/05-skills/assets/011_image_DABBb41fGo.png)
 
 Klicken Sie auf „···", um den Skill zu löschen oder zu bearbeiten:
 
-![](/workbuddy/05-skills/assets/012_image_Uya3bNC9io.png)
+![Das-Menü ···: Skill löschen oder bearbeiten](/workbuddy/05-skills/assets/012_image_Uya3bNC9io.png)
 
 ---
 

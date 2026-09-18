@@ -82,15 +82,15 @@ WorkBuddy 的不同之處，是把“定時排程”與 Agent 的理解、工具
 
 點選“自動化”，
 
-![](/workbuddy/10-automation/assets/001_image_RklAba93No.png)
+![左側「自動化」入口](/workbuddy/10-automation/assets/001_image_RklAba93No.png)
 
 “新增自動化”，就可以自定義你的任務
 
-![](/workbuddy/10-automation/assets/002_image_MhojbPRsOo.png)
+![點「新增自動化」自訂任務](/workbuddy/10-automation/assets/002_image_MhojbPRsOo.png)
 
 比如，每日AI資訊新聞推送，定時8點傳送
 
-![](/workbuddy/10-automation/assets/003_image_Ff6fbYuGoo.png)
+![每日 AI 資訊推送：定時 8 點發送](/workbuddy/10-automation/assets/003_image_Ff6fbYuGoo.png)
 
 
 
@@ -98,7 +98,7 @@ WorkBuddy 的不同之處，是把“定時排程”與 Agent 的理解、工具
 
 官方任務模板覆蓋新聞推送、週報生成、體檢預約和學習計劃等常見場景。模板的價值是提供基本欄位和任務結構，但它不是最終答案。選用後仍應修改資料來源、時間範圍、輸出位置、驗收標準和禁止動作。
 
-![](/workbuddy/10-automation/assets/004_%E8%87%AA%E5%8A%A8%E5%8C%96-%E4%BB%BB%E5%8A%A1%E6%A8%A1%E6%9D%BF_FYNwbDWqbo.png)
+![官方任務模板：新聞推送、週報產生等](/workbuddy/10-automation/assets/004_%E8%87%AA%E5%8A%A8%E5%8C%96-%E4%BB%BB%E5%8A%A1%E6%A8%A1%E6%9D%BF_FYNwbDWqbo.png)
 
 
 

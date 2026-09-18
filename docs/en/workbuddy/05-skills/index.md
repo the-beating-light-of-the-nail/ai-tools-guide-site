@@ -64,53 +64,53 @@ Skills also deliver two things Prompts can't: **locking in complex workflows** (
 
 Open "Experts · Skills · Connectors" on the left. You can search the Skill marketplace, or describe your need using "Find a Skill."
 
-![](/workbuddy/05-skills/assets/001_image_TdcLblfvIo.png)
+![The Experts·Skills·Connectors entry and skill search](/workbuddy/05-skills/assets/001_image_TdcLblfvIo.png)
 
 You can also find suitable Skills in the SkillHub marketplace:
 
-![](/workbuddy/05-skills/assets/002_image_V3E5bsVZGo.png)
+![The SkillHub marketplace](/workbuddy/05-skills/assets/002_image_V3E5bsVZGo.png)
 
 Besides installing straight from the recommended list, you can also **import Skills you've downloaded yourself**: when you find a great skill pack online, it downloads as a zip file — just click "Upload Skill" and load the zip.
 
-![](/workbuddy/05-skills/assets/003_image_Oag3bNQHOo.png)
+![Importing a skill package via Upload Skill](/workbuddy/05-skills/assets/003_image_Oag3bNQHOo.png)
 
-![](/workbuddy/05-skills/assets/004_image_GgOebNBh3o.png)
+![Selecting a local zip file to upload](/workbuddy/05-skills/assets/004_image_GgOebNBh3o.png)
 
 ## Using a Skill to Solve a Task
 
 Say you had the AI write an article and now need to remove the AI flavor. Find the "De-AI Article Tool" Skill, install it, and invoke it later by simply typing `/`.
 
-![](/workbuddy/05-skills/assets/005_20260708200848_NN3hbPsKAo.gif)
+![Typing / to summon an installed skill](/workbuddy/05-skills/assets/005_20260708200848_NN3hbPsKAo.gif)
 
 You just reference the Skill and hand over the article:
 
-![](/workbuddy/05-skills/assets/006_image_Xom2btXVZo.png)
+![Referencing the skill and passing in the article](/workbuddy/05-skills/assets/006_image_Xom2btXVZo.png)
 
 WorkBuddy loads the Skill's contents first:
 
-![](/workbuddy/05-skills/assets/007_image_AmOVb1oGEo.png)
+![WorkBuddy loading the skill contents](/workbuddy/05-skills/assets/007_image_AmOVb1oGEo.png)
 
 Then it follows the rules in the Skill — for example, removing "not X but Y" constructions, quotation marks, and the like:
 
-![](/workbuddy/05-skills/assets/008_image_FbpQbmSswo.png)
+![Applying the de-AI-flavor rules from the skill](/workbuddy/05-skills/assets/008_image_FbpQbmSswo.png)
 
 After the edits you get the result — the AI flavor is indeed gone.
 
-![](/workbuddy/05-skills/assets/009_image_RhBKbRhgIo.png)
+![The finished text after removing the AI flavor](/workbuddy/05-skills/assets/009_image_RhBKbRhgIo.png)
 
 ## Disabling and Uninstalling a Skill
 
 From All Skills, click "My Installed":
 
-![](/workbuddy/05-skills/assets/010_image_NGsdbBcjso.png)
+![Switching the skill list to My Installed](/workbuddy/05-skills/assets/010_image_NGsdbBcjso.png)
 
 Toggle the button off (this disables the Skill):
 
-![](/workbuddy/05-skills/assets/011_image_DABBb41fGo.png)
+![Toggling a skill off with the switch](/workbuddy/05-skills/assets/011_image_DABBb41fGo.png)
 
 Click "···" to delete or edit the Skill:
 
-![](/workbuddy/05-skills/assets/012_image_Uya3bNC9io.png)
+![The ··· menu: delete or edit a skill](/workbuddy/05-skills/assets/012_image_Uya3bNC9io.png)
 
 ---
 

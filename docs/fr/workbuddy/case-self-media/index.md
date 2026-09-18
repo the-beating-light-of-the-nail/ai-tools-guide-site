@@ -38,17 +38,17 @@ les nouvelles preuves que j'apporte, plateforme adaptée, coût de production et
 Ne déduis pas qu'un sujet me convient simplement parce que son lectorat est élevé.
 ```
 
-![](/workbuddy/case-self-media/assets/001_image_TBeUbtO5Uo.png)
+![L'instruction pour constituer le vivier de sujets de la semaine](/workbuddy/case-self-media/assets/001_image_TBeUbtO5Uo.png)
 
 WorkBuddy génère d'abord un tableau d'échantillons multi-plateformes, agrège ensuite les commentaires en grappes de questions, puis note séparément « popularité, adéquation avec le compte, valeur ajoutée, solidité des preuves, coût de production », pour livrer un tableau de sujets que l'humain peut trier.
 
-![](/workbuddy/case-self-media/assets/002_image_UsfnbdO18o.png)
+![Tableau de sujets : scores multi-critères](/workbuddy/case-self-media/assets/002_image_UsfnbdO18o.png)
 
 ### Savoir repérer les « contenus viraux à petit compte »
 
 Au lancement, cherchez les contenus viraux publiés par de petits comptes pour **s'inspirer du sujet** (du sujet, pas d'une copie mot à mot). Recommandé : le skill [viral-topic](https://github.com/kangarooking/kangarooking-skills/tree/main/viral-topic) : récupère les contenus viraux à petit compte d'un domaine donné, par exemple « les articles IA viraux à petit compte du Compte officiel WeChat des 7 derniers jours » ; fonctionne aussi pour X et YouTube.
 
-![](/workbuddy/case-self-media/assets/003_image_D9dBbor45o.png)
+![viral-topic : récupère les contenus viraux de petits comptes](/workbuddy/case-self-media/assets/003_image_D9dBbor45o.png)
 
 ## Scénario 2 : un titre accrocheur, sans simplement faire du clickbait
 
@@ -67,7 +67,7 @@ Supprime les chiffres invérifiables, promesses absolues, rareté factice et con
 Ne choisis pas le titre final automatiquement : laisse-moi valider la promesse de contenu.
 ```
 
-![](/workbuddy/case-self-media/assets/007_image_YCTubyoc3o.png)
+![Titres candidats par plateforme, notés sur les faits du texte](/workbuddy/case-self-media/assets/007_image_YCTubyoc3o.png)
 
 **Méthode de validation** : montrez le titre seul à quelqu'un qui ne connaît pas l'article et demandez-lui d'écrire « ce que je m'attends à trouver en cliquant », puis comparez au texte — si l'attente ne colle pas, le titre est inutilisable, si bien noté soit-il. En test A/B, ne modifiez qu'une variable principale à la fois, sinon les données deviennent inexplicables.
 
@@ -85,7 +85,7 @@ Après génération, vérifie : exactitude du texte, logo non déformé, sujet n
 Ne téléverse pas directement vers le Compte officiel WeChat.
 ```
 
-![](/workbuddy/case-self-media/assets/009_image_YB8xbAm4Zo.png)
+![Brief de couverture WeChat : compositions et risques de recadrage](/workbuddy/case-self-media/assets/009_image_YB8xbAm4Zo.png)
 
 ## Scénario 4 : Xiaohongshu, ce n'est pas « découper un long texte en neuf images »
 
@@ -106,7 +106,7 @@ page 8 : une liste de contrôle à conserver.
 Rends d'abord le texte page par page, la hiérarchie visuelle et le nombre de mots prévu ; j'approuve avant l'appel des Skills de couverture et de visuel long.
 ```
 
-![](/workbuddy/case-self-media/assets/010_image_FUCAbuw08o.png)
+![Structure page par page d'une adaptation Xiaohongshu en 8 pages](/workbuddy/case-self-media/assets/010_image_FUCAbuw08o.png)
 
 ## Scénario 5 : transformer un long texte en vidéo tournable
 
@@ -121,7 +121,7 @@ termine par une instruction que le spectateur peut essayer immédiatement, sans 
 Liste à part ce qui doit être tourné en réel, ce qui peut être une capture produit, ce que l'IA peut générer ; interdiction de fabriquer des retours d'utilisateurs.
 ```
 
-![](/workbuddy/case-self-media/assets/011_image_VrCsbV8TPo.png)
+![Timeline 60 s : plans, images, voix, transitions](/workbuddy/case-self-media/assets/011_image_VrCsbV8TPo.png)
 
 ## Scénario 6 : avant publication, ne laissez pas l'automatisation franchir la ligne de responsabilité
 
@@ -146,7 +146,7 @@ Conçois 2 expériences à variable unique pour le prochain cycle, avec indicate
 Écris dans style-guide.md les règles durables ; les tendances ponctuelles ne deviennent pas des règles permanentes.
 ```
 
-![](/workbuddy/case-self-media/assets/015_image_QHmHbuB4Ro.png)
+![Retour post-publication : faits et tests à variable unique](/workbuddy/case-self-media/assets/015_image_QHmHbuB4Ro.png)
 
 ## Une pile de Skills suffisante pour un créateur
 

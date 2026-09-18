@@ -18,9 +18,9 @@ Sources :
 
 Lancée manuellement, la tâche fait appeler par WorkBuddy aux quatre sources en même temps et produit une liste des sujets IA du jour. Une fois au point, l'étape suivante est la planification : exécution automatique chaque matin à 9 h, résultat poussé vers l'emplacement choisi.
 
-![](/workbuddy/adv-automation-reliability/assets/001_image_FGBhb1udco.png)
+![Exécution manuelle : hotlist IA du jour depuis quatre sources](/workbuddy/adv-automation-reliability/assets/001_image_FGBhb1udco.png)
 
-![](/workbuddy/adv-automation-reliability/assets/002_image_Yuucbmf9So.png)
+![Exemple de sortie de la hotlist](/workbuddy/adv-automation-reliability/assets/002_image_Yuucbmf9So.png)
 
 ## Trois seuils avant d'automatiser
 
@@ -43,9 +43,9 @@ résultat envoyé vers [groupe Feishu désigné / courriel / notification WeCom]
 
 WorkBuddy enregistre le prompt et la configuration des sources comme tâche planifiée, exécutée automatiquement à l'heure définie.
 
-![](/workbuddy/adv-automation-reliability/assets/003_image_RNrFb50Tqo.png)
+![Enregistrer le prompt et les sources en tâche planifiée](/workbuddy/adv-automation-reliability/assets/003_image_RNrFb50Tqo.png)
 
-![](/workbuddy/adv-automation-reliability/assets/004_image_IPtlb5D3Zo.png)
+![Tâche planifiée : exécution et envoi quotidiens à 9 h](/workbuddy/adv-automation-reliability/assets/004_image_IPtlb5D3Zo.png)
 
 ## Concevoir la tâche automatisée comme une machine à états
 

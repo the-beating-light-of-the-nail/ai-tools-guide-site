@@ -1,3 +1,7 @@
+---
+description: "你以前用 TraeWork，是「你问它才动」。自动化定时任务把这个关系反过来：你定好时间，它到你定的点自己跑、自己出结果，全程不用你守着，连睡觉它也在跑。"
+---
+
 # 自动化定时任务怎么设？让 AI 到点自己干
 
 你以前用 TraeWork，是「你问它才动」。自动化定时任务把这个关系反过来：你定好时间，它到你定的点自己跑、自己出结果，全程不用你守着，连睡觉它也在跑。官方说明在 [docs.trae.cn/work_automated-tasks](https://docs.trae.cn/work_automated-tasks)。

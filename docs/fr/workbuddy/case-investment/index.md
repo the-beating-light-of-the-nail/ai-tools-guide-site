@@ -153,7 +153,7 @@ tableau de bord de valorisation + liste de surveillance (événement A qui renfo
 
 Huit prompts isolés sont efficaces, mais pour une recherche complète d'une valeur : il faut les enchaîner à la main, tout recommencer à chaque valeur, lire les données à l'œil, décider dans l'excitation et produire à la main. `stock-advisor` transforme cette chaîne **d'« un tas de prompts » en « un pipeline lancé en un clic »** :
 
-![](/workbuddy/case-investment/assets/001_stock-advisor-overview_Lxy0b4axOo.png)
+![Le skill stock-advisor : pipeline d'analyse en un clic](/workbuddy/case-investment/assets/001_stock-advisor-overview_Lxy0b4axOo.png)
 
 | Module | Ce qu'il fait | Conception clé |
 | --- | --- | --- |
@@ -184,11 +184,11 @@ Je téléverse le graphique quotidien en chandeliers et l'indicateur technique (
 Rends un rapport technique express combinant tableau et texte.
 ```
 
-![](/workbuddy/case-investment/assets/003_image_CrgibiDW3o.png)
+![Envoi d'un chandelier pour une lecture technique rapide](/workbuddy/case-investment/assets/003_image_CrgibiDW3o.png)
 
 WorkBuddy identifie d'abord T&S Communications, cours autour de 368,70 yuans, puis livre une lecture structurée : MA5 > MA10 > MA20 en disposition haussière standard toujours en vague de hausse ; mais une longue marge haute du jour (pointe à 376,10, clôture 368,70), histogrammes MACD qui raccourcissent, biais trop ample ; soutien sur MA5 (347) / MA10 (319), résistance au plus haut du jour 376. À cette étape, il n'a rien prédit : il a structuré « ce qui se lit dans le graphique ».
 
-![](/workbuddy/case-investment/assets/004_image_WX6WbFC9Oo.png)
+![Lecture technique : moyennes mobiles, supports et résistances](/workbuddy/case-investment/assets/004_image_WX6WbFC9Oo.png)
 
 ### Étape 2 : ajouter les captures du rapport financier pour une analyse complète
 
@@ -202,7 +202,7 @@ Je téléverse maintenant les données du T3 2025 et les prévisions de croissan
 4. Signale clairement les soutiens et résistances clés, au format d'une étude professionnelle.
 ```
 
-![](/workbuddy/case-investment/assets/007_image_CScebfl1io.png)
+![Ajout de captures des résultats pour l'analyse complète](/workbuddy/case-investment/assets/007_image_CScebfl1io.png)
 
 Il identifie d'abord chaque indicateur (CA 3,918 milliards, +63,63 % sur un an, ROE 31,30 %, PE 146,70…), puis compose la note globale :
 
@@ -216,7 +216,7 @@ Il identifie d'abord chaque indicateur (CA 3,918 milliards, +63,63 % sur un an, 
 
 Note finale « recommandé », avec une conclusion très mesurée : **tendance medium term favorable (CPO très cyclique + forte croissance), mais valorisation à court terme surchauffée et hausse excessive ; ne pas courir après, attendre un repli pour se positionner.** Une valorisation trop chère est pénalisée dans la note globale — pas d'aveuglement bull parce que la croissance est belle.
 
-![](/workbuddy/case-investment/assets/008_image_I6uBbecypo.png)
+![Notation composite : technique, fondamental, valorisation, flux pondérés](/workbuddy/case-investment/assets/008_image_I6uBbecypo.png)
 
 ### Étape 3 : indécis ? Convoquer un comité d'experts
 
@@ -231,7 +231,7 @@ achat/conserver/vendre ; toi, animateur, synthétises en plan d'exécution.
 Appuie-toi sur les données des deux tours précédents, pour que les conseillers « discutent avec les chiffres ».
 ```
 
-![](/workbuddy/case-investment/assets/011_image_LuArbEta0o.png)
+![Le comité : quatre conseillers débattent avec les données](/workbuddy/case-investment/assets/011_image_LuArbEta0o.png)
 
 Avant le comité, le système a actualisé les données en ligne (CA 2025 complet, repli séquentiel T1 2026, comparaison avec Innolight/Eoptolink) — le module de recoupement a fait passer le débat des captures aux derniers faits du web. Les quatre conseillers se sont divisés 2:2 : Buffett évite (« PE 142, marge de sécurité nulle »), Gates attend (« attendre un PE sous 60, ou un remplaçant mieux-disant »), Musk y va à fond (« le CPO est le moment iPhone des communications optiques »), Jobs conserve sous condition (« à condition que le FAU CPO se concrétise comme prévu au S2 2026 »).
 
@@ -244,9 +244,9 @@ L'animateur en tire enfin un **plan d'exécution par type d'investisseur**, ados
 | Investisseur tendance | Participation prudente | Attendre un repli vers MA10 / MA20 |
 | Investisseur agressif | Petite position d'essai | 30 % maximum ; sous 300 yuans, tout vendre |
 
-![](/workbuddy/case-investment/assets/015_image_Y0yvbzLRto.png)
+![Plan d'exécution par profil d'investisseur](/workbuddy/case-investment/assets/015_image_Y0yvbzLRto.png)
 
-![](/workbuddy/case-investment/assets/016_image_DOOhbmIIeo.png)
+![Décisions indexées sur des jalons : sortie si invalidation](/workbuddy/case-investment/assets/016_image_DOOhbmIIeo.png)
 
 Après la conversation, demandez-lui le rapport style magazine (PDF local ou téléversement vers Feishu). Rétrospectivement : `stock-advisor` a transformé huit prompts éparpillés en une recherche complète menée en trois tours — **graphique → rapport financier → comité → rapport** — et à aucun moment il n'a pris à votre place la décision décisive : acheter ou vendre.
 

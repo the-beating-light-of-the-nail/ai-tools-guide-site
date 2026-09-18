@@ -38,17 +38,17 @@ dem von mir beibringbaren neuen Beleg, passender Plattform, Herstellungsaufwand 
 Deute hohe Lesezahlen nicht direkt als „das Thema passt zu mir".
 ```
 
-![](/workbuddy/case-self-media/assets/001_image_TBeUbtO5Uo.png)
+![Die Anweisung zum Aufbau des Themenpools dieser Woche](/workbuddy/case-self-media/assets/001_image_TBeUbtO5Uo.png)
 
 WorkBuddy erzeugt zuerst eine plattformübergreifende Stichprobentabelle, bündelt dann die Kommentare zu Fragenclustern und bewertet schließlich „Dynamik, Account-Passung, Mehrwert, Belegdichte, Herstellungsaufwand" einzeln – heraus kommt ein Themen-Board, das der Mensch ausdünnen kann.
 
-![](/workbuddy/case-self-media/assets/002_image_UsfnbdO18o.png)
+![Themen-Board: Mehrdimensionale Bewertung von Hit, Passung, Kosten](/workbuddy/case-self-media/assets/002_image_UsfnbdO18o.png)
 
 ### Außerdem: „Virale Beiträge kleiner Accounts" finden
 
 Zum Starten lohnt es sich, virale Beiträge von Accounts mit wenigen Followern zu finden, um das **Thema zu kopieren** (das Thema – nicht wörtlich den Inhalt). Empfohlen: der Skill [viral-topic](https://github.com/kangarooking/kangarooking-skills/tree/main/viral-topic): Er holt aktuelle virale Inhalte kleiner Accounts pro Plattform und Gebiet, z. B. „Official-Account-Artikel im KI-Bereich der letzten 7 Tage mit kleiner Fanschaft"; X und YouTube werden ebenfalls unterstützt.
 
-![](/workbuddy/case-self-media/assets/003_image_D9dBbor45o.png)
+![viral-topic: virale Inhalte kleiner Konten plattformübergreifend abrufen](/workbuddy/case-self-media/assets/003_image_D9dBbor45o.png)
 
 ## Szenario 2: Virale Titel wollen – ohne Clickbait
 
@@ -67,7 +67,7 @@ Streiche unbelegbare Zahlen, absolute Versprechen, falsche Knappheit und Schluss
 Wähle nicht automatisch den Endtitel – lass mich zuerst das Inhaltsversprechen bestätigen.
 ```
 
-![](/workbuddy/case-self-media/assets/007_image_YCTubyoc3o.png)
+![Titelkandidaten je Plattform, bewertet anhand der Fakten](/workbuddy/case-self-media/assets/007_image_YCTubyoc3o.png)
 
 **Abnahmemethode**: Zeigen Sie den Titel allein jemandem, der den Text nicht kennt, und lassen Sie ihn aufschreiben, „was ich beim Hineinklicken erwarte" – gleichen Sie es mit dem Text ab. Stimmen Erwartung und Inhalt nicht überein, taugt der Titel nicht, egal wie hoch er punktet. Beim A/B-Test pro Durchlauf nur eine Hauptvariable ändern, sonst sind die Daten nicht deutbar.
 
@@ -85,7 +85,7 @@ Danach prüfen: Stimmt der Text, ist das Logo verzerrt, wird das Motiv im kleine
 Nicht direkt in den Official Account hochladen.
 ```
 
-![](/workbuddy/case-self-media/assets/009_image_YB8xbAm4Zo.png)
+![WeChat-Cover-Briefing: Bildrichtungen und Beschnittrisiken](/workbuddy/case-self-media/assets/009_image_YB8xbAm4Zo.png)
 
 ## Szenario 4: Xiaohongshu ist mehr als „den Langtext in neun Karten schneiden"
 
@@ -106,7 +106,7 @@ Seite 8 eine speicherbare Checkliste.
 Gib zuerst seitenweisen Text, visuelle Hierarchie und geschätzte Wortzahl zurück; Cover- und Langgrafik-Skills erst nach meiner Bestätigung.
 ```
 
-![](/workbuddy/case-self-media/assets/010_image_FUCAbuw08o.png)
+![Seitenweise Struktur einer 8-seitigen Xiaohongshu-Adaption](/workbuddy/case-self-media/assets/010_image_FUCAbuw08o.png)
 
 ## Szenario 5: Wie ein Langtext zu einem drehbaren Kurzvideo wird
 
@@ -121,7 +121,7 @@ Produkt-Prozessbeleg zeigen; am Ende eine sofort ausprobierbare Anweisung – ke
 Liste zusätzlich auf: was gedreht werden muss, was als Produkt-Screenshot taugt, was KI generieren darf – Fälschung von Nutzerfeedback verboten.
 ```
 
-![](/workbuddy/case-self-media/assets/011_image_VrCsbV8TPo.png)
+![60-Sekunden-Timeline: Einstellungen, Bilder, Sprechtext, Übergänge](/workbuddy/case-self-media/assets/011_image_VrCsbV8TPo.png)
 
 ## Szenario 6: Vor dem Veröffentlichen – Automatisierung nicht über die Verantwortungsgrenze lassen
 
@@ -146,7 +146,7 @@ Entwirf für die nächste Runde 2 Ein-Variablen-Experimente mit Erfolgsmaß und 
 Schreibe dauerhaft wirksame Änderungsregeln in style-guide.md; einmalige Trends nicht als Dauerregel festschreiben.
 ```
 
-![](/workbuddy/case-self-media/assets/015_image_QHmHbuB4Ro.png)
+![Review nach Veröffentlichung: Datenfakten und Ein-Variablen-Tests](/workbuddy/case-self-media/assets/015_image_QHmHbuB4Ro.png)
 
 ## Ein ausreichender Self-Media-Skill-Stack
 

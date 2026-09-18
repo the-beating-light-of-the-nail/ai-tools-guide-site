@@ -2,7 +2,7 @@
 
 À travers un cas réel — une « équipe d'experts pour film promotionnel produit » — ce chapitre répond aux trois questions clés du multi-agents : comment concevoir la répartition du travail, comment enchaîner les livrables, et quand vaut-il la peine de fractionner.
 
-![](/workbuddy/adv-multi-agent/assets/001_image_AkBibtRBOo.png)
+![Équipe trailer : texte, storyboard, assets, montage, musique](/workbuddy/adv-multi-agent/assets/001_image_AkBibtRBOo.png)
 
 ## La vraie différence entre mono-Agent et multi-agents
 
@@ -17,7 +17,7 @@
 
 La valeur du multi-agents vient de la **spécialisation, du parallélisme, de l'isolement des permissions ou de la relecture indépendante** — pas du nombre de rôles.
 
-![](/workbuddy/adv-multi-agent/assets/002_image_WdfWbMN9Do.png)
+![L'intérêt multi-agents : division, parallélisme, isolation, revue](/workbuddy/adv-multi-agent/assets/002_image_WdfWbMN9Do.png)
 
 ## La tâche mérite-t-elle d'être fractionnée
 
@@ -38,7 +38,7 @@ Retoucher un courriel, résumer un PDF ou mettre en forme un tableau n'exige pas
 
 HyperFrames est le framework open source de rendu vidéo de HeyGen ; sa caractéristique centrale est sa convivialité pour les Agents IA : l'Agent génère automatiquement des trames vidéo fondées sur HTML et les rend. Le film promotionnel produit suit un canevas assez fixe — ni voix off ni comédiens, essentiellement démonstrations produit, sous-titres de concept et BGM — qui se prête à une répartition en équipe d'Agents.
 
-![](/workbuddy/adv-multi-agent/assets/003_image_NhwLbBH33o.png)
+![HyperFrames : framework vidéo open source adapté aux agents](/workbuddy/adv-multi-agent/assets/003_image_NhwLbBH33o.png)
 
 ### Conception des étapes
 
@@ -74,7 +74,7 @@ en mettant en avant le scénario OPC. J'ai placé des ressources dans l'espace c
 avec de véritables interfaces logicielles. Processus entièrement automatique.
 ```
 
-![](/workbuddy/adv-multi-agent/assets/004_image_MdzDbUKmlo.png)
+![Confier une bande-annonce à l'équipe d'experts](/workbuddy/adv-multi-agent/assets/004_image_MdzDbUKmlo.png)
 
 Le chef d'équipe décompose d'abord « faire un film » en une chaîne de sous-tâches : comprendre le produit, sa cible, sa valeur centrale ; puis fixer structure narrative, nombre de plans, rythme ; ensuite produire en parallèle ressources, montage et musique.
 
@@ -82,7 +82,7 @@ Le rôle Brief ouvre le bal : passe au crible site et documentation, et livre un
 
 Le plus intéressant est le musicien : au lieu d'un simple prompt « BGM tech » expédié, il lit d'abord le storyboard et étudie la courbe émotionnelle de chaque plan — où un coup de batterie doit caler la révélation produit, où retomber pour ménager un blanc, où placer un hit point pour pousser le CTA — et seulement alors appelle le modèle musical pour générer des candidats. Enfin, le chef d'équipe consolide le tout et exécute le dernier montage.
 
-![](/workbuddy/adv-multi-agent/assets/005_image_QASabZlKzo.png)
+![L'équipe au travail : décomposer, produire en parallèle, assembler](/workbuddy/adv-multi-agent/assets/005_image_QASabZlKzo.png)
 
 Pendant tout le processus, l'humain est quasiment spectateur : il arbitre aux nœuds clés — ce storyboard convient-il, ce BGM plaît-il, ce sous-titre faut-il le changer.
 
@@ -128,9 +128,9 @@ Le directeur (producteur) est le contrôleur du workflow : il interprète la tâ
 
 Créer sa propre équipe d'experts est simple : Experts → Mes experts → Créer un expert ; la boîte de dialogue WorkBuddy s'ouvre, et le format guide permet une création rapide.
 
-![](/workbuddy/adv-multi-agent/assets/007_image_BNYQbIE2no.png)
+![Créer une équipe d'experts depuis « Mes experts »](/workbuddy/adv-multi-agent/assets/007_image_BNYQbIE2no.png)
 
-![](/workbuddy/adv-multi-agent/assets/008_image_KXwlbyY7Oo.png)
+![Créer rapidement une équipe avec le modèle fourni](/workbuddy/adv-multi-agent/assets/008_image_KXwlbyY7Oo.png)
 
 Scénarios typiques couverts par les équipes actuelles :
 
@@ -142,7 +142,7 @@ Scénarios typiques couverts par les équipes actuelles :
 | Support opérationnel | SEO, ventes, marketing, conformité fiscale et comptable, RH |
 | Conformité juridique | Droit chinois |
 
-![](/workbuddy/adv-multi-agent/assets/009_image_HDlMbAHGTo.png)
+![Scénarios d'équipes prédéfinis : contenu, dev, analyse, etc.](/workbuddy/adv-multi-agent/assets/009_image_HDlMbAHGTo.png)
 
 ## Facteurs de qualité
 

@@ -27,7 +27,7 @@ Consigne dans la « boîte à idées » le contenu suivant, en gardant mes mots 
 « Le véritable seuil des outils IA, ce n'est pas le prompt, c'est la validation du résultat. »
 ```
 
-![](/workbuddy/case-knowledge/assets/001_image_M29JbJQ3po.png)
+![Boîte à idées : garder les mots d'origine, sans amplification](/workbuddy/case-knowledge/assets/001_image_M29JbJQ3po.png)
 
 ## Scénario 2 : plein de favoris WeChat, introuvables au moment d'écrire
 
@@ -37,7 +37,7 @@ Skills utiles : [Base de connaissances des favoris WeChat](https://skillhub.cn/s
 Traite les favoris WeChat de la semaine, en lecture seule, sans supprimer les favoris d'origine.
 ```
 
-![](/workbuddy/case-knowledge/assets/002_byKl8HZ2_TtombzmOwo.jpg)
+![Traiter les favoris WeChat : export en lecture seule et tri](/workbuddy/case-knowledge/assets/002_byKl8HZ2_TtombzmOwo.jpg)
 
 ## Scénario 3 : ima comme passerelle mobile vers le savoir
 
@@ -47,7 +47,7 @@ La force d'ima n'est pas « des réponses plus futées », mais la collecte mobi
 Place les 3 fichiers que je viens de sélectionner dans la boîte de réception de la base « Cas WorkBuddy » d'ima.
 ```
 
-![](/workbuddy/case-knowledge/assets/003_image_D0c8blIsEo.png)
+![Ajouter des fichiers à la boîte ima](/workbuddy/case-knowledge/assets/003_image_D0c8blIsEo.png)
 
 ## Scénario 4 : Obsidian n'est pas un dossier, mais un Wiki maintenable
 
@@ -59,7 +59,7 @@ Donne un article de Compte officiel WeChat à WorkBuddy pour l'analyser, puis de
 
 WorkBuddy reconnaît le corps de l'article et son auteur, puis génère une entrée Markdown.
 
-![](/workbuddy/case-knowledge/assets/004_test_SSsAbxS8po.jpg)
+![Article WeChat converti en note Markdown Obsidian](/workbuddy/case-knowledge/assets/004_test_SSsAbxS8po.jpg)
 
 ---
 

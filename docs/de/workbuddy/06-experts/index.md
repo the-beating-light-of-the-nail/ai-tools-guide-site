@@ -43,17 +43,17 @@ Der Nutzer muss dem Teamleiter nur Kundenhintergrund, aktuelle Anforderungen und
 
 1. Öffnen Sie „Experten · Skills · Konnektoren" und wählen Sie „Experten";
 
-![](/workbuddy/06-experts/assets/001_image_T8L2bOcbBo.png)
+![Experten unter Experten·Skills·Konnektoren wählen, fr: Choisir « Experts » dans Experts·Skills·Connecteurs](/workbuddy/06-experts/assets/001_image_T8L2bOcbBo.png)
 
 
 
 2. Klicken Sie auf „Experten rufen"; als Beispiel der Experte „Gaokao – ich helfe dir"
 
-![](/workbuddy/06-experts/assets/002_image_TlTJbNIQOo.png)
+![Auf Experten rufen klicken, Beispiel Gaokao-Hilfe, fr: Cliquer sur « Invoquer un expert », exemple « Aide Gaokao »](/workbuddy/06-experts/assets/002_image_TlTJbNIQOo.png)
 
 3. Geben Sie den Aufgabeninhalt an, z. B. „Such mir die Originalaufgaben des Mathe-Abitur 2026 (Gaokao)"
 
-![](/workbuddy/06-experts/assets/003_image_Hfv9bPfcIo.png)
+![Aufgabe eingeben, z. B. Gaokao-Mathe-Aufgaben suchen](/workbuddy/06-experts/assets/003_image_Hfv9bPfcIo.png)
 
 4. Auf das Ergebnis warten
 
@@ -63,19 +63,19 @@ Der Nutzer muss dem Teamleiter nur Kundenhintergrund, aktuelle Anforderungen und
 
 Klicken Sie auf „Meine Experten" und dort auf „Experten erstellen" – das genügt
 
-![](/workbuddy/06-experts/assets/004_20260708204254_Nvfjb5QwFo.gif)
+![Experten unter Meine Experten anlegen, fr: Créer un expert dans « Mes experts »](/workbuddy/06-experts/assets/004_20260708204254_Nvfjb5QwFo.gif)
 
 Zum Beispiel das Anlegen eines Experten für WeChat-Official-Account-Content,
 
-![](/workbuddy/06-experts/assets/005_image_Bzc4b6Ukko.png)
+![Persona und Methodik eines WeChat-Autor-Experten ausfüllen](/workbuddy/06-experts/assets/005_image_Bzc4b6Ukko.png)
 
 Nach Abschluss der Erstellung können Sie ihn testen
 
-![](/workbuddy/06-experts/assets/006_image_Oz4wbqMTqo.png)
+![Den generierten Experten direkt testen](/workbuddy/06-experts/assets/006_image_Oz4wbqMTqo.png)
 
 Sie finden ihn auch unter „Meine Experten".
 
-![](/workbuddy/06-experts/assets/007_image_TDP4b0emBo.png)
+![Den neuen Experten unter Meine Experten finden, fr: Retrouver le nouvel expert dans « Mes experts »](/workbuddy/06-experts/assets/007_image_TDP4b0emBo.png)
 
 ## Ein Expertenteam herbeirufen
 
@@ -85,6 +85,6 @@ Im Expertenteam verantwortet der Teamleiter Zerlegung und Zusammenführung; die 
 
 Öffnen Sie „Experten · Skills · Konnektoren", wählen Sie „Expertenteams" und klicken Sie auf Rufen
 
-![](/workbuddy/06-experts/assets/008_image_MHngbV84ro.png)
+![Einstieg Expertenteam: auf Rufen klicken, fr: Entrée « Équipe d'experts » : cliquer sur « Invoquer »](/workbuddy/06-experts/assets/008_image_MHngbV84ro.png)
 
-![](/workbuddy/06-experts/assets/009_image_LUaZbwcddo.png)
+![Liste der Expertenteams und Aufruf-Einstieg](/workbuddy/06-experts/assets/009_image_LUaZbwcddo.png)

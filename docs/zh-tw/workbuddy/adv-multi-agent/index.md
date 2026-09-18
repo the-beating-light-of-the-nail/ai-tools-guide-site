@@ -2,7 +2,7 @@
 
 本章以一個“產品宣傳片專家團”的實際案例，回答多 Agent 系統的三個核心問題：如何設計分工、如何串聯產物、何時值得拆分。
 
-![](/workbuddy/adv-multi-agent/assets/001_image_AkBibtRBOo.png)
+![產品宣傳片專家團：文案、分鏡、素材、剪輯、配樂分工](/workbuddy/adv-multi-agent/assets/001_image_AkBibtRBOo.png)
 
 ## 單 Agent 和多 Agent 的真正差別
 
@@ -17,7 +17,7 @@
 
 多 Agent 的價值來自**專業分工、並行、許可權隔離或獨立評審**，不來自角色數量。
 
-![](/workbuddy/adv-multi-agent/assets/002_image_WdfWbMN9Do.png)
+![多 Agent 的價值：分工、並行、權限隔離、獨立評審](/workbuddy/adv-multi-agent/assets/002_image_WdfWbMN9Do.png)
 
 ## 任務是否值得拆分
 
@@ -38,7 +38,7 @@
 
 HyperFrames 是 HeyGen 開源的影片渲染框架，核心特點是對 AI Agent 友好：Agent 可以自動生成基於 HTML 的影片幀並渲染輸出。產品宣傳片有相對固定的套路——無需口播和演員，主要由產品展示、概念字幕和 BGM 構成，適合 Agent 團隊分工處理。
 
-![](/workbuddy/adv-multi-agent/assets/003_image_NhwLbBH33o.png)
+![HyperFrames：對 Agent 友善的開源影片渲染框架](/workbuddy/adv-multi-agent/assets/003_image_NhwLbBH33o.png)
 
 ### 工序設計
 
@@ -74,7 +74,7 @@ flowchart TD
 真實軟體介面。整個過程全自動。
 ```
 
-![](/workbuddy/adv-multi-agent/assets/004_image_MdzDbUKmlo.png)
+![給專家團下產品宣傳片任務](/workbuddy/adv-multi-agent/assets/004_image_MdzDbUKmlo.png)
 
 團長先把“做一支宣傳片”拆成一串子任務：先搞清楚產品是什麼、賣給誰、核心價值是什麼；再決定敘事結構、鏡頭數量、節奏；然後分頭做素材、剪輯、配樂。
 
@@ -82,7 +82,7 @@ Brief 角色先開工，翻一遍官網和產品介紹，輸出一份 brief：�
 
 最有意思的是配樂師：它不是簡單寫個“科技感 BGM”的 prompt 完事，而是先讀分鏡表，研究每個鏡頭的情緒曲線——哪裡需要鼓點卡產品 reveal、哪裡需要降下來做留白、哪裡需要一個 hit point 推 CTA——然後才呼叫音樂模型生成候選。最後團長整合所有產物，跑最後一道剪輯輸出成片。
 
-![](/workbuddy/adv-multi-agent/assets/005_image_QASabZlKzo.png)
+![專家團執行過程：拆解、分頭產出、整合成片](/workbuddy/adv-multi-agent/assets/005_image_QASabZlKzo.png)
 
 整個過程人基本是個旁觀者：偶爾在關鍵節點拍板——分鏡要不要這麼排、BGM 喜不喜歡、字幕文案要不要改。
 
@@ -128,9 +128,9 @@ project/
 
 建立自己的專家團也很簡單：專家 → 我的專家 → 建立專家，跳轉到 WorkBuddy 對話方塊，按給定格式即可快速建立。
 
-![](/workbuddy/adv-multi-agent/assets/007_image_BNYQbIE2no.png)
+![從「我的專家」建立專家團](/workbuddy/adv-multi-agent/assets/007_image_BNYQbIE2no.png)
 
-![](/workbuddy/adv-multi-agent/assets/008_image_KXwlbyY7Oo.png)
+![按給定格式快速建立專家團](/workbuddy/adv-multi-agent/assets/008_image_KXwlbyY7Oo.png)
 
 當前專家團覆蓋的典型場景：
 
@@ -142,7 +142,7 @@ project/
 | 業務支援 | SEO、銷售、行銷、財稅合規、HR |
 | 法律合規 | 中文法律 |
 
-![](/workbuddy/adv-multi-agent/assets/009_image_HDlMbAHGTo.png)
+![預置專家團場景：內容創作、軟體研發、商業分析等](/workbuddy/adv-multi-agent/assets/009_image_HDlMbAHGTo.png)
 
 ## 質量影響因素
 

@@ -9,7 +9,7 @@
 
 這兩個團隊不是互相替代的關係：生成團隊解決“今天怎麼做一條出來”，拆解團隊解決“為什麼別人那條能火，我能學到什麼”。一個負責生產，一個負責學習，組合起來才有持續迭代的可能。
 
-![](/workbuddy/case-video-team/assets/002_two-ai-video-teams_SXcUb9mpMo.png)
+![兩支 AI 影片團隊：生成與拆解](/workbuddy/case-video-team/assets/002_two-ai-video-teams_SXcUb9mpMo.png)
 
 ## 如何召喚：從一句話開始，但不要停在一句話
 
@@ -21,7 +21,7 @@
 
 四個核心角色：主理人**凌導**、資訊採集員**靈閱**、內容策劃師**靈樞**、影片製作師**靈映**。它們不是四個換名字的聊天視窗，而是一條有上下游交接關係的影片生產線。
 
-![](/workbuddy/case-video-team/assets/004_video-team-roles_ZOJ8b7aQ7o.png)
+![影片生產線四角色：凌導、靈閱、靈樞、靈映](/workbuddy/case-video-team/assets/004_video-team-roles_ZOJ8b7aQ7o.png)
 
 | 角色 | 定位 | 交付物 |
 | --- | --- | --- |
@@ -40,13 +40,13 @@
 
 做影片最耗時間的往往不是剪輯，而是“今天到底拍什麼”。靈閱抓 RSS、搜新聞、掃社媒、聚合 AI 熱點並去重。這個階段的產物至少包含：標題、來源、發布時間、事件發生時間、原始連結、熱度線索、為什麼值得關注。**熱度只能幫助排序，不能替代事實核驗。**
 
-![](/workbuddy/case-video-team/assets/007_collection-report_KPn1bXgYQo.png)
+![靈閱的熱點採集報告：標題、來源、熱度線索](/workbuddy/case-video-team/assets/007_collection-report_KPn1bXgYQo.png)
 
 ### 流程二：內容策劃師把主題變成鏡頭
 
 選題有了之後，真正費腦子的是“這條影片怎麼講”。靈樞負責選題評估、指令碼、分鏡、旁白、鏡頭節奏、BGM 節奏和情緒節點。
 
-![](/workbuddy/case-video-team/assets/008_planner-full_YPM3boyNTo.png)
+![靈樞：選題評估、腳本與分鏡設計](/workbuddy/case-video-team/assets/008_planner-full_YPM3boyNTo.png)
 
 建議在這裡設定**第一次人工檢查**：開頭 3 秒是否有鉤子、46 秒是否塞入過多資訊、旁白是否準確、畫面是否真的支撐觀點。指令碼不過關，不要進入配音和渲染。
 
@@ -54,7 +54,7 @@
 
 靈映把確認後的指令碼轉成 HTML，再呼叫 HyperFrames 渲染 MP4，自動完成 Azure TTS 配音、Whisper 字幕對齊、動畫與轉場生成、素材拼接和影片渲染。
 
-![](/workbuddy/case-video-team/assets/009_video-producer_PohnbE1jKo.png)
+![靈映：腳本轉 HTML、渲染、配音與字幕](/workbuddy/case-video-team/assets/009_video-producer_PohnbE1jKo.png)
 
 成片驗收不要只看“能不能播放”：檢查旁白與字幕是否一致、鏡頭時長是否匹配、文字是否遮擋主體、BGM 是否可用、素材是否有版權風險、畫面是否適合目標平臺安全區。
 
@@ -62,13 +62,13 @@
 
 發布 Agent 自動生成標題、打標籤、上傳封面，並透過雲手機發布到抖音、影片號和 B 站。能力很強，但**預設不要直接自動發布**，除非賬號、素材、標題和合規邊界都已經過人工確認。
 
-![](/workbuddy/case-video-team/assets/011_publish-demo_DdTYbbBxLo.png)
+![發布 Agent：標題、標籤、封面與多平台上傳](/workbuddy/case-video-team/assets/011_publish-demo_DdTYbbBxLo.png)
 
 ## 第二支團隊：爆款影片拆解團隊
 
 光會生成還不夠。內容創作者真正需要的是理解“為什麼別人能爆”：提取影片、轉錄文案、分析景別運鏡、剪輯節奏、色調風格，並給出仿拍建議。
 
-![](/workbuddy/case-video-team/assets/013_anatomy-team_OI1Ubltu1o.png)
+![拆解團隊：下載、轉錄、分析鏡頭語言](/workbuddy/case-video-team/assets/013_anatomy-team_OI1Ubltu1o.png)
 
 | 角色 | 職責 | 工具 / 技術 |
 | --- | --- | --- |
@@ -80,7 +80,7 @@
 
 最複雜的一步是拿到影片，設計上用三層降級：官方 API → Playwright → yt-dlp，只要有一層成功流程就繼續。
 
-![](/workbuddy/case-video-team/assets/015_anatomy-flow_CuFcbaM9Ao.png)
+![影片取得三層降級：官方 API → Playwright → yt-dlp](/workbuddy/case-video-team/assets/015_anatomy-flow_CuFcbaM9Ao.png)
 
 > 邊界：影片下載和分析要遵守平臺條款、版權授權和合理使用範圍。拆解的目的是學習結構和方法，不是搬運原影片。
 
@@ -92,7 +92,7 @@
 
 最有意思的一步：小淼分析整條影片的景別、運鏡、轉場、剪輯節奏、色調、鏡頭時長。很多看起來“有感覺”的爆款影片，背後其實有穩定的鏡頭規律。
 
-![](/workbuddy/case-video-team/assets/018_video-understand_VwxLb62b1o.png)
+![小淼的鏡頭語言分析：景別、運鏡、節奏、色調](/workbuddy/case-video-team/assets/018_video-understand_VwxLb62b1o.png)
 
 ## 兩支團隊如何形成閉環
 

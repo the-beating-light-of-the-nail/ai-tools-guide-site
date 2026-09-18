@@ -1,3 +1,7 @@
+---
+description: "你装好 TraeWork，它默认是个能干活的空壳。真正让它在你工作流上「长」出来的，是插件和外部应用授权：插件把外部工具、服务、数据源接进来；授权让 AI 直接碰你在飞书、GitHub 里的数据。"
+---
+
 # 插件和外部授权怎么接？让 AI 碰得动你的飞书、GitHub
 
 你装好 TraeWork，它默认是个能干活的空壳。真正让它在你工作流上「长」出来的，是插件和外部应用授权：插件把外部工具、服务、数据源接进来；授权让 AI 直接碰你在飞书、GitHub 里的数据。你接上这两样，它才真的长在你的日常里。官方说明在 [work_plugins](https://docs.trae.cn/work_plugins) 和[七大热门插件](https://docs.trae.cn/work_seven-popular-plugins-in-traework)。

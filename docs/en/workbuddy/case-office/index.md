@@ -59,9 +59,9 @@ the overall framework and the key decision items clearly, so it can go straight 
 to confirm the event direction.
 ```
 
-![](/workbuddy/case-office/assets/001_image_PhFMbu3kTo.png)
+![Generating the team-building plan in Word](/workbuddy/case-office/assets/001_image_PhFMbu3kTo.png)
 
-![](/workbuddy/case-office/assets/002_image_UVm5bKLrZo.png)
+![Preview of the plan's structure and content](/workbuddy/case-office/assets/002_image_UVm5bKLrZo.png)
 
 ### For Revisions, Don't Rewrite — State the Differences
 
@@ -77,9 +77,9 @@ Make the overall language more formal and concise, suitable for submitting to le
 Output the revised Word document as v2, and list the changes in changelog.md.
 ```
 
-![](/workbuddy/case-office/assets/003_image_IoOLbfEcvo.png)
+![Revising into a v2 document from the diff](/workbuddy/case-office/assets/003_image_IoOLbfEcvo.png)
 
-![](/workbuddy/case-office/assets/004_image_V1RpbVGuno.png)
+![Revised schedule table and itemized budget](/workbuddy/case-office/assets/004_image_V1RpbVGuno.png)
 
 ### Advanced: Comparing Two Versions of a Policy, Contract, or Proposal
 
@@ -90,9 +90,9 @@ Highlight amounts, dates, responsible parties, approval conditions, exceptions, 
 Produce an impact list and open questions. Draw no legal conclusions and do not modify the original files.
 ```
 
-![](/workbuddy/case-office/assets/011_image_HqbtbVTw3o.png)
+![Diff results between two policy versions](/workbuddy/case-office/assets/011_image_HqbtbVTw3o.png)
 
-![](/workbuddy/case-office/assets/012_image_MhArbb6Woo.png)
+![Impact list and open questions from the document diff](/workbuddy/case-office/assets/012_image_MhArbb6Woo.png)
 
 Document comparison is good at surfacing changes — it doesn't replace the final judgment of legal, finance, or the policy owner.
 
@@ -129,11 +129,11 @@ Output output/sales-analysis.xlsx and output/summary.md.
 Requirements: preserve the raw data; keep the calculations and formulas traceable; mark unverifiable causes as "to verify" — do not fabricate.
 ```
 
-![](/workbuddy/case-office/assets/005_image_I118b7wyUo.png)
+![Sales analysis: field checks and cleaning](/workbuddy/case-office/assets/005_image_I118b7wyUo.png)
 
-![](/workbuddy/case-office/assets/006_image_BWkRb60JPo.png)
+![Sales and gross margin ranked by product line](/workbuddy/case-office/assets/006_image_BWkRb60JPo.png)
 
-![](/workbuddy/case-office/assets/007_image_XtfQbkCqio.png)
+![Sales charts: bars by product, daily line](/workbuddy/case-office/assets/007_image_XtfQbkCqio.png)
 
 ### Advanced: Multi-Sheet Merging, Reconciliation, and Exception Lists
 
@@ -147,9 +147,9 @@ Generate clean-sales.xlsx, exception-list.xlsx, and reconciliation.md.
 Amount totals must reconcile with each source sheet's totals; if the difference isn't zero, produce no management conclusions.
 ```
 
-![](/workbuddy/case-office/assets/009_image_UNEqbRnJfo.png)
+![Multi-sheet merge: column and definition checks](/workbuddy/case-office/assets/009_image_UNEqbRnJfo.png)
 
-![](/workbuddy/case-office/assets/010_image_L25tbHIUeo.png)
+![Merge output: cleaned sheet and exception list](/workbuddy/case-office/assets/010_image_L25tbHIUeo.png)
 
 **Acceptance**: input totals, cleaning changes, and output totals balance; formulas recalculate; exceptions were not silently dropped; the charts use the same fields as the summary tables.
 
@@ -185,7 +185,7 @@ missing images, font consistency, and page numbers.
 Overall style: professional, clean, tech-flavored — but without excessive gradients, glows, or decorative elements.
 ```
 
-![](/workbuddy/case-office/assets/008_image_ABXObcQeeo.png)
+![The 8-page report deck generated from source materials](/workbuddy/case-office/assets/008_image_ABXObcQeeo.png)
 
 ## The Trio Working Together: An Automatic Deliverables Pack After Meetings
 

@@ -58,9 +58,9 @@ Sprache knapp und praktisch, nicht übermäßig ausführlich; Fokus auf Gesamtge
 und zentrale Entscheidpunkte – geeignet, um direkt mit der Leitung die Richtung abzustimmen.
 ```
 
-![](/workbuddy/case-office/assets/001_image_PhFMbu3kTo.png)
+![Teamevent-Planung als Word-Dokument erzeugen](/workbuddy/case-office/assets/001_image_PhFMbu3kTo.png)
 
-![](/workbuddy/case-office/assets/002_image_UVm5bKLrZo.png)
+![Vorschau von Struktur und Inhalt des Plans](/workbuddy/case-office/assets/002_image_UVm5bKLrZo.png)
 
 ### Bei der Überarbeitung nicht neu schreiben, sondern Unterschiede benennen
 
@@ -76,9 +76,9 @@ Insgesamt formeller und knapper, direkt zur Freigabe durch die Leitung geeignet.
 Gib die überarbeitete Version v2 als Word-Dokument aus und liste die Änderungen in changelog.md auf.
 ```
 
-![](/workbuddy/case-office/assets/003_image_IoOLbfEcvo.png)
+![Anhand der Unterschiede eine v2-Fassung erzeugen](/workbuddy/case-office/assets/003_image_IoOLbfEcvo.png)
 
-![](/workbuddy/case-office/assets/004_image_V1RpbVGuno.png)
+![Überarbeiteter Ablaufplan und detailliertes Budget](/workbuddy/case-office/assets/004_image_V1RpbVGuno.png)
 
 ### Fortgeschritten: Zwei Versionen einer Richtlinie, eines Vertrags oder eines Konzepts vergleichen
 
@@ -89,9 +89,9 @@ Hebe besonders hervor: Beträge, Daten, Verantwortlichkeiten, Freigabebedingunge
 Erzeuge eine Auswirkungsliste und offene Fragen; keine rechtlichen Schlussfolgerungen, keine Änderung der Originaldateien.
 ```
 
-![](/workbuddy/case-office/assets/011_image_HqbtbVTw3o.png)
+![Vergleichsergebnis zweier Richtlinienversionen](/workbuddy/case-office/assets/011_image_HqbtbVTw3o.png)
 
-![](/workbuddy/case-office/assets/012_image_MhArbb6Woo.png)
+![Auswirkungsliste und offene Fragen aus dem Dokumentvergleich](/workbuddy/case-office/assets/012_image_MhArbb6Woo.png)
 
 Der Dokumentvergleich eignet sich, Veränderungen zu finden – er ersetzt nicht das endgültige Urteil der Rechts-, Finanz- oder Richtlinien-Verantwortlichen.
 
@@ -128,11 +128,11 @@ Ausgabe: output/sales-analysis.xlsx und output/summary.md.
 Anforderungen: Originaldaten erhalten, Statistikprozess und Formeln nachvollziehbar; unbestätigte Ursachen als „zu prüfen" markieren, nichts erfinden.
 ```
 
-![](/workbuddy/case-office/assets/005_image_I118b7wyUo.png)
+![Verkaufsanalyse: Feldprüfung und Bereinigung](/workbuddy/case-office/assets/005_image_I118b7wyUo.png)
 
-![](/workbuddy/case-office/assets/006_image_BWkRb60JPo.png)
+![Umsatz und Rohertrag nach Produktlinie sortiert](/workbuddy/case-office/assets/006_image_BWkRb60JPo.png)
 
-![](/workbuddy/case-office/assets/007_image_XtfQbkCqio.png)
+![Verkaufscharts: Balken je Produkt, Tageslinie](/workbuddy/case-office/assets/007_image_XtfQbkCqio.png)
 
 ### Fortgeschritten: Tabellen zusammenführen, abgleichen, Ausnahmen listen
 
@@ -146,9 +146,9 @@ Erzeuge clean-sales.xlsx, exception-list.xlsx und reconciliation.md.
 Die Betragssumme muss mit den Summen der Quelltabellen abgleichen; solange die Differenz nicht 0 ist, keine Management-Schlüsse.
 ```
 
-![](/workbuddy/case-office/assets/009_image_UNEqbRnJfo.png)
+![Tabellenzusammenführung: Spalten- und Definitionsprüfung](/workbuddy/case-office/assets/009_image_UNEqbRnJfo.png)
 
-![](/workbuddy/case-office/assets/010_image_L25tbHIUeo.png)
+![Ausgabe der Zusammenführung: bereinigte Tabelle und Ausnahmeliste](/workbuddy/case-office/assets/010_image_L25tbHIUeo.png)
 
 **Abnahme**: Eingabemenge, Bereinigungsänderungen und Ausgabemenge bleiben im Gleichgewicht; Formeln sind neu berechenbar; Ausnahmen wurden nicht still gelöscht; die Diagrammfelder stimmen mit der Summentabelle überein.
 
@@ -184,7 +184,7 @@ Schriftkonsistenz und Seitenzahlen prüfen.
 Stil: professionell, klar, mit Tech-Charakter – aber ohne übertriebene Verläufe, Glühen und Deko-Elemente.
 ```
 
-![](/workbuddy/case-office/assets/008_image_ABXObcQeeo.png)
+![Die 8-seitige Berichts-Präsentation aus dem Materialpaket](/workbuddy/case-office/assets/008_image_ABXObcQeeo.png)
 
 ## Das Trio verzahnt: Nach dem Meeting automatisch das Lieferpaket
 

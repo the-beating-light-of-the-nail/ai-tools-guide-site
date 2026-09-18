@@ -153,7 +153,7 @@ Bewertungs-Dashboard + künftige Überwachungsliste (Ereignis A stärkt Logik / 
 
 Die acht Prompts einzeln sind alle nützlich – aber für eine vollständige Recherche muss man sie von Hand verketten, bei neuem Objekt von vorn; Daten mit dem Auge; die Entscheidung droht Selbstbestätigung; das Ergebnis wird manuell zusammengebaut. `stock-advisor` macht aus dieser Kette **„einen Haufen Prompts" → „eine Pipeline, die mit einem Klick durchläuft"**:
 
-![](/workbuddy/case-investment/assets/001_stock-advisor-overview_Lxy0b4axOo.png)
+![Das Skill stock-advisor: Research-Pipeline auf einen Klick](/workbuddy/case-investment/assets/001_stock-advisor-overview_Lxy0b4axOo.png)
 
 | Modul | Was es tut | Kern-Design |
 | --- | --- | --- |
@@ -185,11 +185,11 @@ Bitte als professioneller Technischer Analyst:
 Bitte gib das technische Schnelllesen als Tabelle + Text aus.
 ```
 
-![](/workbuddy/case-investment/assets/003_image_CrgibiDW3o.png)
+![Candlestick-Chart für eine technische Schnellanalyse hochladen](/workbuddy/case-investment/assets/003_image_CrgibiDW3o.png)
 
 WorkBuddy erkennt im Bild zuerst Tianfu Communication mit aktuellem Kurs von rund 368,70 CNY und liefert dann das strukturierte Schnelllesen: MA5 > MA10 > MA20 – die Standard-Multi-Anordnung läuft weiter im Aufwärtstrend; aber eine lange obere Spitze am Tag (Hoch 376,10, Rückkehr auf 368,70), MACD-Balken werden kürzer, große Abweichung; Stütze bei MA5 (347) / MA10 (319), Widerstand beim Tageshoch 376. Es rät nicht auf Steigen oder Fallen, sondern strukturiert die „aus dem Chart lesbaren Fakten".
 
-![](/workbuddy/case-investment/assets/004_image_WX6WbFC9Oo.png)
+![Technisches Ergebnis: MA-Anordnung, Unterstützung und Widerstand](/workbuddy/case-investment/assets/004_image_WX6WbFC9Oo.png)
 
 ### Schritt 2: Bericht-Screenshots ergänzen, eine Vollanalyse durchführen
 
@@ -203,7 +203,7 @@ Ich habe zusätzlich die Q3-Daten 2025 und die Jahres-Prognosedaten dieser Aktie
 4. Schlüssel-Stützen und -Widerstände deutlich markieren; Ausgabe im Format eines professionellen Research.
 ```
 
-![](/workbuddy/case-investment/assets/007_image_CScebfl1io.png)
+![Zusätzliche Quartalszahlen-Screenshots für die Vollanalyse](/workbuddy/case-investment/assets/007_image_CScebfl1io.png)
 
 Zuerst werden die Kennzahlen der Screenshots einzeln erkannt (Umsatz 3,918 Mrd., +63,63 % yoy, ROE 31,30 %, PE 146,70 …), dann die Gesamtrating-Tabelle synthetisiert:
 
@@ -217,7 +217,7 @@ Zuerst werden die Kennzahlen der Screenshots einzeln erkannt (Umsatz 3,918 Mrd.,
 
 Das Endrating „Empfehlung", die Kernschlüsse sind zurückhaltend: **Mittelfristig guter Trend (hohe CPO-Konjunktur + starkes Wachstum), aber kurzfristig überteuerte Bewertung und zu stark gestiegen – nicht hinterherkaufen; Einstieg bei Rücksetzern abwarten.** Zu teuer wird im Punktesaldo abgezogen – nicht blindfonds bullish nur wegen Wachstum.
 
-![](/workbuddy/case-investment/assets/008_image_I6uBbecypo.png)
+![Gesamtbewertung: gewichtete technische, fundamentale, Bewertungs- und Fluss-Scores](/workbuddy/case-investment/assets/008_image_I6uBbecypo.png)
 
 ### Schritt 3: Unentschlossen? Einen Beirat einberufen
 
@@ -233,7 +233,7 @@ Endempfehlung Kaufen/Halten/Verkaufen; du als Moderator bündelst zu einem Ausf�
 Bitte auf den Daten der beiden ersten Runden aufbauen – die Berater sollen „mit Daten reden".
 ```
 
-![](/workbuddy/case-investment/assets/011_image_LuArbEta0o.png)
+![Der Beirat: vier Berater debattieren mit Daten](/workbuddy/case-investment/assets/011_image_LuArbEta0o.png)
 
 Im Beirat aktualisiert das System zuerst online die Daten (Umsatz 2025 Gesamtjahr, Q1-2026-Rückgang sequentially, Quervergleich mit Zhongji Innolight/Eoptolink) – das Kreuzprüfungsmodul hob die Diskussion von den Screenshot-Daten auf die aktuellen Fakten des Netzes. Die vier Berater spalteten sich 2:2: Buffett meidet („KGV 142, Sicherheitsmarge null"), Gates wartet („bis KGV unter 60 oder auf ein günstigeres Objekt wechseln"), Musk geht All-in („CPO ist der iPhone-Moment der optischen Kommunikation"), Jobs hält bedingt („sofern die CPO-FAU-Zusagen in H2/2026 eintreten").
 
@@ -246,9 +246,9 @@ Der Moderator bündelt zuletzt einen **Ausführungsplan nach Anlegertyp** und h�
 | Trendanleger | Vorsichtig teilnehmen | Einstieg erst bei Rückkehr auf MA10 / MA20 |
 | Aggressiver Anleger | Kleine Testposition | Höchstens 30 %; unter 300 CNY komplett verkaufen |
 
-![](/workbuddy/case-investment/assets/015_image_Y0yvbzLRto.png)
+![Ausführungsplan nach Anlegertyp gestaffelt](/workbuddy/case-investment/assets/015_image_Y0yvbzLRto.png)
 
-![](/workbuddy/case-investment/assets/016_image_DOOhbmIIeo.png)
+![Entscheidungen an künftige Prüfpunkte gebunden: Falsifizierung = Ausstieg](/workbuddy/case-investment/assets/016_image_DOOhbmIIeo.png)
 
 Nach dem Gespräch lässt sich die ganze Analyse als Magazin-Report aufbereiten (lokal als PDF oder in Feishu hochgeladen). Rückblick: `stock-advisor` macht aus acht losen Prompts eine vollständige Recherche in drei Gesprächsrunden – **Chart sehen → Bericht sehen → Beirat → Report**; und zu keinem Zeitpunkt fällte es für Sie jene wichtigste Entscheidung „kaufen oder verkaufen".
 

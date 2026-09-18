@@ -4,39 +4,39 @@
 
 1. Click "New Task";
 
-![](/workbuddy/04-first-task/assets/001_image_C4q3bdNKso.png)
+![Clicking the New Task entry](/workbuddy/04-first-task/assets/001_image_C4q3bdNKso.png)
 
 2. Select or create a dedicated working directory;
 
 *PS: WorkBuddy uses folder-level authorization and high-risk command interception. For your first run, practice in a scratch directory and pay attention to the access you grant — double-check carefully before working with real business data.*
 
-![](/workbuddy/04-first-task/assets/002_image_GeeybIFZLo.png)
+![Choosing or creating a dedicated work directory](/workbuddy/04-first-task/assets/002_image_GeeybIFZLo.png)
 
 3. Decide which mode to use. The default is Craft; you can also set it to Ask or Plan;
 
-![](/workbuddy/04-first-task/assets/003_image_DZ55bxbCvo.png)
+![Choosing the work mode: Craft, Ask or Plan](/workbuddy/04-first-task/assets/003_image_DZ55bxbCvo.png)
 
 4. Pick a model. You can specify the model you want; different models consume credits at different rates.
 
-![](/workbuddy/04-first-task/assets/004_image_JiigbkdTKo.png)
+![Selecting the model for the task](/workbuddy/04-first-task/assets/004_image_JiigbkdTKo.png)
 
 5. Enter the task description: "Analyze the data in E-commerce Sales Data.xlsx and generate a presentation for me."
 
-![](/workbuddy/04-first-task/assets/005_image_ReDxbwNkYo.png)
+![Writing the task brief in the input box](/workbuddy/04-first-task/assets/005_image_ReDxbwNkYo.png)
 
 6. If needed, specify a Skill, Expert, connector, or knowledge base — skip this for now
 
-![](/workbuddy/04-first-task/assets/006_image_INLGb7TDQo.png)
+![Optional: specifying skills, experts, connectors](/workbuddy/04-first-task/assets/006_image_INLGb7TDQo.png)
 
 7. After sending, watch the plan, tool calls, and file changes;
 
-![](/workbuddy/04-first-task/assets/007_image_BD1FbDdcEo.png)
+![Watching the plan and tool calls after sending](/workbuddy/04-first-task/assets/007_image_BD1FbDdcEo.png)
 
 8. Preview and review the deliverable in the results area.
 
 You can open the file locally, upload it to the cloud, or share it. Before sharing, make sure the deliverable contains no sensitive or confidential information, and follow your company's rules on sharing scope.
 
-![](/workbuddy/04-first-task/assets/008_image_TzOAb2lxIo.png)
+![Previewing and accepting the generated deck in the results pane](/workbuddy/04-first-task/assets/008_image_TzOAb2lxIo.png)
 
 
 

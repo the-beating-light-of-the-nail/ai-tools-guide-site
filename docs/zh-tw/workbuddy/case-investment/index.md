@@ -153,7 +153,7 @@ Phase 5 估值邏輯與風險反脆弱（歷史分位、反向 DCF、空方視�
 
 八條提示詞單獨看都好用，但真要完整研究一隻票：要手動串、換標的重來、資料靠眼睛、決策容易自嗨、交付靠手工。`stock-advisor` 把這條鏈路**從“一堆提示詞”變成“按一次就跑完的流水線”**：
 
-![](/workbuddy/case-investment/assets/001_stock-advisor-overview_Lxy0b4axOo.png)
+![stock-advisor Skill：一鍵跑完股票研究流水線](/workbuddy/case-investment/assets/001_stock-advisor-overview_Lxy0b4axOo.png)
 
 | 模組 | 做什麼 | 關鍵設計 |
 | --- | --- | --- |
@@ -184,11 +184,11 @@ Phase 5 估值邏輯與風險反脆弱（歷史分位、反向 DCF、空方視�
 請以表格 + 文字結合的方式輸出技術面速讀報告。
 ```
 
-![](/workbuddy/case-investment/assets/003_image_CrgibiDW3o.png)
+![上傳天孚通信 K 線圖要技術面速讀](/workbuddy/case-investment/assets/003_image_CrgibiDW3o.png)
 
 WorkBuddy 先從圖裡識別出這是天孚通訊，當前股價約 368.70 元，然後給出結構化速讀：MA5 > MA10 > MA20 標準多頭排列仍在主升浪；但當日一根長上影線（最高衝 376.10 回落到 368.70）、MACD 紅柱開始縮短、乖離率偏大；支撐看 MA5（347）/ MA10（319），壓力看當日高點 376。這一步它沒有猜漲跌，而是把“圖裡能讀到的事實”結構化了。
 
-![](/workbuddy/case-investment/assets/004_image_WX6WbFC9Oo.png)
+![技術面速讀結果：均線排列、支撐壓力結構化](/workbuddy/case-investment/assets/004_image_WX6WbFC9Oo.png)
 
 ### 第二步：補上財報截圖，做一次全面分析
 
@@ -202,7 +202,7 @@ WorkBuddy 先從圖裡識別出這是天孚通訊，當前股價約 368.70 元�
 4. 明確標註關鍵支撐位和壓力位，按專業研報的格式輸出。
 ```
 
-![](/workbuddy/case-investment/assets/007_image_CScebfl1io.png)
+![補上傳財報截圖，做全面分析](/workbuddy/case-investment/assets/007_image_CScebfl1io.png)
 
 它先逐條識別截圖裡的財務指標（營收 39.18 億、同比 +63.63%，ROE 31.30%，PE 146.70……），然後合成綜合評級表：
 
@@ -216,7 +216,7 @@ WorkBuddy 先從圖裡識別出這是天孚通訊，當前股價約 368.70 元�
 
 最終評級“推薦”，核心結論很剋制：**中期趨勢向好（CPO 高景氣 + 高成長），但短期估值透支、漲幅過大，不宜追高，等回撥再擇機。** 估值太貴就在總分裡扣回來——不會因為成長性好就無腦看多。
 
-![](/workbuddy/case-investment/assets/008_image_I6uBbecypo.png)
+![綜合評級表：技術面、基本面、估值、資金面加權評分](/workbuddy/case-investment/assets/008_image_I6uBbecypo.png)
 
 ### 第三步：拿不定主意，開一場私董會
 
@@ -231,7 +231,7 @@ WorkBuddy 先從圖裡識別出這是天孚通訊，當前股價約 368.70 元�
 請基於前兩輪的分析資料展開，讓幕僚們"帶著資料聊"。
 ```
 
-![](/workbuddy/case-investment/assets/011_image_LuArbEta0o.png)
+![私董會：四位幕僚帶著資料交叉辯論](/workbuddy/case-investment/assets/011_image_LuArbEta0o.png)
 
 私董會環節系統先聯網更新了資料（2025 全年營收、2026 Q1 環比下滑、和中際旭創/新易盛的橫向對比）——交叉驗證模組把討論從截圖資料推進到了全網最新事實。四位幕僚觀點分裂成 2:2：巴菲特迴避（“PE 142，安全邊際為零”）、蓋茨等待（“等 PE 回到 60 倍以下，或換價效比更高的標的”）、馬斯克 All in（“CPO 是光通訊的 iPhone 時刻”）、喬布斯有條件持有（“前提是 CPO FAU 在 2026 H2 如期兌現”）。
 
@@ -244,9 +244,9 @@ WorkBuddy 先從圖裡識別出這是天孚通訊，當前股價約 368.70 元�
 | 趨勢投資者 | 謹慎參與 | 等回撥至 MA10 / MA20 再介入 |
 | 激進投資者 | 小倉位試倉 | 最多 3 成，跌破 300 元清倉 |
 
-![](/workbuddy/case-investment/assets/015_image_Y0yvbzLRto.png)
+![按投資者類型分檔的執行方案](/workbuddy/case-investment/assets/015_image_Y0yvbzLRto.png)
 
-![](/workbuddy/case-investment/assets/016_image_DOOhbmIIeo.png)
+![決策掛到未來驗證節點：證偽即退出](/workbuddy/case-investment/assets/016_image_DOOhbmIIeo.png)
 
 對話結束後可讓它把整場分析生成雜誌風格報告（本地存 PDF 或上傳飛書）。回頭看：`stock-advisor` 把八條散裝提示詞變成三輪對話就跑完的完整研究——**看圖 → 看財報 → 開私董會 → 出報告**，而全程它沒有替你做“買還是不賣”那個最關鍵的決定。
 

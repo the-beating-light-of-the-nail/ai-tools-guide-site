@@ -50,13 +50,13 @@ MCP supports communication over local standard I/O (stdio) or local HTTP. That m
 
 **Connectors currently supported include QQ Mail, Tencent Docs, Tencent Lexiang, Tencent Meeting, TAPD, and more.**
 
-![](/workbuddy/07-connectors/assets/001_image_IZzfbK38Ao.png)
+![Connector list: QQ Mail, Tencent Docs, Tencent Meeting and more](/workbuddy/07-connectors/assets/001_image_IZzfbK38Ao.png)
 
 For example, load the Tencent Meeting connector,
 
-![](/workbuddy/07-connectors/assets/002_image_WF3ab0WSbo.png)
+![Loading the Tencent Meeting connector step by step](/workbuddy/07-connectors/assets/002_image_WF3ab0WSbo.png)
 
-![](/workbuddy/07-connectors/assets/003_image_ZssEbuMsdo.png)
+![Authorizing the Tencent Meeting connector](/workbuddy/07-connectors/assets/003_image_ZssEbuMsdo.png)
 
 
 
@@ -64,15 +64,15 @@ For example, load the Tencent Meeting connector,
 
 "Create a meeting for me tomorrow at 3 PM,"
 
-![](/workbuddy/07-connectors/assets/004_image_KVIJbpUZdo.png)
+![Asking it to create a meeting for 3 pm tomorrow](/workbuddy/07-connectors/assets/004_image_KVIJbpUZdo.png)
 
 titled "Project Discussion," lasting 1 hour
 
-![](/workbuddy/07-connectors/assets/005_image_FPy1bGJJZo.png)
+![The connector reading the command and creating the meeting](/workbuddy/07-connectors/assets/005_image_FPy1bGJJZo.png)
 
 Created successfully
 
-![](/workbuddy/07-connectors/assets/006_image_WQ6Zb1Rero.png)
+![Confirmation that the meeting was created](/workbuddy/07-connectors/assets/006_image_WQ6Zb1Rero.png)
 
 
 
@@ -80,4 +80,4 @@ Created successfully
 
 In the top-right corner of the connector management page, click "Custom Connector" and follow the wizard to configure MCP (including the server address and authentication method). Note that the access scope of a custom connector is up to you to configure.
 
-![](/workbuddy/07-connectors/assets/007_image_M2itbQUceo.png)
+![Custom connector: MCP endpoint and authentication](/workbuddy/07-connectors/assets/007_image_M2itbQUceo.png)

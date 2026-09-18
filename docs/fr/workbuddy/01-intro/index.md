@@ -4,7 +4,7 @@
 
 destiné aux différents métiers de l'entreprise — ressources humaines, administration, opérations, ventes, R&D. C'est une application de bureautique IA capable de réfléchir, d'exécuter des tâches et de livrer des résultats comme un vrai collègue.
 
-![](/workbuddy/01-intro/assets/001_image_Ve9kbu40Eo.png)
+![Interface principale de WorkBuddy : une phrase, et il exécute](/workbuddy/01-intro/assets/001_image_Ve9kbu40Eo.png)
 
 ## De « répondre aux questions » à « livrer des résultats »
 
@@ -29,7 +29,7 @@ flowchart LR
 
 Par exemple, vous pouvez simplement demander à WorkBuddy d'analyser les données de vente d'un dossier et de générer un PPT de reporting.
 
-![](/workbuddy/01-intro/assets/002_image_IaB9bqqj6o.png)
+![Plusieurs agents traitent des tâches en parallèle](/workbuddy/01-intro/assets/002_image_IaB9bqqj6o.png)
 
 WorkBuddy lit les fichiers concernés de façon autonome, comprend le contenu des données, réalise l'analyse et la synthèse, puis produit un livrable final que vous pouvez consulter et modifier.
 
@@ -45,4 +45,4 @@ Vous pouvez choisir le modèle adapté à chaque tâche, et étendre les outils 
 
 Par ailleurs, pour les opérations sur fichiers locaux ou l'exécution dans le terminal, WorkBuddy intègre un blocage des commandes à risque et des mécanismes de contrôle des permissions, afin de limiter les risques liés à l'exécution autonome de l'IA.
 
-![](/workbuddy/01-intro/assets/003_image_Idhdsahdl.png)
+![Interception des commandes à risque et autorisations de dossier](/workbuddy/01-intro/assets/003_image_Idhdsahdl.png)

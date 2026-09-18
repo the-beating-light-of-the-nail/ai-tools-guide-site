@@ -57,9 +57,9 @@ Word 的真實難點通常有四個：不知道按什麼結構寫、語氣不夠
 適合直接拿去和領導確認活動方向。
 ```
 
-![](/workbuddy/case-office/assets/001_image_PhFMbu3kTo.png)
+![團建活動策劃 Word 文件產生](/workbuddy/case-office/assets/001_image_PhFMbu3kTo.png)
 
-![](/workbuddy/case-office/assets/002_image_UVm5bKLrZo.png)
+![策劃文件的結構與內容預覽](/workbuddy/case-office/assets/002_image_UVm5bKLrZo.png)
 
 ### 二次修改不要重寫，要說差異
 
@@ -75,9 +75,9 @@ Word 的真實難點通常有四個：不知道按什麼結構寫、語氣不夠
 輸出修改後的 v2 版 Word 文件，並在 changelog.md 中列出本次修改內容。
 ```
 
-![](/workbuddy/case-office/assets/003_image_IoOLbfEcvo.png)
+![按差異修改產生 v2 版文件](/workbuddy/case-office/assets/003_image_IoOLbfEcvo.png)
 
-![](/workbuddy/case-office/assets/004_image_V1RpbVGuno.png)
+![修改後的流程表格與預算細化](/workbuddy/case-office/assets/004_image_V1RpbVGuno.png)
 
 ### 進階：比較兩版制度、合同或方案
 
@@ -88,9 +88,9 @@ Word 的真實難點通常有四個：不知道按什麼結構寫、語氣不夠
 生成影響清單和待確認問題，不給法律結論，不修改原檔案。
 ```
 
-![](/workbuddy/case-office/assets/011_image_HqbtbVTw3o.png)
+![兩版制度文件差異對比結果](/workbuddy/case-office/assets/011_image_HqbtbVTw3o.png)
 
-![](/workbuddy/case-office/assets/012_image_MhArbb6Woo.png)
+![文件對比產生的影響清單與待確認問題](/workbuddy/case-office/assets/012_image_MhArbb6Woo.png)
 
 文件對比適合發現變化，不替代法務、財務或制度責任人的最終判斷。
 
@@ -127,11 +127,11 @@ Excel 的問題通常不在“會不會做圖”，而在“這個表到底能�
 要求：保留原始資料，統計過程和公式可追溯；無法確認的原因標註為待核實，不要編造。
 ```
 
-![](/workbuddy/case-office/assets/005_image_I118b7wyUo.png)
+![銷售資料分析：欄位檢查與清洗](/workbuddy/case-office/assets/005_image_I118b7wyUo.png)
 
-![](/workbuddy/case-office/assets/006_image_BWkRb60JPo.png)
+![按產品線統計的銷售額與毛利排名](/workbuddy/case-office/assets/006_image_BWkRb60JPo.png)
 
-![](/workbuddy/case-office/assets/007_image_XtfQbkCqio.png)
+![銷售分析圖表：柱狀圖與日度折線圖](/workbuddy/case-office/assets/007_image_XtfQbkCqio.png)
 
 ### 進階：多表合併、對賬與異常清單
 
@@ -145,9 +145,9 @@ Excel 的問題通常不在“會不會做圖”，而在“這個表到底能�
 金額彙總必須與各源表合計對賬，差異不為 0 時不生成管理結論。
 ```
 
-![](/workbuddy/case-office/assets/009_image_UNEqbRnJfo.png)
+![多表合併：欄位名與口徑檢查](/workbuddy/case-office/assets/009_image_UNEqbRnJfo.png)
 
-![](/workbuddy/case-office/assets/010_image_L25tbHIUeo.png)
+![合併產出：清洗表與異常清單](/workbuddy/case-office/assets/010_image_L25tbHIUeo.png)
 
 **驗收**：輸入總量、清洗變化和輸出總量守恆；公式可重算；異常沒有被靜默刪除；圖表使用的欄位和彙總表一致。
 
@@ -183,7 +183,7 @@ PPT 標題儘量直接表達觀點，不使用"AI Agent 介紹"這類泛化標�
 整體風格：專業、簡潔、有科技感，但不要過度使用漸變、發光和裝飾性元素。
 ```
 
-![](/workbuddy/case-office/assets/008_image_ABXObcQeeo.png)
+![從材料包產生的 8 頁匯報 PPT](/workbuddy/case-office/assets/008_image_ABXObcQeeo.png)
 
 ## 三件套聯動：會議之後自動形成交付包
 

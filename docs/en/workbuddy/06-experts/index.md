@@ -43,17 +43,17 @@ You only need to tell the team lead the client background, the latest requiremen
 
 1. Open "Experts · Skills · Connectors" and select "Experts";
 
-![](/workbuddy/06-experts/assets/001_image_T8L2bOcbBo.png)
+![Selecting Experts in Experts·Skills·Connectors](/workbuddy/06-experts/assets/001_image_T8L2bOcbBo.png)
 
 
 
 2. Click "Summon Expert"; let's use the "Gaokao, I've Got You" Expert as an example
 
-![](/workbuddy/06-experts/assets/002_image_TlTJbNIQOo.png)
+![Clicking Summon Expert, shown with Gaokao Helper](/workbuddy/06-experts/assets/002_image_TlTJbNIQOo.png)
 
 3. Provide the task, e.g. "Find me the 2026 Gaokao math exam questions"
 
-![](/workbuddy/06-experts/assets/003_image_Hfv9bPfcIo.png)
+![Entering a task, e.g. finding past Gaokao math papers](/workbuddy/06-experts/assets/003_image_Hfv9bPfcIo.png)
 
 4. Wait for the result
 
@@ -63,19 +63,19 @@ You only need to tell the team lead the client background, the latest requiremen
 
 Click My Experts, then Create Expert — that's all there is to it
 
-![](/workbuddy/06-experts/assets/004_20260708204254_Nvfjb5QwFo.gif)
+![Creating an expert under My Experts](/workbuddy/06-experts/assets/004_20260708204254_Nvfjb5QwFo.gif)
 
 For example, create a WeChat Official Account writing Expert,
 
-![](/workbuddy/06-experts/assets/005_image_Bzc4b6Ukko.png)
+![Filling in the persona and methodology of a WeChat writer expert](/workbuddy/06-experts/assets/005_image_Bzc4b6Ukko.png)
 
 Once generation finishes, you can test it
 
-![](/workbuddy/06-experts/assets/006_image_Oz4wbqMTqo.png)
+![Testing the expert right after generation](/workbuddy/06-experts/assets/006_image_Oz4wbqMTqo.png)
 
 You'll also find it under My Experts.
 
-![](/workbuddy/06-experts/assets/007_image_TDP4b0emBo.png)
+![Finding the new expert under My Experts](/workbuddy/06-experts/assets/007_image_TDP4b0emBo.png)
 
 ## Summoning an Expert Team
 
@@ -85,6 +85,6 @@ In an Expert Team, the team lead handles breakdown and integration, while member
 
 Open "Experts · Skills · Connectors," select "Expert Teams," and click Summon
 
-![](/workbuddy/06-experts/assets/008_image_MHngbV84ro.png)
+![The Expert Team entry: clicking Summon](/workbuddy/06-experts/assets/008_image_MHngbV84ro.png)
 
-![](/workbuddy/06-experts/assets/009_image_LUaZbwcddo.png)
+![Expert team list and summon entry](/workbuddy/06-experts/assets/009_image_LUaZbwcddo.png)

@@ -82,15 +82,15 @@ Ouvrez la page « Automatisation » dans WorkBuddy pour consulter les tâches pl
 
 Cliquez sur « Automatisation »,
 
-![](/workbuddy/10-automation/assets/001_image_RklAba93No.png)
+![L'entrée « Automatisation » à gauche](/workbuddy/10-automation/assets/001_image_RklAba93No.png)
 
 « Ajouter une automatisation », et vous pouvez personnaliser votre tâche
 
-![](/workbuddy/10-automation/assets/002_image_MhojbPRsOo.png)
+![Cliquer sur « Ajouter une automatisation » pour définir une tâche](/workbuddy/10-automation/assets/002_image_MhojbPRsOo.png)
 
 Par exemple, la diffusion quotidienne des actualités IA, envoi planifié à 8 h
 
-![](/workbuddy/10-automation/assets/003_image_Ff6fbYuGoo.png)
+![Résumé IA quotidien programmé à 8 h](/workbuddy/10-automation/assets/003_image_Ff6fbYuGoo.png)
 
 
 
@@ -98,7 +98,7 @@ Par exemple, la diffusion quotidienne des actualités IA, envoi planifié à 8 h
 
 Les modèles officiels couvrent des scénarios courants : diffusion d'actualités, génération de rapports hebdomadaires, prise de rendez-vous médical, plans d'apprentissage. Leur valeur est de fournir les champs de base et la structure de tâche — ce ne sont pas des réponses définitives. Après sélection, adaptez quand même les sources de données, la période, l'emplacement de sortie, les critères d'acceptation et les actions interdites.
 
-![](/workbuddy/10-automation/assets/004_%E8%87%AA%E5%8A%A8%E5%8C%96-%E4%BB%BB%E5%8A%A1%E6%A8%A1%E6%9D%BF_FYNwbDWqbo.png)
+![Modèles officiels de tâches : veille, rapport hebdo, etc.](/workbuddy/10-automation/assets/004_%E8%87%AA%E5%8A%A8%E5%8C%96-%E4%BB%BB%E5%8A%A1%E6%A8%A1%E6%9D%BF_FYNwbDWqbo.png)
 
 
 

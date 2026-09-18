@@ -12,13 +12,79 @@ import { zhTw } from "./i18n/zh-tw";
 const siteUrl = process.env.VITEPRESS_SITE_URL || "https://www.aiworkagent.org";
 
 // 路径前缀 → 语言元信息（key 与 i18n/index.ts 的 langPrefixes 值一致）
-const LOCALES: Record<string, { lang: string; siteName: string; description: string; ogLocale: string }> = {
-  "": { lang: "zh-CN", siteName: zh.title, description: zh.description, ogLocale: "zh_CN" },
-  "en/": { lang: "en-US", siteName: en.title, description: en.description, ogLocale: "en_US" },
-  "zh-tw/": { lang: "zh-TW", siteName: zhTw.title, description: zhTw.description, ogLocale: "zh_TW" },
-  "de/": { lang: "de-DE", siteName: de.title, description: de.description, ogLocale: "de_DE" },
-  "fr/": { lang: "fr-FR", siteName: fr.title, description: fr.description, ogLocale: "fr_FR" },
+type NavItem = { text: string; link?: string; items?: NavItem[] };
+const LOCALES: Record<
+  string,
+  { lang: string; siteName: string; description: string; ogLocale: string; home: string; nav: NavItem[] }
+> = {
+  "": { lang: "zh-CN", siteName: zh.title, description: zh.description, ogLocale: "zh_CN", home: "首页", nav: zh.themeConfig.nav as NavItem[] },
+  "en/": { lang: "en-US", siteName: en.title, description: en.description, ogLocale: "en_US", home: "Home", nav: en.themeConfig.nav as NavItem[] },
+  "zh-tw/": { lang: "zh-TW", siteName: zhTw.title, description: zhTw.description, ogLocale: "zh_TW", home: "首頁", nav: zhTw.themeConfig.nav as NavItem[] },
+  "de/": { lang: "de-DE", siteName: de.title, description: de.description, ogLocale: "de_DE", home: "Startseite", nav: de.themeConfig.nav as NavItem[] },
+  "fr/": { lang: "fr-FR", siteName: fr.title, description: fr.description, ogLocale: "fr_FR", home: "Accueil", nav: fr.themeConfig.nav as NavItem[] },
 };
+
+const SECTIONS = ["workbuddy", "traework", "qoderwork", "doubaowork", "qwenwork"];
+
+// 从 nav 提取板块显示名（WorkBuddy 等是下拉组，取父级 text）
+function navSectionName(nav: NavItem[] | undefined, section: string): string {
+  for (const item of nav ?? []) {
+    if (item.link === `/${section}/`) return item.text;
+    if (item.items?.some((sub) => sub.link === `/${section}/`)) return item.text;
+  }
+  return section;
+}
+
+// 去掉答案里的 markdown 标记，得到与页面可见文本一致的纯文本
+function stripMarkdown(s: string): string {
+  return s
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+    .replace(/[*`]+/g, "")
+    .replace(/^[-*]\s+/, "")
+    .trim();
+}
+
+// 解析源 md 中的 FAQ 章节（## xx常见问题/FAQ/Q&A 下的 **问题** + 答案段）
+function extractFaq(content: string): { name: string; text: string }[] {
+  const out: { name: string; text: string }[] = [];
+  let inFaq = false;
+  let inFence = false;
+  let q: string | null = null;
+  let a: string[] = [];
+  const flush = () => {
+    if (q && a.length) out.push({ name: q, text: a.join(" ") });
+    q = null;
+    a = [];
+  };
+  for (const line of content.split(/\r?\n/)) {
+    if (/^\s*(```|~~~)/.test(line)) {
+      inFence = !inFence;
+      continue;
+    }
+    if (inFence) continue;
+    if (/^##\s/.test(line)) {
+      flush();
+      inFaq = /常见问题|FAQ|Q&A/i.test(line);
+      continue;
+    }
+    if (!inFaq) continue;
+    // 两种 FAQ 写法：**加粗问题**；或裸文本问题行（短句且以问号结尾，无 markdown 标记）
+    const m = line.match(/^\*\*(.+?)\*\*\s*$/);
+    if (m) {
+      flush();
+      q = stripMarkdown(m[1]);
+      continue;
+    }
+    if (/^[^#>|[*`\-].{0,60}[?？]\s*$/.test(line) && !line.includes("](")) {
+      flush();
+      q = stripMarkdown(line);
+      continue;
+    }
+    if (q && line.trim()) a.push(stripMarkdown(line));
+  }
+  flush();
+  return out;
+}
 
 // 页面 key（去语言前缀、去 index/扩展名）在指定语言目录下是否存在源文件。
 // srcDir 必须用 siteConfig 传入：config.ts 会被 VitePress 打包到临时目录，import.meta.url 不可靠
@@ -84,6 +150,56 @@ export default withMermaid(
         }
       }
       head.push(["link", { rel: "alternate", hreflang: "x-default", href: `${siteUrl}/${key}` }]);
+
+      // JSON-LD：WebSite + Organization 全站，内容页加 BreadcrumbList，FAQ 章节页加 FAQPage
+      const graph: Record<string, unknown>[] = [
+        {
+          "@type": "WebSite",
+          "@id": `${siteUrl}/#website`,
+          url: `${siteUrl}/`,
+          name: meta.siteName,
+          description: meta.description,
+          inLanguage: meta.lang,
+        },
+        {
+          "@type": "Organization",
+          "@id": `${siteUrl}/#organization`,
+          url: `${siteUrl}/`,
+          name: meta.siteName,
+          logo: `${siteUrl}/apple-touch-icon.png`,
+        },
+      ];
+      const section = key.split("/")[0];
+      if (SECTIONS.includes(section)) {
+        graph.push({
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: meta.home, item: `${siteUrl}/${prefix}` },
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: navSectionName(meta.nav, section),
+              item: `${siteUrl}/${prefix}${section}/`,
+            },
+            { "@type": "ListItem", position: 3, name: title },
+          ],
+        });
+      }
+      const srcFile = join(srcDir, page);
+      if (existsSync(srcFile)) {
+        const faqs = extractFaq(readFileSync(srcFile, "utf-8"));
+        if (faqs.length) {
+          graph.push({
+            "@type": "FAQPage",
+            mainEntity: faqs.slice(0, 20).map((f) => ({
+              "@type": "Question",
+              name: f.name,
+              acceptedAnswer: { "@type": "Answer", text: f.text },
+            })),
+          });
+        }
+      }
+      head.push(["script", { type: "application/ld+json" }, JSON.stringify({ "@context": "https://schema.org", "@graph": graph })]);
       return head;
     },
     buildEnd({ outDir }) {

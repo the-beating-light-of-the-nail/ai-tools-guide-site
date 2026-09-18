@@ -4,39 +4,39 @@
 
 1. Cliquez sur « Nouvelle tâche » ;
 
-![](/workbuddy/04-first-task/assets/001_image_C4q3bdNKso.png)
+![Cliquer sur l'entrée « Nouvelle tâche »](/workbuddy/04-first-task/assets/001_image_C4q3bdNKso.png)
 
 2. Choisissez ou créez un répertoire de travail dédié ;
 
 *NB : WorkBuddy repose sur des autorisations au niveau des dossiers et sur un blocage des commandes à risque. Pour vos premiers pas, travaillez dans un répertoire d'entraînement, surveillez l'étendue des autorisations et confirmez avec prudence avant de traiter de vraies données métier.*
 
-![](/workbuddy/04-first-task/assets/002_image_GeeybIFZLo.png)
+![Choisir ou créer un répertoire de travail dédié](/workbuddy/04-first-task/assets/002_image_GeeybIFZLo.png)
 
 3. Déterminez le mode à utiliser ; Craft est le mode par défaut, mais vous pouvez aussi choisir Ask ou Plan ;
 
-![](/workbuddy/04-first-task/assets/003_image_DZ55bxbCvo.png)
+![Choisir le mode de travail : Craft, Ask ou Plan](/workbuddy/04-first-task/assets/003_image_DZ55bxbCvo.png)
 
 4. Choisissez le modèle : vous pouvez désigner celui que vous souhaitez, chaque modèle consommant un nombre de crédits différent.
 
-![](/workbuddy/04-first-task/assets/004_image_JiigbkdTKo.png)
+![Sélectionner le modèle pour la tâche](/workbuddy/04-first-task/assets/004_image_JiigbkdTKo.png)
 
 5. Saisissez la description de la tâche : « Analyse les données de "Données_de_vente_e-commerce.xlsx" et génère un PPT de reporting. »
 
-![](/workbuddy/04-first-task/assets/005_image_ReDxbwNkYo.png)
+![Rédiger le descriptif de la tâche dans le champ de saisie](/workbuddy/04-first-task/assets/005_image_ReDxbwNkYo.png)
 
 6. Si besoin, spécifiez un Skill, un expert, un connecteur ou une bibliothèque de documents ; ignorons cela pour l'instant
 
-![](/workbuddy/04-first-task/assets/006_image_INLGb7TDQo.png)
+![Optionnel : indiquer skills, experts, connecteurs](/workbuddy/04-first-task/assets/006_image_INLGb7TDQo.png)
 
 7. Après l'envoi, suivez le plan, les appels d'outils et les modifications de fichiers ;
 
-![](/workbuddy/04-first-task/assets/007_image_BD1FbDdcEo.png)
+![Observer le plan et les appels d'outils après l'envoi](/workbuddy/04-first-task/assets/007_image_BD1FbDdcEo.png)
 
 8. Prévisualisez le livrable dans la zone de résultats et validez-le.
 
 Le fichier peut être ouvert localement, mis en ligne sur le cloud ou partagé. Avant tout partage, vérifiez que le livrable ne contient pas d'informations sensibles ou confidentielles, et choisissez le périmètre de diffusion conformément aux règles de votre entreprise.
 
-![](/workbuddy/04-first-task/assets/008_image_TzOAb2lxIo.png)
+![Prévisualiser et valider le rapport PPT généré dans le panneau de résultats](/workbuddy/04-first-task/assets/008_image_TzOAb2lxIo.png)
 
 
 

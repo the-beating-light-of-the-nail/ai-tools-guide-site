@@ -4,7 +4,7 @@
 
 面向 人力資源、行政、營運、銷售、研發等不同職場角色，是一款能夠像真正同事一樣思考、執行任務並交付結果的 AI 辦公應用。
 
-![](/workbuddy/01-intro/assets/001_image_Ve9kbu40Eo.png)
+![WorkBuddy 主介面：輸入一句話派活，它自己執行](/workbuddy/01-intro/assets/001_image_Ve9kbu40Eo.png)
 
 ## 從「回答問題」到「交付結果」
 
@@ -29,7 +29,7 @@ flowchart LR
 
 例如，用戶可以直接告訴 WorkBuddy，分析這個資料夾中的銷售資料，並生成一份彙報 PPT。
 
-![](/workbuddy/01-intro/assets/002_image_IaB9bqqj6o.png)
+![多個智慧體並行處理任務](/workbuddy/01-intro/assets/002_image_IaB9bqqj6o.png)
 
 WorkBuddy 會自主讀取相關檔案，理解資料內容，完成分析和總結，並生成最終可以查看和修改的工作成果。
 
@@ -45,4 +45,4 @@ WorkBuddy 面向的是完整的工作任務。
 
 同時，針對本機檔案操作、終端執行等場景，WorkBuddy 還提供高危指令攔截和權限控制機制，降低 AI 自主執行過程中的風險。
 
-![](/workbuddy/01-intro/assets/003_image_Idhdsahdl.png)
+![高風險指令攔截與資料夾授權設定](/workbuddy/01-intro/assets/003_image_Idhdsahdl.png)

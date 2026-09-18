@@ -82,15 +82,15 @@ Ausgabe:
 
 Klicken Sie auf „Automatisierung",
 
-![](/workbuddy/10-automation/assets/001_image_RklAba93No.png)
+![Der Einstieg Automatisierung links, fr: L'entrée « Automatisation » à gauche](/workbuddy/10-automation/assets/001_image_RklAba93No.png)
 
 „Automatisierung hinzufügen" – schon können Sie Ihre Aufgabe frei definieren
 
-![](/workbuddy/10-automation/assets/002_image_MhojbPRsOo.png)
+![Auf Automatisierung hinzufügen klicken, um eine Aufgabe zu definieren, fr: Cliquer sur « Ajouter une automatisation » pour définir une tâche](/workbuddy/10-automation/assets/002_image_MhojbPRsOo.png)
 
 Zum Beispiel ein täglicher KI-News-Push, zeitgesteuert um 8 Uhr
 
-![](/workbuddy/10-automation/assets/003_image_Ff6fbYuGoo.png)
+![Tägliche AI-News, geplant für 8 Uhr](/workbuddy/10-automation/assets/003_image_Ff6fbYuGoo.png)
 
 
 
@@ -98,7 +98,7 @@ Zum Beispiel ein täglicher KI-News-Push, zeitgesteuert um 8 Uhr
 
 Die offiziellen Aufgabenvorlagen decken gängige Szenarien ab wie News-Push, Wochembericht, Terminbuchung für Check-ups oder Lernplan. Ihr Wert: grundlegende Felder und Aufgabenstruktur. Sie sind aber keine Endantwort – nach der Auswahl sollten Sie Datenquellen, Zeitraum, Ausgabeort, Abnahmekriterien und verbotene Aktionen anpassen.
 
-![](/workbuddy/10-automation/assets/004_%E8%87%AA%E5%8A%A8%E5%8C%96-%E4%BB%BB%E5%8A%A1%E6%A8%A1%E6%9D%BF_FYNwbDWqbo.png)
+![Offizielle Aufgabenvorlagen: News-Digest, Wochenbericht u. a.](/workbuddy/10-automation/assets/004_%E8%87%AA%E5%8A%A8%E5%8C%96-%E4%BB%BB%E5%8A%A1%E6%A8%A1%E6%9D%BF_FYNwbDWqbo.png)
 
 
 

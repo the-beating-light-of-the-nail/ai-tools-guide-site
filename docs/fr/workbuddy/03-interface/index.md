@@ -2,7 +2,7 @@
 
 L'interface principale de WorkBuddy se compose de trois zones : à gauche (la barre latérale) pour gérer les tâches, au centre (la zone de conversation) pour donner et suivre les tâches, à droite (la zone de résultats) pour consulter les fichiers, les modifications, les aperçus et les livrables finaux.
 
-![](/workbuddy/03-interface/assets/001_image_MuLCbdPyDo.png)
+![Interface en trois zones : tâches à gauche, dialogue au centre, résultats à droite](/workbuddy/03-interface/assets/001_image_MuLCbdPyDo.png)
 
 
 
@@ -28,7 +28,7 @@ Nous recommandons de créer un répertoire par tâche.
 
 Vous pouvez aussi configurer les permissions des espaces de travail. Si « Autoriser l'accès complet » est activé (l'agent peut alors lire et écrire en dehors des répertoires autorisés — à utiliser avec prudence et en limitant de préférence le répertoire par tâche).
 
-![](/workbuddy/03-interface/assets/002_image_DtASbQcrto.png)
+![Autorisations de l'espace de travail : interrupteur d'accès total](/workbuddy/03-interface/assets/002_image_DtASbQcrto.png)
 
 
 
@@ -42,7 +42,7 @@ WorkBuddy propose trois modes de travail :
 | Craft | Réaliser | Opère directement sur les fichiers locaux, exécute du code et des commandes système | Tâches aux chemins clairs et au risque faible |
 | Plan | Réfléchir | Génère d'abord un plan, exécute après validation | Tâches multi-étapes, multi-systèmes ou sur fichiers sensibles |
 
-![](/workbuddy/03-interface/assets/003_image_W7VqbwVeJo.png)
+![Choix parmi les trois modes : Ask, Craft, Plan](/workbuddy/03-interface/assets/003_image_W7VqbwVeJo.png)
 
 
 
@@ -50,7 +50,7 @@ WorkBuddy propose trois modes de travail :
 
 Le mode par défaut est automatique, mais vous pouvez désigner le modèle de votre choix ; chaque modèle consomme un nombre de crédits différent.
 
-![](/workbuddy/03-interface/assets/004_image_OzThbMYn5o.png)
+![Choix du modèle : automatique ou modèle précis](/workbuddy/03-interface/assets/004_image_OzThbMYn5o.png)
 
 | Caractéristique de la tâche | Priorité |
 |-|-|

@@ -1,10 +1,14 @@
+---
+description: "你第一次打开 WorkBuddy，左边一栏、中间一片空白、右边又一栏，光标在输入框里一闪一闪。你想让它帮你干活，又怕点错了它乱动你电脑里的文件；想先把界面研究清楚再动手，可满屏的按钮看得人发懵。"
+---
+
 # WorkBuddy 界面长啥样？三块区域带你五分钟不再迷路
 
 你第一次打开 WorkBuddy，左边一栏、中间一片空白、右边又一栏，光标在输入框里一闪一闪。你想让它帮你干活，又怕点错了它乱动你电脑里的文件；想先把界面研究清楚再动手，可满屏的按钮看得人发懵。其实界面没那么复杂，你只要认准三块区域，剩下的边用边熟。
 
 先记住这个全局：WorkBuddy 主界面可以理解为三个区域，左边管任务，中间下指令、看它干活，右边看产物和文件。下面这张图先给你一个整体印象。
 
-![](/workbuddy/03-interface/assets/001_image_MuLCbdPyDo.png)
+![主界面三区布局：左侧任务栏、中间对话区、右侧结果区](/workbuddy/03-interface/assets/001_image_MuLCbdPyDo.png)
 
 ## 三块区域分别在忙什么
 
@@ -24,7 +28,7 @@
 
 你还能对目录空间的权限做设置。当开启「允许完全访问」后，智能体可以读写授权目录外的文件——这个选项请谨慎使用，优先按任务限定目录，别一上来就全放开。
 
-![](/workbuddy/03-interface/assets/002_image_DtASbQcrto.png)
+![目录空间权限设置：「允许完全访问」开关](/workbuddy/03-interface/assets/002_image_DtASbQcrto.png)
 
 ## 三种工作模式，你该用哪一个
 
@@ -36,7 +40,7 @@ WorkBuddy 给你三种工作模式，区别在「它动不动你的文件」。
 | Craft | 做一做 | 可直接操作本地文件、运行代码及系统指令 | 路径清楚、风险较低的任务 |
 | Plan | 想一想 | 先生成计划，确认后再执行 | 多步骤、跨系统、重要文件任务 |
 
-![](/workbuddy/03-interface/assets/003_image_W7VqbwVeJo.png)
+![三种工作模式选择：Ask、Craft、Plan](/workbuddy/03-interface/assets/003_image_W7VqbwVeJo.png)
 
 新手建议从 Ask 或 Plan 起步：Ask 只问不动，最安全；Plan 先给你看方案，你点头它再干。等你对它的能力有把握了，再在合适的任务上用 Craft。
 
@@ -44,7 +48,7 @@ WorkBuddy 给你三种工作模式，区别在「它动不动你的文件」。
 
 默认是自动模式，你也能指定想用的模型。不同模型积分消耗不同，你别只看名气，要看你的活适合谁。
 
-![](/workbuddy/03-interface/assets/004_image_OzThbMYn5o.png)
+![模型选择：自动模式或指定具体模型](/workbuddy/03-interface/assets/004_image_OzThbMYn5o.png)
 
 | 任务特征 | 优先关注 |
 |-|-|

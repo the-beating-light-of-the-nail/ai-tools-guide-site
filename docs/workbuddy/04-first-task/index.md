@@ -1,3 +1,7 @@
+---
+description: "你盯着空荡荡的 WorkBuddy 界面，材料其实都齐了——一份电商销售表格、几份零散文档——可你就是不知道第一句该敲什么。复制进聊天框自己写？那又绕回老路了，AI 替的活最后还是你干。"
+---
+
 # WorkBuddy 第一单怎么跑？八步走完拿到能交的汇报
 
 你盯着空荡荡的 WorkBuddy 界面，材料其实都齐了——一份电商销售表格、几份零散文档——可你就是不知道第一句该敲什么。复制进聊天框自己写？那又绕回老路了，AI 替的活最后还是你干。这单别想复杂，就做一份「分析销售数据、生成汇报 PPT」。你跟着下面八步走，跑完这一圈，你就明白它和聊天 AI 到底差在哪。
@@ -6,39 +10,39 @@
 
 1. 你点「新建任务」。
 
-![](/workbuddy/04-first-task/assets/001_image_C4q3bdNKso.png)
+![点击「新建任务」入口](/workbuddy/04-first-task/assets/001_image_C4q3bdNKso.png)
 
 2. 你选择或创建一个独立的工作目录。
 
 *PS：WorkBuddy 采用文件夹级授权与高危拦截，首次操作请先在演练目录进行、留意授权范围，处理真实业务数据前谨慎确认*
 
-![](/workbuddy/04-first-task/assets/002_image_GeeybIFZLo.png)
+![选择或创建独立工作目录](/workbuddy/04-first-task/assets/002_image_GeeybIFZLo.png)
 
 3. 你判断该用哪种模式，默认是 Craft，也可以设成 Ask 或 Plan。
 
-![](/workbuddy/04-first-task/assets/003_image_DZ55bxbCvo.png)
+![选择工作模式：Craft、Ask 或 Plan](/workbuddy/04-first-task/assets/003_image_DZ55bxbCvo.png)
 
 4. 你选择模型，可以指定想用的模型，不同模型积分消耗不同。
 
-![](/workbuddy/04-first-task/assets/004_image_JiigbkdTKo.png)
+![选择任务使用的模型](/workbuddy/04-first-task/assets/004_image_JiigbkdTKo.png)
 
 5. 你在输入框写下任务说明，比如：「帮我分析一下《电商销售数据.xlsx》数据，生成一份汇报 PPT。」
 
-![](/workbuddy/04-first-task/assets/005_image_ReDxbwNkYo.png)
+![在输入框写下任务说明](/workbuddy/04-first-task/assets/005_image_ReDxbwNkYo.png)
 
 6. 如有必要，你再指定 Skill、专家、连接器或资料库，这一单先忽略它们。
 
-![](/workbuddy/04-first-task/assets/006_image_INLGb7TDQo.png)
+![可选：指定 Skill、专家、连接器](/workbuddy/04-first-task/assets/006_image_INLGb7TDQo.png)
 
 7. 你点发送，然后观察它的计划、工具调用和文件变更。
 
-![](/workbuddy/04-first-task/assets/007_image_BD1FbDdcEo.png)
+![发送后观察执行计划与工具调用](/workbuddy/04-first-task/assets/007_image_BD1FbDdcEo.png)
 
 8. 你在结果区预览产物并验收。
 
 文件可以本地打开、上传云端、或分享，注意分享前先确认产物不含敏感或涉密信息，按公司规范选择共享范围。
 
-![](/workbuddy/04-first-task/assets/008_image_TzOAb2lxIo.png)
+![结果区预览生成的汇报 PPT 并验收](/workbuddy/04-first-task/assets/008_image_TzOAb2lxIo.png)
 
 ## 任务说明怎么写才不像白话
 

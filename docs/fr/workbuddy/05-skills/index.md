@@ -64,53 +64,53 @@ Un Skill apporte deux valeurs qu'un prompt ne peut offrir : d'une part **figer d
 
 Ouvrez « Experts · Skills · Connecteurs » à gauche : vous pouvez chercher dans le marché de Skills ou décrire votre besoin via « Rechercher un Skill ».
 
-![](/workbuddy/05-skills/assets/001_image_TdcLblfvIo.png)
+![Entrée « Experts·Skills·Connecteurs » et recherche de skills](/workbuddy/05-skills/assets/001_image_TdcLblfvIo.png)
 
 Vous pouvez aussi trouver le Skill qu'il vous faut dans le marché SkillHub :
 
-![](/workbuddy/05-skills/assets/002_image_V3E5bsVZGo.png)
+![La marketplace SkillHub](/workbuddy/05-skills/assets/002_image_V3E5bsVZGo.png)
 
 Au-delà de l'installation depuis la liste de recommandations, vous pouvez **importer vos propres Skills téléchargés** : si vous repérez sur Internet un pack de Skills utile, il se présente sous forme d'une archive zip ; cliquez sur « Charger un Skill » pour importer le fichier zip.
 
-![](/workbuddy/05-skills/assets/003_image_Oag3bNQHOo.png)
+![Importer un paquet de skills via « Téléverser un skill »](/workbuddy/05-skills/assets/003_image_Oag3bNQHOo.png)
 
-![](/workbuddy/05-skills/assets/004_image_GgOebNBh3o.png)
+![Sélectionner un fichier zip local à téléverser](/workbuddy/05-skills/assets/004_image_GgOebNBh3o.png)
 
 ## Résoudre une tâche à l'aide d'un Skill
 
 Supposons que l'IA ait rédigé un article pour vous et qu'il faille en ôter le « goût IA ». Trouvez le Skill « Outil anti style IA pour articles », installez-le, puis invoquez-le simplement en tapant `/`.
 
-![](/workbuddy/05-skills/assets/005_20260708200848_NN3hbPsKAo.gif)
+![Taper / pour invoquer un skill installé](/workbuddy/05-skills/assets/005_20260708200848_NN3hbPsKAo.gif)
 
 Il vous suffit d'appeler le Skill et de fournir l'article :
 
-![](/workbuddy/05-skills/assets/006_image_Xom2btXVZo.png)
+![Référencer le skill et fournir l'article](/workbuddy/05-skills/assets/006_image_Xom2btXVZo.png)
 
 WorkBuddy charge d'abord le contenu du Skill :
 
-![](/workbuddy/05-skills/assets/007_image_AmOVb1oGEo.png)
+![WorkBuddy charge le contenu du skill](/workbuddy/05-skills/assets/007_image_AmOVb1oGEo.png)
 
 Puis il applique les règles du Skill, par exemple supprimer les tournures « non pas… mais… », les guillemets superflus, etc. :
 
-![](/workbuddy/05-skills/assets/008_image_FbpQbmSswo.png)
+![Appliquer les règles du skill pour déflavoriser l'IA](/workbuddy/05-skills/assets/008_image_FbpQbmSswo.png)
 
 Une fois les modifications faites, le résultat est là — le « goût IA » a bien disparu.
 
-![](/workbuddy/05-skills/assets/009_image_RhBKbRhgIo.png)
+![Résultat après suppression de la saveur IA](/workbuddy/05-skills/assets/009_image_RhBKbRhgIo.png)
 
 ## Désactiver et désinstaller un Skill
 
 Dans la liste de tous les Skills, cliquez sur « Mes installations » :
 
-![](/workbuddy/05-skills/assets/010_image_NGsdbBcjso.png)
+![Basculer la liste des skills sur « Mes installations »](/workbuddy/05-skills/assets/010_image_NGsdbBcjso.png)
 
 Désactivez le bouton (le Skill est alors désactivé) :
 
-![](/workbuddy/05-skills/assets/011_image_DABBb41fGo.png)
+![Désactiver un skill via l'interrupteur](/workbuddy/05-skills/assets/011_image_DABBb41fGo.png)
 
 Cliquez sur « ··· » pour supprimer ou modifier le Skill :
 
-![](/workbuddy/05-skills/assets/012_image_Uya3bNC9io.png)
+![Le menu « ··· » : supprimer ou modifier un skill](/workbuddy/05-skills/assets/012_image_Uya3bNC9io.png)
 
 ---
 

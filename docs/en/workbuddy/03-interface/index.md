@@ -2,7 +2,7 @@
 
 You can think of the WorkBuddy main interface as three areas: the left side (sidebar) for managing tasks, the center (conversation area) for giving and tracking tasks, and the right side (results area) for viewing files, changes, previews, and final deliverables.
 
-![](/workbuddy/03-interface/assets/001_image_MuLCbdPyDo.png)
+![Three-zone layout: tasks left, chat center, results right](/workbuddy/03-interface/assets/001_image_MuLCbdPyDo.png)
 
 
 
@@ -28,7 +28,7 @@ We recommend creating a separate directory space per task.
 
 You can also set permissions for each directory space. Enabling "Allow full access" lets the agent read and write files outside the authorized directory — use it with caution and prefer restricting directories per task.
 
-![](/workbuddy/03-interface/assets/002_image_DtASbQcrto.png)
+![Workspace permission settings: the full-access toggle](/workbuddy/03-interface/assets/002_image_DtASbQcrto.png)
 
 
 
@@ -42,7 +42,7 @@ WorkBuddy offers three working modes:
 | Craft | 做一做 | Can directly operate local files, run code and system commands | Tasks with clear paths and lower risk |
 | Plan | 想一想 | Generates a plan first, then executes after you confirm | Multi-step, cross-system, or important-file tasks |
 
-![](/workbuddy/03-interface/assets/003_image_W7VqbwVeJo.png)
+![Choosing among the three modes: Ask, Craft, Plan](/workbuddy/03-interface/assets/003_image_W7VqbwVeJo.png)
 
 
 
@@ -50,7 +50,7 @@ WorkBuddy offers three working modes:
 
 The default is Auto mode, but you can specify the model you want to use; different models consume credits at different rates.
 
-![](/workbuddy/03-interface/assets/004_image_OzThbMYn5o.png)
+![Model selection: auto mode or a specific model](/workbuddy/03-interface/assets/004_image_OzThbMYn5o.png)
 
 | Task characteristics | What to prioritize |
 |-|-|

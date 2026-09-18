@@ -1,32 +1,36 @@
+---
+description: "你打开 WorkBuddy，想让它帮你干活，却发现自己账号里积分不够了，弹窗提示额度不足。"
+---
+
 # 没积分也能用 WorkBuddy？接上你自己的 API 照常跑任务
 
 你打开 WorkBuddy，想让它帮你干活，却发现自己账号里积分不够了，弹窗提示额度不足。你正准备关掉，其实先别急——你手里可能就攥着能用的「弹药」：你自己的 LLM API 密钥，或者公司给你配的 Coding Plan、Token Plan 这类套餐。WorkBuddy 支持接入其他大模型的 API，你把钥匙填上，它就能继续替你跑任务，花的还是你自己的额度，不占用站内的积分。
 
 直接从设置里进入，不用装任何额外插件。
 
-![](/workbuddy/09-external-api/assets/001_image_CaRmbk2N1o.png)
+![从设置进入模型接入，无需插件](/workbuddy/09-external-api/assets/001_image_CaRmbk2N1o.png)
 
 点进模型选项。
 
-![](/workbuddy/09-external-api/assets/002_image_PQxNb3id8o.png)
+![设置里的模型选项](/workbuddy/09-external-api/assets/002_image_PQxNb3id8o.png)
 
 你点「添加模型」。
 
-![](/workbuddy/09-external-api/assets/003_image_De1fbH0Gho.png)
+![点「添加模型」](/workbuddy/09-external-api/assets/003_image_De1fbH0Gho.png)
 
 你可以选各种 Coding Plan，或者填一个自定义的 API。
 
-![](/workbuddy/09-external-api/assets/004_image_Fa7pb60ARo.png)
+![选择 Coding Plan 或填自定义 API](/workbuddy/09-external-api/assets/004_image_Fa7pb60ARo.png)
 
 比如接 DeepSeek，你只需要把 API Key 填进去就行，剩下的交给它。
 
-![](/workbuddy/09-external-api/assets/005_image_W9u5bNsaMo.png)
+![填入 DeepSeek API Key 完成接入](/workbuddy/09-external-api/assets/005_image_W9u5bNsaMo.png)
 
 也能接本地的 Ollama 模型——前提是先在本地把 Ollama 启动起来，它默认走 11434 端口，用的是 OpenAI 兼容接口。本地模型有三个实在的好处：数据不出本机、能离线用、零 Token 成本。
 
 你可能会纠结：到底用云端 API 还是本地模型？简单说，云端 API（如 DeepSeek）省心、随接随用，但要联网、数据会出本机；本地 Ollama 完全离线、零成本，但要你自己把服务跑起来。你按手头的活和对数据的要求来选就行。
 
-![](/workbuddy/09-external-api/assets/006_image_BSnBbYupuo.png)
+![云端 API 与本地 Ollama 的选择](/workbuddy/09-external-api/assets/006_image_BSnBbYupuo.png)
 
 > API Key 属于敏感凭证，只填在客户端设置里，不要写进任务说明或分享的文件中。
 

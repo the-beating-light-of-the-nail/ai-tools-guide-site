@@ -50,13 +50,13 @@ MCP kommuniziert über lokale Standard-Ein-/Ausgabe (stdio) oder lokales HTTP. I
 
 **Derzeit werden unter anderem Konnektoren für QQ-Mail, Tencent Docs, Tencent Lexiang, Tencent Meeting und TAPD unterstützt.**
 
-![](/workbuddy/07-connectors/assets/001_image_IZzfbK38Ao.png)
+![Konnektorliste: QQ-Mail, Tencent Docs, Tencent Meeting u. a.](/workbuddy/07-connectors/assets/001_image_IZzfbK38Ao.png)
 
 Zum Beispiel das Laden des Tencent-Meeting-Konnektors,
 
-![](/workbuddy/07-connectors/assets/002_image_WF3ab0WSbo.png)
+![Den Tencent-Meeting-Konnektor geführt laden](/workbuddy/07-connectors/assets/002_image_WF3ab0WSbo.png)
 
-![](/workbuddy/07-connectors/assets/003_image_ZssEbuMsdo.png)
+![Autorisierung des Tencent-Meeting-Konnektors](/workbuddy/07-connectors/assets/003_image_ZssEbuMsdo.png)
 
 
 
@@ -64,15 +64,15 @@ Zum Beispiel das Laden des Tencent-Meeting-Konnektors,
 
 „Erstell mir bitte ein Meeting für morgen 15 Uhr",
 
-![](/workbuddy/07-connectors/assets/004_image_KVIJbpUZdo.png)
+![Anweisung, ein Meeting für morgen 15 Uhr anzulegen](/workbuddy/07-connectors/assets/004_image_KVIJbpUZdo.png)
 
 Thema „Projektdiskussion", Dauer 1 h
 
-![](/workbuddy/07-connectors/assets/005_image_FPy1bGJJZo.png)
+![Der Konnektor liest die Anweisung und legt das Meeting an](/workbuddy/07-connectors/assets/005_image_FPy1bGJJZo.png)
 
 Erfolgreich erstellt
 
-![](/workbuddy/07-connectors/assets/006_image_WQ6Zb1Rero.png)
+![Rückmeldung: Meeting erfolgreich erstellt](/workbuddy/07-connectors/assets/006_image_WQ6Zb1Rero.png)
 
 
 
@@ -80,4 +80,4 @@ Erfolgreich erstellt
 
 Klicken Sie auf der Verwaltungsseite der Konnektoren oben rechts auf „Benutzerdefinierte Konnektoren" und konfigurieren Sie MCP nach Anleitung (einschließlich Serveradresse und Authentifizierungsmethode). Beachten Sie: Der Zugriffsumfang benutzerdefinierter Konnektoren wird vom Nutzer selbst festgelegt
 
-![](/workbuddy/07-connectors/assets/007_image_M2itbQUceo.png)
+![Eigener Konnektor: MCP-Adresse und Authentifizierung](/workbuddy/07-connectors/assets/007_image_M2itbQUceo.png)

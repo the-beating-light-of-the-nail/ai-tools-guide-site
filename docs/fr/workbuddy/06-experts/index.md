@@ -43,17 +43,17 @@ L'utilisateur indique simplement au chef d'équipe le contexte client, le besoin
 
 1. Ouvrez « Experts · Skills · Connecteurs » et sélectionnez « Experts » ;
 
-![](/workbuddy/06-experts/assets/001_image_T8L2bOcbBo.png)
+![Choisir « Experts » dans Experts·Skills·Connecteurs](/workbuddy/06-experts/assets/001_image_T8L2bOcbBo.png)
 
 
 
 2. Cliquez sur « Faire appel à un expert » ; prenons l'exemple de l'expert « Gaokao, je t'aide »
 
-![](/workbuddy/06-experts/assets/002_image_TlTJbNIQOo.png)
+![Cliquer sur « Invoquer un expert », exemple « Aide Gaokao »](/workbuddy/06-experts/assets/002_image_TlTJbNIQOo.png)
 
 3. Fournissez le contenu de la tâche, par exemple « Trouve-moi les sujets de mathématiques du gaokao 2026 »
 
-![](/workbuddy/06-experts/assets/003_image_Hfv9bPfcIo.png)
+![Saisir une tâche, p. ex. trouver les annales de maths du Gaokao](/workbuddy/06-experts/assets/003_image_Hfv9bPfcIo.png)
 
 4. Attendez le résultat
 
@@ -63,19 +63,19 @@ L'utilisateur indique simplement au chef d'équipe le contexte client, le besoin
 
 Cliquez sur « Mes experts », puis « Créer un expert », et c'est parti
 
-![](/workbuddy/06-experts/assets/004_20260708204254_Nvfjb5QwFo.gif)
+![Créer un expert dans « Mes experts »](/workbuddy/06-experts/assets/004_20260708204254_Nvfjb5QwFo.gif)
 
 Créons par exemple un expert en création pour Compte officiel WeChat,
 
-![](/workbuddy/06-experts/assets/005_image_Bzc4b6Ukko.png)
+![Renseigner persona et méthodologie d'un expert rédacteur WeChat](/workbuddy/06-experts/assets/005_image_Bzc4b6Ukko.png)
 
 Une fois la génération terminée, vous pouvez le tester
 
-![](/workbuddy/06-experts/assets/006_image_Oz4wbqMTqo.png)
+![Tester l'expert dès sa génération](/workbuddy/06-experts/assets/006_image_Oz4wbqMTqo.png)
 
 Vous le retrouverez aussi dans « Mes experts ».
 
-![](/workbuddy/06-experts/assets/007_image_TDP4b0emBo.png)
+![Retrouver le nouvel expert dans « Mes experts »](/workbuddy/06-experts/assets/007_image_TDP4b0emBo.png)
 
 ## Faire appel à une équipe d'experts
 
@@ -85,6 +85,6 @@ Dans une équipe d'experts, le chef d'équipe décompose et consolide, tandis qu
 
 Ouvrez « Experts · Skills · Connecteurs », sélectionnez « Équipes d'experts », puis cliquez sur « Faire appel »
 
-![](/workbuddy/06-experts/assets/008_image_MHngbV84ro.png)
+![Entrée « Équipe d'experts » : cliquer sur « Invoquer »](/workbuddy/06-experts/assets/008_image_MHngbV84ro.png)
 
-![](/workbuddy/06-experts/assets/009_image_LUaZbwcddo.png)
+![Liste des équipes d'experts et point d'invocation](/workbuddy/06-experts/assets/009_image_LUaZbwcddo.png)

@@ -1,3 +1,7 @@
+---
+description: "你碰到插件接不进的外部系统，得靠 MCP；你本地电脑跑不动的重任务，得丢到云端运行环境。这篇讲两样怎么接。"
+---
+
 # MCP 和云端环境怎么接？把私有系统和重活交给云
 
 你碰到插件接不进的外部系统，得靠 MCP；你本地电脑跑不动的重任务，得丢到云端运行环境。这篇讲两样怎么接。官方说明在 [work_mcp-overview](https://docs.trae.cn/work_mcp-overview) 和[work_set-up-the-remote-environment](https://docs.trae.cn/work_set-up-the-remote-environment)。

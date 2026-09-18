@@ -2,7 +2,7 @@
 
 Using a real "product promo video expert team" case, this chapter answers the three core questions of multi-agent systems: how to design the division of labor, how to chain the outputs together, and when splitting is worth it.
 
-![](/workbuddy/adv-multi-agent/assets/001_image_AkBibtRBOo.png)
+![Trailer expert team: copy, storyboard, assets, editing, music](/workbuddy/adv-multi-agent/assets/001_image_AkBibtRBOo.png)
 
 ## The Real Difference Between Single-Agent and Multi-Agent
 
@@ -17,7 +17,7 @@ Using a real "product promo video expert team" case, this chapter answers the th
 
 The value of multi-agent comes from **specialized division of labor, parallelism, permission isolation, or independent review** — not from the number of roles.
 
-![](/workbuddy/adv-multi-agent/assets/002_image_WdfWbMN9Do.png)
+![Why multi-agent: division of labor, parallelism, isolation, review](/workbuddy/adv-multi-agent/assets/002_image_WdfWbMN9Do.png)
 
 ## Is the Task Worth Splitting
 
@@ -38,7 +38,7 @@ Editing one email, summarizing one PDF, or formatting one spreadsheet doesn't ne
 
 HyperFrames is HeyGen's open-source video rendering framework. Its defining trait is being AI-Agent-friendly: an Agent can automatically generate HTML-based video frames and render them out. Product promos follow a fairly fixed formula — no narration or actors needed, mostly product demos, conceptual captions, and BGM — which makes them a good fit for a team of Agents to divide up.
 
-![](/workbuddy/adv-multi-agent/assets/003_image_NhwLbBH33o.png)
+![HyperFrames: an open-source, agent-friendly video renderer](/workbuddy/adv-multi-agent/assets/003_image_NhwLbBH33o.png)
 
 ### Pipeline Design
 
@@ -75,7 +75,7 @@ in the current space. The finished video can lean Apple-style, with real softwar
 UI. The whole process should be fully automatic.
 ```
 
-![](/workbuddy/adv-multi-agent/assets/004_image_MdzDbUKmlo.png)
+![Briefing the expert team on a product trailer](/workbuddy/adv-multi-agent/assets/004_image_MdzDbUKmlo.png)
 
 The team lead first breaks "make a promo video" into a chain of subtasks: figure out what the product is, who it's for, and its core value; then decide the narrative structure, shot count, and pacing; then split up assets, editing, and music.
 
@@ -83,7 +83,7 @@ The Brief role starts first, going through the website and product intro to outp
 
 The most interesting one is the composer: it doesn't just fire off a "tech-style BGM" prompt and call it done. It first reads the storyboard, studying the emotional arc of each shot — where the drums should punch on the product reveal, where to pull back and leave space, where a hit point should push the CTA — and only then calls the music model to generate candidates. Finally the team lead integrates all the outputs and runs the last editing pass to produce the finished video.
 
-![](/workbuddy/adv-multi-agent/assets/005_image_QASabZlKzo.png)
+![The team at work: decompose, produce in parallel, assemble](/workbuddy/adv-multi-agent/assets/005_image_QASabZlKzo.png)
 
 Throughout, the human is mostly a bystander: occasionally making the call at key points — whether the storyboard should be arranged this way, whether they like the BGM, whether the caption copy needs changing.
 
@@ -129,9 +129,9 @@ The Producer is the workflow controller: interpreting the user's task and tracki
 
 Creating your own expert team is simple too: Experts → My Experts → Create Expert. You'll jump to the WorkBuddy conversation box, where the given format lets you create one quickly.
 
-![](/workbuddy/adv-multi-agent/assets/007_image_BNYQbIE2no.png)
+![Creating an expert team from My Experts](/workbuddy/adv-multi-agent/assets/007_image_BNYQbIE2no.png)
 
-![](/workbuddy/adv-multi-agent/assets/008_image_KXwlbyY7Oo.png)
+![Quickly creating a team with the given template](/workbuddy/adv-multi-agent/assets/008_image_KXwlbyY7Oo.png)
 
 Typical scenarios the current expert teams cover:
 
@@ -143,7 +143,7 @@ Typical scenarios the current expert teams cover:
 | Business support | SEO, sales, marketing, tax & finance compliance, HR |
 | Legal & compliance | Chinese law |
 
-![](/workbuddy/adv-multi-agent/assets/009_image_HDlMbAHGTo.png)
+![Preset team scenarios: content, dev, analysis and more](/workbuddy/adv-multi-agent/assets/009_image_HDlMbAHGTo.png)
 
 ## Factors That Affect Quality
 

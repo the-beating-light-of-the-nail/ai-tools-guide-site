@@ -2,7 +2,7 @@
 
 Die Hauptoberfläche von WorkBuddy lässt sich als drei Bereiche verstehen: Links (Seitenleiste) verwalten Sie Aufgaben, in der Mitte (Dialogbereich) erteilen und verfolgen Sie Aufgaben, rechts (Ergebnisbereich) sehen Sie Dateien, Änderungen, Vorschauen und die finalen Ergebnisse.
 
-![](/workbuddy/03-interface/assets/001_image_MuLCbdPyDo.png)
+![Drei-Zonen-Layout: Aufgaben links, Dialog Mitte, Ergebnisse rechts](/workbuddy/03-interface/assets/001_image_MuLCbdPyDo.png)
 
 
 
@@ -28,7 +28,7 @@ Empfehlung: Legen Sie pro Aufgabe ein eigenes Verzeichnis an.
 
 Zudem lassen sich die Rechte des Verzeichnisses konfigurieren. Wenn Sie „Vollzugriff erlauben" aktivieren, kann der Agent auch Dateien außerhalb der freigegebenen Verzeichnisse lesen und schreiben – nutzen Sie dies mit Vorsicht und begrenzen Sie Verzeichnisse vorrangig pro Aufgabe.
 
-![](/workbuddy/03-interface/assets/002_image_DtASbQcrto.png)
+![Berechtigungen des Arbeitsbereichs: Schalter für Vollzugriff](/workbuddy/03-interface/assets/002_image_DtASbQcrto.png)
 
 
 
@@ -42,7 +42,7 @@ WorkBuddy bietet drei Arbeitsmodi:
 | Craft | Machen | Kann direkt lokale Dateien bearbeiten, Code und Systembefehle ausführen | Aufgaben mit klaren Pfaden und geringem Risiko |
 | Plan | Planen | Erst einen Plan erstellen, nach Bestätigung ausführen | Mehrstufige, systemübergreifende Aufgaben mit wichtigen Dateien |
 
-![](/workbuddy/03-interface/assets/003_image_W7VqbwVeJo.png)
+![Auswahl der drei Arbeitsmodi: Ask, Craft, Plan](/workbuddy/03-interface/assets/003_image_W7VqbwVeJo.png)
 
 
 
@@ -50,7 +50,7 @@ WorkBuddy bietet drei Arbeitsmodi:
 
 Standardmäßig ist der automatische Modus aktiv; Sie können aber auch das gewünschte Modell festlegen. Die Modelle verursachen unterschiedliche Credits-Kosten.
 
-![](/workbuddy/03-interface/assets/004_image_OzThbMYn5o.png)
+![Modellauswahl: Automatik oder bestimmtes Modell](/workbuddy/03-interface/assets/004_image_OzThbMYn5o.png)
 
 | Aufgabenmerkmal | Vorrangig beachten |
 |-|-|

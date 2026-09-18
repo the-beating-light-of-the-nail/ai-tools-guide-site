@@ -9,7 +9,7 @@ In WorkBuddy lässt sich die Kurzvideo-Arbeit in zwei KI-Expertenteams aufteilen
 
 Die beiden Teams ersetzen einander nicht: Das Produktionsteam beantwortet „wie ich heute ein Video fertig bekomme", das Analyseteam „warum das Video der anderen viral ging und was ich daraus lerne". Eines produziert, eines lernt – erst die Kombination erlaubt dauerhafte Verbesserung.
 
-![](/workbuddy/case-video-team/assets/002_two-ai-video-teams_SXcUb9mpMo.png)
+![Zwei AI-Video-Teams: Produktion und Analyse](/workbuddy/case-video-team/assets/002_two-ai-video-teams_SXcUb9mpMo.png)
 
 ## So ruft man es: mit einem Satz beginnen – aber nicht bei einem Satz bleiben
 
@@ -21,7 +21,7 @@ Rufe das Video-Produktionsteam und erstell ein 46-Sekunden-Kurzvideo als KI-Woch
 
 Vier Kernrollen: der Produzent **Ling Dao**, der Informationssammler **Ling Yue**, der Content-Planer **Ling Shu** und der Videoproduzent **Ling Ying**. Das sind keine vier umbenannten Chat-Fenster, sondern eine Video-Produktionslinie mit Upstream- und Downstream-Übergaben.
 
-![](/workbuddy/case-video-team/assets/004_video-team-roles_ZOJ8b7aQ7o.png)
+![Vier Rollen in der Pipeline: Regie, Recherche, Planung, Produktion](/workbuddy/case-video-team/assets/004_video-team-roles_ZOJ8b7aQ7o.png)
 
 | Rolle | Position | Ergebnisse |
 | --- | --- | --- |
@@ -40,13 +40,13 @@ Diese Pipeline beruht auf HyperFrames (offenes Video-Rendering-Framework): Video
 
 Am zeitraubendsten beim Videomachen ist selten der Schnitt, sondern „was drehe ich heute eigentlich". Ling Yue ruft RSS ab, sucht Nachrichten, scannt Social Media, bündelt KI-Trends und dedupliziert. Die Ergebnisse dieser Phase enthalten mindestens: Titel, Quelle, Veröffentlichungszeit, Ereigniszeit, Originallink, Dynamik-Hinweise und warum es lohnt. **Dynamik hilft nur beim Sortieren – sie ersetzt keine Faktenprüfung.**
 
-![](/workbuddy/case-video-team/assets/007_collection-report_KPn1bXgYQo.png)
+![Der Recherche-Digest: Titel, Quellen, Signals](/workbuddy/case-video-team/assets/007_collection-report_KPn1bXgYQo.png)
 
 ### Schritt 2: Der Content-Planer macht aus dem Thema Shots
 
 Steht das Thema, beginnt das eigentliche Kopfarbeit-Stück: „Wie erzähle ich dieses Video?" Ling Shu verantwortet Themeneinschätzung, Skript, Storyboard, Voice-over, Shot-Rhythmus, BGM-Rhythmus und Emotionspunkte.
 
-![](/workbuddy/case-video-team/assets/008_planner-full_YPM3boyNTo.png)
+![Die Planung: Themenbewertung, Skript und Storyboard](/workbuddy/case-video-team/assets/008_planner-full_YPM3boyNTo.png)
 
 Hier empfiehlt sich die **erste manuelle Prüfung**: Hat der Anfang in 3 Sekunden einen Haken, stecken in 46 Sekunden zu viele Infos, stimmt das Voice-over, tragen die Bilder wirklich die Aussage? Ein nicht bestandenes Skript geht nicht in Vertonung und Rendering.
 
@@ -54,7 +54,7 @@ Hier empfiehlt sich die **erste manuelle Prüfung**: Hat der Anfang in 3 Sekunde
 
 Ling Ying übersetzt das bestätigte Skript in HTML, ruft HyperFrames zum MP4-Rendering und erledigt automatisch Azure-TTS-Vertonung, Whisper-Untertitel-Sync, Animations- und Übergangserzeugung, Materialzusammenschnitt und Video-Rendering.
 
-![](/workbuddy/case-video-team/assets/009_video-producer_PohnbE1jKo.png)
+![Die Produktion: Skript zu HTML, Rendering, Stimme, Untertitel](/workbuddy/case-video-team/assets/009_video-producer_PohnbE1jKo.png)
 
 Die Abnahme des fertigen Films heißt nicht nur „läuft er ab": Stimmen Voice-over und Untertitel überein, passen die Shot-Längen, verdeckt Text das Motiv, ist der BGM nutzbar, hat das Material Lizenzrisiken, passt das Bild in die Sicherheitszone der Zielplattform?
 
@@ -62,13 +62,13 @@ Die Abnahme des fertigen Films heißt nicht nur „läuft er ab": Stimmen Voice-
 
 Der Veröffentlichungs-Agent erzeugt automatisch Titel, setzt Tags, lädt das Cover hoch und veröffentlicht über Cloud-Smartphones auf Douyin, WeChat Channels und Bilibili. Sehr mächtig – aber **standardmäßig nicht direkt automatisch veröffentlichen**, es sei denn, Konto, Material, Titel und Compliance-Grenzen sind von Menschen geprüft.
 
-![](/workbuddy/case-video-team/assets/011_publish-demo_DdTYbbBxLo.png)
+![Der Publishing-Agent: Titel, Tags, Cover, Multi-Plattform-Upload](/workbuddy/case-video-team/assets/011_publish-demo_DdTYbbBxLo.png)
 
 ## Zweites Team: Viral-Video-Analyseteam
 
 Erzeugen allein genügt nicht. Content-Erzeugern hilft wirklich das Verstehen von „warum die anderen viral gehen": Video extrahieren, Text transkribieren, Bildgröße und Kameraführung, Schnitt-Rhythmus und Farbstil analysieren und Dreh-Vorschläge erhalten.
 
-![](/workbuddy/case-video-team/assets/013_anatomy-team_OI1Ubltu1o.png)
+![Das Analyse-Team: Download, Transkription, Bildsprache](/workbuddy/case-video-team/assets/013_anatomy-team_OI1Ubltu1o.png)
 
 | Rolle | Zuständigkeit | Werkzeug / Technik |
 | --- | --- | --- |
@@ -80,7 +80,7 @@ Erzeugen allein genügt nicht. Content-Erzeugern hilft wirklich das Verstehen vo
 
 Der komplexeste Schritt ist das Erlangen des Videos; im Design drei Degradationsstufen: offizielle API → Playwright → yt-dlp – es reicht, wenn eine Stufe Erfolg hat, damit der Ablauf weiterläuft.
 
-![](/workbuddy/case-video-team/assets/015_anatomy-flow_CuFcbaM9Ao.png)
+![Dreistufiger Videoabruf: API → Playwright → yt-dlp](/workbuddy/case-video-team/assets/015_anatomy-flow_CuFcbaM9Ao.png)
 
 > Grenze: Video-Download und Analyse müssen die Plattformbedingungen, Urheberrechte und den Rahmen der fairen Nutzung respektieren. Ziel der Zerlegung ist das Lernen von Struktur und Methode – nicht das Weiterverbreiten des Originalvideos.
 
@@ -92,7 +92,7 @@ Xiao Kai wandelt mit ffmpeg video.mp4 in audio.mp3 und ruft dann eine Spracherke
 
 Der spannendste Schritt: Xiao Miao analysiert Bildgrößen, Kameraführung, Übergänge, Schnitt-Rhythmus, Farbstil und Shot-Längen des ganzen Videos. Hinter vielen „gefühlten" Viral-Videos stecken tatsächlich stabile Shot-Gesetzmäßigkeiten.
 
-![](/workbuddy/case-video-team/assets/018_video-understand_VwxLb62b1o.png)
+![Analyse der Bildsprache: Kadrierung, Bewegung, Rhythmus, Farbgebung](/workbuddy/case-video-team/assets/018_video-understand_VwxLb62b1o.png)
 
 ## Wie beide Teams den Kreislauf schließen
 

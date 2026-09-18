@@ -1,3 +1,7 @@
+---
+description: "你让 WorkBuddy 写一篇文章，每次都得在对话框里反复叮嘱：「别写太 AI」「长短句结合」「别编例子」。同样的叮嘱你说了一遍又一遍，它还是偶尔走样。"
+---
+
 # WorkBuddy 的 Skill 是什么？装一个就让 AI 照着老手的套路干活
 
 你让 WorkBuddy 写一篇文章，每次都得在对话框里反复叮嘱：「别写太 AI」「长短句结合」「别编例子」。同样的叮嘱你说了一遍又一遍，它还是偶尔走样。你心里大概想过：这些重复的要求，能不能一次性教给它，以后不用再讲？能，这就是 Skill 要解决的问题。
@@ -66,53 +70,53 @@ Skill 还有两个 Prompt 给不了你的价值：一是**固定复杂工作流*
 
 你打开左侧「专家·技能·连接器」，可以从技能市场搜索，也可以用「查找技能」描述你的需求。
 
-![](/workbuddy/05-skills/assets/001_image_TdcLblfvIo.png)
+![左侧「专家·技能·连接器」入口与技能搜索](/workbuddy/05-skills/assets/001_image_TdcLblfvIo.png)
 
 你也能在 SkillHub 技能市场里找合适的 Skill：
 
-![](/workbuddy/05-skills/assets/002_image_V3E5bsVZGo.png)
+![SkillHub 技能市场](/workbuddy/05-skills/assets/002_image_V3E5bsVZGo.png)
 
 除了从推荐列表里直接安装，你还可以**导入自己下载的技能**：你在网上看到好用的技能包，下载下来是一个 zip 压缩文件，点「上传技能」把 zip 文件加载即可。
 
-![](/workbuddy/05-skills/assets/003_image_Oag3bNQHOo.png)
+![「上传技能」导入 zip 技能包](/workbuddy/05-skills/assets/003_image_Oag3bNQHOo.png)
 
-![](/workbuddy/05-skills/assets/004_image_GgOebNBh3o.png)
+![选择本地 zip 文件上传技能](/workbuddy/05-skills/assets/004_image_GgOebNBh3o.png)
 
 ## 用 Skill 解决一件具体的事
 
 比如，你让 AI 写了一篇文章，需要去除 AI 味。你找到「文章去 AI 味工具」Skill，安装之后，使用时直接按 `/` 就能唤出。
 
-![](/workbuddy/05-skills/assets/005_20260708200848_NN3hbPsKAo.gif)
+![输入 / 唤出已安装的技能](/workbuddy/05-skills/assets/005_20260708200848_NN3hbPsKAo.gif)
 
 你只需要引用 Skill 内容，把文章给到：
 
-![](/workbuddy/05-skills/assets/006_image_Xom2btXVZo.png)
+![引用 Skill 并把文章给到](/workbuddy/05-skills/assets/006_image_Xom2btXVZo.png)
 
 WorkBuddy 会先加载 Skill 的内容：
 
-![](/workbuddy/05-skills/assets/007_image_AmOVb1oGEo.png)
+![WorkBuddy 加载 Skill 内容](/workbuddy/05-skills/assets/007_image_AmOVb1oGEo.png)
 
 然后根据 Skill 中的规则来执行，比如要去除「不是……而是……」、双引号等内容：
 
-![](/workbuddy/05-skills/assets/008_image_FbpQbmSswo.png)
+![按 Skill 规则执行去 AI 味处理](/workbuddy/05-skills/assets/008_image_FbpQbmSswo.png)
 
 修改之后你可以拿到结果——确实去除了 AI 味。
 
-![](/workbuddy/05-skills/assets/009_image_RhBKbRhgIo.png)
+![去 AI 味后的成品效果](/workbuddy/05-skills/assets/009_image_RhBKbRhgIo.png)
 
 ## Skill 的关闭和卸载
 
 你从全部技能里点「我安装的」：
 
-![](/workbuddy/05-skills/assets/010_image_NGsdbBcjso.png)
+![技能列表切到「我安装的」](/workbuddy/05-skills/assets/010_image_NGsdbBcjso.png)
 
 点按钮关闭（则该 Skill 关闭）：
 
-![](/workbuddy/05-skills/assets/011_image_DABBb41fGo.png)
+![点开关关闭对应 Skill](/workbuddy/05-skills/assets/011_image_DABBb41fGo.png)
 
 你点「···」，可以选择删除或编辑该 Skill：
 
-![](/workbuddy/05-skills/assets/012_image_Uya3bNC9io.png)
+![「···」菜单：删除或编辑 Skill](/workbuddy/05-skills/assets/012_image_Uya3bNC9io.png)
 
 ## 新手常见问题
 

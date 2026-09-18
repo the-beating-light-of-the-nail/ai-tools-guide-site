@@ -1,10 +1,14 @@
+---
+description: "先说人话版定义：WorkBuddy 是腾讯推出的全场景职场 AI 智能体工作台，面向 HR、行政、运营、销售、研发这些每天要跟文件、表格、报告打交道的人。"
+---
+
 # 第 1 章 初识 WorkBuddy：它是干活的，不是聊天的
 
 先说人话版定义：**WorkBuddy** 是腾讯推出的全场景职场 AI 智能体工作台，面向 HR、行政、运营、销售、研发这些每天要跟文件、表格、报告打交道的人。
 
 它和你在网页里聊过的 AI 有个根本区别：聊天 AI 是「你问它答」，答完活还是你自己干；WorkBuddy 是你说一句「分析这个文件夹里的销售数据，做成汇报 PPT」，它在你的本地电脑上自己规划步骤、读文件、做分析、出成果。你从「提问的人」变成「派活和验收的人」。
 
-![](/workbuddy/01-intro/assets/001_image_Ve9kbu40Eo.png)
+![WorkBuddy 主界面：输入一句话派活，它自己执行](/workbuddy/01-intro/assets/001_image_Ve9kbu40Eo.png)
 
 ## 从「回答问题」到「交付结果」
 
@@ -15,7 +19,7 @@
 
 任务更复杂时，它自己拆解步骤，派多个智能体（Agents）并行干——你在不同工具、文件、任务之间来回切换的时间，就是它省下来的时间。
 
-![](/workbuddy/01-intro/assets/002_image_IaB9bqqj6o.png)
+![多个智能体并行处理任务](/workbuddy/01-intro/assets/002_image_IaB9bqqj6o.png)
 
 整个过程你不用一个个手动上传文件，也不用一步步教它「接下来该干什么」。一个任务的完整流转长这样：
 
@@ -46,7 +50,7 @@ flowchart LR
 
 第一次把电脑交给 AI，你肯定会想这个问题。WorkBuddy 针对本地文件操作、终端执行这类高危场景，配了高危指令拦截和权限控制机制；实际使用中还有文件夹级授权——它只能碰你授权过的目录。即便如此，处理真实业务数据之前，建议先拿演练目录练手。
 
-![](/workbuddy/01-intro/assets/003_image_Idhdsahdl.png)
+![高危指令拦截与文件夹授权设置](/workbuddy/01-intro/assets/003_image_Idhdsahdl.png)
 
 ## 新手常见问题
 

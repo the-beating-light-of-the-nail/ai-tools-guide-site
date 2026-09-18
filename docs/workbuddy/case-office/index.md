@@ -1,3 +1,7 @@
+---
+description: "办公三件套是多数人第一次感受到 WorkBuddy 价值的地方。本章聚焦三类最常见的办公产物：Word 文档、Excel 表格和 PPT 汇报。"
+---
+
 # 第 11 章 办公三件套：Word、Excel、PPT
 
 办公三件套是多数人第一次感受到 WorkBuddy 价值的地方。本章聚焦三类最常见的办公产物：Word 文档、Excel 表格和 PPT 汇报。
@@ -57,9 +61,9 @@ Word 的真实难点通常有四个：不知道按什么结构写、语气不够
 适合直接拿去和领导确认活动方向。
 ```
 
-![](/workbuddy/case-office/assets/001_image_PhFMbu3kTo.png)
+![团建活动策划 Word 文档生成](/workbuddy/case-office/assets/001_image_PhFMbu3kTo.png)
 
-![](/workbuddy/case-office/assets/002_image_UVm5bKLrZo.png)
+![策划文档的结构与内容预览](/workbuddy/case-office/assets/002_image_UVm5bKLrZo.png)
 
 ### 二次修改不要重写，要说差异
 
@@ -75,9 +79,9 @@ Word 的真实难点通常有四个：不知道按什么结构写、语气不够
 输出修改后的 v2 版 Word 文档，并在 changelog.md 中列出本次修改内容。
 ```
 
-![](/workbuddy/case-office/assets/003_image_IoOLbfEcvo.png)
+![按差异修改生成 v2 版文档](/workbuddy/case-office/assets/003_image_IoOLbfEcvo.png)
 
-![](/workbuddy/case-office/assets/004_image_V1RpbVGuno.png)
+![修改后的流程表格与预算细化](/workbuddy/case-office/assets/004_image_V1RpbVGuno.png)
 
 ### 进阶：比较两版制度、合同或方案
 
@@ -88,9 +92,9 @@ Word 的真实难点通常有四个：不知道按什么结构写、语气不够
 生成影响清单和待确认问题，不给法律结论，不修改原文件。
 ```
 
-![](/workbuddy/case-office/assets/011_image_HqbtbVTw3o.png)
+![两版制度文档差异对比结果](/workbuddy/case-office/assets/011_image_HqbtbVTw3o.png)
 
-![](/workbuddy/case-office/assets/012_image_MhArbb6Woo.png)
+![文档对比生成的影响清单与待确认问题](/workbuddy/case-office/assets/012_image_MhArbb6Woo.png)
 
 文档对比适合发现变化，不替代法务、财务或制度责任人的最终判断。
 
@@ -127,11 +131,11 @@ Excel 的问题通常不在“会不会做图”，而在“这个表到底能�
 要求：保留原始数据，统计过程和公式可追溯；无法确认的原因标注为待核实，不要编造。
 ```
 
-![](/workbuddy/case-office/assets/005_image_I118b7wyUo.png)
+![销售数据分析：字段检查与清洗](/workbuddy/case-office/assets/005_image_I118b7wyUo.png)
 
-![](/workbuddy/case-office/assets/006_image_BWkRb60JPo.png)
+![按产品线统计的销售额与毛利排名](/workbuddy/case-office/assets/006_image_BWkRb60JPo.png)
 
-![](/workbuddy/case-office/assets/007_image_XtfQbkCqio.png)
+![销售分析图表：柱状图与日度折线图](/workbuddy/case-office/assets/007_image_XtfQbkCqio.png)
 
 ### 进阶：多表合并、对账与异常清单
 
@@ -145,9 +149,9 @@ Excel 的问题通常不在“会不会做图”，而在“这个表到底能�
 金额汇总必须与各源表合计对账，差异不为 0 时不生成管理结论。
 ```
 
-![](/workbuddy/case-office/assets/009_image_UNEqbRnJfo.png)
+![多表合并：列名与口径检查](/workbuddy/case-office/assets/009_image_UNEqbRnJfo.png)
 
-![](/workbuddy/case-office/assets/010_image_L25tbHIUeo.png)
+![合并产出：清洗表与异常清单](/workbuddy/case-office/assets/010_image_L25tbHIUeo.png)
 
 **验收**：输入总量、清洗变化和输出总量守恒；公式可重算；异常没有被静默删除；图表使用的字段和汇总表一致。
 
@@ -183,7 +187,7 @@ PPT 标题尽量直接表达观点，不使用"AI Agent 介绍"这类泛化标�
 整体风格：专业、简洁、有科技感，但不要过度使用渐变、发光和装饰性元素。
 ```
 
-![](/workbuddy/case-office/assets/008_image_ABXObcQeeo.png)
+![从材料包生成的 8 页汇报 PPT](/workbuddy/case-office/assets/008_image_ABXObcQeeo.png)
 
 ## 三件套联动：会议之后自动形成交付包
 

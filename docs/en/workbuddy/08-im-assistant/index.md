@@ -4,7 +4,7 @@ Installing the client is just the first step. This chapter takes WorkBuddy from 
 
 ## The Mini Program's Two Modes
 
-![](/workbuddy/08-im-assistant/assets/001_image_Vv5bbtLVBo.png)
+![Mini-program entry for local and cloud modes](/workbuddy/08-im-assistant/assets/001_image_Vv5bbtLVBo.png)
 
 | Mode | Where tasks run | Depends on your computer being online | Best for |
 | --- | --- | --- | --- |
@@ -33,19 +33,19 @@ sequenceDiagram
 
 1. Open WorkBuddy, click the gear icon under "Assistant" on the left, and go to "Assistant Settings";
 
-![](/workbuddy/08-im-assistant/assets/002_微信助理-进入助理设置_NbI2b9v4fo.png)
+![Gear icon in the Assistant panel opens settings](/workbuddy/08-im-assistant/assets/002_微信助理-进入助理设置_NbI2b9v4fo.png)
 
 2. Find "WeChat Assistant Integration" and click "Configure";
 
-![](/workbuddy/08-im-assistant/assets/003_微信助理-选择集成_S9HlbaEmdo.png)
+![Clicking Configure on WeChat Assistant integration](/workbuddy/08-im-assistant/assets/003_微信助理-选择集成_S9HlbaEmdo.png)
 
 3. Wait for the binding QR code to appear, then scan it with WeChat on your phone;
 
-![](/workbuddy/08-im-assistant/assets/004_微信助理-扫码绑定_TElmbNPG5o.png)
+![Binding by scanning the QR code in WeChat](/workbuddy/08-im-assistant/assets/004_微信助理-扫码绑定_TElmbNPG5o.png)
 
 4. Once the card shows "Bound," start by sending a read-only test command;
 
-![](/workbuddy/08-im-assistant/assets/005_微信助理-已绑定_ZQtrb6jCmo.png)
+![Card shows Bound; sending a read-only test command](/workbuddy/08-im-assistant/assets/005_微信助理-已绑定_ZQtrb6jCmo.png)
 
 5. To switch WeChat accounts, unbind the current account first, then scan again.
 
@@ -55,57 +55,57 @@ sequenceDiagram
 
 1. WorkBuddy → Settings → Assistant Settings → select Feishu;
 
-![](/workbuddy/08-im-assistant/assets/006_image_SbcEbSaoio.png)
+![Selecting Feishu in assistant settings](/workbuddy/08-im-assistant/assets/006_image_SbcEbSaoio.png)
 
 2. Create a custom enterprise app on the Feishu Open Platform;
 
-![](/workbuddy/08-im-assistant/assets/007_飞书-登录开放平台_EUPhblavHo.png)
+![Creating a self-built app on the Feishu open platform](/workbuddy/08-im-assistant/assets/007_飞书-登录开放平台_EUPhblavHo.png)
 
 3. Add bot capabilities to the app;
 
-![](/workbuddy/08-im-assistant/assets/008_飞书-添加机器人能力_XFmTb5HGQo.png)
+![Adding bot capability to the Feishu app](/workbuddy/08-im-assistant/assets/008_飞书-添加机器人能力_XFmTb5HGQo.png)
 
 4. Grant the minimum permissions required by the current WorkBuddy page;
 
-![](/workbuddy/08-im-assistant/assets/009_飞书-批量导入权限_MRdCbm3Dvo.png)
+![Granting the minimal permissions requested](/workbuddy/08-im-assistant/assets/009_飞书-批量导入权限_MRdCbm3Dvo.png)
 
 5. Under "Credentials & Basic Info," get the App ID and App Secret;
 
-![](/workbuddy/08-im-assistant/assets/010_飞书-应用凭证_CnItbspOUo.png)
+![Getting the App ID and Secret from Credentials & Basics](/workbuddy/08-im-assistant/assets/010_飞书-应用凭证_CnItbspOUo.png)
 
 6. Enter the credentials in WorkBuddy, and generate or copy the callback information;
 
-![](/workbuddy/08-im-assistant/assets/011_飞书-加密与校验配置_WiAYbwBDKo.png)
+![Pasting credentials back into WorkBuddy to get callbacks](/workbuddy/08-im-assistant/assets/011_飞书-加密与校验配置_WiAYbwBDKo.png)
 
 7. In Feishu, configure event subscriptions and callbacks, adding events such as receiving messages and card interactions;
 
-![](/workbuddy/08-im-assistant/assets/012_飞书-添加接收消息事件_X4z6bNPsso.png)
+![Feishu event subscription: adding the message event](/workbuddy/08-im-assistant/assets/012_飞书-添加接收消息事件_X4z6bNPsso.png)
 
-![](/workbuddy/08-im-assistant/assets/013_飞书-卡片回调_AvOxbO7M9o.png)
+![Configuring the card interaction callback in Feishu](/workbuddy/08-im-assistant/assets/013_飞书-卡片回调_AvOxbO7M9o.png)
 
 8. Create a version and publish the app, then send the bot a read-only test task in Feishu.
 
-![](/workbuddy/08-im-assistant/assets/014_飞书-发布应用_TafwbySxco.png)
+![Creating a version and publishing the Feishu app](/workbuddy/08-im-assistant/assets/014_飞书-发布应用_TafwbySxco.png)
 
 ## Connecting DingTalk
 
-![](/workbuddy/08-im-assistant/assets/015_image_RRhMbPo5uo.png)
+![DingTalk setup: app development and bot entry](/workbuddy/08-im-assistant/assets/015_image_RRhMbPo5uo.png)
 
 1. Sign in to the DingTalk Developer Console with an enterprise admin account, go to "App Development," and create an app;
 
-![](/workbuddy/08-im-assistant/assets/016_钉钉-创建应用_NuNTbdscZo.png)
+![Creating an app in the DingTalk developer console](/workbuddy/08-im-assistant/assets/016_钉钉-创建应用_NuNTbdscZo.png)
 
 2. Add bot capabilities to the app, fill in the bot's name, description, and avatar, and confirm publication;
 
-![](/workbuddy/08-im-assistant/assets/017_钉钉-添加机器人能力_ORRbbZrqgo.png)
+![Adding bot capability in DingTalk and publishing](/workbuddy/08-im-assistant/assets/017_钉钉-添加机器人能力_ORRbbZrqgo.png)
 
 3. Grant the required permissions;
 
-![](/workbuddy/08-im-assistant/assets/018_钉钉-开通权限_QG1zbPhcxo.png)
+![Granting the required DingTalk app permissions](/workbuddy/08-im-assistant/assets/018_钉钉-开通权限_QG1zbPhcxo.png)
 
 4. Get the app credentials and paste them back into WorkBuddy. Preferably validate everything in a test organization or test group first.
 
-![](/workbuddy/08-im-assistant/assets/019_钉钉-获取应用凭证_OI8fbW0JNo.png)
+![Getting the DingTalk credentials back into WorkBuddy](/workbuddy/08-im-assistant/assets/019_钉钉-获取应用凭证_OI8fbW0JNo.png)
 
 ---
 

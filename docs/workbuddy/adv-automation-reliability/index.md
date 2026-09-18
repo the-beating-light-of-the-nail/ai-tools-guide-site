@@ -1,3 +1,7 @@
+---
+description: "以“每日 AI 热点选题聚合”为贯穿案例，说明自动化工作流从手动运行到定时可靠执行，需要处理哪些问题。"
+---
+
 # 第 25 章 自动化工作流的可靠性
 
 以“每日 AI 热点选题聚合”为贯穿案例，说明自动化工作流从手动运行到定时可靠执行，需要处理哪些问题。
@@ -18,9 +22,9 @@ AI 领域更新快，每天需要从多个信息源筛选当日值得写的选�
 
 手动运行一次，WorkBuddy 会同时调用四个数据源，整合输出一份当日 AI 热点清单。跑通后，下一步就是设置为定时任务：每天早上 9:00 自动运行，结果推送到指定位置。
 
-![](/workbuddy/adv-automation-reliability/assets/001_image_FGBhb1udco.png)
+![手动运行：聚合四个数据源的当日 AI 热点清单](/workbuddy/adv-automation-reliability/assets/001_image_FGBhb1udco.png)
 
-![](/workbuddy/adv-automation-reliability/assets/002_image_Yuucbmf9So.png)
+![热点清单的输出结果示例](/workbuddy/adv-automation-reliability/assets/002_image_Yuucbmf9So.png)
 
 ## 自动化前的三个门槛
 
@@ -43,9 +47,9 @@ AI 领域更新快，每天需要从多个信息源筛选当日值得写的选�
 
 WorkBuddy 会将当前 Prompt 和数据源配置保存为定时任务，按设定时间自动执行。
 
-![](/workbuddy/adv-automation-reliability/assets/003_image_RNrFb50Tqo.png)
+![把 Prompt 与数据源保存为定时任务](/workbuddy/adv-automation-reliability/assets/003_image_RNrFb50Tqo.png)
 
-![](/workbuddy/adv-automation-reliability/assets/004_image_IPtlb5D3Zo.png)
+![定时任务设置：每天 9:00 自动执行并推送](/workbuddy/adv-automation-reliability/assets/004_image_IPtlb5D3Zo.png)
 
 ## 把自动化任务设计成状态机
 

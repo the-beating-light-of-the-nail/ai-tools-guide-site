@@ -1,3 +1,7 @@
+---
+description: "如果一个人同时使用 WPS、ima、Obsidian、微信收藏、会议记录和本地文件，怎样分工才能避免“每个地方都有一份，但没有一份可信”？"
+---
+
 # 第 16 章 收藏不是知识管理，能再次用起来才是
 
 ## 工具都装了，知识还是散的
@@ -27,7 +31,7 @@
 "AI 工具真正的门槛不是提示词，而是验收结果。"
 ```
 
-![](/workbuddy/case-knowledge/assets/001_image_M29JbJQ3po.png)
+![灵感收件箱：保留原话不扩写](/workbuddy/case-knowledge/assets/001_image_M29JbJQ3po.png)
 
 ## 场景二：微信收藏很多，真正写作时还是搜不到
 
@@ -37,7 +41,7 @@
 处理本周微信收藏，只读，不删除原收藏。
 ```
 
-![](/workbuddy/case-knowledge/assets/002_byKl8HZ2_TtombzmOwo.jpg)
+![处理微信收藏：只读导出并分类](/workbuddy/case-knowledge/assets/002_byKl8HZ2_TtombzmOwo.jpg)
 
 ## 场景三：ima 作为移动知识入口
 
@@ -47,7 +51,7 @@ ima 的优势不是“问答更聪明”，而是手机收集、知识库读写�
 将我刚选择的 3 份文件放入 ima"WorkBuddy 案例库"的收件箱。
 ```
 
-![](/workbuddy/case-knowledge/assets/003_image_D0c8blIsEo.png)
+![把文件放入 ima 知识库收件箱](/workbuddy/case-knowledge/assets/003_image_D0c8blIsEo.png)
 
 ## 场景四：Obsidian 不是文件夹，而是可维护的 Wiki
 
@@ -59,7 +63,7 @@ ima 的优势不是“问答更聪明”，而是手机收集、知识库读写�
 
 WorkBuddy 能识别文章正文和作者，并生成 Markdown 条目。
 
-![](/workbuddy/case-knowledge/assets/004_test_SSsAbxS8po.jpg)
+![公众号文章解析为 Obsidian Markdown 条目](/workbuddy/case-knowledge/assets/004_test_SSsAbxS8po.jpg)
 
 ---
 

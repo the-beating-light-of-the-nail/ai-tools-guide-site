@@ -1,3 +1,7 @@
+---
+description: "你用 TraeWork 按「积分」计费，你模型选得不好，积分烧得飞快。这篇把官方计费文档里最容易踩的坑，整理成一张避坑地图。"
+---
+
 # 模型和积分怎么管？避坑别烧钱
 
 你用 TraeWork 按「积分」计费，你模型选得不好，积分烧得飞快。这篇把官方计费文档里最容易踩的坑，整理成一张避坑地图。官方说明在 [work_models](https://docs.trae.cn/work_models) 和[ide_plans-and-billing](https://docs.trae.cn/ide_plans-and-billing)。价格与套餐截至 2026-08-31，以 [trae.cn/pricing](https://www.trae.cn/pricing) 实时信息为准。

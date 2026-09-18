@@ -27,7 +27,7 @@ Nimm Folgendes in den „Ideen-Posteingang" auf, behalte meine Originalworte, ni
 „Die eigentliche Hürde bei KI-Werkzeugen sind nicht die Prompts, sondern die Abnahme der Ergebnisse."
 ```
 
-![](/workbuddy/case-knowledge/assets/001_image_M29JbJQ3po.png)
+![Ideen-Posteingang: Originalwortlaut, keine Ausschmückung](/workbuddy/case-knowledge/assets/001_image_M29JbJQ3po.png)
 
 ## Szenario 2: Viele WeChat-Favoriten – und beim Schreiben trotzdem nichts gefunden
 
@@ -37,7 +37,7 @@ Brauchbare Skills: [WeChat-Favoriten-Wissensdatenbank](https://skillhub.cn/skill
 Verarbeite die WeChat-Favoriten dieser Woche – nur lesend, die Original-Favoriten nicht löschen.
 ```
 
-![](/workbuddy/case-knowledge/assets/002_byKl8HZ2_TtombzmOwo.jpg)
+![WeChat-Favoriten verarbeiten: nur-lesen Export und Sortierung](/workbuddy/case-knowledge/assets/002_byKl8HZ2_TtombzmOwo.jpg)
 
 ## Szenario 3: ima als mobiler Wissenseingang
 
@@ -47,7 +47,7 @@ imas Stärke ist nicht „schlauere Antworten", sondern mobiles Sammeln, Lesen/S
 Lege die 3 gerade von mir ausgewählten Dateien in den Posteingang der ima-„WorkBuddy-Fallbibliothek".
 ```
 
-![](/workbuddy/case-knowledge/assets/003_image_D0c8blIsEo.png)
+![Dateien in den ima-Wissensspeicher-Eingang legen](/workbuddy/case-knowledge/assets/003_image_D0c8blIsEo.png)
 
 ## Szenario 4: Obsidian ist kein Ordner, sondern ein pflegbares Wiki
 
@@ -59,7 +59,7 @@ Brauchbare Skills: [Obsidian-Materialpflege](https://skillhub.cn/skills/obsidian
 
 WorkBuddy erkennt Haupttext und Autor des Artikels und erzeugt einen Markdown-Eintrag.
 
-![](/workbuddy/case-knowledge/assets/004_test_SSsAbxS8po.jpg)
+![Ein WeChat-Artikel als Obsidian-Markdown-Eintrag](/workbuddy/case-knowledge/assets/004_test_SSsAbxS8po.jpg)
 
 ---
 

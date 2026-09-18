@@ -9,7 +9,7 @@ Dans WorkBuddy, découpez le travail vidéo court en deux équipes d'experts IA 
 
 Ces deux équipes ne se remplacent pas : la génération répond à « comment produire une vidéo aujourd'hui », le décryptage répond à « pourquoi celle des autres a marché, et qu'en retenir ». L'une produit, l'autre apprend ; combinées, elles rendent l'itération continue possible.
 
-![](/workbuddy/case-video-team/assets/002_two-ai-video-teams_SXcUb9mpMo.png)
+![Deux équipes vidéo IA : production et décorticage](/workbuddy/case-video-team/assets/002_two-ai-video-teams_SXcUb9mpMo.png)
 
 ## Comment faire appel : partez d'une phrase, mais ne vous arrêtez pas là
 
@@ -21,7 +21,7 @@ Fais appel à l'équipe de génération vidéo pour produire une vidéo hebdo IA
 
 Quatre rôles clés : le directeur artistique **Ling Dao**, la documentaliste **Ling Yue**, la planningeuse de contenu **Ling Shu** et le monteur **Ling Ying**. Ce ne sont pas quatre fenêtres de chat renommées, mais une ligne de production vidéo avec des passerelles en amont et en aval.
 
-![](/workbuddy/case-video-team/assets/004_video-team-roles_ZOJ8b7aQ7o.png)
+![Quatre rôles : réalisation, veille, planification, production](/workbuddy/case-video-team/assets/004_video-team-roles_ZOJ8b7aQ7o.png)
 
 | Rôle | Position | Livrables |
 | --- | --- | --- |
@@ -40,13 +40,13 @@ Cette chaîne repose sur HyperFrames (framework de rendu vidéo open source) : l
 
 Le plus chronophage d'une vidéo n'est souvent pas le montage, mais « quoi tourner aujourd'hui ». Ling Yue agrège les RSS, actualités, réseaux sociaux et tendances IA, puis déduplique. Les livrables de cette étape comprennent au minimum : titre, source, dates de publication et de l'événement, lien d'origine, indices de popularité, et pourquoi cela mérite attention. **La popularité sert à trier, pas à remplacer la vérification des faits.**
 
-![](/workbuddy/case-video-team/assets/007_collection-report_KPn1bXgYQo.png)
+![Le digest de veille : titres, sources, signaux](/workbuddy/case-video-team/assets/007_collection-report_KPn1bXgYQo.png)
 
 ### Étape 2 : la planningeuse transforme le thème en plans
 
 Une fois le sujet retenu, la vraie réflexion porte sur « comment raconter cette vidéo ». Ling Shu gère l'évaluation du sujet, le script, le storyboard, la voix off, le rythme des plans, celui du BGM et les points d'émotion.
 
-![](/workbuddy/case-video-team/assets/008_planner-full_YPM3boyNTo.png)
+![Le planificateur : notation, script et storyboard](/workbuddy/case-video-team/assets/008_planner-full_YPM3boyNTo.png)
 
 Placez ici le **premier contrôle humain** : les 3 premières secondes ont-elles un crochet ? 46 secondes n'enferment-elles pas trop d'informations ? La voix off est-elle exacte ? Les images soutiennent-elles vraiment le propos ? Un script non conforme ne passe pas en voix off ni en rendu.
 
@@ -54,7 +54,7 @@ Placez ici le **premier contrôle humain** : les 3 premières secondes ont-elles
 
 Ling Ying convertit le script validé en HTML, puis appelle HyperFrames pour rendre le MP4, en enchaînant automatiquement voix off Azure TTS, alignement des sous-titres Whisper, animations et transitions, assemblage des ressources et rendu.
 
-![](/workbuddy/case-video-team/assets/009_video-producer_PohnbE1jKo.png)
+![La production : script en HTML, rendu, voix, sous-titres](/workbuddy/case-video-team/assets/009_video-producer_PohnbE1jKo.png)
 
 La validation finale ne se limite pas à « ça se lit » : vérifiez la cohérence voix off/sous-titres, la durée des plans, le texte ne masquant pas le sujet, l'exploitabilité du BGM, les droits des ressources, et la compatibilité avec la zone de sécurité de la plateforme cible.
 
@@ -62,13 +62,13 @@ La validation finale ne se limite pas à « ça se lit » : vérifiez la cohére
 
 L'Agent de publication génère automatiquement titres et tags, téléverse la couverture et publie via un smartphone cloud vers Douyin, WeChat Channels et Bilibili. Très capable, mais **ne publiez pas automatiquement par défaut**, tant que compte, ressources, titres et limites de conformité n'ont pas été validés par un humain.
 
-![](/workbuddy/case-video-team/assets/011_publish-demo_DdTYbbBxLo.png)
+![L'agent de publication : titres, tags, couvertures, envoi multi-plateformes](/workbuddy/case-video-team/assets/011_publish-demo_DdTYbbBxLo.png)
 
 ## Seconde équipe : le décryptage des vidéos virales
 
 Savoir générer ne suffit pas. Le créateur a surtout besoin de comprendre « pourquoi les autres cartonnent » : extraire la vidéo, transcrire le texte, analyser cadrages et mouvements de caméra, rythme de montage, palette visuelle, et formuler des suggestions d'imitation.
 
-![](/workbuddy/case-video-team/assets/013_anatomy-team_OI1Ubltu1o.png)
+![L'équipe d'analyse : téléchargement, transcription, langage caméra](/workbuddy/case-video-team/assets/013_anatomy-team_OI1Ubltu1o.png)
 
 | Rôle | Mission | Outils / technologies |
 | --- | --- | --- |
@@ -80,7 +80,7 @@ Savoir générer ne suffit pas. Le créateur a surtout besoin de comprendre « p
 
 L'étape la plus délicate est d'obtenir la vidéo ; la conception prévoit trois niveaux de repli : API officielle → Playwright → yt-dlp ; dès qu'un niveau réussit, le processus continue.
 
-![](/workbuddy/case-video-team/assets/015_anatomy-flow_CuFcbaM9Ao.png)
+![Récupération vidéo à trois niveaux : API → Playwright → yt-dlp](/workbuddy/case-video-team/assets/015_anatomy-flow_CuFcbaM9Ao.png)
 
 > Limite : le téléchargement et l'analyse doivent respecter les conditions des plateformes, les droits d'auteur et l'usage raisonnable. Le décryptage vise à apprendre structures et méthodes, pas à rediffuser la vidéo d'origine.
 
@@ -92,7 +92,7 @@ Xiao Kai convertit video.mp4 en audio.mp3 avec ffmpeg, puis appelle une API de r
 
 L'étape la plus intéressante : Xiao Miao analyse cadrages, mouvements de caméra, transitions, rythme de montage, palette, durées de plans. Beaucoup de vidéos virales au « feeling » indéfinissable reposent en réalité sur des régularités visuelles stables.
 
-![](/workbuddy/case-video-team/assets/018_video-understand_VwxLb62b1o.png)
+![Analyse du langage visuel : cadrage, mouvement, rythme, tonalités](/workbuddy/case-video-team/assets/018_video-understand_VwxLb62b1o.png)
 
 ## Comment les deux équipes bouclent la boucle
 

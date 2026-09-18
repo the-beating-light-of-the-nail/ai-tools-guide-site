@@ -1,3 +1,7 @@
+---
+description: "你让 WorkBuddy 分析一份销售数据，它读完给你画了图、总结了趋势。结果能用，但总觉得差了点意思——它没问你这数据要服务什么业务目标，也没揪出异常背后可能的原因。"
+---
+
 # WorkBuddy 的专家是什么？派一个懂行的 AI 同事替你扛专业活
 
 你让 WorkBuddy 分析一份销售数据，它读完给你画了图、总结了趋势。结果能用，但总觉得差了点意思——它没问你这数据要服务什么业务目标，也没揪出异常背后可能的原因。你想要的不是一个「能算数的工具」，而是一个「懂这块业务的老手」。专家，就是把这个老手放进 WorkBuddy 里。
@@ -31,15 +35,15 @@ WorkBuddy 本身是个通用 Agent，什么任务都能接。但通用不意味�
 
 1. 你打开「专家·技能·连接器」，选择「专家」；
 
-![](/workbuddy/06-experts/assets/001_image_T8L2bOcbBo.png)
+![「专家·技能·连接器」选择「专家」](/workbuddy/06-experts/assets/001_image_T8L2bOcbBo.png)
 
 2. 你点「召唤专家」；以「高考我帮你」专家举例。
 
-![](/workbuddy/06-experts/assets/002_image_TlTJbNIQOo.png)
+![点「召唤专家」，以「高考我帮你」为例](/workbuddy/06-experts/assets/002_image_TlTJbNIQOo.png)
 
 3. 你提供任务内容，比如「帮我查一下 2026 年高考数学真题」。
 
-![](/workbuddy/06-experts/assets/003_image_Hfv9bPfcIo.png)
+![输入任务内容，如查高考数学真题](/workbuddy/06-experts/assets/003_image_Hfv9bPfcIo.png)
 
 4. 你等待结果。
 
@@ -47,19 +51,19 @@ WorkBuddy 本身是个通用 Agent，什么任务都能接。但通用不意味�
 
 你点「我的专家」，创建专家，即可。
 
-![](/workbuddy/06-experts/assets/004_20260708204254_Nvfjb5QwFo.gif)
+![「我的专家」里创建专家](/workbuddy/06-experts/assets/004_20260708204254_Nvfjb5QwFo.gif)
 
 比如创建一个公众号创作专家：
 
-![](/workbuddy/06-experts/assets/005_image_Bzc4b6Ukko.png)
+![填写公众号创作专家的人设与方法论](/workbuddy/06-experts/assets/005_image_Bzc4b6Ukko.png)
 
 生成结束，你可以测试：
 
-![](/workbuddy/06-experts/assets/006_image_Oz4wbqMTqo.png)
+![生成专家后直接测试效果](/workbuddy/06-experts/assets/006_image_Oz4wbqMTqo.png)
 
 在你的「我的专家」中，也可以找到它。
 
-![](/workbuddy/06-experts/assets/007_image_TDP4b0emBo.png)
+![在「我的专家」中找到新建的专家](/workbuddy/06-experts/assets/007_image_TDP4b0emBo.png)
 
 ## 召唤一个专家团
 
@@ -67,9 +71,9 @@ WorkBuddy 本身是个通用 Agent，什么任务都能接。但通用不意味�
 
 你打开「专家·技能·连接器」，选择「专家团」，点「召唤」。
 
-![](/workbuddy/06-experts/assets/008_image_MHngbV84ro.png)
+![「专家团」入口：点「召唤」](/workbuddy/06-experts/assets/008_image_MHngbV84ro.png)
 
-![](/workbuddy/06-experts/assets/009_image_LUaZbwcddo.png)
+![专家团列表与召唤入口](/workbuddy/06-experts/assets/009_image_LUaZbwcddo.png)
 
 ## 新手常见问题
 

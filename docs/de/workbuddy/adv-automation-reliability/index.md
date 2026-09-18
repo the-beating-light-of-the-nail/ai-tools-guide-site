@@ -19,9 +19,9 @@ Quellen:
 
 Bei einem manuellen Lauf ruft WorkBuddy alle vier Datenquellen gleichzeitig auf und liefert eine integrierte Liste der KI-Trends des Tages. Nach dem erfolgreichen Lauf folgt als Nächstes die Einrichtung als zeitgesteuerte Aufgabe: täglich um 9:00 automatisch ausführen und das Ergebnis an die Zielstelle pushen.
 
-![](/workbuddy/adv-automation-reliability/assets/001_image_FGBhb1udco.png)
+![Manueller Lauf: Tages-Hotlist aus vier Quellen](/workbuddy/adv-automation-reliability/assets/001_image_FGBhb1udco.png)
 
-![](/workbuddy/adv-automation-reliability/assets/002_image_Yuucbmf9So.png)
+![Beispielausgabe der Hotlist](/workbuddy/adv-automation-reliability/assets/002_image_Yuucbmf9So.png)
 
 ## Drei Hürden vor der Automatisierung
 
@@ -44,9 +44,9 @@ das Ergebnis senden an [bestimmte Feishu-Gruppe / E-Mail / WeCom-Benachrichtigun
 
 WorkBuddy speichert den aktuellen Prompt und die Datenquellenkonfiguration als zeitgesteuerte Aufgabe und führt sie zur festgelegten Zeit automatisch aus.
 
-![](/workbuddy/adv-automation-reliability/assets/003_image_RNrFb50Tqo.png)
+![Prompt und Quellen als geplante Aufgabe speichern](/workbuddy/adv-automation-reliability/assets/003_image_RNrFb50Tqo.png)
 
-![](/workbuddy/adv-automation-reliability/assets/004_image_IPtlb5D3Zo.png)
+![Geplante Aufgabe: täglich 9:00 Uhr mit Push](/workbuddy/adv-automation-reliability/assets/004_image_IPtlb5D3Zo.png)
 
 ## Die automatisierte Aufgabe als Zustandsmaschine entwerfen
 

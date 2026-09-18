@@ -4,39 +4,39 @@
 
 1. 點擊「新建任務」；
 
-![](/workbuddy/04-first-task/assets/001_image_C4q3bdNKso.png)
+![點擊「新建任務」入口](/workbuddy/04-first-task/assets/001_image_C4q3bdNKso.png)
 
 2. 選擇或建立獨立工作目錄；
 
 *PS：WorkBuddy 採用資料夾級授權與高危攔截，首次操作請先在演練目錄進行、留意授權範圍，處理真實業務資料前謹慎確認*
 
-![](/workbuddy/04-first-task/assets/002_image_GeeybIFZLo.png)
+![選擇或建立獨立工作目錄](/workbuddy/04-first-task/assets/002_image_GeeybIFZLo.png)
 
 3. 判斷應該使用模式，預設為 Craft，還可以設定成 Ask 或 Plan；
 
-![](/workbuddy/04-first-task/assets/003_image_DZ55bxbCvo.png)
+![選擇工作模式：Craft、Ask 或 Plan](/workbuddy/04-first-task/assets/003_image_DZ55bxbCvo.png)
 
 4. 選擇模型，可以指定你想使用的模型，不同模型積分消耗不同。
 
-![](/workbuddy/04-first-task/assets/004_image_JiigbkdTKo.png)
+![選擇任務使用的模型](/workbuddy/04-first-task/assets/004_image_JiigbkdTKo.png)
 
 5. 輸入任務說明，「幫我分析一下《電商銷售資料.xlsx》資料，生成一份彙報 PPT。」
 
-![](/workbuddy/04-first-task/assets/005_image_ReDxbwNkYo.png)
+![在輸入框寫下任務說明](/workbuddy/04-first-task/assets/005_image_ReDxbwNkYo.png)
 
 6. 如有必要，指定 Skill、專家、連接器或資料庫，這裡暫時忽略
 
-![](/workbuddy/04-first-task/assets/006_image_INLGb7TDQo.png)
+![可選：指定 Skill、專家、連接器](/workbuddy/04-first-task/assets/006_image_INLGb7TDQo.png)
 
 7. 傳送後觀察計畫、工具調用和檔案變更；
 
-![](/workbuddy/04-first-task/assets/007_image_BD1FbDdcEo.png)
+![傳送後觀察執行計畫與工具調用](/workbuddy/04-first-task/assets/007_image_BD1FbDdcEo.png)
 
 8. 在結果區預覽產物並驗收。
 
 檔案可以本機打開、上傳雲端、或分享，注意分享前先確認產物不含敏感或涉密資訊，按公司規範選擇共享範圍。
 
-![](/workbuddy/04-first-task/assets/008_image_TzOAb2lxIo.png)
+![結果區預覽產生的匯報 PPT 並驗收](/workbuddy/04-first-task/assets/008_image_TzOAb2lxIo.png)
 
 
 

@@ -27,7 +27,7 @@
 "AI 工具真正的門檻不是提示詞，而是驗收結果。"
 ```
 
-![](/workbuddy/case-knowledge/assets/001_image_M29JbJQ3po.png)
+![靈感收件匣：保留原話不擴寫](/workbuddy/case-knowledge/assets/001_image_M29JbJQ3po.png)
 
 ## 場景二：微信收藏很多，真正寫作時還是搜不到
 
@@ -37,7 +37,7 @@
 處理本週微信收藏，只讀，不刪除原收藏。
 ```
 
-![](/workbuddy/case-knowledge/assets/002_byKl8HZ2_TtombzmOwo.jpg)
+![處理微信收藏：只讀匯出並分類](/workbuddy/case-knowledge/assets/002_byKl8HZ2_TtombzmOwo.jpg)
 
 ## 場景三：ima 作為移動知識入口
 
@@ -47,7 +47,7 @@ ima 的優勢不是“問答更聰明”，而是手機收集、知識庫讀寫�
 將我剛選擇的 3 份檔案放入 ima"WorkBuddy 案例庫"的收件箱。
 ```
 
-![](/workbuddy/case-knowledge/assets/003_image_D0c8blIsEo.png)
+![把檔案放入 ima 知識庫收件匣](/workbuddy/case-knowledge/assets/003_image_D0c8blIsEo.png)
 
 ## 場景四：Obsidian 不是資料夾，而是可維護的 Wiki
 
@@ -59,7 +59,7 @@ ima 的優勢不是“問答更聰明”，而是手機收集、知識庫讀寫�
 
 WorkBuddy 能識別文章正文和作者，並生成 Markdown 條目。
 
-![](/workbuddy/case-knowledge/assets/004_test_SSsAbxS8po.jpg)
+![公眾號文章解析為 Obsidian Markdown 條目](/workbuddy/case-knowledge/assets/004_test_SSsAbxS8po.jpg)
 
 ---
 

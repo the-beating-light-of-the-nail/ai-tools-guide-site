@@ -57,9 +57,9 @@ Langage concis et pratique, sans excès de détail ; l'essentiel est de clarifie
 pour valider directement l'orientation avec la direction.
 ```
 
-![](/workbuddy/case-office/assets/001_image_PhFMbu3kTo.png)
+![Génération du plan de séminaire en Word](/workbuddy/case-office/assets/001_image_PhFMbu3kTo.png)
 
-![](/workbuddy/case-office/assets/002_image_UVm5bKLrZo.png)
+![Aperçu de la structure et du contenu du plan](/workbuddy/case-office/assets/002_image_UVm5bKLrZo.png)
 
 ### Deuxième passe : ne pas réécrire, mais décrire les différences
 
@@ -75,9 +75,9 @@ Rendre l'ensemble plus formel et concis, prêt pour approbation par la direction
 Livrer le document Word v2 modifié et lister les changements dans changelog.md.
 ```
 
-![](/workbuddy/case-office/assets/003_image_IoOLbfEcvo.png)
+![Révision en v2 à partir des différences](/workbuddy/case-office/assets/003_image_IoOLbfEcvo.png)
 
-![](/workbuddy/case-office/assets/004_image_V1RpbVGuno.png)
+![Tableau du déroulé révisé et budget détaillé](/workbuddy/case-office/assets/004_image_V1RpbVGuno.png)
 
 ### Pour aller plus loin : comparer deux versions d'un règlement, contrat ou projet
 
@@ -88,9 +88,9 @@ Signale en priorité montants, dates, responsables, conditions d'approbation, ex
 Génère une liste d'impacts et de questions à trancher ; pas de conclusion juridique ; ne modifie pas les fichiers d'origine.
 ```
 
-![](/workbuddy/case-office/assets/011_image_HqbtbVTw3o.png)
+![Résultat du diff entre deux versions de politique](/workbuddy/case-office/assets/011_image_HqbtbVTw3o.png)
 
-![](/workbuddy/case-office/assets/012_image_MhArbb6Woo.png)
+![Liste d'impact et questions ouvertes issues du diff](/workbuddy/case-office/assets/012_image_MhArbb6Woo.png)
 
 La comparaison de documents sert à repérer les changements ; elle ne remplace pas le jugement final des responsables juridiques, financiers ou du règlement.
 
@@ -128,11 +128,11 @@ Sorties : output/sales-analysis.xlsx et output/summary.md.
 Exigences : données d'origine conservées, calculs et formules traçables ; les causes non confirmées sont notées « à vérifier », sans invention.
 ```
 
-![](/workbuddy/case-office/assets/005_image_I118b7wyUo.png)
+![Analyse des ventes : contrôle des champs et nettoyage](/workbuddy/case-office/assets/005_image_I118b7wyUo.png)
 
-![](/workbuddy/case-office/assets/006_image_BWkRb60JPo.png)
+![Ventes et marge brute classés par ligne de produit](/workbuddy/case-office/assets/006_image_BWkRb60JPo.png)
 
-![](/workbuddy/case-office/assets/007_image_XtfQbkCqio.png)
+![Graphiques de ventes : barres et courbe journalière](/workbuddy/case-office/assets/007_image_XtfQbkCqio.png)
 
 ### Pour aller plus loin : fusion multi-tableaux, rapprochement et liste d'anomalies
 
@@ -146,9 +146,9 @@ Génère clean-sales.xlsx, exception-list.xlsx et reconciliation.md.
 Le total des montants doit se rapprocher avec la somme des tableaux sources ; si l'écart n'est pas nul, ne génère pas de conclusions de gestion.
 ```
 
-![](/workbuddy/case-office/assets/009_image_UNEqbRnJfo.png)
+![Fusion multi-tables : contrôle des colonnes et définitions](/workbuddy/case-office/assets/009_image_UNEqbRnJfo.png)
 
-![](/workbuddy/case-office/assets/010_image_L25tbHIUeo.png)
+![Sortie de fusion : table nettoyée et liste d'exceptions](/workbuddy/case-office/assets/010_image_L25tbHIUeo.png)
 
 **Validation** : volume entrant, variations du nettoyage et volume sortant s'équilibrent ; formules recalculables ; aucune anomalie supprimée en silence ; les champs utilisés par les graphiques correspondent au tableau de synthèse.
 
@@ -184,7 +184,7 @@ uniformité des polices et numérotation.
 Style : professionnel, sobre, tech, sans excès de dégradés, lueurs et ornements.
 ```
 
-![](/workbuddy/case-office/assets/008_image_ABXObcQeeo.png)
+![Le rapport de 8 pages généré à partir des sources](/workbuddy/case-office/assets/008_image_ABXObcQeeo.png)
 
 ## Les trois combinés : un livrable complet automatique après la réunion
 

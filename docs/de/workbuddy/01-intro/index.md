@@ -4,7 +4,7 @@
 
 Sie richtet sich an unterschiedliche Berufsrollen – Personalwesen, Verwaltung, Betrieb, Vertrieb, Entwicklung und mehr – und ist eine KI-Büroanwendung, die wie ein echter Kollege denkt, Aufgaben ausführt und Ergebnisse liefert.
 
-![](/workbuddy/01-intro/assets/001_image_Ve9kbu40Eo.png)
+![WorkBuddy-Hauptoberfläche: eine Anweisung eingeben, es führt aus](/workbuddy/01-intro/assets/001_image_Ve9kbu40Eo.png)
 
 ## Von „Fragen beantworten" zu „Ergebnisse liefern"
 
@@ -29,7 +29,7 @@ flowchart LR
 
 Sie können WorkBuddy zum Beispiel einfach sagen: Analysiere die Vertriebsdaten in diesem Ordner und erstelle daraus eine Berichts-Präsentation.
 
-![](/workbuddy/01-intro/assets/002_image_IaB9bqqj6o.png)
+![Mehrere Agenten bearbeiten Aufgaben parallel](/workbuddy/01-intro/assets/002_image_IaB9bqqj6o.png)
 
 WorkBuddy liest selbstständig die relevanten Dateien, versteht die Inhalte, führt Analyse und Zusammenfassung durch und erzeugt ein finales Arbeitsergebnis, das Sie ansehen und bearbeiten können.
 
@@ -45,4 +45,4 @@ Sie können je nach Aufgabe das passende Modell wählen und WorkBuddys Werkzeuge
 
 Zugleich stellt WorkBuddy für Szenarien wie lokale Dateioperationen oder Terminal-Ausführungen Mechanismen wie die Abfrage riskanter Befehle und Zugriffskontrolle bereit, um die Risiken der autonomen Ausführung durch die KI zu senken.
 
-![](/workbuddy/01-intro/assets/003_image_Idhdsahdl.png)
+![Abfangen riskanter Befehle und Ordnerberechtigungen](/workbuddy/01-intro/assets/003_image_Idhdsahdl.png)

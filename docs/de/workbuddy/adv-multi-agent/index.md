@@ -2,7 +2,7 @@
 
 Dieses Kapitel beantwortet anhand eines echten Falls – eines „Expertenteams für Produkt-Trailer" – drei Kernfragen von Multi-Agent-Systemen: Wie designt man die Aufgabenteilung, wie verknüpft man die Ergebnisse, wann lohnt sich die Aufteilung.
 
-![](/workbuddy/adv-multi-agent/assets/001_image_AkBibtRBOo.png)
+![Trailer-Expertenteam: Text, Storyboard, Material, Schnitt, Musik](/workbuddy/adv-multi-agent/assets/001_image_AkBibtRBOo.png)
 
 ## Der echte Unterschied zwischen Einzel- und Multi-Agent
 
@@ -17,7 +17,7 @@ Dieses Kapitel beantwortet anhand eines echten Falls – eines „Expertenteams 
 
 Der Mehrwert von Multi-Agent entsteht durch **Fachaufteilung, Parallelität, Rechteisolierung oder unabhängige Prüfung** – nicht durch die Zahl der Rollen.
 
-![](/workbuddy/adv-multi-agent/assets/002_image_WdfWbMN9Do.png)
+![Der Wert von Multi-Agenten: Teilung, Parallelität, Rechte, Review](/workbuddy/adv-multi-agent/assets/002_image_WdfWbMN9Do.png)
 
 ## Lohnt sich die Aufteilung einer Aufgabe?
 
@@ -38,7 +38,7 @@ Nur eine E-Mail umformulieren, ein PDF zusammenfassen oder eine Tabelle formatie
 
 HyperFrames ist ein von HeyGen offengelegtes Video-Rendering-Framework; sein Kernmerkmal ist KI-Agenten-Freundlichkeit: Agenten können HTML-basierte Videoframes automatisch erzeugen und rendern. Produkt-Trailer folgen einem relativ festen Muster – ohne Sprecher und Schauspieler, hauptsächlich Produktbilder, Konzept-Untertitel und BGM – und eignen sich gut für die Aufteilung in einem Agenten-Team.
 
-![](/workbuddy/adv-multi-agent/assets/003_image_NhwLbBH33o.png)
+![HyperFrames: ein agentenfreundliches Open-Source-Video-Framework](/workbuddy/adv-multi-agent/assets/003_image_NhwLbBH33o.png)
 
 ### Prozessdesign
 
@@ -75,7 +75,7 @@ Verzeichnis liegen einige Materialien; der Stil des fertigen Films darf an Apple
 sein, mit echten Software-Oberflächen. Der gesamte Prozess vollautomatisch.
 ```
 
-![](/workbuddy/adv-multi-agent/assets/004_image_MdzDbUKmlo.png)
+![Dem Expertenteam einen Trailer-Auftrag erteilen](/workbuddy/adv-multi-agent/assets/004_image_MdzDbUKmlo.png)
 
 Der Teamleiter zerlegt zuerst „einen Trailer drehen" in eine Kette von Teilaufgaben: zuerst klären, was das Produkt ist, an wen es verkauft wird und was der Kernwert ist; dann Erzählstruktur, Zahl der Shots und Rhythmus festlegen; danach getrennt Material, Schnitt und Musik erarbeiten.
 
@@ -83,7 +83,7 @@ Die Brief-Rolle beginnt: Sie geht Website und Produktvorstellung durch und liefe
 
 Am interessantesten ist der Komponist: Er tippt nicht einfach einen „Tech-BGM"-Prompt ein, sondern liest zuerst das Storyboard und studiert die Emotionskurve jedes Shots – wo ein Drumhit den Produkt-Reveal markieren, wo es für Leere zurückgenommen, wo ein Hit Point die CTA schieben soll – und ruft erst dann das Musikmodell für Kandidaten auf. Am Ende integriert der Teamleiter alle Ergebnisse und dreht den finalen Schnitt.
 
-![](/workbuddy/adv-multi-agent/assets/005_image_QASabZlKzo.png)
+![Das Team bei der Arbeit: zerlegen, parallel produzieren, zusammenführen](/workbuddy/adv-multi-agent/assets/005_image_QASabZlKzo.png)
 
 Der Mensch ist dabei im Wesentlichen Zuschauer: gelegentlich entscheidet er an Schlüsselpunkten – Storyboard so oder anders, BGM gefällig, Untertiteltext ändern oder nicht.
 
@@ -129,9 +129,9 @@ Der Produzent (Regisseur) ist die Workflow-Steuerung: Er interpretiert die Nutze
 
 Ein eigenes Expertenteam anzulegen ist ebenfalls einfach: Experten → Meine Experten → Experten erstellen; Sie gelangen in den WorkBuddy-Dialog und legen es nach dem vorgegebenen Format schnell an.
 
-![](/workbuddy/adv-multi-agent/assets/007_image_BNYQbIE2no.png)
+![Expertenteam aus Meine Experten anlegen, fr: Créer une équipe d'experts depuis « Mes experts »](/workbuddy/adv-multi-agent/assets/007_image_BNYQbIE2no.png)
 
-![](/workbuddy/adv-multi-agent/assets/008_image_KXwlbyY7Oo.png)
+![Team per Vorlage schnell anlegen](/workbuddy/adv-multi-agent/assets/008_image_KXwlbyY7Oo.png)
 
 Typische Szenarien der aktuellen Expertenteams:
 
@@ -143,7 +143,7 @@ Typische Szenarien der aktuellen Expertenteams:
 | Unternehmenssupport | SEO, Vertrieb, Marketing, Finanz- und Steuer-Compliance, HR |
 | Recht & Compliance | Chinesisches Recht |
 
-![](/workbuddy/adv-multi-agent/assets/009_image_HDlMbAHGTo.png)
+![Vorkonfigurierte Szenarien: Content, Entwicklung, Analyse u. a.](/workbuddy/adv-multi-agent/assets/009_image_HDlMbAHGTo.png)
 
 ## Einflussfaktoren auf die Qualität
 

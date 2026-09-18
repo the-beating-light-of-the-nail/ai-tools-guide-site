@@ -1,3 +1,7 @@
+---
+description: "你接一个长任务，最怕它半路跑偏：干到一半你发现方向错了，返工比重做还累。TraeWork 内置三种工作流（Plan / Spec / Goal）加一套自定义命令，帮你把长任务摁在轨道上跑。"
+---
+
 # Plan、Spec、Goal 怎么选？把长任务管住不跑偏
 
 你接一个长任务，最怕它半路跑偏：干到一半你发现方向错了，返工比重做还累。TraeWork 内置三种工作流（Plan / Spec / Goal）加一套自定义命令，帮你把长任务摁在轨道上跑。官方说明在 [work_spec-and-plan](https://docs.trae.cn/work_spec-and-plan) 和[work_commands](https://docs.trae.cn/work_commands)。

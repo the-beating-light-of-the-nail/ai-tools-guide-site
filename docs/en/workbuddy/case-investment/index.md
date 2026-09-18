@@ -154,7 +154,7 @@ a valuation dashboard + a forward monitoring list (event A strengthens the thesi
 
 Each of the eight prompts works well alone, but researching a stock fully means wiring them manually, redoing everything for a new ticker, eyeballing the data, arguing yourself into decisions, and assembling deliverables by hand. `stock-advisor` turns that chain **from "a pile of prompts" into "a pipeline that runs end-to-end with one click"**:
 
-![](/workbuddy/case-investment/assets/001_stock-advisor-overview_Lxy0b4axOo.png)
+![The stock-advisor skill: one-click research pipeline](/workbuddy/case-investment/assets/001_stock-advisor-overview_Lxy0b4axOo.png)
 
 | Module | What it does | Key design |
 | --- | --- | --- |
@@ -185,11 +185,11 @@ I've uploaded a daily candlestick chart and a technical indicator chart (MACD) o
 Output a technical quick-read report combining tables and text.
 ```
 
-![](/workbuddy/case-investment/assets/003_image_CrgibiDW3o.png)
+![Uploading a candlestick chart for a technical read](/workbuddy/case-investment/assets/003_image_CrgibiDW3o.png)
 
 WorkBuddy first recognized from the chart that this was T&S Communications, currently around CNY 368.70, then delivered a structured quick-read: MA5 > MA10 > MA20 in a standard bullish alignment, still in a main uptrend; but that day printed a long upper shadow (spiked to 376.10 before falling back to 368.70), the MACD histogram was starting to shrink, and the bias was stretched; support at MA5 (347) / MA10 (319), resistance at the day's high of 376. Note it didn't guess the direction — it structured "what can actually be read from the chart."
 
-![](/workbuddy/case-investment/assets/004_image_WX6WbFC9Oo.png)
+![Technical readout: moving averages, support and resistance](/workbuddy/case-investment/assets/004_image_WX6WbFC9Oo.png)
 
 ### Step 2: Add Financial Report Screenshots for a Full Analysis
 
@@ -203,7 +203,7 @@ I've now also uploaded this stock's Q3 2025 results and full-year pre-announceme
 4. Clearly mark key support and resistance levels, formatted like a professional research report.
 ```
 
-![](/workbuddy/case-investment/assets/007_image_CScebfl1io.png)
+![Adding earnings screenshots for a full analysis](/workbuddy/case-investment/assets/007_image_CScebfl1io.png)
 
 It first recognized the metrics in the screenshots line by line (revenue CNY 3.918B, +63.63% YoY; ROE 31.30%; PE 146.70...), then synthesized a composite rating table:
 
@@ -217,7 +217,7 @@ It first recognized the metrics in the screenshots line by line (revenue CNY 3.9
 
 The final rating was "buy," with a notably restrained core conclusion: **the medium-term trend is favorable (CPO boom + high growth), but short-term the valuation is stretched and the run-up too large — don't chase; wait for a pullback.** An expensive valuation gets docked from the total score — it won't turn blindly bullish just because growth is good.
 
-![](/workbuddy/case-investment/assets/008_image_I6uBbecypo.png)
+![Composite rating: weighted technical, fundamental, valuation, flow](/workbuddy/case-investment/assets/008_image_I6uBbecypo.png)
 
 ### Step 3: Still Undecided? Convene the Advisory Board
 
@@ -232,7 +232,7 @@ final recommendation of buy/hold/sell; you, as moderator, synthesize the views i
 Base the discussion on the data from the previous two rounds so the advisors "talk with data in hand."
 ```
 
-![](/workbuddy/case-investment/assets/011_image_LuArbEta0o.png)
+![The advisory board: four advisors debating with data](/workbuddy/case-investment/assets/011_image_LuArbEta0o.png)
 
 In the advisory board stage, the system first refreshed its data online (full-year 2025 revenue, the Q1 2026 sequential decline, comparisons against Zhongji Innolight and Eoptolink) — the cross-validation module pushed the discussion beyond the screenshots to the latest facts from across the web. The four advisors split 2:2: Buffett says avoid ("PE 142, zero margin of safety"), Gates says wait ("wait for PE below 60, or switch to a better-value name"), Musk says all in ("CPO is the iPhone moment for optical communications"), Jobs says hold conditionally ("provided the CPO FAU delivers on schedule in H2 2026").
 
@@ -245,9 +245,9 @@ The moderator then synthesized an **action plan segmented by investor type**, an
 | Trend investor | Participate cautiously | Enter on a pullback to MA10 / MA20 |
 | Aggressive investor | Small trial position | 30% max; clear out below CNY 300 |
 
-![](/workbuddy/case-investment/assets/015_image_Y0yvbzLRto.png)
+![Execution plan tiered by investor type](/workbuddy/case-investment/assets/015_image_Y0yvbzLRto.png)
 
-![](/workbuddy/case-investment/assets/016_image_DOOhbmIIeo.png)
+![Decisions tied to future checkpoints: exit on falsification](/workbuddy/case-investment/assets/016_image_DOOhbmIIeo.png)
 
 After the conversation, you can have it turn the whole analysis into a magazine-style report (save locally as PDF or upload to Feishu). Looking back: `stock-advisor` turned eight loose prompts into a complete research run finished in three conversational rounds — **read the chart → read the financials → convene the board → produce the report** — and at no point did it make that most critical "buy or sell" decision for you.
 

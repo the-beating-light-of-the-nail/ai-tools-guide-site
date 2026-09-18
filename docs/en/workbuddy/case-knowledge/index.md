@@ -27,7 +27,7 @@ Log the following into the "Idea Inbox," keeping my original words — no expand
 "The real barrier to AI tools isn't the prompt, it's verifying the results."
 ```
 
-![](/workbuddy/case-knowledge/assets/001_image_M29JbJQ3po.png)
+![Idea inbox: keep the original words, no expansion](/workbuddy/case-knowledge/assets/001_image_M29JbJQ3po.png)
 
 ## Scenario 2: Lots of WeChat Favorites, Still Unfindable When Actually Writing
 
@@ -37,7 +37,7 @@ Useful Skills: [WeChat Favorites Knowledge Base](https://skillhub.cn/skills/wech
 Process this week's WeChat Favorites — read-only; do not delete the originals.
 ```
 
-![](/workbuddy/case-knowledge/assets/002_byKl8HZ2_TtombzmOwo.jpg)
+![Processing WeChat favorites: read-only export and sorting](/workbuddy/case-knowledge/assets/002_byKl8HZ2_TtombzmOwo.jpg)
 
 ## Scenario 3: ima as the Mobile Knowledge Entry Point
 
@@ -47,7 +47,7 @@ ima's strength isn't "smarter Q&A" — it's mobile capture, knowledge base read/
 Put the 3 files I just selected into the inbox of the "WorkBuddy Case Library" in ima.
 ```
 
-![](/workbuddy/case-knowledge/assets/003_image_D0c8blIsEo.png)
+![Adding files to the ima knowledge-base inbox](/workbuddy/case-knowledge/assets/003_image_D0c8blIsEo.png)
 
 ## Scenario 4: Obsidian Isn't a Folder — It's a Maintainable Wiki
 
@@ -59,7 +59,7 @@ Hand a WeChat Official Account article to WorkBuddy to parse, then ask it to fil
 
 WorkBuddy can recognize the article body and author, and generate a Markdown entry.
 
-![](/workbuddy/case-knowledge/assets/004_test_SSsAbxS8po.jpg)
+![A WeChat article parsed into an Obsidian Markdown note](/workbuddy/case-knowledge/assets/004_test_SSsAbxS8po.jpg)
 
 ---
 

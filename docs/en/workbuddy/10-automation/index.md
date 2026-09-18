@@ -82,15 +82,15 @@ Open the "Automation" page in WorkBuddy to see scheduled tasks and execution his
 
 Click "Automation,"
 
-![](/workbuddy/10-automation/assets/001_image_RklAba93No.png)
+![The Automation entry on the left](/workbuddy/10-automation/assets/001_image_RklAba93No.png)
 
 "Add Automation," and you can customize your task
 
-![](/workbuddy/10-automation/assets/002_image_MhojbPRsOo.png)
+![Clicking Add Automation to define a task](/workbuddy/10-automation/assets/002_image_MhojbPRsOo.png)
 
 For example, a daily AI news push, scheduled for 8 AM
 
-![](/workbuddy/10-automation/assets/003_image_Ff6fbYuGoo.png)
+![Daily AI news digest scheduled for 8 am](/workbuddy/10-automation/assets/003_image_Ff6fbYuGoo.png)
 
 
 
@@ -98,7 +98,7 @@ For example, a daily AI news push, scheduled for 8 AM
 
 The official task templates cover common scenarios like news digests, weekly reports, health checkup bookings, and study plans. A template's value is providing the basic fields and task structure — but it isn't the final answer. After selecting one, you should still adjust the data sources, time ranges, output locations, acceptance criteria, and forbidden actions.
 
-![](/workbuddy/10-automation/assets/004_%E8%87%AA%E5%8A%A8%E5%8C%96-%E4%BB%BB%E5%8A%A1%E6%A8%A1%E6%9D%BF_FYNwbDWqbo.png)
+![Official task templates: news digest, weekly report and more](/workbuddy/10-automation/assets/004_%E8%87%AA%E5%8A%A8%E5%8C%96-%E4%BB%BB%E5%8A%A1%E6%A8%A1%E6%9D%BF_FYNwbDWqbo.png)
 
 
 

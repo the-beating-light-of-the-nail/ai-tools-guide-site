@@ -1,10 +1,14 @@
+---
+description: "你装好了 WorkBuddy 客户端，可人一离开工位，电脑一锁屏，活就派不出去了。你想在地铁上让它在家里那台电脑上跑个分析，或者直接在微信里丢一句「帮我建明天的会」，不用再开电脑。"
+---
+
 # WorkBuddy 能装进微信和手机吗？接上 IM 助理随时远程派活
 
 你装好了 WorkBuddy 客户端，可人一离开工位，电脑一锁屏，活就派不出去了。你想在地铁上让它在家里那台电脑上跑个分析，或者直接在微信里丢一句「帮我建明天的会」，不用再开电脑。这一章就是把 WorkBuddy 从「坐在电脑前才能用」变成「手机上随时派活」：小程序让你远程查看与调度，IM 助理让你在微信、飞书、钉钉里直接下任务。
 
 ## 小程序的两种模式
 
-![](/workbuddy/08-im-assistant/assets/001_image_Vv5bbtLVBo.png)
+![小程序本机模式与云端模式入口](/workbuddy/08-im-assistant/assets/001_image_Vv5bbtLVBo.png)
 
 | 模式 | 任务在哪里运行 | 是否依赖电脑在线 | 适合任务 |
 | --- | --- | --- | --- |
@@ -37,19 +41,19 @@ sequenceDiagram
 
 1. 你打开 WorkBuddy，在左侧「助理」栏点齿轮，进入「助理设置」；
 
-![](/workbuddy/08-im-assistant/assets/002_微信助理-进入助理设置_NbI2b9v4fo.png)
+![「助理」栏齿轮进入助理设置](/workbuddy/08-im-assistant/assets/002_微信助理-进入助理设置_NbI2b9v4fo.png)
 
 2. 你找到「微信助理集成」，点「配置」；
 
-![](/workbuddy/08-im-assistant/assets/003_微信助理-选择集成_S9HlbaEmdo.png)
+![「微信助理集成」点「配置」](/workbuddy/08-im-assistant/assets/003_微信助理-选择集成_S9HlbaEmdo.png)
 
 3. 你等待绑定二维码生成，用手机微信扫码；
 
-![](/workbuddy/08-im-assistant/assets/004_微信助理-扫码绑定_TElmbNPG5o.png)
+![手机微信扫码绑定](/workbuddy/08-im-assistant/assets/004_微信助理-扫码绑定_TElmbNPG5o.png)
 
 4. 卡片显示「已绑定」后，你先发一条只读测试指令；
 
-![](/workbuddy/08-im-assistant/assets/005_微信助理-已绑定_ZQtrb6jCmo.png)
+![卡片显示「已绑定」，发只读测试指令](/workbuddy/08-im-assistant/assets/005_微信助理-已绑定_ZQtrb6jCmo.png)
 
 5. 你要换微信账号时，先解绑当前账号，再重新扫码。
 
@@ -61,57 +65,57 @@ sequenceDiagram
 
 1. 你走 WorkBuddy → 设置 → 助理设置 → 选择飞书；
 
-![](/workbuddy/08-im-assistant/assets/006_image_SbcEbSaoio.png)
+![助理设置里选择飞书](/workbuddy/08-im-assistant/assets/006_image_SbcEbSaoio.png)
 
 2. 你在飞书开放平台创建企业自建应用；
 
-![](/workbuddy/08-im-assistant/assets/007_飞书-登录开放平台_EUPhblavHo.png)
+![登录飞书开放平台，创建企业自建应用](/workbuddy/08-im-assistant/assets/007_飞书-登录开放平台_EUPhblavHo.png)
 
 3. 你为应用添加机器人能力；
 
-![](/workbuddy/08-im-assistant/assets/008_飞书-添加机器人能力_XFmTb5HGQo.png)
+![为飞书应用添加机器人能力](/workbuddy/08-im-assistant/assets/008_飞书-添加机器人能力_XFmTb5HGQo.png)
 
 4. 你按 WorkBuddy 当前页面要求开通最小权限；
 
-![](/workbuddy/08-im-assistant/assets/009_飞书-批量导入权限_MRdCbm3Dvo.png)
+![按页面要求开通最小权限](/workbuddy/08-im-assistant/assets/009_飞书-批量导入权限_MRdCbm3Dvo.png)
 
 5. 你在「凭证与基础信息」拿到 App ID 和 App Secret；
 
-![](/workbuddy/08-im-assistant/assets/010_飞书-应用凭证_CnItbspOUo.png)
+![「凭证与基础信息」里拿 App ID 和 Secret](/workbuddy/08-im-assistant/assets/010_飞书-应用凭证_CnItbspOUo.png)
 
 6. 你把凭证填回 WorkBuddy，生成或复制回调信息；
 
-![](/workbuddy/08-im-assistant/assets/011_飞书-加密与校验配置_WiAYbwBDKo.png)
+![把凭证填回 WorkBuddy，生成回调信息](/workbuddy/08-im-assistant/assets/011_飞书-加密与校验配置_WiAYbwBDKo.png)
 
 7. 你在飞书配置事件订阅与回调，添加接收消息、卡片交互等事件；
 
-![](/workbuddy/08-im-assistant/assets/012_飞书-添加接收消息事件_X4z6bNPsso.png)
+![飞书配置事件订阅：添加接收消息事件](/workbuddy/08-im-assistant/assets/012_飞书-添加接收消息事件_X4z6bNPsso.png)
 
-![](/workbuddy/08-im-assistant/assets/013_飞书-卡片回调_AvOxbO7M9o.png)
+![飞书配置卡片交互回调](/workbuddy/08-im-assistant/assets/013_飞书-卡片回调_AvOxbO7M9o.png)
 
 8. 你创建版本并发布应用，然后在飞书内向机器人发一条只读测试任务。
 
-![](/workbuddy/08-im-assistant/assets/014_飞书-发布应用_TafwbySxco.png)
+![创建版本并发布飞书应用](/workbuddy/08-im-assistant/assets/014_飞书-发布应用_TafwbySxco.png)
 
 ## 接入钉钉
 
-![](/workbuddy/08-im-assistant/assets/015_image_RRhMbPo5uo.png)
+![钉钉接入配置：应用开发与机器人入口](/workbuddy/08-im-assistant/assets/015_image_RRhMbPo5uo.png)
 
 1. 你用企业管理员账号登录钉钉开发者后台，进「应用开发」，创建应用；
 
-![](/workbuddy/08-im-assistant/assets/016_钉钉-创建应用_NuNTbdscZo.png)
+![钉钉开发者后台创建应用](/workbuddy/08-im-assistant/assets/016_钉钉-创建应用_NuNTbdscZo.png)
 
 2. 你为应用添加机器人能力，填机器人名称、描述和头像并确认发布；
 
-![](/workbuddy/08-im-assistant/assets/017_钉钉-添加机器人能力_ORRbbZrqgo.png)
+![钉钉添加机器人能力并发布](/workbuddy/08-im-assistant/assets/017_钉钉-添加机器人能力_ORRbbZrqgo.png)
 
 3. 你开通所需权限；
 
-![](/workbuddy/08-im-assistant/assets/018_钉钉-开通权限_QG1zbPhcxo.png)
+![开通钉钉应用所需权限](/workbuddy/08-im-assistant/assets/018_钉钉-开通权限_QG1zbPhcxo.png)
 
 4. 你获取应用凭证，填回 WorkBuddy。优先在测试组织或测试群完成验证。
 
-![](/workbuddy/08-im-assistant/assets/019_钉钉-获取应用凭证_OI8fbW0JNo.png)
+![获取钉钉应用凭证，填回 WorkBuddy](/workbuddy/08-im-assistant/assets/019_钉钉-获取应用凭证_OI8fbW0JNo.png)
 
 ## 新手常见问题
 

@@ -64,53 +64,53 @@ Skill 還有兩個 Prompt 給不了的價值：一是**固定複雜工作流**�
 
 打開左側「專家·技能·連接器」，可以從技能市場搜尋，也可以用「查找技能」描述需求。
 
-![](/workbuddy/05-skills/assets/001_image_TdcLblfvIo.png)
+![左側「專家·技能·連接器」入口與技能搜尋](/workbuddy/05-skills/assets/001_image_TdcLblfvIo.png)
 
 也可以在 SkillHub 技能市場裡找到合適的 Skill：
 
-![](/workbuddy/05-skills/assets/002_image_V3E5bsVZGo.png)
+![SkillHub 技能市場](/workbuddy/05-skills/assets/002_image_V3E5bsVZGo.png)
 
 除了從推薦列表裡直接安裝，還可以**匯入自己下載的技能**：在網路上看到好用的技能包，下載下來是一個 zip 壓縮檔案，點擊「上傳技能」把 zip 檔案載入即可。
 
-![](/workbuddy/05-skills/assets/003_image_Oag3bNQHOo.png)
+![「上傳技能」匯入 zip 技能包](/workbuddy/05-skills/assets/003_image_Oag3bNQHOo.png)
 
-![](/workbuddy/05-skills/assets/004_image_GgOebNBh3o.png)
+![選擇本地 zip 檔案上傳技能](/workbuddy/05-skills/assets/004_image_GgOebNBh3o.png)
 
 ## 使用 Skill 解決一個任務
 
 比如，你讓 AI 寫了一篇文章，需要去除 AI 味。找到「文章去 AI 味工具」Skill，安裝之後，使用時直接按 `/` 就能喚出。
 
-![](/workbuddy/05-skills/assets/005_20260708200848_NN3hbPsKAo.gif)
+![輸入 / 喚出已安裝的技能](/workbuddy/05-skills/assets/005_20260708200848_NN3hbPsKAo.gif)
 
 你只需要引用 Skill 內容，把文章給到：
 
-![](/workbuddy/05-skills/assets/006_image_Xom2btXVZo.png)
+![引用 Skill 並把文章給到](/workbuddy/05-skills/assets/006_image_Xom2btXVZo.png)
 
 WorkBuddy 會先載入 Skill 的內容：
 
-![](/workbuddy/05-skills/assets/007_image_AmOVb1oGEo.png)
+![WorkBuddy 載入 Skill 內容](/workbuddy/05-skills/assets/007_image_AmOVb1oGEo.png)
 
 然後根據 Skill 中的規則來執行，比如要去除「不是……而是……」、雙引號等內容：
 
-![](/workbuddy/05-skills/assets/008_image_FbpQbmSswo.png)
+![按 Skill 規則執行去 AI 味處理](/workbuddy/05-skills/assets/008_image_FbpQbmSswo.png)
 
 修改之後可以得到結果——確實去除了 AI 味。
 
-![](/workbuddy/05-skills/assets/009_image_RhBKbRhgIo.png)
+![去 AI 味後的成品效果](/workbuddy/05-skills/assets/009_image_RhBKbRhgIo.png)
 
 ## Skill 的關閉和解除安裝
 
 從全部技能中，點擊「我安裝的」：
 
-![](/workbuddy/05-skills/assets/010_image_NGsdbBcjso.png)
+![技能列表切到「我安裝的」](/workbuddy/05-skills/assets/010_image_NGsdbBcjso.png)
 
 按鈕關閉（則關閉該 Skill）：
 
-![](/workbuddy/05-skills/assets/011_image_DABBb41fGo.png)
+![點開關關閉對應 Skill](/workbuddy/05-skills/assets/011_image_DABBb41fGo.png)
 
 點擊「···」，可以選擇刪除或編輯該 Skill：
 
-![](/workbuddy/05-skills/assets/012_image_Uya3bNC9io.png)
+![「···」選單：刪除或編輯 Skill](/workbuddy/05-skills/assets/012_image_Uya3bNC9io.png)
 
 ---
 

@@ -38,17 +38,17 @@ Skill 的作用是補上其中一個環節，不是接管賬號判斷。下面�
 不要把閱讀量高直接解釋成選題一定適合我。
 ```
 
-![](/workbuddy/case-self-media/assets/001_image_TBeUbtO5Uo.png)
+![建立本週選題池的任務指令](/workbuddy/case-self-media/assets/001_image_TBeUbtO5Uo.png)
 
 WorkBuddy 先生成跨平臺樣本表，再把評論聚成問題簇，最後把“熱度、賬號匹配、新增價值、證據充足度、製作成本”分別評分，交付一張可以人工刪選的選題看板。
 
-![](/workbuddy/case-self-media/assets/002_image_UsfnbdO18o.png)
+![選題看板：熱度、匹配度、成本多維度評分](/workbuddy/case-self-media/assets/002_image_UsfnbdO18o.png)
 
 ### 還要會找“低粉爆款”
 
 起號要找低粉爆款去**抄選題**（抄選題，不是原封不動抄內容）。推薦 [viral-topic](https://github.com/kangarooking/kangarooking-skills/tree/main/viral-topic) skill：獲取各平臺近期指定領域的低粉爆款內容，比如“公眾號最近 7 天的 AI 領域低粉爆款文章”，也支援 X 和 YouTube。
 
-![](/workbuddy/case-self-media/assets/003_image_D9dBbor45o.png)
+![viral-topic：抓取各平台低粉爆款內容](/workbuddy/case-self-media/assets/003_image_D9dBbor45o.png)
 
 ## 場景二：想要爆款標題，但不想標題黨
 
@@ -67,7 +67,7 @@ WorkBuddy 先生成跨平臺樣本表，再把評論聚成問題簇，最後把�
 不要自動選擇最終標題，先讓我確認內容承諾。
 ```
 
-![](/workbuddy/case-self-media/assets/007_image_YCTubyoc3o.png)
+![按正文事實產生多平台標題候選並評分](/workbuddy/case-self-media/assets/007_image_YCTubyoc3o.png)
 
 **驗收方法**：把標題單獨給一個不瞭解正文的人看，請他寫出“我預計點進去會得到什麼”，再與正文核對——預期與實際不一致，標題分數再高也不能用。A/B 測試一次只改變一個主要變數，否則資料無法解釋。
 
@@ -85,7 +85,7 @@ WorkBuddy 先生成跨平臺樣本表，再把評論聚成問題簇，最後把�
 不要直接上傳公眾號。
 ```
 
-![](/workbuddy/case-self-media/assets/009_image_YB8xbAm4Zo.png)
+![公眾號封面 brief：構圖方向與裁切風險](/workbuddy/case-self-media/assets/009_image_YB8xbAm4Zo.png)
 
 ## 場景四：小紅書不只是“把長文切成九張圖”
 
@@ -106,7 +106,7 @@ WorkBuddy 先生成跨平臺樣本表，再把評論聚成問題簇，最後把�
 先返回逐頁文案、視覺層級和預計字數，我確認後再呼叫封面與長圖 Skill。
 ```
 
-![](/workbuddy/case-self-media/assets/010_image_FUCAbuw08o.png)
+![長文改造小紅書 8 頁圖文的逐頁結構](/workbuddy/case-self-media/assets/010_image_FUCAbuw08o.png)
 
 ## 場景五：一段長文怎樣變成可拍的短影片
 
@@ -121,7 +121,7 @@ WorkBuddy 先生成跨平臺樣本表，再把評論聚成問題簇，最後把�
 同時列出必須實拍、可用產品截圖、可由 AI 生成的畫面，禁止偽造使用者反饋。
 ```
 
-![](/workbuddy/case-self-media/assets/011_image_VrCsbV8TPo.png)
+![60 秒口播時間軸：景別、畫面、口播、轉場](/workbuddy/case-self-media/assets/011_image_VrCsbV8TPo.png)
 
 ## 場景六：發布前，別讓自動化越過責任邊界
 
@@ -146,7 +146,7 @@ WorkBuddy 先生成跨平臺樣本表，再把評論聚成問題簇，最後把�
 將長期有效的修改規則寫入 style-guide.md；一次性熱點不要寫入永久規則。
 ```
 
-![](/workbuddy/case-self-media/assets/015_image_QHmHbuB4Ro.png)
+![發布後復盤：資料事實與單變數實驗](/workbuddy/case-self-media/assets/015_image_QHmHbuB4Ro.png)
 
 ## 一套夠用的自媒體 Skill 棧
 

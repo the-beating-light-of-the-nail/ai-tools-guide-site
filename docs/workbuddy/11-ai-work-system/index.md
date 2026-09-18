@@ -1,3 +1,7 @@
+---
+description: "前面十章讲的是「怎么用 WorkBuddy」。这一章讲「为什么这么设计」——把 LLM、Token、Prompt、Agent、Tool、Skill、MCP、知识库、工作流这些词放进同一张图。"
+---
+
 # AI 工作系统到底怎么运转？一章看懂 LLM、Agent、Skill 各管什么事
 
 前面十章讲的是「怎么用 WorkBuddy」。这一章讲「为什么这么设计」——把 LLM、Token、Prompt、Agent、Tool、Skill、MCP、知识库、工作流这些词放进同一张图，讲清每个角色能做什么、不能做什么。你读懂这一章，以后用任何 AI 工作工具，上手都会快很多。

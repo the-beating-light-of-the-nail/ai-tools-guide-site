@@ -4,7 +4,7 @@
 
 It serves a wide range of workplace roles — HR, administration, operations, sales, engineering, and more — and is an AI office application that can think, execute tasks, and deliver results just like a real colleague.
 
-![](/workbuddy/01-intro/assets/001_image_Ve9kbu40Eo.png)
+![WorkBuddy main interface: type one instruction and it executes](/workbuddy/01-intro/assets/001_image_Ve9kbu40Eo.png)
 
 ## From "Answering Questions" to "Delivering Results"
 
@@ -29,7 +29,7 @@ flowchart LR
 
 For example, you can simply tell WorkBuddy: analyze the sales data in this folder and generate a presentation for the report.
 
-![](/workbuddy/01-intro/assets/002_image_IaB9bqqj6o.png)
+![Multiple agents working on tasks in parallel](/workbuddy/01-intro/assets/002_image_IaB9bqqj6o.png)
 
 WorkBuddy will read the relevant files on its own, understand the data, complete the analysis and summary, and produce a final deliverable you can view and edit.
 
@@ -45,4 +45,4 @@ You can pick the right model for each task, and extend WorkBuddy's tools and pro
 
 For scenarios like local file operations and terminal execution, WorkBuddy also provides high-risk command interception and permission controls to reduce the risks of autonomous AI execution.
 
-![](/workbuddy/01-intro/assets/003_image_Idhdsahdl.png)
+![High-risk command interception and folder-level permissions](/workbuddy/01-intro/assets/003_image_Idhdsahdl.png)

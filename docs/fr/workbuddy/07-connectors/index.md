@@ -50,13 +50,13 @@ MCP communique via les entrées/sorties standard locales (stdio) ou en HTTP loca
 
 **Les connecteurs déjà pris en charge incluent QQ Mail, Tencent Docs, Tencent Lexiang, Tencent Meeting, TAPD, etc.**
 
-![](/workbuddy/07-connectors/assets/001_image_IZzfbK38Ao.png)
+![Liste des connecteurs : QQ Mail, Tencent Docs, Tencent Meeting, etc.](/workbuddy/07-connectors/assets/001_image_IZzfbK38Ao.png)
 
 Chargeons par exemple le connecteur Tencent Meeting,
 
-![](/workbuddy/07-connectors/assets/002_image_WF3ab0WSbo.png)
+![Charger le connecteur Tencent Meeting avec l'assistant](/workbuddy/07-connectors/assets/002_image_WF3ab0WSbo.png)
 
-![](/workbuddy/07-connectors/assets/003_image_ZssEbuMsdo.png)
+![Autorisation du connecteur Tencent Meeting](/workbuddy/07-connectors/assets/003_image_ZssEbuMsdo.png)
 
 
 
@@ -64,15 +64,15 @@ Chargeons par exemple le connecteur Tencent Meeting,
 
 « Crée-moi une réunion demain à 15 h »,
 
-![](/workbuddy/07-connectors/assets/004_image_KVIJbpUZdo.png)
+![Demander de créer une réunion demain à 15 h](/workbuddy/07-connectors/assets/004_image_KVIJbpUZdo.png)
 
 Sujet « Discussion projet », durée 1 h
 
-![](/workbuddy/07-connectors/assets/005_image_FPy1bGJJZo.png)
+![Le connecteur lit l'instruction et crée la réunion](/workbuddy/07-connectors/assets/005_image_FPy1bGJJZo.png)
 
 Création réussie
 
-![](/workbuddy/07-connectors/assets/006_image_WQ6Zb1Rero.png)
+![Confirmation de la création de la réunion](/workbuddy/07-connectors/assets/006_image_WQ6Zb1Rero.png)
 
 
 
@@ -80,4 +80,4 @@ Création réussie
 
 Dans le coin supérieur droit de la page de gestion des connecteurs, cliquez sur « Connecteur personnalisé » et suivez l'assistant pour configurer le MCP (adresse du service, mode d'authentification). Notez que le périmètre d'accès d'un connecteur personnalisé est défini par l'utilisateur.
 
-![](/workbuddy/07-connectors/assets/007_image_M2itbQUceo.png)
+![« Connecteur personnalisé » : adresse MCP et authentification](/workbuddy/07-connectors/assets/007_image_M2itbQUceo.png)

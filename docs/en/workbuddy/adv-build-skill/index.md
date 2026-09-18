@@ -2,7 +2,7 @@
 
 Besides distilling your own SOPs into Skills, there's an even easier route: use [cangjie-skill](https://github.com/kangarooking/cangjie-skill) (the Cangjie skill; v1 distills books, v2 adds video distillation) to turn knowledge into Skills.
 
-![](/workbuddy/adv-build-skill/assets/001_image_WcJzb4b7Yo.png)
+![cangjie-skill: distills books and videos into skills](/workbuddy/adv-build-skill/assets/001_image_WcJzb4b7Yo.png)
 
 This chapter answers two questions: how to turn the methodologies in books and videos into Skills an Agent can invoke automatically, and how this fundamentally differs from RAG retrieval.
 
@@ -33,7 +33,7 @@ flowchart TD
 
 Take distilling "The Copywriter's Handbook" as an example:
 
-![](/workbuddy/adv-build-skill/assets/005_image_NaOwbuAcQo.png)
+![Walkthrough: distilling The Copywriting Handbook](/workbuddy/adv-build-skill/assets/005_image_NaOwbuAcQo.png)
 
 ### Stage 0: Understand the Whole Book / Video
 
@@ -51,7 +51,7 @@ Five Agents scan the full text simultaneously across five dimensions, working in
 | Counterexample extractor | Failure cases and cautionary lessons |
 | Terminology glossary | Specialist terms and their definitions |
 
-![](/workbuddy/adv-build-skill/assets/007_image_QMdJbhsm0o.png)
+![Parallel extraction on five dimensions: frameworks, principles, cases, counterexamples, terms](/workbuddy/adv-build-skill/assets/007_image_QMdJbhsm0o.png)
 
 ### Stage 1.5: Triple-Verification Screening
 
@@ -65,7 +65,7 @@ Every candidate knowledge unit must pass three gates; anything that fails is eli
 
 Quality over quantity: a book typically yields 50–100 candidate units, of which only 10–25 survive triple verification.
 
-![](/workbuddy/adv-build-skill/assets/008_image_D7z7b4DWvo.png)
+![Triple-validation filtering: only 10–25 units kept](/workbuddy/adv-build-skill/assets/008_image_D7z7b4DWvo.png)
 
 ### Stage 2: Construct the Skills
 
@@ -93,11 +93,11 @@ book-skill/
     └── skill-01-test.md    # Test cases for each Skill
 ```
 
-![](/workbuddy/adv-build-skill/assets/012_image_LEKGbkn2Go.png)
+![Distilled output structure: skills, index and tests](/workbuddy/adv-build-skill/assets/012_image_LEKGbkn2Go.png)
 
 Each Skill file contains trigger conditions, execution steps, output format, boundary constraints, and test cases, in a format compatible with darwin-skill (an automated Skill evolution tool), so the distilled output can keep improving automatically.
 
-![](/workbuddy/adv-build-skill/assets/013_image_Mp0ZbEmn7o.png)
+![A single skill file: triggers, steps, boundaries, tests](/workbuddy/adv-build-skill/assets/013_image_Mp0ZbEmn7o.png)
 
 ## Knowledge Distillation vs. RAG
 
@@ -125,7 +125,7 @@ flowchart LR
     E --> F[Output the Skill set]
 ```
 
-![](/workbuddy/adv-build-skill/assets/015_image_MG56bW6jlo.png)
+![Video distillation workflow: download, transcribe, six stages](/workbuddy/adv-build-skill/assets/015_image_MG56bW6jlo.png)
 
 - **Video download**: yt-dlp supports YouTube, Bilibili, and other mainstream platforms (WeChat Channels can't be automated due to platform restrictions, for now);
 - **Audio transcription**: local Whisper works but is slow for long videos (about 48 minutes for a one-hour video); an ASR API for batch processing is recommended;
@@ -161,7 +161,7 @@ Model selection: use a strong reasoning model for task decomposition and distill
 
 Take Andrew Ng's "AI for Everyone" course (2026 edition, 26 videos, about 4 hours): distillation took roughly 1 hour and produced 25 Skills, all current, ready for the Agent to invoke in their matching scenarios right after distillation.
 
-![](/workbuddy/adv-build-skill/assets/016_image_HoW7bnRYFo.png)
+![Distilling Andrew Ng's AI course: 25 skills](/workbuddy/adv-build-skill/assets/016_image_HoW7bnRYFo.png)
 
 ## Summary: Where Knowledge Distillation Fits in the Skill System
 
