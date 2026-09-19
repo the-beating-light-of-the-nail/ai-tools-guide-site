@@ -4,7 +4,7 @@ description: "你打开 WorkBuddy，想让它帮你干活，却发现自己账�
 
 # 没积分也能用 WorkBuddy？接上你自己的 API 照常跑任务
 
-你打开 WorkBuddy，想让它帮你干活，却发现自己账号里积分不够了，弹窗提示额度不足。你正准备关掉，其实先别急——你手里可能就攥着能用的「弹药」：你自己的 LLM API 密钥，或者公司给你配的 Coding Plan、Token Plan 这类套餐。WorkBuddy 支持接入其他大模型的 API，你把钥匙填上，它就能继续替你跑任务，花的还是你自己的额度，不占用站内的积分。
+你打开 WorkBuddy，想让它帮你干活，却发现自己账号里积分不够了，弹窗提示额度不足。其实先别急——你手里可能就攥着能用的「弹药」：你自己的 LLM API 密钥，或者公司给你配的 Coding Plan、Token Plan 这类套餐。WorkBuddy 支持接入其他大模型的 API，把钥匙填上，它就能继续替它跑任务，花的还是你自己的额度，不占用站内的积分。
 
 直接从设置里进入，不用装任何额外插件。
 
@@ -14,15 +14,15 @@ description: "你打开 WorkBuddy，想让它帮你干活，却发现自己账�
 
 ![设置里的模型选项](/workbuddy/09-external-api/assets/002_image_PQxNb3id8o.png)
 
-你点「添加模型」。
+点「添加模型」。
 
 ![点「添加模型」](/workbuddy/09-external-api/assets/003_image_De1fbH0Gho.png)
 
-你可以选各种 Coding Plan，或者填一个自定义的 API。
+可选各种 Coding Plan，或者填一个自定义的 API。
 
 ![选择 Coding Plan 或填自定义 API](/workbuddy/09-external-api/assets/004_image_Fa7pb60ARo.png)
 
-比如接 DeepSeek，你只需要把 API Key 填进去就行，剩下的交给它。
+比如接 DeepSeek，只需把 API Key 填进去就行，剩下的交给它。
 
 ![填入 DeepSeek API Key 完成接入](/workbuddy/09-external-api/assets/005_image_W9u5bNsaMo.png)
 
@@ -37,17 +37,16 @@ description: "你打开 WorkBuddy，想让它帮你干活，却发现自己账�
 ## 新手常见问题
 
 **我没有 WorkBuddy 积分，还能用吗？**
-能。只要你有自己的 LLM API（比如 DeepSeek），或者 Coding Plan、Token Plan 这类套餐，按上面的步骤填进设置就能用，消耗的是你自己的额度。
+能。只要你有自己的 LLM API（比如 DeepSeek），或者 Coding Plan、Token Plan 这类套餐，按上面的步骤填进设置就能用，消耗的是自有额度。
 
 **本地 Ollama 怎么接？**
-你先在电脑上把 Ollama 跑起来，它默认监听 11434 端口，接口和 OpenAI 兼容。然后在 WorkBuddy 里添加模型、选本地/Ollama 类型即可。好处是数据不出本机、可离线、还不用花 Token。
+先在电脑上把 Ollama 跑起来，它默认监听 11434 端口，接口和 OpenAI 兼容。然后在 WorkBuddy 里添加模型、选本地/Ollama 类型即可。好处是数据不出本机、可离线、还不用花 Token。
 
 **API Key 填在哪里才安全？**
-只填在客户端的设置里。千万别把它写进任务说明、提示词，或者顺手塞进要分享的文件——API Key 是敏感凭证，泄露了别人就能盗用你的额度。
+只填在客户端的设置里。千万别把它写进任务说明、提示词，或者顺手塞进要分享的文件——API Key 是敏感凭证，泄露了别人就能盗用对应额度。
 
 **接了外部 API，模型还分自动和手动吗？**
-分的。你照样可以在任务里指定用哪个模型，不同模型的速度和成本不一样，按你的活来挑。
+分的。你照样可以在任务里指定用哪个模型，不同模型的速度和成本不一样，按手头的活来挑。
 
 ---
-
 下一步：让任务定时自己跑——[WorkBuddy 自动化任务 →](/workbuddy/10-automation/)

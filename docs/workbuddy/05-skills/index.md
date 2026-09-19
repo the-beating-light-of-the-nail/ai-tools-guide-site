@@ -42,13 +42,13 @@ description: 用于撰写 AI 产品、模型评测和科技行业相关文章
 
 ## Skill 是怎么被调用的
 
-Skill 最关键的设计，不是你看到的几行说明，而是**渐进式披露（Progressive Disclosure）**。假设你的 Agent 装了 100 个 Skill，它不会一上来把全部内容塞进上下文，而是分三层按需加载：
+Skill 最关键的设计，不是你看到的几行说明，而是渐进式披露（Progressive Disclosure）。假设你的 Agent 装了 100 个 Skill，它不会一上来把全部内容塞进上下文，而是分三层按需加载：
 
 1. **启动时**：只读所有 Skill 的名称和 description（几十至上百 Token）；
 2. **匹配到任务时**：你说「帮我写一篇 WorkBuddy 的公众号文章」，Agent 根据 description 判断 `tech-article-writing` 相关，这时才加载完整的 SKILL.md；
 3. **执行中**：需要模仿写作风格，才继续读 `references/style.md`；需要检查 AI 味，才执行 `scripts/check-ai-phrases.py`。
 
-所以 Skill 帮你解决了一个长期困扰 Agent 的问题：**怎么给 Agent 很多知识和工作方法，又不把所有东西永远塞在 Prompt 里。**
+所以 Skill 帮你解决了一个长期困扰 Agent 的问题：怎么给 Agent 很多知识和工作方法，又不把所有东西永远塞在 Prompt 里。
 
 ## Skill 跟 Prompt 到底差在哪
 
@@ -76,7 +76,7 @@ Skill 还有两个 Prompt 给不了你的价值：一是**固定复杂工作流*
 
 ![SkillHub 技能市场](/workbuddy/05-skills/assets/002_image_V3E5bsVZGo.png)
 
-除了从推荐列表里直接安装，你还可以**导入自己下载的技能**：你在网上看到好用的技能包，下载下来是一个 zip 压缩文件，点「上传技能」把 zip 文件加载即可。
+除了从推荐列表里直接安装，你还可以导入自己下载的技能：你在网上看到好用的技能包，下载下来是一个 zip 压缩文件，点「上传技能」把 zip 文件加载即可。
 
 ![「上传技能」导入 zip 技能包](/workbuddy/05-skills/assets/003_image_Oag3bNQHOo.png)
 
