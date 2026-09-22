@@ -18,7 +18,7 @@ description: "想试 WorkBuddy，第一步往往最劝退：你不知道从哪�
 
 ![自动检测设备版本](/workbuddy/02-install/assets/002_image_HaXcbwaJXo.png)
 
-**切记：从官方入口下载，不从网盘或不明镜像获取安装包。**
+切记：从官方入口下载，不从网盘或不明镜像获取安装包。
 
 ## Windows 安装
 
@@ -26,7 +26,7 @@ description: "想试 WorkBuddy，第一步往往最劝退：你不知道从哪�
 
 ![双击安装文件](/workbuddy/02-install/assets/003_image_Ehpebt4Eso.png)
 
-2. 系统弹出安全提示时，**先核对发布者和下载来源**，确认无误再继续。
+2. 系统弹出安全提示时，先核对发布者和下载来源，确认无误再继续。
 
 ![核对发布者后继续](/workbuddy/02-install/assets/004_image_LG3MbcWpvo.png)
 
@@ -52,7 +52,7 @@ description: "想试 WorkBuddy，第一步往往最劝退：你不知道从哪�
 
 ![拖入应用程序](/workbuddy/02-install/assets/011_image_UlJcbVqX7o.png)
 
-2. 你从「应用程序」里启动。**别在 DMG 窗口里直接双击运行**——那是个只读的临时盘，更新和设置容易出问题。
+2. 你从「应用程序」里启动。别在 DMG 窗口里直接双击运行——那是个只读的临时盘，更新和设置容易出问题。
 
 ![从应用程序启动](/workbuddy/02-install/assets/012_image_LtqPbQ2z6o.png)
 
@@ -66,7 +66,7 @@ description: "想试 WorkBuddy，第一步往往最劝退：你不知道从哪�
 
 ![跳转到网页登录](/workbuddy/02-install/assets/014_image_MdmYbB2Avo.png)
 
-3. 你选微信扫码登录，也可以用手机号登录。**选定一种就固定下来**，换着用容易找不到自己的历史任务。
+3. 你选微信扫码登录，也可以用手机号登录。选定一种就固定下来，换着用容易找不到自己的历史任务。
 
 ![微信扫码或手机号登录](/workbuddy/02-install/assets/015_image_WZrBbbWono.png)
 
