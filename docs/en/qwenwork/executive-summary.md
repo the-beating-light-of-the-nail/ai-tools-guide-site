@@ -77,3 +77,17 @@ sources: []
 ## Boundaries and Next Steps
 
 [Next chapter: Public Case Atlas](/en/qwenwork/ch09-public-case-atlas)
+
+## FAQ
+
+**Which chapter should I read after the executive summary?**
+Follow the sequence "new delivery standard → task card → pilot." If you want to go straight to real cases, start with the [Chapter 9 public case atlas](/en/qwenwork/ch09-public-case-atlas).
+
+**Is the 30/60/90-day cadence a mandatory schedule?**
+No. The calendar only defines windows; the stage gates are the binding conditions. If you have not passed the previous stage, reaching day 31 does not promote you automatically.
+
+**Can I send AI-generated content out as-is?**
+Not on your behalf. Recipients, publishing scope, and the actual sending action all need confirmation from you or someone with authority—see [Chapter 11](/en/qwenwork/ch11-security-governance).
+
+**Can I treat the numbers in the cases as product commitments?**
+No. Public demos cannot be extrapolated into customer outcomes, and this summary adds no strong customer-outcome claims. When you evaluate, check the source and status against the evidence ledger.

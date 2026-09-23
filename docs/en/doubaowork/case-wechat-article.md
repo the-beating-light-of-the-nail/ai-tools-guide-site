@@ -1,4 +1,10 @@
-# From Trending Topic to a Finished Official Account Article
+---
+description: "This piece ran a complete field test with GLM-5.3-Flash: not one-shot generation, but the article's whole workflow split into four stages—fact pack → long article → title candidates with risk check → cover."
+---
+
+# Writing a Trending-Topic Article—How Do You Get From Fact-Checking to a Finished Draft? A Four-Stage Line, With Clickbait Locked Out
+
+The most time-consuming part of writing a trending-topic article isn't the writing—it's the workflow. You verify whether the numbers are real, decide what's safe to say, and after the draft is done you still need a title and a cover. Do those separately and they contradict each other fast: the body says "the vendor claims nearly on par," and an overexcited title turns it into "total domination." This page ran a complete field test with GLM-5.3-Flash, splitting the article's whole workflow into four stages—fact pack → long article → title candidates with risk check → cover.
 
 > Scenario: The most time-consuming part of writing a trending-topic article isn't the writing—it's the workflow: verify the numbers first, decide what's safe to say, and after the draft is done, come up with a title and a cover image. Doing these separately invites contradictions: the body says "the vendor claims nearly on par," and an overexcited title turns into "total domination."
 
@@ -133,3 +139,25 @@ AI shouldn't make every number sound louder for you. What actually saves time is
 ---
 
 Next: [Same Content, Reworked into a Native Version for Each Platform →](/en/doubaowork/case-multi-platform)
+
+## FAQ
+
+**Do I have to assemble the fact pack myself first?**
+
+No. Name four public sources directly in the prompt and let it read and verify them in full, then classify everything into "official confirmed / vendor self-reported / media retelling / still lacking evidence." Anything it can't reach (like Hugging Face blocking the fetch) gets logged rather than silently skipped.
+
+**Is the title risk table actually useful?**
+
+Yes. Have it tag every title with "what it captures, misleading risk, marketing intensity, best-fit scenario"—risk sitting in the same table as the title beats deleting by gut feel afterward. AI titles tend to be mediocre, so build up a title library before you run this.
+
+**Can the cover be drawn before the title is set?**
+
+Don't. The classic cover failure is drawing before the title is fixed, so the visual has nothing to do with the article. Hand it the body and the title risk table together, get three concepts, then pick one to generate.
+
+**Can one prompt produce a viral hit?**
+
+Don't count on it. What actually saves time is having AI chain the sources, boundaries, and intermediate deliverables so each step knows what the last one confirmed. Less thrilling than "one prompt, instant viral hit," but you can hand it straight to an editor.
+
+**How do I use the fact pack's green / yellow / red tiers?**
+
+Write green-light content, add a source and a qualifier to yellow-light, and leave red-light alone. Contagious claims like "1/40 the price" and "57 points, on par" both need to go back to their specific definition—never drop the source and state them flatly.

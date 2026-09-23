@@ -1,6 +1,10 @@
-# Chapter 8: Connecting the Mini Program and IM Assistant in WorkBuddy
+---
+description: "You've installed the WorkBuddy client, but the moment you leave your desk and the screen locks, you can't dispatch anything. You want to kick off an analysis on your home machine from the subway, or just drop a \"book my meeting for tomorrow\" into WeChat without opening a laptop."
+---
 
-Installing the client is just the first step. This chapter takes WorkBuddy from "only usable at your desk" to "assigning tasks from your phone anytime": the Mini Program lets you monitor and dispatch remotely, and the IM Assistant lets you hand out tasks right inside WeChat, Feishu, or DingTalk.
+# Chapter 8: Stuck at Your Desk? Put WorkBuddy in WeChat and Run It From Your Phone
+
+You've installed the WorkBuddy client, but the moment you leave your desk and the screen locks, you can't dispatch anything. You want to kick off an analysis on your home machine from the subway, or just drop a "book my meeting for tomorrow" into WeChat without opening a laptop. This chapter moves WorkBuddy from "usable only when you're sitting at the computer" to "dispatchable from your phone any time": the Mini Program lets you check in and assign work remotely, and the IM Assistant lets you hand out tasks directly inside WeChat, Feishu, or DingTalk.
 
 ## The Mini Program's Two Modes
 
@@ -14,6 +18,8 @@ Installing the client is just the first step. This chapter takes WorkBuddy from 
 **First use**: open the WorkBuddy Mini Program through the official entry point and sign in. Check whether you're in local or cloud mode; in local mode, confirm the target computer is online and connected correctly.
 
 ## How the IM Assistant Works
+
+You send one message, and here's the chain behind it:
 
 ```mermaid
 sequenceDiagram
@@ -30,6 +36,8 @@ sequenceDiagram
 ```
 
 ## Connecting the WeChat Assistant: Just Scan a QR Code
+
+Follow these five steps:
 
 1. Open WorkBuddy, click the gear icon under "Assistant" on the left, and go to "Assistant Settings";
 
@@ -49,9 +57,13 @@ sequenceDiagram
 
 5. To switch WeChat accounts, unbind the current account first, then scan again.
 
+Five steps, and you can hand tasks to WorkBuddy straight from WeChat.
+
 > The QR code expires after a while. If it stays stuck on "Binding," the code has expired, or the scan fails, close the configuration window and re-enter it; if needed, restart WorkBuddy and generate a new QR code.
 
 ## Connecting Feishu
+
+Feishu takes more steps than WeChat. Work through them in order:
 
 1. WorkBuddy → Settings → Assistant Settings → select Feishu;
 
@@ -107,6 +119,22 @@ sequenceDiagram
 
 ![Getting the DingTalk credentials back into WorkBuddy](/workbuddy/08-im-assistant/assets/019_钉钉-获取应用凭证_OI8fbW0JNo.png)
 
+## FAQ
+
+**Should I use local mode or cloud mode in the Mini Program?**
+Pick local mode when the job needs your local files, local Skills, or an existing workspace — but that depends on the computer being online. For research, writing, or ad-hoc analysis that doesn't care which machine runs it, use cloud mode; it keeps going even when you're away from the computer.
+
+**What if WeChat binding fails or the QR code expires?**
+The code is time-limited. If it hangs on "Binding," expires, or the scan fails, close the configuration window and re-enter it; restart WorkBuddy if you need a fresh code. Once bound, send a read-only test command first to confirm it only reads and doesn't change anything.
+
+**Why is Feishu or DingTalk more of a hassle than WeChat?**
+WeChat is a QR-code bind, done in a few steps. Feishu and DingTalk require you to build an app on their open platform and configure permissions and callbacks — more steps, but you get a stable setup under your company's account system. Follow the on-screen prompts one at a time, and validate in a test group first.
+
+**Can the IM Assistant send messages for me?**
+Yes, if you've authorized it. It only acts inside the scope you granted — creating meetings, reading documents, replying to messages. On your first run, test it on something small, confirm it did only what you asked, then open up more permissions.
+
 ---
+
+Next up: make tasks run on their own schedule — [WorkBuddy Automated Tasks →](/en/workbuddy/10-automation/)
 
 > Once your IM Assistant is bound, pair it with [Automated Tasks](/en/workbuddy/10-automation/) to chain "scheduled runs + IM push" into a single pipeline.

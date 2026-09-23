@@ -1,10 +1,14 @@
-# One Set of Material, Three Deliverables: Word, Excel, and PPT
+---
+description: "You go through the same routine every month: crunch the numbers in Excel, write the conclusions into Word, then distill it all into PPT. The same content gets hauled from one place to another, and one change means updating everything downstream."
+---
+
+# One Set of Raw Data—How Do You Get Excel, Word, and PPT in a Single Pass, With the Numbers All Matching?
+
+You go through the same routine every month: crunch the numbers in Excel, write the conclusions into Word, then distill it all into PPT. The same content gets hauled from one place to another, and one mid-course change means redoing everything downstream. This page puts reading, computing, writing, tabulating, presenting, and self-checking into a single task, so Doubao Work delivers all three at once—with the core numbers matching across files. Every step below was tested and is reproducible.
 
 > Scenario: Monthly review / project report / event recap. One set of raw data, three deliverables in one go, with numbers that all agree.
 
 I only meant to put together a sales review, but Doubao Work delivered an Excel workbook, a Word document, and a PPT deck in a single task—the core numbers matched across all three files, and during self-check it even caught a formula reference error and fixed it before handing things over.
-
-Lots of office workers go through this every month: crunch numbers in Excel, write conclusions into Word, then distill it all into PPT. The workflow below was tested and is reproducible.
 
 ## Prepare the Material First
 
@@ -75,3 +79,25 @@ What actually eats time in a three-deliverable job is repeatedly shuffling the s
 ---
 
 Related scenario: [Where Doubao Work Fits Best: Feishu →](/en/doubaowork/case-feishu)
+
+## FAQ
+
+**Do the three deliverables really have to be one task?**
+
+Yes, keep them together. All three files share one set of data definitions, and only inside a single task can it cross-check them and keep the Excel, Word, and PPT numbers aligned. Split them up and each one computes its own version.
+
+**How do I catch it if it computes a number wrong?**
+
+Have it list the calculation definitions first, then produce an acceptance table at the end naming each key number and whether the files agree. In this case its self-check even caught a bad formula reference—so don't just read "done"; verify the formulas separately.
+
+**Does the "which data is authoritative" line really matter?**
+
+It does. Write "the CSV is authoritative for every number—don't invent any," and it will stick to your source sheet instead of making numbers up. The raw facts always stay yours.
+
+**Can I keep editing the files it generates?**
+
+Yes. The Excel, Word, and PPT files are all downloadable and editable. Take them elsewhere and keep working—nothing is locked to this tool.
+
+**Will it modify my original files?**
+
+No. The prompt says "only create new files locally—don't modify the input files." It touches what it produces; your source files stay exactly as they were.

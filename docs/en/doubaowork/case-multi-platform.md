@@ -1,4 +1,10 @@
-# Same Content, Reworked into a Native Version for Each Platform
+---
+description: "This pipeline is four consecutive tasks: Xiaohongshu cards → split into a week of content → native drafts for four platforms → pre-publish review."
+---
+
+# One Piece of Content, Four Platforms? Run It Through One Pipeline and Ship a Native Version for Each
+
+You've just finished a WeChat Official Account article when your boss says "post it on Xiaohongshu too," then adds, "and while you're at it, do Zhihu and Channels." It sounds like copy-paste, but actually doing it eats hours: the Official Account piece needs to explain things thoroughly, Xiaohongshu needs an instantly scannable image, Zhihu cares about "why," and Channels has to deliver the conflict in under a minute. This page gives you one pipeline for adapting a single fact pack across all four.
 
 > Scenario: You've just finished a WeChat Official Account article when your boss says "post it on Xiaohongshu too," then adds, "and while you're at it, do Zhihu and Channels." It sounds like copy-paste, but it actually eats hours: the Official Account piece needs to explain things thoroughly, Xiaohongshu needs an instantly scannable image, Zhihu cares about "why," and Channels has to deliver the conflict in under a minute.
 
@@ -123,3 +129,25 @@ What one-to-many publishing really saves you is re-deciding "how should I adapt 
 ---
 
 Next: [From Long Article to Filmable Voiceover Script and Storyboard →](/en/doubaowork/case-script-storyboard)
+
+## FAQ
+
+**Is it fine to just cut a long article into nine Xiaohongshu images?**
+
+No. Your quality bar is that every card answers one question. Slicing by length alone isn't platform adaptation.
+
+**How do you keep a week of short pieces from repeating each other?**
+
+Your prompt requires each piece to stand on its own without the original, not read as part one, two, three. It sets an independent theme first and drafts from there, so it never writes one long piece and divides it by word count.
+
+**Four platforms share one fact pack—do the facts get changed?**
+
+No. You spell out that angle, order, and tone may change, but facts, dates, and constraints may not. Each version also has to note "facts kept / information removed / why it changed," which forces it to show its logic.
+
+**Does the pre-publish review actually catch broken links and absolute claims?**
+
+Yes. The `.invalid` link, two conflicting dates, and promises like "10 minutes" and "99%" were all flagged separately, and it split confirmed rules from rules still needing verification.
+
+**Do more tools mean a more professional result?**
+
+No. Two dedicated Skills covered this entire workflow. The longer the chain, the more easily the factual boundaries get lost in the middle.

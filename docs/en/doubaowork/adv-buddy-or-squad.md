@@ -1,6 +1,10 @@
-# Work Buddy or Work Squad?
+---
+description: "You're looking at Work Buddy and Work Squad for the first time, and the same question comes up: both of them take tasks, so why are there two kinds?"
+---
 
-The first time you see "Work Buddy" and "Work Squad," the same question pops into everyone's head: both can take tasks, so why two different things? The feature descriptions won't make it click, so instead let's put them to the test with **two things you run into all the time at work**:
+# Work Buddy or Work Squad? Two Real Jobs Show You Which One to Call
+
+You're looking at Work Buddy and Work Squad for the first time, and the same question comes up: both of them take tasks, so why are there two kinds? Reading the feature descriptions only makes it worse, so let's skip the explaining and test them against **two things you run into constantly at work**—run through them once and you'll know which to call.
 
 - First, take a sales detail sheet and do an August retrospective;
 - Second, take a product brief and produce a full launch content package—a WeChat Official Account article, a Xiaohongshu post, and WeCom group copy.
@@ -138,6 +142,23 @@ One honest caveat on boundaries: the squad did not publish to my WeChat Official
 Once you pick the right tool, the prompt doesn't need to be mystical. Spell out who's responsible, what materials they get, what they deliver, and what's off-limits, and the task becomes far more stable.
 
 Before tools like this, launching a product meant holding a dozen things in your head at once: who writes the article, who makes the images, how to adapt per platform, whether any number was misstated, who wraps it up—on a short-staffed team all of it lands on one person, and the most exhausting part is the constant role-switching. The truly useful thing about work buddies and squads is that they **put responsibility back on the table**: who takes this step, what the next step waits on, who checks at the end. Start with one real, clearly-bounded job, run it once, and you'll naturally know whether next time calls for one buddy or a whole squad.
+
+## FAQ
+
+**Buddy or squad—when do I use which?**
+If your job sits inside one professional scope—analyzing a spreadsheet, revising a draft—call a Work Buddy. If it crosses planning, writing, design, and review with dependencies between them, call a squad. Still unsure? Match it against the 30-second table.
+
+**Why can't the buddy read my local file?**
+The buddy runs inside its own task environment, so a path on your computer is out of reach. The most reliable fix is uploading the file; if it's small, pasting the contents into "Additional Information" works too.
+
+**Will a squad publish the copy for me?**
+No. Your prompt says no automatic publishing and no sending messages, so it only produces local drafts. It won't post to your WeChat account or group chats either—at most it files the results overview into a Feishu cloud document.
+
+**The first draft has invented facts. What do I do?**
+Don't trust its own line that everything comes from the brief. List every unsourced item and have it delete and regenerate them, then let the lead run one more full acceptance pass.
+
+**Does my prompt have to be long to work?**
+No. Naming the fact sources, the deliverables, and the action boundaries is enough—the role's professional method covers the rest. For complex work, add one line: divide the labor first, then start.
 
 ---
 

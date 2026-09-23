@@ -1,8 +1,14 @@
-# TraeWork Scenario Lookup Table
+---
+description: "You've been handed a job and you have no idea which part of TraeWork handles it. This index is organized by what you want to do, so you can jump straight to the chapter."
+---
 
-A dictionary-style index organized by "what I want to do." Find your scenario â†’ jump straight to the chapter.
+# How Do You Use the TraeWork Scenario Lookup Table? Match the Job You Have in Mind
+
+You've been handed a job and you have no idea which part of TraeWork handles it. This dictionary-style index is organized by what you want to do: find your scenario and jump straight to the matching chapter.
 
 ## Feature Finder
+
+Start by picking the feature that does what you have in mind:
 
 | I want to... | Use | See |
 | --- | --- | --- |
@@ -21,7 +27,11 @@ A dictionary-style index organized by "what I want to do." Find your scenario â†
 | Long tasks that keep running until done | Goal workflow | [Workflows](/en/traework/adv-workflows) |
 | Plug in your own API model | Settings > Models | [Models and Credits](/en/traework/adv-models-credits) |
 
+If you can't decide, read down the "I want to..." column first, match the feature, then carry on.
+
 ## By Persona
+
+Find the row that fits you:
 
 | Who you are | Start with | Then go deeper |
 | --- | --- | --- |
@@ -34,6 +44,8 @@ A dictionary-style index organized by "what I want to do." Find your scenario â†
 | Sensitive about data security | [Safety boundaries](/en/traework/08-computer-browser) | [MCP and Cloud Environments](/en/traework/adv-mcp-env) |
 
 ## Mode and Client Restriction Matrix (Bookmark This)
+
+Check which features work on which clients before you pay for anything:
 
 | Feature | Work | Code | Design | Web | Desktop | Mobile |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -50,6 +62,8 @@ A dictionary-style index organized by "what I want to do." Find your scenario â†
 
 ## Choosing Among the Three Tools
 
+Spinning your wheels between TraeWork, QoderWork, and WorkBuddy? Look here:
+
 | Need | Recommendation | Why |
 | --- | --- | --- |
 | Deep Feishu / Tencent Docs collaboration | TraeWork | External app authorization covers 13 Feishu modules |
@@ -58,3 +72,20 @@ A dictionary-style index organized by "what I want to do." Find your scenario â†
 | DingTalk ecosystem | QoderWork | IM channels + DingTalk MCP marketplace |
 | Deep work on the classic office trio | WorkBuddy | Mature skill ecosystem for docs / sheets / PPT |
 | Want it all | Install all three | Separate accounts, no conflicts |
+
+## FAQ
+
+**I'm a complete beginnerâ€”where do I start?**
+Begin with [Your First Task](/en/traework/03-first-task) plus the template library. Get one job done end to end, then look at [Skills](/en/traework/04-skills). Don't take on everything at once.
+
+**Can the web version work with local files?**
+No. Local files mean the desktop app plus a local taskâ€”the web version can't reach your hard drive, so you're limited to cloud runs there.
+
+**Can I bind the Office Assistant on mobile?**
+It works once you've connected. But the first binding has to happen on desktop; after that you can carry on from your phone.
+
+**As a heavy Feishu user, where should I focus?**
+Look at [external app authorization](/en/traework/06-plugins-integrations) and the [Office Assistant](/en/traework/05-bot-assistant). Reading and writing across 13 Feishu modules is a TraeWork strength, and those two chapters are where it lives.
+
+**The restriction matrix doesn't make sense to meâ€”what's the short version?**
+Remember one line: heavy features like the Office Assistant, Computer Use, and the external browser are largely missing from the web version, so you need desktop or mobile. Check the clients before you buy a membership.

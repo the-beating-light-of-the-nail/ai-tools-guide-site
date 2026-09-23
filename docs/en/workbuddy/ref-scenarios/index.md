@@ -1,8 +1,14 @@
-# Appendix B: Scenario Cheat Sheet
+---
+description: "A dictionary-style lookup organized by \"who you are\" and \"what you want to do.\" Find your scenario, then check the recommended entry point and the human checkpoints."
+---
 
-A dictionary-style lookup organized by "who you are" and "what you want to do." Find your scenario, then check the recommended entry point and the human checkpoints.
+# Appendix B: Too Many Features, No Idea Where to Click? Look Up Your Role or Your Task
+
+You open WorkBuddy, look at a pile of features, and have no idea where to start — that's completely normal. This table is for exactly that: you know what you want done, but not which thing to click. Look yourself up either by "who you are" or "what you want to do," find the scenario, check the recommended entry point and the human checkpoints, and jump straight there. You don't need to read the whole site — look it up and use it. The more urgently you're hunting for a feature, the more you should first get clear on which kind of user you are.
 
 ## By Role: Where to Start
+
+Start by finding yourself in the table and seeing which scenarios your role usually begins with. It lists recommended starting points and the matching chapter for each group — just jump. Once you're in the chapter you'll find the finer playbook, so don't agonize over it here.
 
 | Role/position | Recommended starting scenarios | Chapter on this site |
 | --- | --- | --- |
@@ -19,7 +25,11 @@ A dictionary-style lookup organized by "who you are" and "what you want to do." 
 | Management | Business analysis, anomaly alerts, strategy proposals | [The Office Trio](/en/workbuddy/case-office/) |
 | Enterprise admin | Permissions, usage, Skills, knowledge bases, auditing | [Automation Reliability](/en/workbuddy/adv-automation-reliability/) |
 
+After this table you'll have a rough idea of where to head. If you wear several hats, pick whichever scenario hurts most right now and try that first.
+
 ## Basic Office Lookup
+
+Your common everyday office actions, the matching capability, and what you should watch yourself before rollout are all in this table. Go item by item and you'll know which capability to use and what to block. Don't dump the whole stack of files on AI right away — see first what each action needs you to confirm.
 
 | What I want to do | Recommended capability | Human checkpoint |
 | --- | --- | --- |
@@ -36,7 +46,11 @@ A dictionary-style lookup organized by "who you are" and "what you want to do." 
 | Generate a reporting PPT from minutes | PPT, charts, brand templates | Outline and evidence mapping first; one conclusion per slide |
 | Turn company policies into Q&A | Knowledge base, search | Answers cite clause sources; misses route to a human |
 
+Work down this table and most office chores have a matching capability. Remember one thing: the "human checkpoint" column is where you personally need to look once AI has finished the job.
+
 ## Knowledge Management Lookup
+
+When you're accumulating knowledge, clipping, or reviewing, the entry points and the boundaries to watch are listed here. Pick your action and check the suggested entry point and checkpoint. Don't let AI auto-expand your original words — keeping your meaning beats looking tidy.
 
 | What I want to do | Suggested entry point | Human checkpoint |
 | --- | --- | --- |
@@ -50,7 +64,11 @@ A dictionary-style lookup organized by "who you are" and "what you want to do." 
 | Turn knowledge into self-media content | Evidence pack + content Skills | Fact versions, citations, and copyright |
 | Periodically clean the knowledge base | Wiki health check, broken-link and duplicate checks | Never auto-delete or merge human notes |
 
+When organizing knowledge, the rule to hold onto is "never lose the original words, always keep the source." Let AI do the hauling and indexing — not the rewriting of your brain.
+
 ## Self-Media Creation Lookup
+
+For topics, titles, covers, publishing, and reviews, the recommended Skills and the points you must check yourself are in this table. Find the Skill by action, then verify the checkpoint on the right. Don't hand publishing entirely to automation — the account and compliance are your call.
 
 | What I want to do | Recommended Skill | Human checkpoint |
 | --- | --- | --- |
@@ -64,7 +82,11 @@ A dictionary-style lookup organized by "who you are" and "what you want to do." 
 | Make a video from 0 to 1 | Video generation expert team | Script checkpoint, final-cut acceptance, human confirmation before publishing |
 | Break down a viral video | Viral breakdown expert team | Platform terms, copyright license — learn, don't re-upload |
 
+The easiest place for content work to break down is between "what the title promises" and "what the body delivers." Have the generator work only from facts in the body; a title that can't be delivered isn't usable no matter how good it looks.
+
 ## Daily Life Services Lookup
+
+For travel, health, outfits, and just-for-fun needs, the recommended Skills and their boundaries are in this table. Check the column before you use them — health and divination especially. When in doubt, ask one more question rather than letting AI make a high-stakes decision for you.
 
 | What I want to do | Recommended Skill | Human checkpoint |
 | --- | --- | --- |
@@ -76,3 +98,19 @@ A dictionary-style lookup organized by "who you are" and "what you want to do." 
 | Plan weekly menus and shopping | Nutrition & health, healthy recipe suggestions | Allergies, conditions, medications, and pregnancy restrictions |
 | Pick outfits by weather and occasion | Daily outfit inspiration + weather | Use existing wardrobe first; no default consumerism |
 | Play with BaZi, star charts, or divination | Fortune telling, fun divination | Clearly for entertainment; never for high-stakes real decisions |
+
+One thing to remember with lifestyle Skills: they give suggestions, not verdicts. If you feel unwell, go to a hospital — don't treat a health advisor as a doctor. Pull a fortune for fun, but don't stake real money on it.
+
+## FAQ
+
+**Which table should I start with?**
+Start with "By Role" and find where your position usually begins. When you need to do something specific, flip to the matching scenario table. Both routes work — if you only want to look up one action today, go straight to the scenario tables.
+
+**What does "human checkpoint" mean in the tables?**
+It means AI can do the work, but you need to eyeball it before it goes out. When merging spreadsheets you verify primary keys and amount conservation; when publishing to an Official Account you confirm the account and the mobile preview. Treat the checkpoints as your acceptance checklist and don't skip them.
+
+**Anything to watch out for with daily-life Skills?**
+Health Skills don't diagnose or prescribe — emergencies go offline. Divination Skills are labeled entertainment, so don't use them for high-stakes real decisions. Read the checkpoint before you use one, and for anything involving your body, trust the offline answer.
+
+**Why do some scenarios link to chapters on this site and others to the official SkillHub?**
+This site focuses on office scenarios, so office work, knowledge, self-media, and video each have their own chapter. Engineering and daily life are outside its scope, so searching the official SkillHub gets you fuller coverage. When installing Skills, stick to the official entry point and don't install packages from unknown sources.

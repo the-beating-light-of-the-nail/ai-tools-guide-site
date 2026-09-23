@@ -1,10 +1,18 @@
-# From One Candlestick Chart to an Evidence-Backed Investment Review
+---
+description: "You catch sight of a stock's candlestick chart and words pop into your head—\"uptrend,\" \"breakout on volume,\" \"pullback stabilizing.\" They're quick to write, but think for a second: they may already reach past what the image itself can prove."
+---
+
+# How Do You Turn One Candlestick Screenshot Into an Investment Review Where Every Claim Has Data Behind It?
+
+You catch sight of a stock's candlestick chart and the words come instantly: "uptrend, breakout on volume, pullback stabilizing." They're quick to write—but stop for a second and you'll see they may already have gone past what the image itself can prove. This page turns one screenshot into an investment review where every sentence has data behind it, rather than a conclusion built on gut feel.
 
 > Scenario: a candlestick chart invites instant judgment—"uptrend, breakout on volume, pullback stabilizing" come quickly to the pen, yet may already exceed what the image itself can prove. Turning one screenshot into an investment review **where every sentence is backed by data** is the job an agent should be doing.
 
 > ⚠️ Everything in this chapter is for study and discussion only and constitutes no investment recommendation.
 
 This case demonstrates a complete agent workflow: **VLM visual recognition → automatic invocation of specialized tools → multi-role deep discussion → structured report output**, with no manual tool-switching anywhere in the chain.
+
+You might worry that you don't know finance. You don't need to understand quantitative models, and you don't need to write code. Take a screenshot, paste a prompt, and let it handle the rest.
 
 ## Step 1: Read the Chart—VLM Parses the Candlesticks
 
@@ -85,3 +93,25 @@ Finally the model synthesizes the four views into a report automatically, and ca
 ---
 
 End of the finance scenarios. Back to the reference section: [Doubao Work Prompt Templates →](/en/doubaowork/ref-templates)
+
+## FAQ
+
+**Can I run this without a finance background?**
+
+Yes. Take a screenshot, paste the prompt, and it handles the chart reading, the financials, and the board discussion. Your job is checking whether each conclusion in the final report has data under it.
+
+**Why insist that every sentence be backed by data?**
+
+Because a candlestick chart makes it easy to invent a story. Have it list evidence separately for technicals, fundamentals, and liquidity, and the conclusion stands up—instead of "it feels like it's going up."
+
+**Do I install a Skill manually for the board step?**
+
+No. Just ask it to "convene an advisory board," and the model decides which tool to call. That difference is exactly what separates an agent from a chatbot.
+
+**Can the screenshot recognition be wrong?**
+
+Yes. After you get the technical quick-read, check the stock name, price, and moving-average alignment yourself. However accurate the recognition is, key numbers deserve your own eyes.
+
+**Can I use these conclusions as investment advice?**
+
+No. The warning at the top of this page holds throughout: this chapter is for study and discussion only and is not investment advice. Practice with it by all means; real money is another matter.

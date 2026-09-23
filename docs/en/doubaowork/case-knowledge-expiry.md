@@ -1,6 +1,14 @@
-# Which Knowledge Has Expired: Automatically Find the Owner to Confirm
+---
+description: "You follow a travel guide from your knowledge base and book the whole trip, only to arrive and find the tickets went up long ago and new metro lines opened. A knowledge base can store things, but it can't guarantee the material stays valid—in a guide from a few years back, ticket prices, opening hours, and transit routes may all have changed."
+---
+
+# Your Knowledge Base Is Years Old—How Do You Get It Verified and Find the Owner to Confirm?
+
+You follow a travel guide sitting in your knowledge base and book the whole trip, only to arrive and find the tickets went up long ago and the metro has grown new lines. A knowledge base can store things, but it can't guarantee the material stays valid—in a guide from a few years back, ticket prices, opening hours, and transit routes may all have changed. Skip verification and use it straight away, and the more detailed the material, the more easily it talks you into a stale conclusion. This page shows you how to write "auto-verify" and "find the owner to confirm" right into your prompt.
 
 > Scenario: a knowledge base solves storage, but can't guarantee the material stays valid. A years-old travel guide may have outdated ticket prices, opening hours, transit routes, and booking rules—**used without verification, the more detailed the material, the more convincingly it spreads stale conclusions**.
+
+You've probably hit this yourself: follow an old guide, arrive, and discover the price went up or the route changed. The more detailed the material looks, the easier it is to trust, and the harder you fall for something outdated. You don't have to check every line yourself—hand it to Doubao Work and let it cite sources as it verifies.
 
 Take travel planning: the knowledge base holds a 2013-2014 "Shanghai Travel Guide PDF" claiming "Oriental Pearl Tower tickets 100 RMB, only 11 metro lines"; in reality, by 2026 the two-sphere combo ticket is 199 RMB and there are over 20 metro lines. Meanwhile "Shanghai Travel Pitfall Guide (2026 Edition)", shared by the contact Xiang Ming, says the old guide's recommended snack plaza at City God Temple is "expensive and bad". Verifying all of it by hand would take at least two or three hours.
 
@@ -53,7 +61,7 @@ The **key-info summary** sets the frame first: September 4-6, 3 days 2 nights; o
 
 The result also explains how each piece of material was used, so every recommendation is traceable: the 2013 PDF's **prices and tickets are expired**, but its **route logic and food-culture notes still carry reference value**; of Xiang Ming's 48 tips, the ones fitting this trip were woven into the daily plan (the 2-RMB ferry, the North Bund viewpoint, avoiding the influencer-crowded restaurants). Live queries showed light rain all three days, so the plan built in rainy-day alternatives like the Pudong Art Museum and the Shanghai Museum East wing, with a reminder to re-check weather and temporary notices 48 hours before departure.
 
-The full **HTML itinerary** puts each day's time blocks, transit routes, attraction bookings, dining suggestions, budget, and rainy-day backups on one page—pitfall tips attached to the relevant attractions, transport, and meals, with sources kept: the reader knows what each tip rests on, and can go back to the original material when things change.
+The full **HTML itinerary** puts each day's time blocks, transit routes, attraction bookings, dining suggestions, budget, and rainy-day backups on one page—pitfall tips attached to the relevant attractions, transport, and meals, with sources kept: you know what each tip rests on, and can go back to the original material when things change.
 
 ## Takeaway
 
@@ -62,3 +70,25 @@ This example showcases **a governance method for expiring knowledge**: keep the 
 ---
 
 That wraps the knowledge-management scenarios. Next up: [E-commerce: from One Product Photo to a Full Set of Listing Images →](/en/doubaowork/case-product-images)
+
+## FAQ
+
+**How does Doubao Work know the material expired?**
+
+You make "identify what has expired" an explicit step, then have it check against live 2026 information (weather, rail schedules, booking requirements). When the old guide and the new one disagree, it keeps both accounts with their sources instead of quietly swapping one in.
+
+**Why not let it silently replace stale entries?**
+
+Because a silent replacement leaves you believing the material was always right. You'd rather see "this expired" and "this conflicts," then decide which to trust. Where an owner can be found, it also prompts you to ask them directly.
+
+**Can I use this without a Feishu knowledge base?**
+
+Yes. Upload the guide files directly and change the material scope in your prompt to local files. Feishu is only what lets it read chat history and shared docs along the way.
+
+**Can I trust the prices and train numbers in the result?**
+
+Watch the "source" and "verification time" on every item. It checks live data (weather, train times) online, but you should still reconfirm temporary notices 48 hours before departure.
+
+**Can I edit the HTML itinerary myself?**
+
+Yes. It outputs a page you can keep editing—add your hotel budget, dietary restrictions, and must-see stops and the options narrow further. The finished itinerary is reusable next time too.

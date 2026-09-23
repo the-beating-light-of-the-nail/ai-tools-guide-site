@@ -9,9 +9,15 @@ sources:
 
 # Task Delivery Protocol: Define "Done" First
 
+## Plain-Language Orientation
+
+This chapter gives you a task card aimed at a problem you hit constantly when you lead a team: a colleague drops "help me put together a business analysis" into chat, and you take the work without knowing who it is for, what date the data cuts off, whether the CRM may be touched, or who signs off. This chapter breaks that vague request into five fields—goal, inputs, constraints, deliverable, acceptance. Fill them in and the AI stops guessing at your business conventions. By the end you can turn a one-line verbal request into an acceptance contract an ordinary colleague can actually fill out: less rework for you, and clearer accountability when something goes wrong.
+
 ## 30-Second Conclusion
 
 <span id="claim-define-done-first-01" data-claim-id="claim-define-done-first-01"></span>This book recommends: define "done" before starting an AI task, then decide prompts, tools, and automation.
+
+Plain-language note: why settle "done" first? If you have not defined done, the AI will answer your wrong question at high quality—a polished report that is not the version you need to make the decision.
 
 <span id="claim-task-card-fields-01" data-claim-id="claim-task-card-fields-01"></span>This chapter defines the single standard for the task card as five fields: goal, inputs, constraints, deliverable, acceptance. Other chapters and appendices only reference this definition and do not build parallel field systems.
 
@@ -36,6 +42,8 @@ The final product is a five-field task card:
 3. **Mid-point checkpoint:** have the business owner restate the five fields; whenever the goal, basis, version, or checker is unclear, fix the card first—do not let the AI guess.
 4. Run once with the task card, saving input versions, artifacts, human edits, and the final acceptance record.
 
+Plain-language note: the restatement in step 3 is the step that matters. Have the business owner read the five fields back; if they stumble on any one of them, the requirement is not actually clear yet, and setting the AI running now only amplifies your team's confusion.
+
 ## Case Reference
 
 You can start with [Youkela: Product R&D and Attendance-Based Payroll](/en/qwenwork/case-youkela) as a task-card exercise in "inputs—processing—artifact—acceptance"; the specific customer statements in the case still need their sources and human-review boundaries preserved.
@@ -44,9 +52,13 @@ You can start with [Youkela: Product R&D and Attendance-Based Payroll](/en/qwenw
 
 Check item by item that all five fields have executable content: for example, "acceptance" must name a specific checker and rejection conditions, not just "send if it looks fine." While fields are incomplete, the task stays in the clarification stage.
 
+Plain-language note: the wording to watch for most at acceptance time is "send if it looks fine." It hands judgment back to you without saying who checks, what they check, or how a failure gets rejected. A field written that way is effectively blank.
+
 ## Watch Out
 
 If the goal changes, input versions conflict, or a high-risk action has no confirmer, keep the original task card and raw materials, stop the run, and roll back to the last stable version; have the business owner re-confirm the basis, and switch to manual organization or read-only analysis if necessary.
+
+Plain-language note: when the goal changes, versions conflict, or a high-risk action has no confirmer, stop the run and keep the originals, then return to the last stable version. Have the business owner re-confirm the basis, and fall back to manual organization or read-only analysis if needed. Don't push through.
 
 ## Further Reading
 
@@ -70,6 +82,8 @@ The five-field task card is the shared input contract for the rest of this book'
 | Deliverable | Output format, structure, location, naming, editability | 1-page summary, editable table, validation notes | A report |
 | Acceptance | Who checks what and when; what triggers rejection | Finance reconciles totals; publish after business owner confirms | Send if it looks fine |
 
+Plain-language note: on this table, read the "unacceptable wording" column closely. That column is exactly where you trip up in daily work—"for the boss to see," "see attachments," "a report" all sound like real answers, but none of them can be judged at acceptance time.
+
 When turning the task card into a runnable task, follow six steps:
 
 1. **Clarify the goal**: restate the reader, decision, and deadline; do not proceed while directions diverge.
@@ -80,6 +94,8 @@ When turning the task card into a runnable task, follow six steps:
 6. **Run and review**: save the task card, input versions, generated versions, human edits, anomalies, and final confirmer.
 
 Fill in missing fields before running; never let the AI guess business conventions. Where payments, deletions, personnel decisions, system writes, or external publishing are involved, write preview, explicit confirmation, and rollback into "constraints" and "acceptance."
+
+Plain-language note: for actions like payments, data deletion, or external publishing, you have to write "who confirms and how to roll back" into the card. Otherwise the AI executes for real and you find out afterward that nobody signed off and nothing can be undone.
 
 ## Cases and Evidence
 
@@ -109,10 +125,40 @@ On first implementation, take 5 real samples from a high-frequency task with sta
 
 Stop the current run when: the goal or reader changes; key inputs are missing or versions conflict; the basis cannot be confirmed by the owner; the artifact cannot be delivered in the agreed format; or a high-risk action has no explicit confirmation or rollback.
 
+Plain-language note: this division of labor means the business owner owns direction and risk, the user runs and records, and the reviewer rejects against the same yardstick. Don't overreach on the first rollout: take 5 real samples and change one field at a time, and you will see where rework actually gets stuck.
+
 ## Boundaries and Next Steps
 
 The task card cannot replace professional judgment, nor turn unknown information into facts. For exploratory tasks, the goal can be "produce a question list or test a hypothesis," but input boundaries, forbidden items, and this round's deliverable still need to be explicit.
 
 This chapter only defines the task protocol. How tools connect to files, browsers, and collaboration systems, and what responsibilities different run environments carry, will be defined in the architecture chapters.
+
+## Plain-Language Glossary
+
+| Term | Plain language |
+|---|---|
+| Task card | Your vague request written as a five-field contract: goal, inputs, constraints, deliverable, acceptance |
+| Goal field | Say first who it is for, what gets done, and which decision it supports—not "for the boss to see" |
+| Constraints field | Statistical basis, forbidden actions, and stop conditions: the red lines you draw for the AI |
+| Deliverable field | What format, what structure, where it is stored, and whether it can still be edited |
+| Acceptance field | Who checks, what they check, how a failure gets rejected—no "send if it looks fine" |
+| Stage gate | The checkpoint you clear after the task card runs cleanly, before it becomes a template, Skill, or scheduled task |
+
+## FAQ
+
+**A colleague just drops "help me analyze this." How do you turn it into a task card?**
+Pin down three anchors first—reader, decision, deadline—then ask what date the data cuts off, whether the CRM may be touched, and who confirms. Write those answers into the five fields and the vague request becomes a contract you can actually run.
+
+**Who should fill in the task card?**
+The business owner sets the goal and the basis, the user fills in inputs and runs it, the content reviewer writes acceptance. Don't do it all yourself: splitting the work is what makes responsibility clear and rejection defensible.
+
+**What goes wrong if acceptance just says "send if it looks fine"?**
+It is acceptance in name only—no checker, no check method, no rejection path. At acceptance time the judgment lands back on you, and when something breaks nobody owns it. Replace it with a named checker and explicit rejection conditions.
+
+**How should you write the card for high-risk actions like payments or data deletion?**
+Put preview, explicit confirmation, and rollback into constraints and acceptance. With no confirmer and no rollback path, stop the run and go back to the last stable version rather than letting the AI execute directly.
+
+**Once the task card runs smoothly, can you lock it in as an automated flow?**
+Not yet. Pass acceptance 3 consecutive times inside the same boundary before turning it into a template, Skill, or scheduled task. For exploratory tasks, spell out the input boundaries and forbidden items as well.
 
 [Next chapter: Work Environment and Capability Architecture](/en/qwenwork/ch03-work-environment)

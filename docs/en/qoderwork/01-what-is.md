@@ -1,6 +1,12 @@
-# What Is QoderWork
+---
+description: "Alibaba has shipped its answer too. QoderWork is a desktop intelligent work assistant from the Alibaba camp (the Qoder team, distributed via Alibaba Cloud in China), with the official tagline \"you state the need, it delivers the result.\" It describes itself as an \"AI specialist.\""
+---
 
-**QoderWork** is a desktop intelligent work assistant from the Alibaba camp (the Qoder team / Alibaba Cloud Computing in China), with the official tagline "**you state the need, it delivers the result**"—it also calls itself an "AI specialist." It extends Qoder's agent capabilities from coding into everyday work: file organization, data processing, document generation, browser automation, scheduled tasks, and remote command via IM. Traditional AI "answers when you ask, and you still do the work yourself"; QoderWork finishes the job and drops the output onto your computer.
+# What Is QoderWork? Read This Before Your First Run
+
+You've seen the ads promising "AI that does the work for you," you installed one, and you still have no idea what it can actually do. This chapter explains QoderWork in plain language. By the end you'll know whether it fits you and what job to hand it first.
+
+Alibaba has shipped its answer too. **QoderWork** is a desktop intelligent work assistant from the Alibaba camp (the Qoder team / Alibaba Cloud Computing in China), with the official tagline "**you state the need, it delivers the result**"—it also calls itself an "AI specialist." It extends Qoder's agent capabilities from coding into everyday work: file organization, data processing, document generation, browser automation, scheduled tasks, and remote command via IM. Traditional AI "answers when you ask, and you still do the work yourself"; QoderWork finishes the job and drops the output onto your computer.
 
 > Official docs: [docs.qoder.com/zh/qoderwork](https://docs.qoder.com/zh/qoderwork/introduction) | China edition: [qoder.com.cn/qoderwork](https://qoder.com.cn/qoderwork) (QoderWork CN, via Alibaba Cloud)
 
@@ -19,11 +25,11 @@
 
 ## Three Key Concepts
 
-Three concepts from the official quick-start docs that you'll meet on day one:
+Three concepts from the official quick-start docs that you'll meet on day one. Here's what they mean in plain terms:
 
-- **Clarification**: a brief confirmation before a task starts, used to align on vague requirements (skipped automatically when the request is clear)—don't find it annoying; problems surfaced in clarification, if ignored, all come back as rework;
-- **Task monitoring**: the execution panel on the right of the workspace, showing the plan, tool calls, skills used, and files touched in real time—officially, "everything is transparent";
-- **Deliverables**: real local files the task outputs (spreadsheets, reports, slides…) saved straight to your computer, ready to open, edit, or move anytime.
+- **Clarification**: it asks you a few short questions before starting, to align on a vague request; if your request is already clear, this step is skipped automatically. Don't find it annoying—whatever doesn't surface during clarification comes back later as rework;
+- **Task monitoring**: an execution panel sits on the right of the workspace showing what it plans to do, which tools it called, and which files it touched, the whole way through. Officially, "everything is transparent";
+- **Deliverables**: the real local files a task hands back when it's done—spreadsheets, reports, slides—saved on your computer, ready to open, edit, or move anytime.
 
 ## How It Relates to Qoder (the Coding Platform)
 
@@ -39,7 +45,7 @@ Accounts and benefits are shared: QoderWork signs in with the unified Qoder acco
 | Account | Qoder account (USD subscription) | Qoder CN (formerly Tongyi Lingma) account, in the Alibaba Cloud system |
 | Docs | docs.qoder.com | help.aliyun.com (migrated to docs.qoder.cn) |
 
-On the feature level (the eight capabilities, the interface, workbenches), the official docs flag no differences, so treat them as identical; the China edition has its own credit promotions (new-user packages, bonuses for verified students and teachers). In May 2026, Alibaba Cloud upgraded and renamed Tongyi Lingma into the Qoder CN product family; QoderWork CN is its China-edition desktop client.
+If you're in mainland China and collaborate daily over DingTalk, Feishu, and WeChat, the China edition saves you hassle; if you already have an international account or your team is overseas, go international. On the feature level (the eight capabilities, the interface, workbenches), the official docs flag no differences, so treat them as identical; the China edition has its own credit promotions (new-user packages, bonuses for verified students and teachers). One bit of background: in May 2026, Alibaba Cloud upgraded and renamed Tongyi Lingma into the Qoder CN product family; QoderWork CN is its China-edition desktop client.
 
 ## How It Relates to the Other Tools on This Site
 
@@ -47,7 +53,21 @@ On the feature level (the eight capabilities, the interface, workbenches), the o
 - **TraeWork** (ByteDance): an AI-native workbench, strong on three-client sync and the Feishu ecosystem
 - **QoderWork** (Alibaba): a desktop intelligent work assistant, strong at browser automation and IM channels
 
-The three are close in positioning, each with its own emphasis. QoderWork's differentiators: local-first (file operations happen on your machine), browser automation that "operates the web just like you do," and remote command across 7 IM platforms.
+The three are close in positioning, each with its own emphasis. QoderWork's differentiators: local-first file operations, browser automation that "operates the web just like you do," and remote command across 7 IM platforms.
+
+## FAQ
+
+**Is it free?**
+New users get a credit bundle on signup, and the China edition also offers daily check-in credits (watch the promotion's expiry). You can check your balance anytime with the Credits button in the top-right corner.
+
+**Will my files be uploaded anywhere?**
+It's designed to be local-first: file operations happen on your machine, and the deliverables stay on your machine too.
+
+**What's a good first job to hand it?**
+Grab any folder or spreadsheet that needs tidying and ask it to "explain what each field means, group and sort by category, and output a summary table." Run through describe → watch the execution panel → collect the output once, and you'll get the feel of it.
+
+**Do the international and China editions share data?**
+No. Whichever account you sign in with, your tasks and history stay on that side. Pick one and don't keep switching.
 
 ---
 

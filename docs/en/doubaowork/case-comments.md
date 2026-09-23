@@ -1,8 +1,12 @@
-# Mining the Comments Section for Your Next Piece, and Running a Real Retrospective
+---
+description: "A retrospective that actually helps your next piece has to answer sharper questions: what are people really asking? Which questions keep coming back? Which comments are few but touch on trust and safety? Saves hit target, so why does completion still fall off? What exactly do you keep, fix, or single-variable test next time?"
+---
+
+# How Do You Turn Comments and Dashboard Data Into Your Next Topic? A Two-Step Retrospective That Ends the Blank Page
+
+You hit publish, and the dashboard throws a pile of numbers at you: views, saves, completion. Most people stop right there—"views were meh, saves were decent, keep optimizing next time." That isn't a retrospective; at best it's a glance at the dashboard. A retrospective that actually helps your next piece answers sharper questions: what are people really asking? Which questions keep coming back? Which comments are few but touch on trust and safety? Your save rate hit target, so why does completion still fall off a cliff? What will you keep, fix, or test as a single variable next time? This walkthrough runs both retrospective workflows end to end.
 
 > Scenario: many people's content retrospectives end with three sentences—views were meh, saves were decent, keep optimizing next time. That's not a retrospective; at best it's a glance at the dashboard.
-
-A retrospective that actually helps the next piece answers more specifically: what are people really asking? Which questions keep coming up? Which comments are few but touch on trust and safety? Saves hit the target, so why does completion fall off a cliff? What exactly do you keep, optimize, or single-variable test next time? I ran two retrospective workflows end to end:
 
 ```text
 Task 1: 32 comments → completeness check → primary-category labeling → topic clustering → separating facts from inferences
@@ -119,3 +123,25 @@ The comment section is like a free, continuously updated user interview; the das
 ---
 
 Next: [Giving Your Personal Brand a GEO Checkup →](/en/doubaowork/case-geo-checkup)
+
+## FAQ
+
+**Should you hand personal information to the AI for comment analysis?**
+
+No. Export the data from your platform dashboard first, or pull it through an authorized read-only connector. Don't feed usernames, phone numbers, companies, group IDs, or DM contents straight into the AI.
+
+**Why freeze the statistical definitions before the retrospective?**
+
+Because if you don't pin down the denominator, the same data gives you completely different answers. Is completion rate divided by plays or by 3-second plays? Settle that first.
+
+**Can one publication's data count as a pattern?**
+
+No. Your sample here is a single publication, so every causal judgment gets labeled "hypothesis" with a way to verify it. Even "information density caused mid-video drop-off" only holds up after an A/B test or a comparison against similar content.
+
+**Is recommending just one topic for the next piece enough?**
+
+Yes. Eight candidates are worth less than one topic you can actually answer with real screenshots, data, or a failure story. C026 says outright, "I transcribe interviews every day"—that alone earns a dedicated piece.
+
+**Can you post the analysis file straight to the comments?**
+
+No. Generate analysis files only. Don't reply, don't DM, don't publish, and don't write back to any platform.

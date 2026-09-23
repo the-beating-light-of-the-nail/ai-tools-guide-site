@@ -1,10 +1,14 @@
-# Chapter 20: Self-Media Isn't Just About Effort — It's a Growth Loop
+---
+description: "For a solo creator, the biggest time sink is polishing content to perfection right out of the gate: deep writing, thorough research, three rounds of restructuring — and then single-digit views after publishing. What you need to solve first isn't \"is it well-written enough\" but \"would anyone want to click in at all.\""
+---
 
-## Nobody Reading Your Content? It's Usually Not Because You're Not Trying Hard Enough
+# Chapter 20: Writing Alone and Nobody Clicks? Build the Loop From Topic to Review
 
-For a solo creator, the biggest time sink is polishing content to perfection right out of the gate: deep writing, thorough research, three rounds of restructuring — and then single-digit views after publishing. What you need to solve first in the early days isn't "is it well-written enough" but "would anyone want to click in at all."
+Running a self-media account solo, the easiest thing to waste time on is polishing content to a perfect score before you start: you write it deep, research it thoroughly, restructure it three times — and it goes out to single-digit views. What you actually need to solve in the early days isn't "is it good enough," it's "will anyone want to click in." This chapter walks the whole line from topic selection to titles, covers, publishing, and review, so you can build your own growth loop by following along.
 
 ## The Workflow at a Glance
+
+Look at this diagram first so you have the shape in your head: trends and comments come in, go to the topic pool, the fact pack, the title structure, then become per-platform content, covers and storyboards, pass a compliance check, and after publishing the data flows back into the topic pool — it's a loop that turns, not a straight line. Follow the loop and you stop doing a bit of this and a bit of that. The scenes below show how.
 
 ```mermaid
 flowchart LR
@@ -23,7 +27,7 @@ Skills fill in individual steps in this loop — they don't take over the judgme
 
 ## Scene 1: Scrolling Hot Topics Every Day, Still Not Knowing What to Write
 
-Trending lists tell you "what everyone is watching," not "why this account should write about it." Chasing trends alone leads to sameness; going purely on gut feel makes it hard to tell whether users actually care.
+Trending lists tell you "what everyone is watching," not "why this account should write about it." Chase trends alone and you blend into the crowd; go purely on gut feel and you can't tell whether users actually care.
 
 Useful Skills: [WeChat Official Account Hot Article Finder](https://skillhub.cn/skills/gzh-explosive-content-detector), [RED Viral Notes Finder](https://skillhub.cn/skills/xhs-hotnotes), [RED Comment Insights](https://skillhub.cn/skills/xhs-comment-insights), [Inspiration Hunter](https://skillhub.cn/skills/inspiration-hunter-skill).
 
@@ -40,19 +44,19 @@ Do not treat high view counts as proof a topic suits me.
 
 ![The brief for building this week's topic pool](/workbuddy/case-self-media/assets/001_image_TBeUbtO5Uo.png)
 
-WorkBuddy first generates a cross-platform sample table, then clusters the comments into question groups, and finally scores each topic on "heat, account fit, added value, evidence strength, production cost" — delivering a topic board a human can prune by hand.
+Have WorkBuddy generate a cross-platform sample table first, then cluster the comments into question groups, then score each topic on "heat, account fit, added value, evidence strength, production cost" — and deliver a topic board you can prune by hand.
 
 ![Topic board: multi-dimension scores for heat, fit, cost](/workbuddy/case-self-media/assets/002_image_UsfnbdO18o.png)
 
 ### Also Learn to Spot "Low-Follower Viral Hits"
 
-When starting an account, look for low-follower viral hits to **copy the topic** (the topic, not the content verbatim). The recommended [viral-topic](https://github.com/kangarooking/kangarooking-skills/tree/main/viral-topic) skill fetches recent low-follower viral content in a given field across platforms — e.g. "low-follower viral AI articles on Official Accounts in the last 7 days" — and supports X and YouTube too.
+When starting an account, hunt for low-follower viral hits and copy the *topic* — the topic, not the content verbatim. You can also try the [viral-topic](https://github.com/kangarooking/kangarooking-skills/tree/main/viral-topic) skill: it pulls recent low-follower viral content in a given field across platforms — e.g. "low-follower viral AI articles on Official Accounts in the last 7 days" — and supports X and YouTube too.
 
 ![viral-topic: pulling low-follower hits across platforms](/workbuddy/case-self-media/assets/003_image_D9dBbor45o.png)
 
 ## Scene 2: Wanting Viral Titles Without Being Clickbait
 
-"Give me 20 viral titles" easily gets you numbers, suspense, and exaggerated promises — and not a single title the body can actually deliver on. **A title isn't standalone copy; it's a promise between the reader and the article.**
+"Give me 20 viral titles" easily gets you numbers, suspense, and exaggerated promises — and not a single title the body can actually deliver on. **A title isn't standalone copy; it's a promise between the reader and the article.** Any title you use has to have a landing point inside the body.
 
 Useful Skills: [Official Account Title Generator & Scorer](https://skillhub.cn/skills/gzh-official-account-title-generator), [RED Viral Notes Auto-Writer](https://skillhub.cn/skills/redbook-writer), [Short Video Hook Generator](https://skillhub.cn/skills/bozo-video-gz); for Official Account titles you can also try [viral-title](https://github.com/kangarooking/kangarooking-skills/tree/main/viral-title).
 
@@ -73,7 +77,7 @@ Do not auto-pick the final title; let me confirm the content promise first.
 
 ## Scene 3: Starting the Official Account Cover from a Blank Canvas Every Time
 
-Just saying "make a classy cover" usually gets you decoration unrelated to the article, garbled text, or a distorted logo.
+Just saying "make a classy cover" usually gets you decoration unrelated to the article, garbled text, or a distorted logo. Start your cover from a brief and think the composition through first.
 
 ```text
 Create an Official Account cover brief for the article "Bookmarks Aren't Knowledge Management —
@@ -90,7 +94,7 @@ Do not upload to the Official Account directly.
 
 ## Scene 4: RED Isn't Just "Cutting a Long Article into Nine Cards"
 
-The common way to adapt an Official Account article for RED — shortening paragraphs, adding emojis, spreading across nine cards — yields lots of information but a cover with no hook, a second page with no follow-through, and a final page with no call to action. The right workflow:
+The common way to adapt an Official Account article for RED — shortening paragraphs, adding emojis, spreading across nine cards — yields lots of information but a cover with no hook, a second page with no follow-through, and a final page with no call to action. Do it the right way: pull the fact pack first, then design the swipe rhythm.
 
 1. Extract a platform-neutral fact pack from the long article;
 2. Pick one core question and cut the tangents unrelated to it;
@@ -111,7 +115,7 @@ First return the per-page copy, visual hierarchy, and estimated word counts; aft
 
 ## Scene 5: Turning a Long Article into a Shootable Short Video
 
-"Turn it into a 60-second voiceover" usually just compresses the article into a faster read-aloud script — no shots, no pacing, no evidence footage, no pauses.
+"Turn it into a 60-second voiceover" usually just compresses the article into a faster read-aloud script — no shots, no pacing, no evidence footage, no pauses. Turn it into a real on-camera timeline instead, and don't let AI take the lazy way out.
 
 ```text
 Adapt this article into a 60-second on-camera script, aimed at making first-time WorkBuddy users
@@ -134,11 +138,11 @@ Check this Official Account article for banned words; flag any that appear, with
 Check the overall content for AI flavor and reduce it, then lay out the article.
 ```
 
-We recommend the publishing chain stop at the drafts box: fact check → citations & copyright → brand & compliance → link check → mobile preview → human confirms the account → publish. Auto-liking, bulk DMs, comment flooding, and bypassing platform risk controls are not recommended "efficiency" scenarios.
+Keep your publishing chain parked at the drafts box: fact check → citations & copyright → brand & compliance → link check → mobile preview → you confirm the account → publish. Auto-liking, bulk DMs, comment flooding, and bypassing platform risk controls are not recommended "efficiency" scenarios. When you're unsure, remember: none of those are in scope.
 
 ## Scene 7: No Post-Mortem After Publishing, and the Next Piece Starts from Zero Again
 
-The heart of a post-mortem is comparing the AI's draft with the human-edited final version, letting the Skill evolve automatically so it writes closer to your expectations next time. Use [Official Account Writing Self-Iteration](https://skillhub.cn/skills/skill-article-evolution) or a RED operations copilot to write human edits and performance data back into the style library:
+The heart of a post-mortem is comparing the AI's draft with your edited final version, letting the Skill evolve automatically so it writes closer to your expectations next time. Use [Official Account Writing Self-Iteration](https://skillhub.cn/skills/skill-article-evolution) or a RED operations copilot to write your edits and performance data back into the style library:
 
 ```text
 Read this issue's content data, the published version, and the record of human edits, then generate a review.
@@ -152,9 +156,28 @@ Write durably valid editing rules into style-guide.md; one-off trends should not
 
 ## A Good-Enough Self-Media Skill Stack
 
+Add gear according to the stage you're in — you don't need the full kit at once:
+
 | Level | Install first | Add more when |
 | --- | --- | --- |
 | Starter | Hot content finder, title scorer, image generation | You can reliably finish one piece of content |
 | Stable | Comment insights, covers, layout drafts, banned-word checks | Your account positioning and reviewer are settled |
 | Multi-platform | RED cards, short-video scripts, platform adaptation | You have a unified fact pack |
 | Advanced | Data feedback, style iteration, scheduled topic radar | Your manual process has run smoothly for 4 straight weeks |
+
+## FAQ
+
+**Where should my energy go in the early days?**
+Solve "will someone click in" first — that means topics and titles. Polishing content to a perfect score that nobody opens is the worst trade you can make early on. Once clicks are stable, work on depth.
+
+**Can I just copy low-follower viral hits?**
+You can copy the *angle*, not the content verbatim. Tools like viral-topic pull low-follower hits so you can see "what topics break out even on a small account" — not so you can lift someone else's draft.
+
+**How do I know a title isn't clickbait?**
+Have the generator work only from facts already in the body, and make it mark "which paragraph delivers this" for every title. If it can't be delivered, don't use it no matter how high it scores.
+
+**Is a nine-card RED post just a long article cut into nine images?**
+No. Follow the six steps in Scene 4: pull the fact pack first, then design the swipe rhythm — cover promise, problem resonance, method, example, pitfalls, checklist — and only generate images at the end. Otherwise it's dense with information and nobody finishes it.
+
+**Can I automate publishing entirely?**
+Keep it at the drafts box. Confirm facts, copyright, compliance, links, and the mobile preview yourself, then publish. Auto-liking, comment flooding, and evading risk controls are out of scope.

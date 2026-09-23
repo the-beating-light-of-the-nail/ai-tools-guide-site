@@ -1,8 +1,12 @@
-# Running a GEO Checkup on Your Personal Brand
+---
+description: "You can't measure this by casually asking \"do you know so-and-so\"—the question isn't fixed, the timing isn't fixed, and neither is the standard you judge the answer by."
+---
+
+# Does Your Personal Brand Even Exist to an AI? Run One Fixed Checkup and See How It Introduces You
+
+You watch follower counts and leaderboard positions for your personal brand and miss a new entry point: more and more people just ask an AI directly. Can it match your Chinese name with your English account? Will it pin a same-named project on you? Is it citing your own homepage, or an aggregator page that's been reposted three times? You can't test any of this by casually asking "do you know so-and-so"—the question isn't fixed, the timing isn't fixed, and neither is the standard you judge by. This page runs a full checkup through a fixed process: prepare a public-fact baseline card and 5 fixed questions → search publicly question by question, verify sources, score → generate a monitoring table and fix recommendations. This round scored 29/30: no question went completely unrecognized or flat-out wrong, but it surfaced 1 identity-confusion risk and 1 source-quality issue.
 
 > Scenario: judging whether an IP is visible used to mean searching the name and checking follower counts; now there's a new entry point—**more and more people just ask an AI**. Can the AI match your Chinese name with your English account? Will it pin a same-named project on you? Does it cite your own homepage, or an aggregator page that's been reposted three times?
-
-You can't test these with a casual "do you know so-and-so"—the question isn't fixed, the timing isn't fixed, and neither is the judging standard. This field test ran a full checkup with a fixed process: **prepare a public-fact baseline card and 5 fixed questions → search publicly question by question, verify sources, score → generate a monitoring table and fix recommendations**. This round scored 29/30: no question went completely unrecognized or flat-out wrong, but it surfaced 1 identity-confusion risk and 1 source-quality issue.
 
 ## Set the Boundary First: This Is Retrieval
 
@@ -113,6 +117,8 @@ The monitoring table detected the X account, the GitHub account, and the represe
 
 ## Running This on Your Own IP: Check Against This List
 
+Run it on your own brand and check these 9 items:
+
 1. Write the public-fact baseline card first; don't mix in privacy or moving numbers;
 2. Fix the assistant, date, language, and 5-10 questions;
 3. Search independently per question; don't let the AI just copy the baseline;
@@ -128,3 +134,25 @@ Personal-brand work used to fixate on fame; now there's one more question: **whe
 ---
 
 Next: [Turning a Viral WeChat Article into a Short Video →](/en/doubaowork/case-viral-to-video)
+
+## FAQ
+
+**Can I just ask an AI "do you know so-and-so" as a checkup?**
+
+No, that measures nothing. The question, the timing, and the judging standard all drift, so the answer changes with them. Fix 5 questions, a date, and a language, then search and score each question; only then are results comparable and repeatable.
+
+**Is a perfect score the goal?**
+
+Don't chase one. This run scored 29/30, and the two lost points were the most valuable part—each one traces back to a public page and a specific field, and next week the same questions show whether anything moved.
+
+**Can a third-party page prove account ownership?**
+
+No. Treat third-party reposts as supporting evidence only. The sturdier chain is the person's GitHub project linking to X and the X homepage linking back to GitHub, so two public pages verify each other.
+
+**Should moving numbers like followers and stars go in the baseline card?**
+
+Leave them out. They change, so use them as a snapshot of the day at most, never as stable identity facts. The baseline card holds only what you've confirmed and are willing to make public.
+
+**Once I fix my bio, will every AI change?**
+
+No. This represents one field test, on one day, with one assistant, in Simplified Chinese. Nothing here promises to manipulate model answers or rankings—only a retest tells you anything.

@@ -1,14 +1,22 @@
-# TraeWork Tutorial
+---
+description: "You open a TraeWork tutorial and your first reaction is probably: is this another tool you can only use if you can code? It isn't."
+---
 
-**TraeWork** is an AI-native workbench from ByteDance, released in June 2026 under the tagline "Let TRAE work for you." The whole usage model fits in one sentence: state the goal clearly and hand over the rest—it breaks down the steps, invokes skills, runs tools, and hands back documents, reports, slide decks, or web pages you can use as-is. Web, desktop, and mobile share one account and one set of task data, so whatever you didn't finish watching at the office you can keep an eye on from the road.
+# How Do You Use This TraeWork Tutorial? A One-Stop AI Workbench for Office Workers
 
-> Note: TraeWork is an **office workbench** built for office workers; the TraeCode IDE for programmers is out of scope for this site. Product page: [trae.cn/work](https://www.trae.cn/work) | Docs: [docs.trae.cn](https://docs.trae.cn/)
+You open a TraeWork tutorial and your first reaction is probably: is this another tool you can only use if you can code? It isn't. **TraeWork** is an AI-native workbench from ByteDance, released in June 2026 under the tagline "Let TRAE work for you." State the goal clearly and hand over the rest—it breaks down the steps, invokes skills, runs tools, and hands back documents, reports, slide decks, or web pages you can use as-is. Web, desktop, and mobile share one account and one set of task data, so whatever you didn't finish watching at the office you can keep an eye on from the road.
 
-This section is original content for this site, fact-checked against the official documentation (as of 2026-08-31). Case-study chapters are adapted from real community posts with sources credited. The structure follows the five-part framework of the WorkBuddy Practical Playbook.
+One thing to note: TraeWork is an **office workbench** for office workers; the TraeCode IDE for programmers is out of scope for this site. Product page: [trae.cn/work](https://www.trae.cn/work) | Docs: [docs.trae.cn](https://docs.trae.cn/)
+
+This section is original content for this site, fact-checked against the official documentation (as of 2026-08-31). Case-study chapters are adapted from real community posts with sources credited. If you read it against the five-part framework of the WorkBuddy Practical Playbook, the structure will feel natural.
 
 ## Learning Path
 
+Start with Getting Started and run your first task end to end, then come back and pick capabilities from Extending to plug in. The five groups below are ordered "get started, then extend, see cases, chew through advanced, look things up," so you won't get lost following them straight down.
+
 ### Getting Started: Put TraeWork to Work
+
+Once it's installed, use this group to get the loop smooth: assign → watch → review → share.
 
 | Chapter | What you'll get |
 | --- | --- |
@@ -19,6 +27,8 @@ This section is original content for this site, fact-checked against the officia
 
 ### Extending: Bring Capabilities In
 
+Once your work runs smoothly, wire in external capabilities like Feishu, WeChat, and scheduled tasks so it becomes part of your actual workflow.
+
 | Chapter | What you'll get |
 | --- | --- |
 | [Office Assistant](/en/traework/05-bot-assistant) | Assign work right inside Feishu / WeChat |
@@ -27,6 +37,8 @@ This section is original content for this site, fact-checked against the officia
 | [Computer and Browser Control](/en/traework/08-computer-browser) | AI operating interfaces + sandbox / permission boundaries |
 
 ### Case Studies: Real-World Playbooks
+
+Finished the methods and want to see how other people use it? Go straight to this group—every case includes prompts you can copy.
 
 | Chapter | What you'll get |
 | --- | --- |
@@ -37,6 +49,8 @@ This section is original content for this site, fact-checked against the officia
 
 ### Advanced
 
+Want to save credits, connect private systems, or pick the right workflow? This group covers the underlying switches.
+
 | Chapter | What you'll get |
 | --- | --- |
 | [Plan, Spec, Goal, and Commands](/en/traework/adv-workflows) | Choosing among three workflows + custom commands |
@@ -45,6 +59,8 @@ This section is original content for this site, fact-checked against the officia
 
 ### Quick Reference
 
+In a hurry? Jump straight to this table—templates and the scenario index both live here.
+
 | Chapter | What you'll get |
 | --- | --- |
 | [Common Prompt Templates](/en/traework/ref-templates) | Five template families: documents / data / reporting / automation / computer control |
@@ -52,13 +68,29 @@ This section is original content for this site, fact-checked against the officia
 
 ## Who It's For
 
-- Office professionals who want AI to handle documents, data, and reporting but can't code
-- Heavy Feishu / Tencent Docs users (external app authorization is a TraeWork strength)
-- Productivity enthusiasts who want to build "run on schedule + push to IM" automation pipelines
-- Anyone comparing WorkBuddy / QoderWork before choosing
+- You want AI to handle documents, data, and reporting but can't code
+- You're a heavy Feishu / Tencent Docs user (external app authorization is a TraeWork strength)
+- You want to build "run on schedule + push to IM" automation pipelines
+- You're comparing WorkBuddy / QoderWork before choosing
 
 ## Official Resources
+
+For the latest pricing, the official docs, and hands-on user posts, stick to these three places:
 
 - Product page and downloads: [trae.cn/work](https://www.trae.cn/work) (use the web version directly at [work.trae.cn](https://work.trae.cn/))
 - Official docs: [docs.trae.cn](https://docs.trae.cn/)
 - Official forum (lots of hands-on user posts): [forum.trae.cn](https://forum.trae.cn)
+
+## FAQ
+
+**Do I need to write code to use TraeWork?**
+No. It's an office workbench for office workers. You state your goal, and it breaks down the steps and runs the tools. You can produce documents, weekly reports, PPTs, and web pages without knowing code.
+
+**Is it from the same company as TraeCode?**
+Both are ByteDance products, but TraeWork is for office workers and TraeCode is for programmers writing code. This site covers TraeWork only.
+
+**As a heavy Feishu user, what should I read?**
+Focus on external app authorization and the Office Assistant in the Extending group—reading and writing across 13 Feishu modules is one of TraeWork's strengths.
+
+**Do the three clients share data?**
+Yes. Web, desktop, and mobile share one account and one set of task data, so whatever you didn't finish watching at the office you can keep watching on the road.

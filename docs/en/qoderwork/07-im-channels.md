@@ -1,10 +1,16 @@
-# IM Channels: Command Your Computer from a Chat Window
+---
+description: "You're out somewhere with your phone and you want it to get some work done—but your computer is at the office and the desktop app isn't running. That's when you need IM channels."
+---
 
-Turn on IM channels and QoderWork plugs into the chat tools you already use. The official one-line principle: **"answers go back where the request came from"**—a message sent over IM gets its result in that same chat window; results of tasks created on the desktop stay on the desktop and are never pushed to IM.
+# Your Computer Is at the Office and You're Not—Can You Still Drive QoderWork? Send a Message, Get the Result Back
+
+You're out somewhere with your phone and you want it to get some work done—but your computer is at the office and the desktop app isn't running. That's when you need IM channels. Turn them on and QoderWork plugs into the chat tools you already use. The official one-line principle: **"answers go back where the request came from"**—a message sent over IM gets its result in that same chat window; results of tasks created on the desktop stay on the desktop and are never pushed to IM.
 
 > Official docs: [docs.qoder.com/zh/qoderwork/im-channels](https://docs.qoder.com/zh/qoderwork/im-channels)
 
 ## Connecting the Platforms
+
+Pick your platform and follow its route:
 
 | Platform | How to connect |
 | --- | --- |
@@ -16,6 +22,8 @@ Turn on IM channels and QoderWork plugs into the chat tools you already use. The
 | **WhatsApp** | Scan a QR code from your phone to bind |
 
 ## Access Policy: Open or Paired
+
+You have two modes to choose from:
 
 - **Open mode**: anyone and any group can talk to the bot directly;
 - **Paired mode**: conversations work only after you approve them (per conversation: approve a DM and that user can chat; approve a group and all its members can chat).
@@ -44,6 +52,8 @@ Text, images (OCR, background replacement), files (PDF/Excel/PPT/Word/CSV/TXT an
 
 ## Five Typical Scenarios
 
+Not sure what it's good for? Here are five:
+
 | Scenario | Playbook |
 | --- | --- |
 | Lightweight chat on mobile | On your commute: "pull the key numbers from last quarter's East China price list" |
@@ -58,6 +68,23 @@ Text, images (OCR, background replacement), files (PDF/Excel/PPT/Word/CSV/TXT an
 - After switching from open mode back to paired mode, users not previously paired must pair again;
 - "Remove configuration" wipes all information;
 - Multiple channels can be enabled at once and run fully independently—no shared context.
+
+## FAQ
+
+**I sent a message in WeChat—where does the result go?**
+Back to the chat window you sent it from. The official principle is "answers go back where the request came from": desktop task results don't get pushed over to IM.
+
+**Open mode or paired mode—which should I pick?**
+For personal use, default to paired. Otherwise any colleague can @ the bot and it's your Credits that get spent.
+
+**Can it handle a receipt I photographed with my phone?**
+Yes. Snap the expense receipt, drop it into the chat, and it runs OCR to pull out the amount and merchant, then rolls it into a table.
+
+**How do I route IM messages to one specific task?**
+Send `/bind` in IM to see the list, then `/bind 2` to bind task number 2; `/unbind` releases it. After binding, messages go straight to that task.
+
+**Can I run several IM channels at once?**
+Yes, and they're fully independent with no shared context. You can have DingTalk and WeChat connected at the same time.
 
 ---
 

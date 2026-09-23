@@ -1,8 +1,14 @@
-# After the Close: Turning Market Moves into Tomorrow's Research List
+---
+description: "In testing, you first run a four-stock review (Kweichow Moutai, CATL, Foxconn Industrial Internet, Zijin Mining), then put Foxconn Industrial Internet, Zhongji Innolight, Eoptolink, and Cambricon into an AI compute watchlist. Same post-close information work, but a one-shot explanation and continuous tracking are written completely differently."
+---
+
+# After the Close, How Do You Turn Market Moves Into Tomorrow's Research List? One Review That Rolls Into Continuous Tracking
+
+After the close, you usually do two things: a post-market review, and a watchlist daily on top of it. They're often split apart, but they run on the same information chain—the review answers "what happened today," and the daily carries the questions you didn't finish into tomorrow. When the two files don't connect, the next day you're back to trawling quotes, announcements, and news from scratch. This page runs a four-stock review first (Kweichow Moutai, CATL, Foxconn Industrial Internet, Zijin Mining), then puts Foxconn Industrial Internet, Zhongji Innolight, Eoptolink, and Cambricon into an AI compute watchlist.
 
 > Scenario: Post-market review and watchlist daily reports are often treated as two separate jobs, but they run on the same information chain—the review answers "what happened today," while the daily report carries unresolved questions into tomorrow. When the two documents don't connect, the next day you end up re-trawling quotes, announcements, and news from scratch.
 
-For this walkthrough, we first ran a four-stock review (Kweichow Moutai, CATL, Foxconn Industrial Internet, Zijin Mining), then added Foxconn Industrial Internet, Zhongji Innolight, Eoptolink, and Cambricon to an AI compute watchlist. Both happen after the close, but **one-shot explanation and continuous tracking call for completely different writing approaches**.
+Both happen after the close, but **one-shot explanation and continuous tracking call for completely different writing approaches**.
 
 ## Part 1: Post-Market Review
 
@@ -131,3 +137,25 @@ After the close, first generate the day's factual record, then write only the it
 ---
 
 Next: [After Earnings: Check Growth First, Then Growth Quality →](/en/doubaowork/case-earnings-quality)
+
+## FAQ
+
+**The numbers all have decimals—can I drop them into one table?**
+
+No. Different sources define turnover, trading volume, and fund flow differently, so decimals alone don't make them comparable. Judge announcement timing by session too: pre-market, mid-session, and post-close mean different things for that day.
+
+**How do you keep attribution from turning into causation?**
+
+Don't ask it for more reasons. Run a dedicated attribution audit in the same conversation: reclassify every price-move claim into "confirmed fact / market interpretation / unverified assumption," and downgrade sentences with thin evidence.
+
+**How does a watchlist stay continuous?**
+
+Read the previous version's question list before generating a new daily, then update each item's status—that's what makes it continuous research. If nothing important changed, write "no new key facts found" rather than manufacturing an explanation.
+
+**Can the daily and the review run as scheduled tasks?**
+
+Yes. Use your own stock pool as the sample and get a report pushed at a fixed time each day. When you reuse the prompts, swap in the six variable groups—tickers, cutoff, fields and formulas, and so on—and freeze the date and sample before searching.
+
+**Can financial-media paraphrases count as facts?**
+
+No. If a media paraphrase can't be traced back to the company, the exchange, or original event material, call it a lead, not a confirmed fact. When media and announcements conflict, keep the announcement in the body and put the conflict on the question list.

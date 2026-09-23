@@ -1,6 +1,10 @@
-# Skills and Expert Kits
+---
+description: "The third time you sit down to write the same set of task instructions, stop and ask yourself: I wrote this twice last week—why am I still typing it by hand?"
+---
 
-A Skill is "a work guide written down in advance"; an Expert Kit packages a whole role's professional knowledge, workflows, and quality standards together. They are the two steps in the QoderWork ecosystem that take you "from casual user to professional".
+# Tired of Writing the Same Brief Over and Over? Package It Once, and the AI Turns from Generalist into Specialist
+
+The third time you sit down to write the same set of task instructions, stop and ask yourself: I wrote this twice last week—why am I still typing it by hand? QoderWork gives you two things to end that. A **Skill** is "a work guide written down in advance"; an **Expert Kit** packages a whole role's professional knowledge, workflows, and quality standards into one bundle. Together they are the two steps in the QoderWork ecosystem that take you "from casual user to professional".
 
 > Official docs: [skills](https://docs.qoder.com/zh/qoderwork/skills) | [expert-kits](https://docs.qoder.com/zh/qoderwork/expert-kits)
 
@@ -8,7 +12,7 @@ A Skill is "a work guide written down in advance"; an Expert Kit packages a whol
 
 Each Skill is simply a folder containing a SKILL.md file, stored in `~/.qoderwork/skills/`. SKILL.md is written in natural language—no code needed—and spells out "the steps, output format, and details to follow when facing a certain type of task".
 
-Four payoffs: no more repeated explanations, consistent output, personal know-how turned into a reusable asset, and an AI that goes from "generalist" to "specialist".
+Four payoffs: you stop repeating yourself, output stays consistent, your know-how becomes a reusable asset, and the AI goes from "generalist" to "specialist".
 
 **Four ways to get them**:
 
@@ -25,7 +29,7 @@ Four payoffs: no more repeated explanations, consistent output, personal know-ho
 
 ## Expert Kits: Packaging "Knowing the Trade" for the Team
 
-Official positioning: "turn the AI into a professional who truly knows the trade." A kit = Skills + data connections + workflows + output standards in one bundle. The problem it solves isn't "how does the AI do a thing" but "**how does a whole team adopt the same AI working solution**"—configured once, reused by everyone.
+Here's how the official docs position it: "turn the AI into a professional who truly knows the trade." A kit = Skills + data connections + workflows + output standards in one bundle. If you lead a team, the problem it solves is "**how does a whole team adopt the same AI working solution**"—configured once, reused by everyone.
 
 **Twelve built-in kits**: product management, product design, corporate legal, corporate tax & accounting, contract management, consulting delivery, marketing, investment research, investment banking, equity investment, wealth management, and a tech-services assistant.
 
@@ -46,13 +50,30 @@ The official field-notes page records how a law-firm partner used this (defendin
 
 Four steps to build a kit: ① get one workflow running with a Skill (starting point: pick work you've repeated at least twice in the past week) → ② add Skills until the full process is covered → ③ consolidate into an expert kit → ④ share with the team.
 
-Three common misconceptions: kit output is a high-quality **first draft**, not a final draft; you can't package once and use forever (kits need iteration); bigger isn't better (focus on "contract review", not "all legal work").
+Three common misconceptions to keep in mind: kit output is a high-quality **first draft**, not a final draft; you can't package once and use forever (kits need iteration); bigger isn't better (focus on "contract review", not "all legal work").
 
 ## Making Your Own Skill: /create-skill
 
 Type `/create-skill` in the conversation, describe the "trigger phrase + steps + output format", and QoderWork generates the SKILL.md for you. For the full playbook see [Creating Skills Through Conversation](/en/qoderwork/adv-skill-create).
 
 > Want to distill a whole book into a skill set? See the WorkBuddy section's [Building Skills: Knowledge Distillation](/en/workbuddy/adv-build-skill/)—the SKILL.md spec is the same on both sides.
+
+## FAQ
+
+**I can't write code at all. Can I still make a Skill?**
+Yes. SKILL.md is written in plain language—state the steps, the output format, and the details to watch, and you're done. No code. You can even type `/create-skill` in the conversation and let it draft the file for you.
+
+**What's the least hassle way to get Skills?**
+Just say "find me a skill that does X" in the conversation—find-skills searches, recommends, and installs in one click. You can also browse the marketplace under Extensions → Skills.
+
+**How is an Expert Kit different from a Skill?**
+A Skill is a single work guide. An Expert Kit bundles a whole role's knowledge, workflows, and output standards so a team can work from one shared setup. Working alone, Skills are enough; once you're running a team, you want kits.
+
+**Why did the link I shared with a colleague stop working?**
+Share links are valid for about 24 hours, and you can only share Skills you created yourself. If you need something durable for the team, an Expert Kit is the safer route.
+
+**Can I hand in what a kit produces as-is?**
+No. It's a high-quality first draft; you or a partner still need to review it. And a kit isn't better for being bigger—it works because it focuses on one concrete scenario.
 
 ---
 

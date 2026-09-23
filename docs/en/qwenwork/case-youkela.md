@@ -7,7 +7,7 @@ sources:
   - Customer-provided case transcript (authorized for publication)
 ---
 
-# Youkela: Product R&D and Attendance-Based Payroll
+# How Does Youkela Use Qwen Work? Review-Driven R&D, and Attendance Payroll Handed to a Workflow
 
 > This case was organized from customer-provided materials; the quantitative results were not independently audited by this project. Use it together with your own organization's data, permissions, and human-review requirements. V2.0 keeps the text readable but does not auto-promote customer statements into verified public cases.
 
@@ -162,3 +162,17 @@ All of the above are customer statements and do not represent the results other 
 ## Contributors and Verification Date
 
 Source: customer-provided transcript of a Qwen Work AI practice case; organized by the QwenWorkGuide maintainers; verification date: 2026-07-29.
+
+## FAQ
+
+**Can the review analysis be used directly as an R&D conclusion?**
+No. The report separates user facts, analytical hypotheses, and R&D suggestions. Before you take it into project approval, have the product owner sample the raw reviews to confirm it.
+
+**Can the payroll working sheet be used to pay people directly?**
+No. It is only a working sheet. Have HR or finance sample and cross-check it, approve it through the company's official process, and record the rule version—it cannot stand in for the statutory process.
+
+**Can I copy the 92% success rate from the case?**
+No. It is a customer statement and has not been independently audited. When you evaluate, retest using your own sample size and your own definition of first-launch success.
+
+**How do you handle sensitive data safely?**
+Minimize the usage scope, de-identify, restrict access permissions, and keep audit records. Payroll conclusions must be finally confirmed by authorized HR, finance, or management personnel.

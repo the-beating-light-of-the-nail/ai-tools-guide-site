@@ -1,10 +1,14 @@
-# Chapter 11: The Office Trio: Word, Excel, PPT
+---
+description: "The office trio is where most people first feel the value of WorkBuddy. This chapter focuses on the three most common office deliverables: Word documents, Excel spreadsheets, and PPT presentations."
+---
 
-The office trio is where most people first feel the value of WorkBuddy. This chapter focuses on the three most common office deliverables: Word documents, Excel spreadsheets, and PPT presentations.
+# Chapter 11: Stuck on Word, Excel, and PPT Again? Here's What to Actually Hand Over
+
+The first time you judge whether WorkBuddy is worth it will probably be on the office trio: Word documents, Excel spreadsheets, PPT decks. The work is fragmented and repetitive — exactly the kind to hand off. But plenty of people get poor results, and it's not that the model can't write; it's that you never stated the delivery standard. Follow this chapter and you'll get the playbook for all three deliverable types in one pass, instead of trial and error.
 
 ## A Shared Workflow: Break the Task Into Five Questions First
 
-Whatever the document type, many office tasks where "AI does poorly" stem not from the model's writing ability, but from the human never spelling out the delivery standards.
+Whatever the document type, many office tasks where "AI does poorly" stem not from the model's writing ability, but from you never spelling out the delivery standards. Work through these five questions before you assign anything, and AI can produce something usable:
 
 | Question | What to pin down | Example |
 | --- | --- | --- |
@@ -15,6 +19,8 @@ Whatever the document type, many office tasks where "AI does poorly" stem not fr
 | Acceptance | How to judge the result as usable | Numbers trace back to source files, spreadsheet formulas refresh, the PPT doesn't overflow on projection |
 
 ## Pick the Right Skills First: Recommended Combos for Office Tasks
+
+Pick Skills from this table instead of experimenting blindly. See which capability maps to each document type, then decide between a single Skill or a combination:
 
 | Skill | Best for | Notes |
 | --- | --- | --- |
@@ -29,23 +35,25 @@ Whatever the document type, many office tasks where "AI does poorly" stem not fr
 | Excel Formula Generator | Natural language to Excel/WPS/Google Sheets formulas | Validate formulas against sample data |
 | Tencent Meeting | Book meetings, get transcripts and AI minutes | Requires meeting platform authorization |
 
-Practical combos: for local files, prefer **Word / DOCX, Excel / XLSX, Powerpoint / PPTX**; for online collaboration, prefer **Tencent Docs** or **kdocs**; when there's a pile of materials, use **Markdown Converter** first to extract structure; add **Tencent Meeting** for meeting workflows.
+Practical combos: for local files, prefer **Word / DOCX, Excel / XLSX, Powerpoint / PPTX**; for online collaboration, prefer **Tencent Docs** or **kdocs**; when there's a pile of materials, use **Markdown Converter** first to extract structure; add **Tencent Meeting** for meeting workflows. Stick to these pairings and you'll cover most of everyday office work — don't stack up a pile of Skills from the start.
 
 ## Word: From Blank Page to Formal Document
 
-Word's real difficulties usually come down to four: not knowing what structure to follow, tone not being formal enough, chaotic heading numbering, and content without evidence sources. What WorkBuddy solves here isn't "thinking for you" — it's **turning your existing materials into a stable, consistently toned draft you can keep editing**.
+Word's real difficulties usually come down to four: not knowing what structure to follow, tone not being formal enough, chaotic heading numbering, and content without evidence sources. What WorkBuddy solves here isn't "thinking for you" — it's **turning your existing materials into a stable, consistently toned draft you can keep editing**. You hand it material, it hands back a draft you can keep working on. Don't expect it to make the calls for you.
 
 Tasks that suit Word: formal proposals (events, projects, marketing, training), management documents (policies, notices, minutes, retrospectives, weekly/monthly reports), and product materials (PRDs, requirement specs, competitive analyses).
 
 ### Recommended Workflow
 
-| Step | What WorkBuddy does | What the human confirms |
+| Step | What WorkBuddy does | What you confirm |
 | --- | --- | --- |
 | 1 | Reads materials, lists usable information and gaps | Which materials are fact sources, which are references |
 | 2 | Generates the document outline and framing | Who the reader is; is the document for reporting, approval, or execution |
 | 3 | Generates the Word draft per the outline | Heading hierarchy, section order, completeness of key information |
 | 4 | Polishes, adds, and trims based on feedback | What can be finalized, what must be marked "TBC" |
 | 5 | Outputs an editable docx plus a change log | Whether it's ready to send to colleagues for review |
+
+Work these five steps in order, and at each one have AI give you an outline before it generates anything. Don't ask for the finished product up front.
 
 ### Example: Drafting a Team-Building Event Plan
 
@@ -62,6 +70,8 @@ to confirm the event direction.
 ![Generating the team-building plan in Word](/workbuddy/case-office/assets/001_image_PhFMbu3kTo.png)
 
 ![Preview of the plan's structure and content](/workbuddy/case-office/assets/002_image_UVm5bKLrZo.png)
+
+Once AI produces the draft, the real work is your review: is the structure right, are evidence sources cited, does the tone sound like your team.
 
 ### For Revisions, Don't Rewrite — State the Differences
 
@@ -83,6 +93,8 @@ Output the revised Word document as v2, and list the changes in changelog.md.
 
 ### Advanced: Comparing Two Versions of a Policy, Contract, or Proposal
 
+Bring two versions of a policy, contract, or proposal and AI will locate what changed — but the signature is still your call.
+
 ```text
 Compare policy-v3.docx with policy-v4.docx.
 Output four categories of differences — added, deleted, modified, and formatting-only — with section references and locations in the original text.
@@ -98,9 +110,9 @@ Document comparison is good at surfacing changes — it doesn't replace the fina
 
 ## Excel: Turning Spreadsheets Into Analysis That Answers Questions
 
-The Excel problem usually isn't "can it make a chart" — it's "what question can this spreadsheet actually answer." Throw a spreadsheet full of blanks, merged cells, and mixed definitions at the AI and you'll often get charts that look professional but carry no business value. Order matters: **define the business question first, then choose the chart**.
+The Excel problem usually isn't "can it make a chart" — it's "what question can this spreadsheet actually answer." Throw a spreadsheet full of blanks, merged cells, and mixed definitions at the AI and you'll often get charts that look professional but carry no business value. The order matters: **define the business question first, then choose the chart**.
 
-Tasks that suit Excel: data cleaning (deduplication, filling blanks, standardizing formats, multi-sheet merges), business analysis (sales, margins, conversion rates, inventory turnover), report generation (weekly/monthly reports, budget tracking, attendance summaries), formula help (generating or explaining formulas, debugging `#N/A`), and visualization (charts, pivot tables, dashboards).
+Tasks that suit Excel: data cleaning (deduplication, filling blanks, standardizing formats, multi-sheet merges), business analysis (sales, margins, conversion rates, inventory turnover), report generation (weekly/monthly reports, budget tracking, attendance summaries), formula help (generating or explaining formulas, debugging `#N/A`), and visualization (charts, pivot tables, dashboards). Hand these over and you'll move faster than dragging formulas yourself, with better results than chart-guessing.
 
 ### Recommended Workflow
 
@@ -137,7 +149,7 @@ Requirements: preserve the raw data; keep the calculations and formulas traceabl
 
 ### Advanced: Multi-Sheet Merging, Reconciliation, and Exception Lists
 
-The most valuable part of everyday office work isn't "making a chart" — it's surfacing data definitions and anomalies:
+The most valuable part of everyday office work isn't "making a chart" — it's surfacing your data definitions and anomalies first:
 
 ```text
 Merge the weekly sales sheets for 6 regions in input/sales.
@@ -151,17 +163,17 @@ Amount totals must reconcile with each source sheet's totals; if the difference 
 
 ![Merge output: cleaned sheet and exception list](/workbuddy/case-office/assets/010_image_L25tbHIUeo.png)
 
-**Acceptance**: input totals, cleaning changes, and output totals balance; formulas recalculate; exceptions were not silently dropped; the charts use the same fields as the summary tables.
+**Acceptance**: watch three things — input totals, cleaning changes, and output totals balance; formulas recalculate; exceptions weren't silently dropped; the charts use the same fields as the summary tables.
 
 ## PPT: It's Not Template-Filling — It's Turning Materials into Narrative
 
-"Make me a high-end PPT" only makes the AI guess at style and produce pretty emptiness. A genuinely usable PPT must first answer three questions: **who** is this presentation for, **what decision** should they make after hearing it, and how much time do you have to present. A PPT Skill can handle page generation, but the storyline must be confirmed first — the prettier the slides, the easier it is to hide logic problems.
+"Make me a high-end PPT" only makes the AI guess at style and produce pretty emptiness. A genuinely usable PPT must first answer three questions: **who** is this presentation for, **what decision** should they make after hearing it, and how much time do you have to present. A PPT Skill can handle page generation, but you have to confirm the storyline first — the prettier the slides, the easier it is to hide logic problems.
 
-Tasks that suit PPT: project reports, business reviews, training decks, proposal presentations.
+Tasks that suit PPT: project reports, business reviews, training decks, proposal presentations. Settle the storyline yourself first, then let it generate the pages.
 
 ### Recommended Workflow
 
-| Step | What WorkBuddy does | What the human confirms |
+| Step | What WorkBuddy does | What you confirm |
 | --- | --- | --- |
 | 1 | Converts Word, Excel, and old PPTs into material summaries | What must be kept, what can go |
 | 2 | Generates a 6–10 page storyline with a title per page | Audience, duration, decision goal |
@@ -187,11 +199,13 @@ Overall style: professional, clean, tech-flavored — but without excessive grad
 
 ![The 8-page report deck generated from source materials](/workbuddy/case-office/assets/008_image_ABXObcQeeo.png)
 
+Don't send it out the moment you get it. Project it once and look: does text overflow, are the chart definitions right, do the key numbers really come from your Excel.
+
 ## The Trio Working Together: An Automatic Deliverables Pack After Meetings
 
 Many office tasks aren't about a single file — they're about "something must exist after the meeting": minutes first, then the PRD, then the task sheet, and finally the reporting PPT. WorkBuddy's value is chaining these deliverables onto **a single chain of facts**.
 
-Take a product review meeting; a workable Skill combo:
+Take a product review meeting. Hand the whole chain over at once, with this Skill combo:
 
 | Stage | Recommended Skill | Purpose |
 | --- | --- | --- |
@@ -199,6 +213,8 @@ Take a product review meeting; a workable Skill combo:
 | Generate the PRD | Word / DOCX, Tencent Docs | Rewrite the meeting content into a product requirements doc |
 | Generate the task sheet | Excel / XLSX | Output owners, deadlines, priorities, acceptance criteria |
 | Generate the report | Powerpoint / PPTX | Turn the PRD and task progress into a management presentation |
+
+Hand over all four steps at once with the constraints written clearly, and it turns the meeting into a deliverable pack that can actually drive development:
 
 ```text
 Read the transcript and AI minutes of this product review meeting and generate an office deliverables pack.
@@ -216,6 +232,8 @@ mark items missing an owner or date as "TBC"; output the outline and task sheet 
 
 ## Common Mistakes and How to Fix Them
 
+The traps you hit most often, and the better phrasings, are all in this table. Checking against it beats reworking things afterward:
+
 | Common mistake | Why it happens | A better phrasing |
 | --- | --- | --- |
 | "Make me a PPT, make it classy" | No audience, goal, or material constraints | State the audience, duration, slide count, decision goal, and must-keep data |
@@ -223,3 +241,20 @@ mark items missing an owner or date as "TBC"; output the outline and task sheet 
 | "Write a report" | No document type or tone requirement | Say whether it's a proposal, summary, application, minutes, or PRD, and name the reader |
 | "Do it all automatically, don't ask me" | Key definitions unconfirmed, risk amplified | Have WorkBuddy output the material list, risk list, and outline first; generate after confirmation |
 | "Merge these materials into one file" | No distinction between facts, references, and to-confirm | Designate the single source of truth, the reference files, and fields that must not be fabricated |
+
+## FAQ
+
+**Can I just throw the requirements at AI for a Word document?**
+No. Work through goal, audience, materials, format, and acceptance first; then AI can produce a structurally stable draft you can keep editing. Otherwise it's just guessing on your behalf.
+
+**Can I hand a spreadsheet straight to AI and ask for charts?**
+Better not. With blanks, merged cells, and multiple definitions in there, you'll get good-looking charts with no business value. Define the business question first, then pick the chart.
+
+**How do I keep a PPT from being a pile of filler?**
+Answer three things first: who it's for, what decision they'll make after hearing it, and how long you have. You confirm the storyline; only then let a Skill generate pages — the prettier the slides, the more they cover up logic holes.
+
+**Why state the differences on a revision instead of rewriting?**
+It's faster and more controllable. Write it out like the example — cut the goals to three, turn the schedule into a table, break the budget down — and AI edits the previous version instead of tearing down the parts you already liked.
+
+**How do I generate the whole pile of post-meeting deliverables in one go?**
+Chain them onto one fact line: minutes first, then the PRD, then the task sheet, then the reporting deck. State the constraints — don't write anything unconfirmed as settled, keep sources for names and dates, and have it show you the outline for approval before generating files.

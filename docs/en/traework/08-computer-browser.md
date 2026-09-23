@@ -1,18 +1,22 @@
-# Computer Control, Browser Control, and Safety Boundaries
+---
+description: "You want the AI filling in forms, clicking buttons, and paging through websites for you. It's the strongest thing a task-oriented AI does, and the thing that most needs guardrails."
+---
 
-Letting the AI operate your interface directly—filling forms, clicking buttons, browsing pages—is task-oriented AI's most powerful capability, and the one that most needs guardrails. This chapter covers how to enable it, how to use it, and how to keep the safety boundaries intact.
+# How Do You Turn On Computer and Browser Control? Keeping the Safety Boundaries Intact
+
+You want the AI filling in forms, clicking buttons, and paging through websites for you. That's the strongest thing a task-oriented AI does—and the thing that most needs guardrails. This chapter covers how to turn it on, how to use it, and how to keep those boundaries intact.
 
 ## Computer Use
 
-Lets the AI understand and operate your computer's interface with your authorization. Good for: research and information gathering, form filling, data entry, item-by-item processing against templates, and automated acceptance testing after development.
+Computer Use lets the AI understand and operate your computer's interface with your authorization. It earns its keep on: research and information gathering, form filling, data entry, item-by-item processing against templates, and automated acceptance testing after development.
 
 **Enabling it**:
 
 1. Settings > Computer Use → click "Install" in the "Enable Computer Use" section (installs and enables the plugin automatically);
 2. **macOS only**: Click "Authorize" next to "Accessibility" and "Screen Recording" and grant access in System Settings (Accessibility = simulating keyboard/mouse + reading interface elements; Screen Recording = taking screenshots to understand the interface);
-3. Restart TraeWork for it to take effect. Windows needs no separate authorization.
+3. Restart TraeWork for it to take effect. On Windows there's no separate authorization step—restarting is enough.
 
-**Settings**: an "Always allow these apps" list; and an "Always allow operating apps" switch (with it on, the AI no longer asks for confirmation for each new app it operates).
+**Settings**: add apps you use often to the "Always allow these apps" list so you don't confirm every time; and there's an "Always allow operating apps" switch (with it on, the AI no longer asks for confirmation for each new app it operates).
 
 **Four official instruction templates** (ready to copy):
 
@@ -32,11 +36,11 @@ Lets the AI understand and operate your computer's interface with your authoriza
    stop and explain why.
 ```
 
-Note: on macOS, a "TraeWork is controlling your computer" overlay appears while the AI operates; try not to grab the mouse from it mid-operation.
+One thing to note: on macOS, a "TraeWork is controlling your computer" overlay appears while the AI operates; try not to grab the mouse from it mid-operation.
 
 ## Browser Control
 
-The AI performs web tasks automatically through a browser. Two modes:
+The AI performs web tasks automatically through a browser. Pick between two modes based on the job:
 
 | | Built-in browser | External browser |
 | --- | --- | --- |
@@ -50,7 +54,7 @@ The AI performs web tasks automatically through a browser. Two modes:
 
 ## The Safety Baseline: Sandbox and Permission Modes
 
-Before giving the AI operational access, understand TraeWork's three layers of protection. Settings > Permissions & Approvals (also switchable at the bottom-left of the chat input box) offers three preset modes:
+Before you hand the AI operational permissions, get these three modes straight. Settings > Permissions & Approvals (also switchable at the bottom-left of the chat input box) offers three presets:
 
 | Mode | Sandbox | Security checks | Approvals |
 | --- | --- | --- | --- |
@@ -75,6 +79,23 @@ Two official commitments worth remembering:
 
 - **Whether or not Privacy Mode is on, codebase files are never used for data analysis, product improvement, or model training**;
 - For local runs in the desktop app, embedding vectors computed for code indexing are uploaded temporarily, and the plaintext is permanently deleted afterward.
+
+## FAQ
+
+**How do macOS and Windows differ for Computer Use?**
+macOS needs two extra system authorizations (Accessibility and Screen Recording); on Windows you skip that step. Either way you click "Install" in Settings and restart before it takes effect.
+
+**Built-in browser or external browser?**
+For searching and verification in a clean environment, the built-in browser works out of the box. For anything that needs your login—pulling data from a backend, say—use the external browser to reuse the Chrome you're already signed into.
+
+**Why shouldn't I just turn on "Full access"?**
+It switches off the sandbox and every approval check, and commands run directly on your host machine. If something goes wrong, you can't stop it. Keep it for isolated machines: VMs and test machines.
+
+**Can the AI click irreversible actions for me?**
+Sending email, deleting files, submitting orders—keep those in your own hands, always. The AI can prepare them, but it shouldn't make the call.
+
+**Does Privacy Mode make everything safe?**
+It stops your conversations being used for training and improvement, but anything within the permissions you granted still happens. If you're handling sensitive data, local tasks plus Privacy Mode together is the steadier combination.
 
 ---
 

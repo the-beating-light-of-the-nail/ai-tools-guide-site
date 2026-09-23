@@ -1,8 +1,16 @@
-# Studying a Company Means Studying Its Shareholders, Management, and Governance Too
+---
+description: "When you research a company, business and financials grab your attention first, while shareholder sell-downs, buybacks, equity incentives, related-party transactions, and management changes scatter across dozens of announcements."
+---
+
+# How Do You Turn Sell-Downs, Buybacks, and Management Changes Into One Event Timeline You Can Check?
+
+When you look at a company, business and financials catch your eye first, while shareholder sell-downs, buybacks, equity incentives, related-party transactions, and management changes scatter across dozens of announcements. Judge them by impressions—"that shareholder is a long-termist," "this buyback shows confidence"—and you'll get burned. None of it runs on personality labels; it comes back to specific dates, quantities, prices, procedures, and follow-through. This page builds a governance event timeline with Gree Electric.
 
 > Scenario: business and financials get studied first, while shareholder sell-downs, buybacks, equity incentives, related-party transactions, and management changes scatter across dozens of announcements. These can't be judged by personality labels—whether a shareholder is a "long-termist" or a buyback signals "confidence in the company" must come down to specific dates, quantities, prices, procedures, and follow-through.
 
 This chapter uses Gree Electric to build a governance event timeline, rewriting **personality impressions into event questions you can check against announcements, dates, and execution results**. What's left at the end isn't a management portrait but a governance timeline and a set of relationships still awaiting verification. The tool is the "Announcement Analysis" skill, with the explicit rule that **business-registry data may only supplement relationships, never replace exchange and company announcements**.
+
+When you research a company, business and financials pull you in first and things like sell-downs and buybacks get ignored. Don't rush to judge the people, and don't trust labels like "long-termist." Pull every sell-down, buyback, and management change onto one timeline and look at concrete dates, quantities, and prices. What holds up is the event itself, not your impression. Where an announcement is missing, mark it "to be verified" honestly rather than filling the gap with common sense. Organized this way, you can keep appending material later, and you never have to worry about it inventing motives for you.
 
 ## Rewriting Governance Questions as Event Questions
 
@@ -54,3 +62,25 @@ Governance research watches **how promises land as events**: buyback plans, actu
 ---
 
 Next: [What Is the Market Actually Arguing About: from Bull-Bear Divide to Research-Report Fact Audits →](/en/doubaowork/case-bull-bear-audit)
+
+## FAQ
+
+**Can business-registry data stand in for an announcement?**
+
+No. Your prompt states it outright: registry data supplements relationships, it doesn't replace statutory disclosure. It can fill in who is connected to whom, but sell-down quantities and buyback progress must come from exchange and company announcements.
+
+**If one event appears in several announcements, will it be double counted?**
+
+It can be, which is why you tie them to a single event ID. An initial plan, a progress update, and a completion notice are one event, not three. Doubao Work helps deduplicate; you confirm the key fields by hand.
+
+**Why six fields per event?**
+
+Date, parties, quantity, progress, impact, and original link—drop one and you can't get back to the announcement to check it. Impact must be labeled "analysis" so it never mixes into the facts. Organized that way, the material stays usable as you add to it.
+
+**Will it guess at management's motives?**
+
+Not if you tell it not to. In the open-items zone, relationships without an announcement get marked "to be verified," with no common-sense fill-in. People can state positions; facts come only from announcements.
+
+**Three rounds sounds like a lot—can I skip one?**
+
+Better not. Round one checks statutory disclosure, round two produces the full structure, round three reads it back for acceptance. Skip any of them and the missing open items or miscounted events end up as hard errors in your report.

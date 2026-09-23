@@ -1,4 +1,10 @@
-# Over-Categorized Is Harder to Find: Re-Grouping 541 GPT Prompt Examples
+---
+description: "The old way of managing it: every case dumped into the README and gallery docs, manually sorted into 13 categories; 19 style tags and 10 scenario tags, three dimensions cross-cutting each other; local files and the GitHub version constantly out of sync."
+---
+
+# 541 Prompt Examples and Harder to Find Every Day? Re-Group Them by Output and Hit It in One Search
+
+While collecting GPT prompt examples, more always feels better—until the day you want one "Chinese-ink-style poster" and find yourself bouncing between History and Illustration, and realize that finer categories made things harder to find, not easier. Your cases sit scattered across a GitHub repo, a README, and local folders, with dimensions stacked on top of each other until the taxonomy itself became the biggest obstacle to finding anything. This page re-groups 541 real cases around one rule: name each category after the end result the user is trying to produce.
 
 > Scenario: While collecting GPT-Image2 prompt examples, more always felt better—until the pile reached 541 and the problems arrived. Cases scattered across a GitHub repo, READMEs, and local folders; categories kept subdividing; to find one "Chinese-ink-style poster" you had to bounce between several categories.
 
@@ -20,12 +26,12 @@ It automatically reads the case data, tallies category distribution, and finds s
 ## Step 2: Quantifying Five Hard Flaws in the Old Categories
 
 1. **Synonymous tags everywhere**: among the 19 style tags, `Character` is used 113 times and `Characters` twice—same thing; `Product`/`Products`, `Infographic`/`Charts`, `Realistic`/`Photography` are all duplicates. The 19 tags really need only 12;
-2. **The same concept lives in three dimensions**: "poster" appears in both category and styles, "history" appears at all three levels—users can't tell which entry point to use;
+2. **The same concept lives in three dimensions**: "poster" appears in both category and styles, "history" appears at all three levels—you can't tell which entry point to use;
 3. **A junk-drawer category**: `Other Use Cases` swallowed 28 cases of everything, which amounts to no categorization;
 4. **Thin categories can't anchor top-level directories**: 4 top-level categories together account for only 11% of cases;
 5. **Internal jargon users can't read**: terms like `R&D` and `Prompt as Code` are things ordinary users would never type in a search.
 
-The more crucial step: it extracted high-frequency search terms from the actual titles of all 541 cases, **reverse-engineering users' real search habits**—"poster/cover/promo" searched 82 times, "infographic/technical diagram" 48 times, "UI/screenshot/App" 38 times, "portrait/headshot/avatar" 28 times, "illustration/Chinese style/ink painting" 25 times. Users open a prompt library with a concrete output in mind: "I need to make an X image." **Build the taxonomy around the output, with category names matching the end goal the user wants to accomplish**—that's the central pivot of the whole restructuring.
+The more crucial step: it extracted high-frequency search terms from the actual titles of all 541 cases, **reverse-engineering your users' real search habits**—"poster/cover/promo" searched 82 times, "infographic/technical diagram" 48 times, "UI/screenshot/App" 38 times, "portrait/headshot/avatar" 28 times, "illustration/Chinese style/ink painting" 25 times. You open a prompt library with a concrete output in mind: "I need to make an X image." **Build the taxonomy around the output, with category names matching the end goal you want to accomplish**—that's the central pivot of the whole restructuring.
 
 ## Step 3: Redesign Starting from Real Search Terms
 
@@ -74,8 +80,30 @@ Of 10 test queries, 5 completely eliminated the back-and-forth hesitation across
 | 4 | Update category headings and anchors in the docs | Low |
 | 5 | Regression-run real queries; check whether zero-result queries dropped | Verification |
 
-My biggest takeaway: **knowledge base management used to be grunt work; now it's a matter of just asking**—Doubao reads the data, runs the statistics, finds the problems, designs the scheme, and does the bulk migration, while the human only judges and confirms at key checkpoints. The experience sitting in old projects doesn't have to gather dust—revive it with AI plus a Feishu knowledge base, and the rollout goes far more smoothly than you'd expect.
+My biggest takeaway: **knowledge base management used to be grunt work; now it's a matter of just asking**—Doubao reads the data, runs the statistics, finds the problems, designs the scheme, and does the bulk migration, while you only judge and confirm at key checkpoints. The experience sitting in old projects doesn't have to gather dust—revive it with AI plus a Feishu knowledge base, and the rollout goes far more smoothly than you'd expect.
 
 ---
 
 Next: [Find Which Knowledge Has Expired and Auto-Confirm with the Owner →](/en/doubaowork/case-knowledge-expiry)
+
+## FAQ
+
+**Do finer categories make things easier to find?**
+
+Think about it the other way: the finer the split, the easier it is for one concept to land in three dimensions at once. With cases spread across GitHub, the README, and local folders, stacked dimensions turn the taxonomy itself into the obstacle. Naming categories after the output beats naming them after internal jargon.
+
+**Does the restructuring have to happen all at once?**
+
+No. Don't do a full cutover. Merge synonymous tags first (low risk), then rewrite the category fields (medium risk), then touch the frontend and docs—leaving a rollback point at each step.
+
+**Will old links and images break?**
+
+No. Have Doubao keep the old category anchors redirecting and leave case IDs and image paths untouched, so GitHub links stay live and your bookmarked old URLs still open.
+
+**How do I know the new categories actually hit?**
+
+Run 10 real queries as a regression: 5 that eliminate cross-category hesitation and 4 with shorter paths means it works. Then plug in GA4 search logs to fine-tune the aliases—no need to overturn the architecture.
+
+**What is the alias table for?**
+
+Your users' search words often don't match your category names—"portrait," "headshot," and "avatar" all point at the same thing. Aliases route every synonymous wording to the right category, so any of them lands directly.

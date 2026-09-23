@@ -9,15 +9,23 @@ sources:
 
 # Launch Hard-Gate Checklist
 
+## Plain-Language Orientation
+
+When you are about to plug Qwen Work into a team process, send things outward, write across systems, or make a launch decision, the thing to fear is releasing on a feeling. This checklist splits the launch hard gates into seven groups—scenario and responsibility, data and permissions, quality and evidence, action controls, takeover and recovery, launch drills, and run observation. Tick them off one by one, leave a box unticked when the evidence is missing, and the launch decision has something to stand on. Below is when you open it, what each group is really about, and what a wrong tick costs you; keep the trail it asks for and a later review can still find the person responsible. If you are short on time, read at least the scenario and responsibility, data and permissions, and action controls groups first—miss those three and nothing later can be patched back in. It also helps to fill in each group's owner before you start ticking, so you are not hunting for signatures afterward.
+
 ## When to Use This Material
 
-If you are only organizing your own weekly report or meeting-minutes draft, you do not need this checklist. Use it as advanced material, item by item, when preparing a team trial, cross-system writes, outward sending, multi-person reuse, or a launch decision. It only helps execute and retain launch evidence; it does not redefine the stage gates, action permissions, workflow fields, change gates, or failure-takeover rules of Chapters 10–12—those rules remain with the corresponding chapters.
+If you are only organizing your own weekly report or meeting-minutes draft, you do not need this checklist. Use it as advanced material, item by item, when preparing a team trial, cross-system writes, outward sending, multi-person reuse, or a launch decision. Whether to fill it in comes down to one question: are you sending outward or writing across systems. It only helps execute and retain launch evidence; it does not redefine the stage gates, action permissions, workflow fields, change gates, or failure-takeover rules of Chapters 10–12—those rules remain with the corresponding chapters.
 
 This checklist executes the launch judgment and creates no new stage gates or governance standards. Sample counts and the three stage gates follow the [Chapter 10 pilot roadmap](/en/qwenwork/ch10-pilot-roadmap); actions, data sensitivity, professional consequence, and G0–G3 control levels follow [Chapter 11 Security Governance](/en/qwenwork/ch11-security-governance); the team workflow card uses the definitions of [Chapter 12 Workflow Operations](/en/qwenwork/ch12-workflow-operations), whose fields this checklist does not copy.
 
 **Critical errors, legal, security, and unauthorized actions are hard gates that cannot be relaxed; efficiency, adoption, and satisfaction are adjustable experimental thresholds.** When any applicable hard gate fails, it may not be offset by average metrics, and no further promotion is allowed.
 
 Every checkbox should link to openable evidence or approval records and name the responsible owner. Without evidence, do not check it.
+
+## How to Tick Each Group and What a Wrong Tick Costs You
+
+On the scenario and responsibility group, confirm first that the scenario card and task card are aligned on the same-basis baseline—otherwise every later group is built on the wrong foundation. On data and permissions, watch above all whether keys and tokens leaked into prompts or logs; miss that one and the hard gates are decorative. On action controls, never let a whole-process average level replace per-action G0–G3 judgment. On quality and evidence, confirm the artifact can be opened, edited, recomputed, or traced—not merely that it was generated. On takeover and recovery, stop and manual takeover must have been actually drilled; a plan nobody has run leaves nobody able to catch it when it breaks. The seven groups below are kept as they are: tick them item by item and fill in the evidence and the owner.
 
 ## Scenario and Responsibility
 
@@ -71,3 +79,17 @@ Every checkbox should link to openable evidence or approval records and name the
 - [ ] The business owner, process maintainer, data/security owner, and required professional reviewers have agreed on review triggers, input materials, and where decision records live. Evidence/records: \_\_\_\_\_\_; owner: \_\_\_\_\_\_.
 - [ ] Reviews decide expand, optimize, keep as pilot, or stop per the Chapter 10 registered hard gates and experimental thresholds and the Chapter 13 value basis, recording approvers and follow-up scope. Evidence/records: \_\_\_\_\_\_; approver: \_\_\_\_\_\_.
 - [ ] On changes to version, inputs, permissions, models, connectors, recipients, or business scope, the validation scope is re-judged; no auto-promotion by fixed day counts or run counts. Evidence/records: \_\_\_\_\_\_; owner: \_\_\_\_\_\_.
+
+## FAQ
+
+**You are only organizing your own weekly report. Do you need to fill in this checklist?**
+No. Tick it item by item only when preparing a team trial, cross-system writes, outward sending, multi-person reuse, or a launch decision. The sooner you launch and the more outward-facing it is, the more you should clear these seven groups first. At the personal draft stage, just deliver against the task card—using the launch checklist as a daily template slows you down.
+
+**On the data and permissions group, which item deserves the most attention?**
+Whether keys, passwords, and access tokens have made it into prompts, artifacts, screenshots, or run logs. When checking permission scope, confirm that connectors hold only the minimum required for the current task. Miss this one and no amount of ticking elsewhere prevents a leak; treat it as mandatory before launch, and write down how you verified "none found" instead of leaving the evidence blank.
+
+**A hard gate failed. Can high scores in other groups offset it?**
+No. Critical errors, legal, security, and unauthorized actions are hard gates that cannot be relaxed; efficiency or satisfaction averages may not offset them and no promotion may continue. Any one of them stops you: return to the last stable version or switch to manual takeover, and don't let aggregate metrics vouch for it.
+
+**You have ticked all seven groups. Where do you go next to check them?**
+Back to Chapter 10 to check the current stage gates and approval records, confirming that calendar time did not replace a stage gate; and back to Chapter 11 to re-check the G0–G3 action levels. Before sending it up for approval, keep the evidence and the owner for every line—only then can a review later locate who released it, and at which gate.

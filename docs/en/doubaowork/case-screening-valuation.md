@@ -1,4 +1,10 @@
-# From Screening to Valuation: Unify the Definitions First, Then Compare and Price
+---
+description: "This chapter starts with a CSI 300 screen, then compares Zhongji Innolight, Eoptolink, and T&S Communications, and finishes with a reverse valuation of Midea Group. Different targets, one connected method: every step must leave behind line-by-line evidence, non-comparable items, and reproducible formulas."
+---
+
+# Screening, Peer Comparison, and Valuation Never Connect? Chain Them Into an Evidence Trail You Can Trace Back
+
+Investment research usually feels like three separate jobs: screen a batch of stocks, pick a few and compare them, then attach a target price. Try to actually do it and you hit the same walls—the screened list can't explain why each name got in, the comparison mixes incompatible definitions, and the price looks like it appeared out of thin air. These three steps are really one chain. Cut corners anywhere upstream and that impressively precise target price at the end stops meaning anything. This page connects them.
 
 > Scenario: Stock screening, peer comparison, and valuation are often treated as three separate jobs, but they're really one continuous data chain—screening rules decide which companies enter the sample, peer definitions decide which numbers are comparable, and the valuation model turns data into market assumptions. **Cut corners anywhere upstream, and that impressively precise target price at the end becomes meaningless.**
 
@@ -110,3 +116,25 @@ Once screening, comparison, and valuation form one chain, every result can step 
 ---
 
 Next: [Know the Company, but Also Its Shareholders, Management, and Governance →](/en/doubaowork/case-governance)
+
+## FAQ
+
+**Can it really scan all 300 constituents?**
+
+Not necessarily. However clear your rules are, you have to check how many it actually read and pulled data for. Aggregate numbers without per-stock exit records don't count as a full-universe screen. When the evidence falls short, have the claim downgraded to "sample screen"—that's steadier than propping up a full-universe claim.
+
+**Why unify definitions before comparing?**
+
+Because the same "revenue" can be a half-year, a full year, or trailing twelve months, and lining those up side by side misleads. Align reporting periods, units, and source tiers first, move what isn't comparable into "not yet comparable," and the main table holds up.
+
+**What should I do when the valuation model breaks?**
+
+Don't patch the broken file. Rebuild from a minimal viable version: build the input sheet, run one base-case cash-flow path, verify with an independent script, and keep key results within 0.01%. If the audit still fails, keep recomputing and don't output a valuation range.
+
+**Can I trust the numbers in the screening funnel directly?**
+
+No. Read the per-stock evidence, not just the aggregates. If the ROE definition (weighted vs. period-end) isn't consistent, the verdict flips—unify the formula and rerun all 300.
+
+**How do the three steps check each other?**
+
+Every conclusion should let you step back upstream: sample provenance comes from the screening evidence, gaps versus peers come from the definitions, valuation moves come from inputs and scenarios. Connect the chain and errors have nowhere to hide.

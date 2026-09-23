@@ -1,4 +1,10 @@
-# What to Write Today: From Trending Topics and Peers to This Week's Slate
+---
+description: "This piece doesn't have Doubao Work pick topics on a whim for you. Instead, the real workflow is split into three steps, and what you get isn't just a list of topics—it's a reusable content production line."
+---
+
+# Can't Decide What to Write Today? Three Steps—Trends, Peers, Capacity—Into a Reusable Topic Line
+
+You have twenty or thirty title ideas sitting on your desktop and no idea which to write first. You worry the trending topic is actually old news, that analyzing a peer turns into a low-rent knockoff, that you'll stockpile topics faster than you can produce them. This page doesn't have Doubao Work pick topics on a whim. It splits the real workflow into three steps, and what lands in your hands isn't a list of topics—it's a content production line you can run again and again.
 
 > Scenario: Twenty or thirty title ideas sitting on your desktop, and no idea which to write first—the worry that the trending topic is old news, that a peer breakdown becomes a low-rent knockoff, that you've stockpiled topics faster than you can produce.
 
@@ -131,3 +137,25 @@ Where AI genuinely shines is filtering 30 candidates down to 3 and telling you *
 ---
 
 Next: [From Trending Topic to a Finished Official Account Article →](/en/doubaowork/case-wechat-article)
+
+## FAQ
+
+**Isn't asking "what's trending today" enough?**
+
+Better not. AI will happily fold in old news someone republished today. Split "when the event happened" from "when the article was published," set the source priority and the pending-verification rules, and the old news gets filtered out.
+
+**Can I just write an imitation of a peer's viral post?**
+
+Don't copy it. Treat it as a sample to take apart: separate facts from opinions, cite a location for every conclusion, and don't excerpt at length. Drop those three lines and a deconstruction becomes a fancier content scrape.
+
+**Does capacity really need to be spelled out?**
+
+Yes, absolutely. Skip it and the calendar it produces is more than you can finish this week. Schedule the candidates alongside "deep hands-on" vs. "half-day quick write," and say why the rejected ones wait.
+
+**Can the briefing go out as a finished draft?**
+
+No. Treat it as a topic radar: every "to be confirmed" price, benchmark, and user count has to go back to the official source before you actually start writing.
+
+**Does this skeleton work for other roles?**
+
+Yes. Swap in legal, HR, sales, or product management and it's still the same four layers: role and audience, constraints, judgment criteria, review checklist. The value of AI is narrowing the candidates to a few and telling you which to start today.

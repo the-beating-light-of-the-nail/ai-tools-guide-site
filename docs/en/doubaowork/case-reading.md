@@ -1,4 +1,10 @@
-# Read a Book Fast and Actually Master Its Skills
+---
+description: "What the Cangjie Skill does is distill a book's frameworks and judgment methods into steps you can call on again and again, so Doubao Work can pull them out when a suitable problem appears."
+---
+
+# Finished a Book and Already Forgot It? Distill Its Real Methods Into Skills You Can Call On Again
+
+Buying a book is easy and finishing one isn't hard. What's hard is this: a real problem shows up, you know the book covered a method like it, and after flipping through every note you still can't find which step to start from. If a book leaves you with nothing but a summary and a few quotable lines, it sinks to the bottom of your notes fast. This page is about using the Cangjie Skill to turn a book's frameworks and judgment methods into steps you can call on again and again.
 
 > Scenario: Buying books is easy, finishing them isn't hard either—the hard part is that when a real problem shows up, you remember the book covered a similar method, yet after flipping through all your notes you still can't find where to start. If a book leaves behind only a summary and a few quotable lines, it will quickly sink to the bottom of your notes.
 
@@ -72,3 +78,25 @@ This aligns with Andrej Karpathy's LLM Wiki idea (raw material indexed into a ca
 ---
 
 Related scenario: [Package Yourself with a Polished Personal Website →](/en/doubaowork/case-personal-site)
+
+## FAQ
+
+**Are more distilled Skills better?**
+
+No. Distilling "The Wang Chuan Compendium" in testing produced 7 atomic Skills, but quality isn't a numbers game—a book having content doesn't mean every passage deserves to become a tool.
+
+**Can I use this if I can't write a Skill myself?**
+
+Yes. After installation, hand Doubao Work your real question and material, ask it to state which methods it will invoke, and let it answer from there.
+
+**What format should the book be in?**
+
+Markdown or TXT is best for e-books, though a regular PDF works too. For scanned copies, confirm the OCR is accurate first, or extraction will go wrong.
+
+**Should I pick RAG or knowledge distillation?**
+
+Use RAG when you want to look up what's in the book. Use distillation when you want the Agent to apply a method on its own. When you don't know what to ask, RAG can't help you—a Skill activates on its own.
+
+**Can I hand high-stakes content entirely to a Skill?**
+
+No. Final judgment stays yours, especially for investing, medicine, and law. A Skill adds checklist items and counterexamples; it doesn't replace professional advice or your accountability.

@@ -1,8 +1,14 @@
-# Long Audio/Video Transcription, Subtitles, and Highlight Clips
+---
+description: "Tested end to end on a real 4-minute-47-second Chinese voiceover:"
+---
+
+# How Do You Turn a Long Recording Into Subtitles and Clips? Transcription, Subtitles, and Highlights in One Pass, With Risk Points Flagged First
+
+A colleague drops a meeting recording, a livestream replay, or an interview video on you and says, "clean this up, and cut a few clips we can post." The part that wears you down is dragging the playhead back and forth: rewinding because you're not sure about a name, hunting for the start and end of a good quote, and then worrying about overlapping subtitle cues and lines taken out of context. This walkthrough takes a real 4-minute-47-second Chinese voiceover and runs the whole chain—transcription, subtitles, highlight clips—in one pass. The point isn't to have it publish a video in one shot. It's to get the grinding work finished and the risk points flagged first.
 
 > Scenario: a colleague sends you a meeting recording, a livestream replay, or an interview video and asks you to tidy it up—and cut a few shareable clips while you're at it. The most tedious part is scrubbing the timeline back and forth: rewinding to catch an uncertain name, hunting down the start and end of a great quote, and then worrying about overlapping subtitle timelines and quotes taken out of context.
 
-I ran the entire pipeline on a real 4-minute-47-second Chinese voiceover recording:
+You run the entire pipeline on a real 4-minute-47-second Chinese voiceover recording:
 
 ```text
 raw audio
@@ -113,3 +119,25 @@ What actually saves time isn't having the AI publish the video in one go—it's 
 ---
 
 Next: [Mining the Comments Section for Your Next Piece, and Running a Real Retrospective →](/en/doubaowork/case-comments)
+
+## FAQ
+
+**Can't you just ask it for a summary?**
+
+Be careful here. If the process only shows "understanding content, summarizing points," you usually get a summary with no timestamps you can check against the original audio. What you want is a verbatim transcript with mm:ss markers, not a polished summary.
+
+**Will it guess at words it can't hear?**
+
+Don't let it. It marks anything uncertain as [unclear mm:ss] or [term to confirm mm:ss]. Leaving 10 spots for a relisten is safer than letting it invent fluent-sounding text.
+
+**Can you cut the highlight candidates straight away?**
+
+No. As long as a candidate still touches one unconfirmed item—a name, a product, a number—your next step is a relisten, not an export. "AI picked it" is not "it's ready to post."
+
+**Why open a separate task for screening highlights?**
+
+Because the new task reads only the clean transcript and the review list, so it can't invent names and numbers while screening. Pasting both texts straight into the prompt is the most reliable route; the file picker sometimes won't open `.md`/`.txt` files.
+
+**Will the subtitle timelines overlap?**
+
+In this test, 111 SRT cues, 0 overlaps, no line over 18 characters. Still, read the final file through—this run got the generation date wrong. Only fixing the date, with no cutting, exporting, or publishing, counts as done.

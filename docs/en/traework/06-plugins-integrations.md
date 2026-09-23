@@ -1,6 +1,10 @@
-# Plugins and External App Authorization
+---
+description: "Fresh out of the box, TraeWork is a capable shell with nothing plugged into it. Plugins and external app authorization are what make it actually grow into your workflow."
+---
 
-Plugins bring external tools, services, and data sources into TraeWork; external app authorization lets the AI operate directly on your data in Feishu and GitHub. Together, they make TraeWork truly grow into your workflow.
+# How Do You Connect Plugins and External Authorization? Let the AI Reach Your Feishu and GitHub
+
+Fresh out of the box, TraeWork is a capable shell with nothing plugged into it. What makes it actually grow into your workflow are two things: plugins, which bring external tools, services, and data sources in; and external app authorization, which lets the AI touch your data in Feishu and GitHub directly. Wire up both and it starts living inside your day.
 
 > Official docs: [work_plugins](https://docs.trae.cn/work_plugins) | [Seven Popular Plugins](https://docs.trae.cn/work_seven-popular-plugins-in-traework)
 
@@ -10,9 +14,11 @@ Plugins bring external tools, services, and data sources into TraeWork; external
 2. Find the plugin you want and click the "Install Plugin" icon on the right of its card (or open the details page and click "Add Plugin" in the top-right);
 3. For plugins that connect to external services, complete the authorization as prompted.
 
-When using plugins: **before starting the chat**, select the available plugins at the bottom-left of the chat input box (multiple selections allowed). Note that plugins must be selected before the conversation starts; a disabled plugin cannot be used mid-conversation.
+One timing detail to watch: before you start typing, pick the plugins you want at the bottom-left of the chat input box (you can select more than one). Plugins must be selected *before* the conversation starts—once a plugin is disabled mid-chat, you can't use it there.
 
 ## The Seven Popular Plugins at a Glance
+
+Scan this table first and pick whichever sits closest to your day. Installing the wrong plugin is wasted effort, so match them up before you commit.
 
 | Plugin | What it can do | Highlights |
 | --- | --- | --- |
@@ -34,7 +40,7 @@ Once authorized, you can read and write Feishu Docs, Base, Calendar, messages, e
 2. Click "Link" next to the Feishu app; you'll be taken to Feishu's authorization page;
 3. Check the permissions → "Confirm Authorization" → verify the account and permissions on the confirmation page → click "Authorize".
 
-Thirteen modules can be authorized (by capability granularity): Base (about 38 operations, the most), Docs (25), instant messaging (18), knowledge base (14), Calendar/Tasks/Meetings/Mail (10 each), Drive (8), Slides, Approvals, Contacts, Sheets, and getting user identity tokens. After authorization, TraeWork automatically installs the local CLI and related skills.
+Thirteen modules can be authorized (by capability granularity): Base (about 38 operations, the most), Docs (25), instant messaging (18), knowledge base (14), Calendar/Tasks/Meetings/Mail (10 each), Drive (8), Slides, Approvals, Contacts, Sheets, and getting user identity tokens. After authorization, TraeWork automatically installs the local CLI and related skills, so from then on you can just tell it in chat to read a Feishu doc.
 
 Three official scenario pipelines:
 
@@ -51,12 +57,30 @@ Entry point: avatar in the bottom-left → Settings → "External App Authorizat
 - **AI-created PRs**: The AI reviews the diff between two branches and generates a summary → create a PR in one click → open GitHub to confirm the merge;
 - **Manually created PRs / AI PR reviews**: Have the AI look at the relevant file changes first, then run a git diff review.
 
-⚠️ The GitHub app is **supported in Code mode only**; on desktop, you must open a project pulled from GitHub and switch to "Cloud".
+⚠️ The GitHub app is **supported in Code mode only**; on desktop, you must open a project pulled from GitHub and switch to "Cloud". If you do code reviews often, this one earns its keep.
 
 ## Permission Boundaries
 
-- The agent only calls a service **within the scope you authorized**;
-- Integration settings live in two places: Settings > External App Authorization (account level) and Plugin Marketplace > Manage > App Authorization (plugin level). If you're unsure, check both.
+The agent only calls a service **within the scope you authorized**.
+
+Integration entry points are spread across two places: Settings > External App Authorization (account level) and Plugin Marketplace > Manage > App Authorization (plugin level). When in doubt, look in both, so you don't miss one.
+
+## FAQ
+
+**Do I have to pick plugins before starting the conversation?**
+Yes. You choose them at the bottom-left of the chat input box, and it has to happen before the conversation starts. Once you're in the chat, adding one back in is not possible—it'll sit there disabled.
+
+**Which Feishu modules should I authorize?**
+There are 13 modules, listed by granularity. Base has the most with about 38 operations, then Docs at 25, instant messaging 18, knowledge base 14, Calendar/Tasks/Meetings/Mail at 10 each, plus Drive and Slides. Authorize the ones you actually use rather than handing everything over at once.
+
+**Can I treat the finance plugins as investment advice?**
+No. The official line is explicit: those plugins demonstrate capability, nothing more, and they don't constitute investment advice. If you do want to pull data, iFinD needs an API key, and bond real-time quotes don't cover the interbank market either. Don't buy or sell on the strength of it.
+
+**Why doesn't GitHub authorization work in the web version?**
+The GitHub app is supported in Code mode only, and on desktop you also have to open a project pulled from GitHub and switch to "Cloud". There's no route through the web version.
+
+**How do the authorization and plugin entry points divide up?**
+Account-level authorization sits under Settings > External App Authorization; plugin-level sits under Plugin Marketplace > Manage > App Authorization. Checking both beats checking one when you're unsure.
 
 ---
 

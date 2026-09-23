@@ -1,8 +1,14 @@
-# One Meeting, from Prep to Action Items That Land
+---
+description: "The meeting ends, a few 'let's follow up on that' lines sit in the group chat, and when you later ask who owns it and when it's due, everyone has to dig back through the notes."
+---
+
+# The Meeting Ended—So Why Isn't Anything Moving? Turn Notes into an Owner, a Deadline, and Something You Can Check
+
+You just wrapped a meeting. A few "let's follow up on that" lines are sitting in the group chat. Ask afterward who owns it and when it's due, and everyone has to dig back through the record. Which remarks actually became decisions, which are still just ideas, and which tasks need to go to a specific person right now? Leave those unsorted and the minutes stop at "we noted it," while the work just hangs there. This page walks you through two prompts that turn one meeting from a raw transcript into an action list people can actually run.
 
 > Scenario: The meeting ends, but the follow-through doesn't always happen. Use AI to turn "it's been noted" into "someone owns it, there's a deadline, and it's checkable."
 
-The meeting ends, but the follow-through doesn't always happen: plenty was discussed, a few "let's follow up on that" comments sit in the group chat, and when you later ask who owns what and when it's due, everyone has to dig through the notes again. Which remarks became actual decisions, which are still just ideas, and which tasks need to be assigned to a specific person right away? Sort those out first, and the minutes become more than "it's been noted."
+## One Meeting, Three Stages
 
 A meeting breaks into three stages: **before**, get everyone into the discussion with the same background; **during**, preserve the raw record; **after**, hand decisions and action items to specific people. Minutes are just the middle step—they also need to connect last week's tasks and the next check-in.
 
@@ -43,3 +49,25 @@ The system checks each of last week's action items against this week's content, 
 ---
 
 Related scenario: [One Word Document, from Proofreading to Print-Ready Delivery →](/en/doubaowork/case-word)
+
+## FAQ
+
+**Can Doubao Work read a meeting recording directly?**
+
+Give it the raw audio and it will transcribe first, then organize the transcript into the minutes structure. Transcription saves you the typing, but you still need to listen back against the meeting context—especially for names and negated statements.
+
+**Why do owner and deadline so often come back as "to be confirmed"?**
+
+Because only what the source explicitly states can be filled in. Where your material is unclear, marking it "to be confirmed" is safer than a guess. Go back and ask the person involved; don't let the minutes decide for you.
+
+**How do I cross-check two weeks of minutes without missing anything?**
+
+Hand it last week's minutes and this week's transcript together and have it judge each item's status. A task this week never mentions can't be counted as done automatically—watch that one closely.
+
+**Will it write a discussed opinion up as a final decision?**
+
+It can. Before you distribute the minutes, listen back to the relevant clip and confirm it didn't turn "someone mentioned it" into "it's settled." Names, numbers, and negations are where this happens most.
+
+**What else should I check before sending the minutes out?**
+
+Confirm that every action item has an owner and every delayed item has a new deadline. The value of minutes isn't covering everything—it's that afterward someone actually picks it up, delivers, and gets checked.

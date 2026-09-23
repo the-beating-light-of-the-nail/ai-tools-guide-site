@@ -1,8 +1,16 @@
-# Duplicate Files and Conflicting Versions: Check the Differences Before Deciding
+---
+description: "A friend sends over an entire folder for you to clean up—5 subfolders, 9 Word documents, and 3 groups of files with nearly identical names. Dedupe by filename? Files that share a name don't necessarily share content; some are versions left over from different stages."
+---
+
+# A Friend Dumps a Messy Folder on You to Clean Up—How Do You Get Doubao Work to See the Differences Before Anything Gets Deleted?
+
+A friend sends you an entire folder to clean up: 5 subfolders, 9 Word documents, and 3 groups whose names look almost identical. Dedupe by filename? Files with the same or similar names often don't hold the same content, and some are versions left behind at different stages. Delete the wrong one and your friend's project material is gone for good. This walkthrough has Doubao Work analyze and recommend first, and nothing moves until you confirm.
 
 > Scenario: a friend sends over a whole folder to clean up—5 subfolders, 9 Word documents, 3 groups of which have nearly identical names. Deduplicate by filename? Files with the same or similar names aren't necessarily the same content—some are versions left over from different stages.
 
 Agree on the ground rule first: **this round only analyzes and recommends; nothing gets deleted**. Once each group's relationship is clear, the file owner decides what to archive, rename, or keep.
+
+You've probably felt the itch yourself—see a file with the same name, delete it on the spot. Hold off. Let Doubao Work figure out which file is which before you decide to touch anything. Until you confirm, it won't move a single file, so you don't have to worry about it acting on its own.
 
 ## Step 1: List the Files, Then Use Fingerprints to Find True Duplicates
 
@@ -64,3 +72,25 @@ Next time you clean a folder, first separate the three cases—**exact duplicate
 ---
 
 Next: [Wrapping Up a Project: Archiving Files, Decisions, and Deliverables Together →](/en/doubaowork/case-project-archive)
+
+## FAQ
+
+**Can Doubao Work judge duplicates by filename?**
+
+Not reliably, and you shouldn't trust it to. It uses a file hash (fingerprint) to judge whether the bytes match, and for files that look alike but differ in content, it keeps comparing. Look at the hash results yourself before you decide.
+
+**Will it delete my files on its own initiative?**
+
+No. You set the rule at the start: "analyze and recommend only, no direct deletion." It also archives recoverably rather than deleting permanently. Anything actually deleted waits for your confirmation.
+
+**How do you tell a staged version from an exact duplicate?**
+
+Same hash means exact duplicate. Different hashes but complementary content marked "to merge" means staged versions. The two need completely different handling—don't throw away a version as if it were a copy.
+
+**Can you move files on a shared drive right away?**
+
+Not in a hurry. This case used local files, and even then you should confirm with the people actually using them before moving. For files in shared drives or project systems, ask who still needs them first.
+
+**If something gets deleted by mistake, can you get it back?**
+
+Yes, because the process uses recoverable archiving and records the original path of every moved file. Follow the record and you can put it back exactly where it was, with no guessing.

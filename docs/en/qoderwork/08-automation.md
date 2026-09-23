@@ -1,6 +1,10 @@
-# Scheduled Tasks: It Runs Itself When the Time Comes
+---
+description: "You meant to check your operations data every morning, then a busy day hits and you forget. Or you want a competitor-tracking report every week so you don't spend Sunday catching up."
+---
 
-The official positioning in one line: "scheduled tasks take QoderWork from 'acting only when you ask' to 'acting on its own when the time comes'."
+# Want QoderWork to Run Whether You Remember or Not? Set It Once—All Six Schedules Explained
+
+You meant to check your operations data every morning, then a busy day hits and you forget. Or you want a competitor-tracking report every week so you don't spend Sunday catching up. That's what QoderWork's scheduled tasks are for: you write it once and it runs on time, with nobody watching over it. The official one-liner says it all—it takes QoderWork from "acting only when you ask" to "acting on its own when the time comes."
 
 > Official docs: [docs.qoder.com/zh/qoderwork/scheduled-tasks](https://docs.qoder.com/zh/qoderwork/scheduled-tasks)
 
@@ -12,7 +16,7 @@ At the scheduled time → a new conversation task is created automatically → i
 
 **Option 1: natural language in a conversation** (recommended)
 
-Just state the time plus the task in the conversation; the AI infers the frequency, time, and content automatically—no cron expressions needed. All of these are understood:
+You don't need to know cron. Just state the time plus the task in the conversation and it infers the frequency, time, and content for you. All of these are understood:
 
 ```text
 Every 3 hours ...
@@ -52,7 +56,7 @@ Other settings: task name, task prompt, working folder (optional, but recommende
 
 ## A Prompt-Writing Checklist for Scheduled Tasks
 
-For unattended conversations, the more detailed the prompt, the more reliable the run:
+You're writing for an unattended run, so the more detailed the prompt, the more reliable the result:
 
 - [ ] State the data source precisely (which file / which web page / which system)
 - [ ] State the output format and storage location precisely ("output Markdown to the reports/ directory")
@@ -79,3 +83,17 @@ generate a morning briefing:
 Pushing to IM requires [IM Channels](/en/qoderwork/07-im-channels) to be configured—scheduled tasks + IM is QoderWork's golden automation combo.
 
 For advanced play (turning "run this" into a one-phrase trigger), see the [E-commerce Daily Report Case](/en/qoderwork/case-browser) and [Creating Skills Through Conversation](/en/qoderwork/adv-skill-create).
+
+## FAQ
+
+**My computer was off. Did the scheduled task still run?**
+No. Scheduling happens in the local client, so a sleeping or powered-off machine can't trigger anything. For anything important, turn on "Keep system awake."
+
+**Will a missed time slot be replayed later?**
+Not automatically. Open the run history and click "Run Now" to run that one manually.
+
+**Do scheduled tasks cost Credits?**
+Yes—each run consumes Credits like a manual conversation. Work the flow out on a standard run first, then solidify it into a schedule; that's the cheaper way round.
+
+**I know nothing about cron. Can I still set one up?**
+Yes. Just say something like "every Tuesday and Thursday at 2 p.m...." in the conversation and it infers the rest. No expressions to write.

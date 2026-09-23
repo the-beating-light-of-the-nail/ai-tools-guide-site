@@ -9,13 +9,21 @@ sources:
 
 # Common Prompt Templates
 
+## Plain-Language Orientation
+
+When you start using Qwen Work to organize files, run data, or write a weekly report, you will probably type the request straight in and get back a paragraph nobody can reuse. This appendix offers six ready-made templates—files, data, reporting, meetings, research evidence chain, and task delivery and review. Copy one out, fill the bracketed slots with your own task card, and the AI delivers in a consistent format against consistent acceptance criteria. Below is when you open this page, how to pick each type, and what happens when you pick wrong; follow it and you stop teaching the AI how to work from scratch every time.
+
 ## When to Use This Material
 
 If you are organizing your own files, data, weekly report, or meeting minutes for the first time, just pick one concrete task and complete an editable, verifiable draft. Use this appendix's templates only when you want the task more stable, reusable by colleagues, or invoked in a unified format. It is advanced material and does not redefine the stage gates, action permissions, workflow operations, or failure-takeover rules of Chapters 10–12.
 
 This appendix provides invocation wording only and defines no new standards. Before starting, fill in the single task card per the [Chapter 2 task delivery protocol](/en/qwenwork/ch02-task-delivery-protocol); build evidence cards for research claims per [Chapter 8 Research and the Evidence Chain](/en/qwenwork/ch08-research-evidence-chain); and execute the corresponding controls for sending, writing, deleting, publishing, and other actions per [Chapter 11 Security Governance](/en/qwenwork/ch11-security-governance).
 
-In the templates below, `【】` and blank lines are for the reader to fill in. The safety, confirmation, and acceptance sentences in the templates invoke the standards above and cannot replace the authoritative chapters.
+In the templates below, `[ ]` and blank lines are for the reader to fill in. The safety, confirmation, and acceptance sentences in the templates invoke the standards above and cannot replace the authoritative chapters.
+
+## How to Pick Each Template and What Picking Wrong Costs You
+
+Pick by where the task falls: organizing files takes "Files," analyzing a spreadsheet takes "Data," building a readout takes "Reporting," organizing a meeting takes "Meetings," research takes the "Research Evidence Chain Template," and reviewing a task card takes the "Task Delivery and Review Template." Choose the wrong category and the AI works to the wrong stage and the wrong acceptance criteria—fit a research task into the reporting template and you lose the evidence card, and the conclusions can no longer be traced to a source. Skip the task card and apply a template directly and the template's confirmation sentences lose their anchor, so the security and rollback controls have nothing to connect to. The six templates below are kept as they are—copy them and change only the bracketed content.
 
 ## Files
 
@@ -117,3 +125,17 @@ invoke only Chapter 11's action, data, and professional-consequence controls; fi
 the specific objects, scope, impact, approval-record requirements, and rollback method,
 and execute only after obtaining the corresponding confirmations.
 ```
+
+## FAQ
+
+**When should you use the templates here instead of writing your own prompt?**
+For a one-off file cleanup, writing it by hand is fine; for anything you do weekly, take into a business meeting, or send outward, a template saves you the cost of re-teaching the AI and connects properly to the Chapter 11 security controls. Reach for these templates when you want the task stabilized, handed to a colleague, or invoked repeatedly in a unified format.
+
+**What happens if you pick the wrong template category?**
+Fit a research task into the reporting template and you lose the Chapter 8 evidence card, with conclusions that trace back to no source; fit a data task into the files template and you lose the field check and the basis-conflict check. Picking wrong is not itself an error, but acceptance loses one of its rulers and the result is harder to verify.
+
+**What do you fill into the brackets and blank lines?**
+What goes in is the goal, inputs, constraints, deliverable, and acceptance from the task card you already wrote per Chapter 2, plus the concrete object of this task (file, data, topic). The template is only the invocation shell; the real basis sits in the task card and the authoritative chapters. Don't invent content to fill the slots.
+
+**Can you apply a template directly without writing the task card first?**
+No. The confirmation, rollback, and safety sentences in the templates all point at the Chapter 2 and Chapter 11 standards; without a task card those sentences have nothing to bind to, and the AI will not actually stop and wait for confirmation. Write the task card first—only then does the template connect to the controls.

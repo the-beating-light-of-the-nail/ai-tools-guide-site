@@ -1,12 +1,16 @@
-# Advanced: Computer Use, Voice Input, and App Snapshot
+---
+description: "What if the AI could open Fliggy on its own, compare airfares, save the itinerary as a PDF, and drop it into your Mac Calendar? Beyond browser automation, QoderWork can drive your screen, listen to you, and capture whatever app is in front of you."
+---
 
-Beyond browser automation, QoderWork can directly drive your computer's interface, listen to you speak, and capture the app in front of you—the complete form of its "AI specialist" persona.
+# Can QoderWork Drive Your Computer for You? Mouse, Voice, and Screenshot—Three Ways In
+
+Picture this: the AI opens Fliggy on its own, compares airfares, saves the itinerary as a PDF, and drops it into your Mac Calendar. Beyond browser automation, QoderWork can drive your computer's interface directly, listen to you speak, and capture the app in front of you—the complete form of its "AI specialist" persona.
 
 > Official docs: [computer-use](https://docs.qoder.com/zh/qoderwork/computer-use) | [voice-input](https://docs.qoder.com/zh/qoderwork/voice-input)
 
 ## Computer Use
 
-For tasks that must be done in a graphical interface. Four core capabilities:
+You hand QoderWork the tasks that have to be done in a graphical interface. Four core capabilities:
 
 - **Screen awareness**: takes continuous screenshots while working, confirming each step succeeded before deciding the next;
 - **Mouse and keyboard control**: clicks, double-clicks, drags, typing, shortcuts—with pixel-level precision;
@@ -25,7 +29,7 @@ For tasks that must be done in a graphical interface. Four core capabilities:
 | Auto-execute | Runs continuously without asking | Familiar, repeated flows |
 | Disabled | Turns control off | When you only want other capabilities |
 
-A real-world example (Alibaba engineer Xu Jingfeng):
+Here's a tested prompt you can model yours on (Alibaba engineer Xu Jingfeng):
 
 ```text
 I'm traveling from Hangzhou to Sanya. Search and compare flights on Fliggy and
@@ -45,7 +49,7 @@ Output: a Sanya travel guide PDF plus calendar events with a detailed schedule.
 
 ## Voice Input: Hold Fn and Speak
 
-By default, **holding the Fn key starts recording**—no need to click an icon (fallback entry: the mic icon on the right of the input box). Five steps: hold → speak your request (no strict time limit) → the transcript appears in the input box → edit as needed → send.
+By default, **holding the Fn key starts recording**—no need to click an icon (fallback entry: the mic icon on the right of the input box). Five steps: you hold → speak your request (no strict time limit) → the transcript appears in the input box → edit as needed → send.
 
 - Relies on the OS built-in speech recognition engine; the language depends on installed language packs; microphone permission required;
 - Working strategy: "**draft by voice, correct by keyboard**";
@@ -69,3 +73,17 @@ From "spotting a problem" to "asking about it" in one step: press both Option ke
 | Quick-switch tasks | ⌃Tab | Ctrl+Tab |
 
 There's also **QuickPick**: a global quick-task window (triggered by e.g. ⌥Space or a double-tap of a modifier key) that lets you submit a task anytime without switching to the main window.
+
+## FAQ
+
+**Will computer use click around my machine at random?**
+By default it asks before every action, so anything irreversible—sending email, submitting an order—stops for your confirmation. Switch to "auto-execute" once you trust the flow.
+
+**Can it get past CAPTCHAs or face recognition?**
+No. Those need you personally. Where it got to and where it got stuck is visible in task monitoring.
+
+**Does voice input need a plugin?**
+No. Hold Fn, speak, release—the text lands in the input box, you fix whatever needs fixing, and you send.
+
+**For web tasks, computer use or browser automation?**
+Official guidance: browser automation first. It's faster and more precise. Save computer use for desktop software with no web entry point.

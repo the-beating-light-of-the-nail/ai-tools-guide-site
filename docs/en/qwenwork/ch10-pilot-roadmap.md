@@ -8,6 +8,10 @@ sources: []
 
 # Scenario Selection and the 30/60/90-Day Pilot
 
+## Plain-Language Orientation
+
+This chapter helps you decide when an AI office scenario is ready for the whole team, and when it is ready to be scaled up. The reflex—"high frequency and time-consuming, automate it now"—is usually wrong: high frequency does not mean first in line, and reaching a date does not mean it is time to promote. This chapter gives you two things: a seven-dimension scoring table to rank the order, and a set of stage gates to decide whether each step may continue. When you finish you will know that critical errors, security, and unauthorized actions are hard gates that can never be relaxed, while efficiency and adoption are only adjustable experimental thresholds. You will stop mistaking a successful demo for team capability, and you will have one table you can show your boss to explain why you stopped or why you scaled. Don't rush the ranking; keep your eyes on the hard gates and the stage gates, and neither the flattering numbers nor the calendar will pull you off course.
+
 ## When You Need This Chapter
 
 If you are only organizing your own weekly reports, meeting minutes, or other low-risk drafts, you can skip this chapter for now. Come back to confirm stage boundaries only when you want the team to share usage, handle sensitive materials, write or send automatically, run across systems, reuse across multiple people, or decide whether to keep investing and rolling out. The "stage gates" here are checkpoints that decide whether each step may continue; you do not need to understand the scoring sheet or governance terminology first.
@@ -22,11 +26,15 @@ If you are only organizing your own weekly reports, meeting minutes, or other lo
 - Every stage must retain samples, acceptance, anomaly, and approval records.
 - If the previous stage has not passed, no auto-promotion just because day 30, 60, or 90 has arrived.
 
+Plain-language note: remember one sentence—scoring decides "who to try first," hard gates decide "whether to continue." Even the top-scoring scenario stops immediately on a critical error or an unauthorized action; and conversely, on day 90, if the previous stage has not passed, you do not promote automatically.
+
 ## Why It Matters
 
 Older practices often equate "high frequency, time-consuming" directly with "worth automating," and easily read 30/60/90 days as expanding headcount by date. That lets a high-scoring scenario with unclear permissions enter production first, or lets a one-off demo success be mislabeled as a reusable team capability.
 
 With unified scenario scoring, same-basis baselines, and stage gates, enterprise AI owners can rank candidate scenarios, business owners can judge whether to keep investing, and data/security owners can stop risk from being masked by average efficiency. Only when all three use the same threshold registration table can they make traceable decisions among expanding, optimizing, keeping the pilot, and stopping.
+
+Plain-language note: you used to treat "high frequency and time-consuming" as "should be automated," and 30/60/90 days as a headcount calendar. Use unified scoring to decide who to try first and stage gates to hold the line on whether to continue. Put all three roles in front of the same table, and you can trace and explain expand-or-stop, with average efficiency no longer covering up risk.
 
 ## Method or Model
 
@@ -38,11 +46,15 @@ The baseline keeps at least per-task records, task type, input versions, total t
 
 Before the pilot starts, the denominator basis must be registered and locked, including inclusion eligibility, exclusion rules, how aborted or failed tasks are handled, and the evidence for judging "valid tasks," "eligible tasks," and "representative samples." The baseline period and pilot period may include or exclude tasks only per that basis; if business scope or task structure changes, create a new version and re-establish a comparable baseline—never modify the denominator after the fact.
 
+Plain-language note: when you set the baseline, lock the basis first—what counts as a valid task, what gets excluded, how failures are counted—and the pilot period uses the same rules. If business scope changes, create a new version and re-measure; don't go back and edit the denominator to erase inconvenient data.
+
 All started tasks keep their results and exclusion reasons; failed, aborted, or excluded tasks still enter the run log. Critical errors, unauthorized events, and other hard-gate failures must be fully logged; they may not be moved out of the ledger because a task was excluded, nor hidden outside the denominators of efficiency, quality, adoption, or satisfaction metrics.
 
 ### Rank Candidate Scenarios on Seven Dimensions
 
 All seven dimensions are scored 1–5. Except for data risk, stronger conditions score higher; data risk is reverse-scored—"lower risk, higher score." A 3 in the table is the unified midpoint anchor; a 2 means the evidence exceeds a 1 but has not reached a 3, a 4 means it exceeds a 3 but not a 5; when hard to judge, take the adjacent lower score. With no evidence, record a fixed 1 and mark it as needing evidence—never use a 2–4 to mask missing evidence.
+
+Plain-language note: when scoring the seven dimensions, no evidence means a 1 flagged for evidence—never a 2–4 to paper over the gap. When unsure, take the adjacent lower score. Trust only signals with a basis, and the ranking will not push unevidenced scenarios to the front. What the score orders is sequence, not risk level.
 
 | Dimension | 1-point signal | 3-point signal | 5-point signal | Minimum basis |
 |---|---|---|---|---|
@@ -61,6 +73,8 @@ Candidate ranking score = frequency + time cost + input stability + acceptance c
 
 The total is only for ranking candidate scenarios in the same round. A high score does not mean low risk, and grants no data access, write, send, or publish permission; every candidate scenario must pass the hard gates on its own.
 
+Plain-language note: the total only ranks "who to try first in this round"—it is not a risk rating and it does not hand you permissions. However high the score, sensitive data and unauthorized actions still have to clear the hard gates; nobody trades a score for a bypass.
+
 ### Establish the Single Threshold Registration Table
 
 Each scenario maintains exactly one threshold registration table with fixed fields. Efficiency, adoption, and satisfaction get no cross-scenario unified numbers; they must be registered against baseline and business goals before seeing pilot results; adjustments can only target future validation batches and cannot retroactively change completed judgments.
@@ -78,6 +92,8 @@ Each scenario maintains exactly one threshold registration table with fixed fiel
 
 Legal, security, unauthorized actions, and critical errors are hard gates that cannot be relaxed. Efficiency, adoption, and satisfaction are adjustable experimental thresholds; the adjuster must write the reason, evidence, and effective batch in "exception reason," and the "approver" must re-approve.
 
+Plain-language note: keep exactly one such table per scenario, and register the thresholds before you see any results—locked, not editable afterward. When adjusting efficiency or satisfaction, write the reason and evidence in "exception reason" and have the approver re-approve. The hard-gate rows nobody touches.
+
 ### Fix the Definition of Critical Errors
 
 "Critical errors" include at least:
@@ -91,6 +107,8 @@ Legal, security, unauthorized actions, and critical errors are hard gates that c
 
 These minimum categories, plus legal, security, and unauthorized actions, may not be downgraded. Before each scenario pilot, the business owner and data/security owner jointly supplement a scenario-specific critical error list and judgment evidence. Only for ambiguous quality issues within the supplemental categories may the two owners jointly record a reason not to count them as critical errors in the registration table; that record cannot rewrite the minimum categories above.
 
+Plain-language note: before adding scenario-specific critical errors, align with the business owner and the data/security owner on the judgment evidence. For genuinely ambiguous quality issues, the two owners jointly record "not a critical error"—but they cannot move the six minimum categories, and nobody may quietly downgrade a high-consequence error. One hit and you stop; that line is what you hold for the team.
+
 ### Run the Single Three-Stage Default Gates
 
 The following are the default stage gates:
@@ -103,6 +121,8 @@ The following are the default stage gates:
 
 Personal template candidate, team workflow release, and scaled rollout must all pass every applicable hard gate. Even a small-scope, low-risk-action personal template candidate may not bypass the applicable legal, security, data-authorization, or unauthorized-action hard gates.
 
+Plain-language note: these three stage gates are the default basis, and every stage must clear all applicable hard gates. Don't assume a personal template's small scope lets it skip the security or authorization gates—small scope is not small risk; the hard gates apply equally.
+
 The approvers above are only each stage's minimum business approval set. If the threshold registration table, data/security, legal, or professional hard gates require other approvers, the final approver is the union of "the stage's minimum approvers" and "all applicable hard-gate approvers"; neither side may be omitted.
 
 The business owner may raise standards; lowering experimental thresholds must be explained in the registration table; hard gates may not be lowered. Approval records must point to specific workflow versions, sample lists, acceptance evidence, and unresolved issues—not just "agree to roll out."
@@ -110,6 +130,8 @@ The business owner may raise standards; lowering experimental thresholds must be
 ### Fix the 30/60/90-Day Mapping and Stop Rules
 
 Days 0–30 complete personal template candidate validation; days 31–60 complete team workflow release validation, and only after passing may it be released as a team Skill; days 61–90 complete scaled rollout validation, and only after passing may role expert kits be combined. Calendar time cannot replace stage gates; without passing the previous stage, no auto-promotion just because the date arrived.
+
+Plain-language note: treat the three months as a validation window, not a rollout calendar. Days 30, 60, and 90 are checkpoints; if the previous stage has not passed, the date does not promote anything. Don't let the schedule make the decision for you.
 
 On unauthorized outbound delivery, deletion, payment, master-data modification, major privacy issues, or critical business errors, stop immediately, take over manually, and run an incident review; average efficiency gains may not offset hard-gate failures. Takeover, protecting originals, fixing, and recovery follow the [automation takeover chain](/en/qwenwork/ch05-automation-boundaries).
 
@@ -129,6 +151,8 @@ The "records" in this example need no elaborate reports upfront: at minimum they
 
 Take the "business weekly report draft" as an example: a team may rank it high among candidate scenarios for being high-frequency, manually time-consuming, and having stable input fields, but must still confirm that key numbers trace to raw detail, that empty data and field changes do not silently generate wrong conclusions, and that drafts are not sent outward without approval. As long as a key number cannot be recomputed or an unauthorized delivery occurs, you must stop rather than promote—even if average prep time clearly dropped. For records, an ordinary reader only needs to put input versions, manual edits, anomalies, the acceptor, and results into the same run record, so there is later evidence for deciding whether to continue.
 
+Plain-language note: take the "business weekly report draft." It is high-frequency, time-consuming, and has stable fields, so it can rank high—but first confirm that key numbers trace back to raw detail, that empty data does not silently produce errors, and that drafts are not sent out on their own. One unrecomputable number or one unauthorized delivery and you stop, however much average time you saved; you do not promote.
+
 Role scenarios, public demos, and sample artifacts only help form pilot hypotheses. Public case pages can prove delivery form but cannot provide your organization's baseline, proof of permissions, or stage-gate results; see [Chapter 8](/en/qwenwork/ch08-research-evidence-chain) for those evidence boundaries. This chapter's thresholds are community practice norms; they represent no official product commitment and do not prove that any scenario necessarily produces efficiency or business gains.
 
 ## Enterprise Actions
@@ -146,10 +170,43 @@ Build one auditable scenario package for a pilot round:
 
 The review meeting reads hard gates first, then experimental thresholds and average metrics. Any hard-gate failure ends the "whether to promote" discussion immediately, switching to manual takeover and incident review.
 
+Plain-language note: when you build the scenario package, the threshold table must be filled in and locked before you see results; run normal, boundary, and failure samples and keep a record each time. At the review meeting, read the hard gates first—if any hard gate fails, the argument about "promote or not" ends right there and moves to manual takeover and incident review.
+
 ## Boundaries and Next Steps
 
 This chapter defines pilot ranking, threshold registration, and rollout gates; it does not replace legal, privacy, financial, HR, or industry professional standards. Sample counts are minimum validation coverage, not a promise of statistical significance; when task distributions change, disclose the limitation and re-establish a comparable baseline.
 
 Before entering any stage, you must still independently judge action level, data sensitivity, professional consequence, and human responsibility per Chapter 11 security governance. A scenario passing a stage gate does not automatically gain new system permissions or authorization for high-consequence actions.
+
+Plain-language note: ranking well, registering thresholds, and clearing the stage gates does not hand you system permissions or authorization for high-consequence actions; before entering each stage you still independently judge action level and human responsibility per Chapter 11. This chapter is a community norm—it does not carry your legal, privacy, or financial professional standards for you.
+
+## Plain-Language Glossary
+
+| Term | Plain language |
+|---|---|
+| Stage gate | The hard checkpoint for "can we continue" at each step; fail it and you stop, and no calendar date substitutes for it |
+| Hard gate | Critical errors, legal, security, unauthorized actions—never relaxable. Hit one and you stop |
+| Experimental threshold | Efficiency, adoption, satisfaction—adjustable, but you write the reason and re-approve; no retroactive edits |
+| Scenario card | The card that spells out business problem, inputs, deliverable, acceptance, and forbidden actions; complete it before the pilot |
+| Same-basis baseline | The "how we do it today" numbers captured before the pilot; pilot and baseline use the same ruler, and the denominator is not editable after the fact |
+| Critical error | The six categories—numbers that change a decision, fabricated sources, wrong recipient, and so on; each one counts, none may be downgraded |
+| Threshold registration table | One table per scenario where you lock the metric formulas, samples, and approvers in advance |
+
+## FAQ
+
+**You want the team to share an AI weekly report. Does one successful demo mean you can roll it out?**
+No. Treat it first as a personal template candidate: run 5 normal plus 2 boundary samples with 0 critical errors, and only then go to the team release gate. A demo success is a single instance, not evidence the team can reuse. Reaching a date does not promote it either—don't let the calendar make the upgrade decision.
+
+**One key number came out wrong but average time dropped a lot. Can you promote?**
+No. Critical errors are a hard gate that cannot be relaxed. However much average prep time improved, you stop immediately, take over manually, and run a review; efficiency does not offset it. A hard-gate failure ends the "promote or not" discussion on the spot.
+
+**You lowered the efficiency or satisfaction threshold. What process do you follow?**
+You must write the reason, the evidence, and the effective batch in the "exception reason" column of the single threshold registration table, then have the approver re-approve. You cannot retroactively change a completed judgment, and "agree to roll out" alone is not enough. What is being approved is accountability, not paperwork.
+
+**As the business owner, does passing a stage gate mean you now have write permissions?**
+No. Passing a stage gate grants no new system permission and no authorization for high-consequence actions; whether you get G2/G3 is judged per action under Chapter 11. Don't read "gate cleared" as "cleared to proceed"—go get permissions per action level instead of assuming.
+
+**The task distribution has changed. Can you keep using the old baseline?**
+No. Disclose the limitation and re-establish a comparable baseline; don't stitch incomparable data into an average. Whenever versions, permissions, or processes change, re-judge whether to fall back to the previous stage for validation. Don't wait for an incident to start re-validating.
 
 [Next chapter: Security, Permissions, and Responsibility](/en/qwenwork/ch11-security-governance)

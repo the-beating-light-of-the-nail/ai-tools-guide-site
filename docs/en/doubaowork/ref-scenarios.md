@@ -1,8 +1,14 @@
-# Scenario Cheat Sheet
+---
+description: "A screen full of tutorials leaves you dizzy: which one actually has anything to do with you? Don't scroll from the top."
+---
 
-Look up the right tutorial by "who you are / what you're facing". Prompts on the case pages can be copied and adapted directly.
+# Too Many Tutorials—Which One Is Yours? Find It in One Glance, by Role or by Task
+
+A screen full of tutorials leaves you dizzy: which one actually has anything to do with you? Don't scroll from the top. This table is sorted by who you are and what you're doing—find your role or your current job on the left, glance right, and the matching tutorial is right there. Every prompt on the case pages can be copied and adapted as it stands; you never write one from scratch.
 
 ## By Role
+
+Start by deciding which kind of person you are, and the route clears up:
 
 | You are | Recommended path |
 | --- | --- |
@@ -16,6 +22,8 @@ Look up the right tutorial by "who you are / what you're facing". Prompts on the
 | Knowledge manager | [Bookmarks made searchable](/en/doubaowork/case-bookmarks) → [Duplicate-file governance](/en/doubaowork/case-duplicate-files) → [Expired knowledge, find the owner](/en/doubaowork/case-knowledge-expiry) |
 
 ## By Task
+
+If you have one concrete job in hand, looking down this table is the quickest way:
 
 | I want to... | Go to |
 | --- | --- |
@@ -53,6 +61,8 @@ Look up the right tutorial by "who you are / what you're facing". Prompts on the
 
 ## By Capability
 
+If it's a specific external capability or an advanced move you're after, this column is the one:
+
 | I want to use... | Go to |
 | --- | --- |
 | Connectors (Feishu / WeCom / NetEase Mail...) | [Getting Started with Connectors](/en/doubaowork/05-connectors) |
@@ -61,6 +71,23 @@ Look up the right tutorial by "who you are / what you're facing". Prompts on the
 | Scheduled tasks / daily briefings | [Scheduled Tasks and News Briefings](/en/doubaowork/09-automation) |
 | Work Mates / Work Squad / multi-agent | [Mate or Squad](/en/doubaowork/adv-buddy-or-squad), [Multi-agent in practice](/en/doubaowork/adv-multi-agent) |
 | Developing against an LLM API myself | [API Services vs. Connectors](/en/doubaowork/08-api-vs-connector) |
+
+## FAQ
+
+**I've never used AI at all. Which page do I start with?**
+Take the first row of "By Role": what it is → your first task → the Office trio. Once you've run those three, come back here and find the next one by task.
+
+**Will the links in these tables break?**
+No. Every one points to a tutorial inside this section (the paths start with /en/doubaowork/), so whichever you click, you stay on the same site.
+
+**Can I copy the prompts on the case pages straight over?**
+Yes. Copy a prompt, swap in your own file name, and send it—no writing from scratch. Just check the numbers and facts once the work comes back.
+
+**Should I look at "By Role" or "By Task"?**
+If you know your role, use "By Role"; if all you know is the job in front of you, use "By Task." Both roads end at the same tutorial.
+
+**What if I can't find my situation?**
+Look down the "By Capability" column—maybe what you're missing is a connector or a Skill. If it's really not there, go back to the first page and start practicing with your first task.
 
 ---
 

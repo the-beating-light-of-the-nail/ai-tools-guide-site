@@ -1,12 +1,16 @@
-# Advanced: Creating Skills Through Conversation (/create-skill)
+---
+description: "You're writing the same task brief for the third time this week. Weekly report format, case analysis flow, store daily—every time you start from scratch, and every time something gets missed. That third pass is the signal: this should be a skill."
+---
 
-The third time you write out the same task instructions, it's time to turn them into a skill. QoderWork lowers the barrier to "just say it in plain words"—the built-in `/create-skill` command generates a SKILL.md conversationally.
+# Writing the Same Brief for the Third Time? Turn It Into a Skill—/create-skill Makes It a Conversation
+
+You know the moment: the same task brief, and this is the third time you've written it this week. Weekly report format, case analysis flow, store daily report—every time you describe it from scratch, and every time something gets missed. That third pass is the signal it should be a skill. QoderWork has lowered the bar to "just say it in plain words": the built-in `/create-skill` command talks you through it and produces a SKILL.md you can trigger with one phrase from then on.
 
 > Official docs: [skills](https://docs.qoder.com/zh/qoderwork/skills) | field material from the official user-case library.
 
 ## A Real Sample: The Sales Weekly Report Skill
 
-The complete creation process as tested by the community (from a CSDN guide):
+The complete creation process as tested by the community (from a CSDN guide). You'd do it like this:
 
 1. Type `/create-skill` in the conversation;
 2. Describe the trigger phrase and workflow:
@@ -21,10 +25,10 @@ template and save it to the reports/ directory.
 Dependencies: Excel processing, Python-Matplotlib charting.
 ```
 
-3. QoderWork generates the SKILL.md and stores it in `~/.qoderwork/skills/`;
+3. QoderWork generates the SKILL.md and stores it in `~/.qoderwork/skills/`—ready to call up any time;
 4. From then on, in any new task, type `/` and pick "Sales Weekly Report", or just say "generate this week's sales report" to trigger it.
 
-An even more thorough asset-building sample (official user case, a lawyer):
+An even more thorough asset-building sample (official user case, a lawyer)—you can package your own work the same way:
 
 ```text
 Please package the case-analysis workflow we just did into a Skill named
@@ -41,7 +45,7 @@ Twenty years of practice becomes a standardized, reusable tool for the team: jun
 
 ## Quality Points for SKILL.md
 
-What `/create-skill` produces is a first draft—run it through this checklist before saving:
+When you review that first draft `/create-skill` hands you, check these six things before saving:
 
 - [ ] **Make the trigger conditions specific**: "when the user asks for a weekly report / data summary", not "handle data";
 - [ ] Avoid trigger phrases that clash with other skills (conflicts prevent triggering);
@@ -62,6 +66,20 @@ What `/create-skill` produces is a first draft—run it through this checklist b
 
 ## From Skill to Team Standard
 
-The officially recommended path: **get the best practice running with a Skill → package it into an [Expert Kit](/en/qoderwork/05-skills) → roll it out team-wide**. To judge whether a type of work deserves a skill, one sentence suffices—"pick work you've repeated at least twice in the past week".
+To lock a best practice in for your team, the route is: **get the best practice running with a Skill → package it into an [Expert Kit](/en/qoderwork/05-skills) → roll it out team-wide**. To judge whether a type of work deserves a skill, one sentence suffices—"pick work you've repeated at least twice in the past week".
 
 > Cross-tool perspective: the SKILL.md spec is highly portable across WorkBuddy / TraeWork / QoderWork—learn it once, use it in all three. For the deep methodology (distilling books and videos into skill sets), see the WorkBuddy section's [Building Skills: Knowledge Distillation](/en/workbuddy/adv-build-skill/).
+
+## FAQ
+
+**I can't code. Can I still make a skill?**
+Yes. Say the trigger phrase and the steps out loud via `/create-skill` and it writes the SKILL.md. You don't write a line of code.
+
+**Can a skill I make conflict with my existing ones?**
+Yes, if the trigger phrases are too similar. Write specific trigger conditions and steer clear of phrasing other skills already use, and they won't fight over the trigger.
+
+**How does my team use a skill I built?**
+Package it into an Expert Kit, or generate a share link on the Skills page and send it over—they install in one click.
+
+**Does a share link stay valid forever?**
+No—about 24 hours. Fine for passing something to a colleague on the spot; for anything long-term, use a kit or the marketplace.

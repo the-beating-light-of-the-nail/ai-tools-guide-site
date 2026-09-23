@@ -10,7 +10,31 @@ sources: []
 
 > This page is auto-generated from structured data; please edit `docs/bluebook/data/case-source-map.json` in the source project QwenWorkGuide.
 
+## Plain-Language Orientation
+
+When you cite cases, write a pilot proposal, or describe what Qwen Work can do to people outside the team, the easiest thing in the world is to be misled by cases you saw online. Quote one as evidence without being able to say whether it is public or which business line it belongs to, and you turn "the form is demonstrable" into "the outcomes are proven." That is the trap: form read as effect. This map breaks every candidate down line by line—original name, tags, book classification, verification status, and limitations—so a single lookup tells you whether a lead can be cited and which category it falls under. Check this page before you cite. When judging whether a lead can be quoted publicly, look at the verification status first: if it is pending, it is not citable. When assigning a business line, use the book classification and do not invent your own. Below is when you open this page, how to read each row, and what a miscategorization costs you.
+
+## Who This Map Is For and When to Open It
+
+Before you write a case citation, pick pilot topics, or introduce capabilities externally, open this table and check the public status, then decide whether the material can go in. If you only want to know what the product can do, read the [Chapter 9 public case atlas](/en/qwenwork/ch09-public-case-atlas) directly; this table goes one level deeper into source location, telling you how far each lead has been verified and what is still missing before it can go public. Always come back to this page before citing, and confirm the entry is still pending and has not moved into public cases.
+
+## How to Read Each Lead and What Misreading Costs You
+
+Read the "verification status" field first: all 32 entries are currently pending, meaning none has a case-level source that can be publicly re-checked, so you cannot write "a customer used it and here is the effect." Then read the "limitations" field—where it says sample artifacts only prove artifact form, you may quote only as far as the artifact's form; where it says a publicly re-checkable case-level source location is still missing, do not even treat the form as an official case. Write a pending lead up as a verified case and a reader following your source will find nothing, and the whole paragraph collapses.
+
+## How to Use This Table by Book Classification
+
+When sorting leads by business line, use the "book classification" column as the single taxonomy rather than inventing one: data analysis and business decisions sit under "Data, research, and business decisions"; e-commerce, instant retail, livestream, and creator operations under "E-commerce, instant retail, and livestream operations"; websites, marketing collateral, and content production under "Websites, marketing, and content production"; lesson preparation, learning analytics, and enrollment under "Education and personal development"; DingTalk collaboration and talent review under "Organizational collaboration and talent management." Classify wrongly and your pilot topics straddle business lines, and the outcome basis stops matching. The 32 entries below are kept as generated—pick by classification and write within the stated limitations.
+
+## Three Gates to Clear Before You Cite
+
+Before you cite any lead, clear three gates. First, ask whether the verification status is pending; if it is, write only to the artifact form and never to an outcome number. Second, read which limitation is stated in the limitations field and stay strictly within that ceiling, not half a step beyond it. Third, confirm that the assigned classification matches your own business line, and don't compare a data case against a marketing one. Clear all three and the lead can go into your material; fail any one and mark it pending verification and hold it back. When you describe capabilities externally, describe the form only—do not promise outcomes on a customer's behalf. Run these three gates every time and the case stands up, and readers can follow the source.
+
 Public cases: 0; leads awaiting verification: 32.
+
+## How to Read This Table
+
+The two sections below are generated from structured data and are not edited by hand. "Counted as Public Cases" is empty because no entry has cleared the release gate; every candidate sits under "Leads Awaiting Verification." Each entry is a two-column table: the left column names the field, the right column gives its content. Read verification status first, then limitations; external record ID and original location show whether a re-checkable source exists at all. An em dash means the field is empty, not that it was overlooked.
 
 ## Counted as Public Cases
 
@@ -400,3 +424,17 @@ Public cases: 0; leads awaiting verification: 32.
 | External record ID | — |
 | Original location | — |
 | Limitations | Sample artifacts only prove artifact form; they cannot prove case attribution, implementation cost, or business outcomes. |
+
+## FAQ
+
+**When citing these case leads, can you write "a customer used it and here is the outcome"?**
+No. All 32 entries are currently pending; none has a case-level source that can be publicly re-checked. Keep this page open while you write and quote only as far as artifact form or task tags. Write it up as an outcome conclusion and a reader following your source will find nothing, and the paragraph does not stand.
+
+**The limitations field says "sample artifacts only prove artifact form." How do you cite it?**
+Treat that as the ceiling: say that Qwen Work can produce this kind of dashboard, report, or page, and do not extend it into implementation cost or business outcomes. Match the business line by book classification rather than comparing a data case inside a marketing comparison. Take only the form layer; do not supply implementation cost or business outcomes on its behalf.
+
+**You are picking pilot candidates. How do you use this table to choose?**
+Lock one business line first and compare leads only inside it. Pick leads under your own line using book classification, then read the limitations to see what is still missing before it can go public. Don't pick two leads from different lines as a control pair—the bases will not match and the pilot conclusion will not be comparable. Note down the missing piece of evidence when you pick, so you know what to add during the pilot.
+
+**You found that a lead has been moved into public cases. Do you still need to come back to this page?**
+Yes. Before citing, return here and confirm it is no longer pending and that the external record ID now has a re-checkable location; the page and source at that moment still govern. Re-check the status on every citation instead of trusting memory and treating an old pending entry as verified.

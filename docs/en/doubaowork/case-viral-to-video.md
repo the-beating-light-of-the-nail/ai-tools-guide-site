@@ -1,4 +1,12 @@
-# Turning a Viral Official Account Article into a Short Video
+---
+description: "You found a viral WeChat article and want to turn it into a short video. Most people copy the full text into AI and say 'condense this into a 60-second voiceover.'"
+---
+
+# Want to Turn a Viral WeChat Article Into a Short Video? Run the Whole Pipeline, From Script to Local MP4
+
+You found a viral WeChat Official Account article and want to turn it into a short video. Most people copy the whole text into AI and say "condense this into a 60-second voiceover." AI obligingly cuts half of it, adds a "can you believe it?", and tacks on "smash that like and save button." Fewer words, but the video still may not work—and the original's conditions, dates, and your first-hand testing get distorted along the way. This page runs the full pipeline, from script to a local MP4.
+
+You've probably tried the lazy version, and the result was a video even you found fake. If you actually want a usable video, split screenwriting from editing. Follow the chain below all the way from script to a local master. You don't build the editing project yourself—the Remotion Skill renders it for you. You just keep control of the source facts and the footage, and you won't get dragged off course by canned lines.
 
 > Scenario: To turn an Official Account article into a short video, most people paste the full text into AI and say "condense this into a 60-second voiceover." AI obligingly cuts half the content, adds a "can you believe it?", and tacks on "smash that like and save button"—fewer words, but the video may still be unusable, and the original's conditions, dates, and first-hand testing easily get distorted along the way.
 
@@ -99,8 +107,30 @@ After submission it read the Remotion Skill first, then probed the existing proj
 
 ## The Human Part Is Still the Most Valuable
 
-It always seemed like "making a video from an article" wouldn't be hard, but actually running it end to end reveals: the most valuable thing in an article is **facts and viewpoints**, while the most labor-intensive parts of a video are **the voiceover, footage, and editing**—raising output takes a full production line. AI can integrate that line, but the most valuable part still belongs to humans: hand the repetitive labor to the Agent, and spend the time you save on the choices only you can make.
+It always seemed like "making a video from an article" wouldn't be hard, but actually running it end to end reveals: the most valuable thing in an article is **facts and viewpoints**, while the most labor-intensive parts of a video are **the voiceover, footage, and editing**—raising output takes a full production line. AI can integrate that line, but the most valuable part still belongs to you: hand the repetitive labor to the Agent, and spend the time you save on the choices only you can make.
 
 ---
 
 That's it for the self-media scenarios. Next up: [Knowledge Management · From Quick Saves to Actually Findable Later →](/en/doubaowork/case-bookmarks)
+
+## FAQ
+
+**Why not just hand the article to AI and say "make it a 60-second voiceover"?**
+
+Because it tends to strip out the original's conditions, dates, and your first-hand testing, then drop in a couple of canned lines. Use a fact master draft plus a screenwriter Mate to lock down what can't be distorted, and the video keeps its character.
+
+**What is the Remotion Skill—do I have to write it myself?**
+
+No. Remotion publishes an AI Skill; zip it up, upload it, and flip the switch. It's essentially a work instruction for the Agent, not a ready-made video template.
+
+**Will it fabricate footage it doesn't have?**
+
+Your prompt says "mark any shot lacking material clearly as 'needs shooting'—don't pretend the footage exists." What needs shooting gets shot; it won't fob you off with fake assets.
+
+**How do you check the finished video?**
+
+It runs ffprobe on duration, resolution, frame rate, and audio track, then samples frames evenly for black frames, typos, truncation, and private information. When you get the master, focus on the opening, the three case sections, and the ending.
+
+**What's the most expensive step in the whole pipeline?**
+
+You are—the judgment on voiceover, footage, and editing. AI integrates the production line, but topic choice, reshooting, and the final calls stay yours. Hand it the repetitive work and spend what you save on the decisions only you can make.

@@ -1,10 +1,16 @@
-# WorkBuddy Tutorial
+---
+description: "This section is organized into five groups — Getting Started, Extending, Case Studies, Advanced, and Reference — taking you from installation all the way to building your own AI work system."
+---
 
-**WorkBuddy** is an all-scenario workplace AI agent workbench from Tencent. State the goal in one plain sentence and it plans the steps itself on your local machine, reads and writes files, and hands back work you can keep building on—presentations, spreadsheet analyses, documents, research reports. The difference from a chatbot fits in one line: it doesn't just "answer questions," it gets the job done.
+# What Is WorkBuddy and How Do You Learn It? Five Groups, from Install to Your Own System
 
-This section is organized into five groups — Getting Started → Extending → Case Studies → Advanced → Reference — taking you all the way from installation to building your own AI work system.
+You clicked into this page either having already installed WorkBuddy, or still wondering what it could actually do for you. Here's the one line that settles it: it's Tencent's all-scenario workplace AI agent workbench. State your goal in one plain sentence and it plans the steps itself on this machine, reads and writes files, and hands back work you can keep building on — presentations, spreadsheet analyses, documents, research reports. The difference from a chatbot fits in one line: it doesn't just "answer questions," it gets the job done.
+
+This section is organized into five groups — Getting Started → Extending → Case Studies → Advanced → Reference — taking you all the way from installation to building your own AI work system. You don't need to read it front to back. Follow the route below and pick what you need.
 
 ## Learning Path
+
+Scan this diagram first so you have the whole picture: from installing and signing in, to learning Skills and Experts, to connecting connectors, running case studies, and finally building your own Skills and multi-agent setups.
 
 ```mermaid
 flowchart LR
@@ -60,9 +66,26 @@ flowchart LR
 | --- | --- |
 | [Prompt Templates](/en/workbuddy/ref-prompt-templates/) | 12 ready-to-use task templates |
 | [Scenario Cheat Sheet](/en/workbuddy/ref-scenarios/) | A dictionary-style index by role and scenario |
+| WorkBuddy Skin Studio | 12 ready-made theme skins to download, plus a build-your-own guide |
 
 ## Who It's For
 
-- **Workplace newcomers**: use AI to handle daily chores like Word/Excel/PPT work, file organization, and news digests
-- **Productivity enthusiasts**: build human-AI collaborative automated workflows
-- **Team leads**: learn how multi-agent collaboration works and how to roll it out in your team
+Whichever of these you are, you'll find a starting point here:
+
+- **Workplace newcomers**: you want AI to handle daily chores like Word/Excel/PPT work, file organization, and news digests
+- **Productivity enthusiasts**: you want to build automated workflows where you and the AI split the work
+- **Team leads**: you want to know how multi-agent collaboration works and how to roll it out with your team
+
+## FAQ
+
+**I've never used a tool like this. Where do I start?**
+Just follow Getting Started in order: install and sign in, then the main interface and your first task, then load a Skill you'll actually use. Five pages in, you'll be assigning work on your own.
+
+**What's the real difference between WorkBuddy and a chatbot?**
+A chatbot gives you an answer, and the work is still yours. WorkBuddy reads and writes files on your machine, plans the steps itself, and hands back something you can keep editing. The difference is that it finishes the job.
+
+**I'm a team lead. What should I focus on?**
+Read the case studies first to get a feel for the full playbook, then go to Multi-Agent System Design and the reliability chapter in Advanced — those two cover how a team collaborates and how to keep scheduled tasks running steadily.
+
+**Who is the reference section for?**
+You — if you don't want to read everything and just want to find the right feature now. Look it up by role and scenario, jump to that chapter, and skip the rest.

@@ -1,8 +1,20 @@
-# Doubao Work Tutorial
+---
+description: "You open this section and the table of contents seems to stretch on forever: Getting Started, Extending, Case Studies, Advanced, Reference — and the case studies alone split into six scenarios across thirty-plus articles."
+---
+
+# How Do You Work Through This Doubao Work Section? One Route, from Install to Real Work
+
+You open this section and the table of contents seems to stretch on forever: Getting Started, Extending, Case Studies, Advanced, Reference — and the case studies alone split into six scenarios across thirty-plus articles. You're probably wondering where to even click first. Do you start with the feature overview, or jump straight to a case study that looks like your job? This page gives you one route that doesn't double back. Follow it in order and you'll go from installing the client to running a real task with confidence.
+
+You don't need to read every page. Figure out who you are and what kind of work lands on your desk, then pick three articles to read closely. Come back for the rest when you hit a task that looks like one of them. The more you follow the route by role, the less likely you are to get lost in the table of contents — reading straight through from the top is how people burn out halfway.
 
 **Doubao Work** (doubao.com/work) is an AI assistant from ByteDance built for real work tasks. State the goal in one plain sentence and it goes off to read the materials you authorized, break the work into steps, call on Skills and connectors, and come back with editable deliverables—Word documents, Excel spreadsheets, PPT decks, research reports—instead of calling the task done after an answer. It integrates deeply with Feishu: documents, sheets, meeting notes, group chats, and Base tables go in, and come back written.
 
-This section is organized into five groups—Getting Started, Extending, Case Studies, Advanced, and Quick Reference. The case-study track covers six scenarios (everyday office work, personal productivity, content creation, knowledge management, e-commerce, and finance) across 35 hands-on walkthroughs.
+This section is organized into five groups—Getting Started, Extending, Case Studies, Advanced, and Quick Reference. The case-study track covers six scenarios (everyday office work, personal productivity, content creation, knowledge management, e-commerce, and finance) across 35 hands-on walkthroughs. Walk the five groups in order and don't skip ahead; the foundation holds better that way.
+
+Start with Getting Started to lay the groundwork. Save Extending until you actually need external tools. Copy straight from the case studies. Leave Advanced for the complicated jobs. Keep Quick Reference around for templates. Stop and practice once after each group instead of reading straight through — you'll remember more. And don't worry about missing something; you can always come back to this page.
+
+Here's the map. Follow it and the route makes sense.
 
 ## Learning Path
 
@@ -15,6 +27,10 @@ flowchart LR
     E --> F[Advanced: Buddies, Squads & Multi-Agent]
 ```
 
+Go through Getting Started first to build the base, then move on to Extending when you need outside capabilities. Copy from the case studies; save Advanced until your hands are steady.
+
+Get through the first four articles in Getting Started and the interface plus your first job will click into place. Everything after that is easier to pick up.
+
 ### Getting Started: Get Doubao Work Up and Running
 
 | Chapter | What You'll Get |
@@ -26,6 +42,8 @@ flowchart LR
 | [Connectors: Start with a Small, Verifiable Task](/en/doubaowork/05-connectors) | Understand MCP and connect external tools safely |
 | [How to Choose and Use Skills](/en/doubaowork/06-skills) | How progressive disclosure works + four purposes + practice |
 
+Once your work gets more complicated, come back for Extending. Don't worry about it before then.
+
 ### Extending: Bring in More Capabilities
 
 | Chapter | What You'll Get |
@@ -34,7 +52,15 @@ flowchart LR
 | [API Services vs. Connectors: Which to Choose](/en/doubaowork/08-api-vs-connector) | One table to tell apart two features that work in opposite directions |
 | [How to Build Scheduled Tasks That Deliver Consistently](/en/doubaowork/09-automation) | Disciplined practices + a full news-briefing walkthrough |
 
+Read the group that matches your industry closely and skip the rest for now — it saves time.
+
+Look at your own industry's group first and copy straight from the case pages. When you get stuck, come back to the reference section to find your way.
+
 ### Case Studies: 35 Walkthroughs Across Six Scenarios
+
+If you work with data or investment research, focus on the "E-Commerce and Finance" group. If you write content, go to "Content Creation." If you're drowning in everyday office chores, read "Everyday Office Work" and "Personal Productivity." Don't scroll through from the top — your own industry's group is enough.
+
+If you handle everyday office work, this group fits best:
 
 **Everyday Office Work**—generate a full document suite from one set of materials, deep Feishu integration, desktop cleanup, life admin:
 
@@ -44,6 +70,8 @@ flowchart LR
 | [Doubao Work's Best Match Is Still Feishu](/en/doubaowork/case-feishu) | Just share a link—read from Feishu and write back to Feishu |
 | [Desktop Cleanup: Review the Plan Before Touching Files](/en/doubaowork/case-desktop) | Read-only scan → confirm plan → then execute |
 | [Hand Life Admin Over to Doubao Work for a First Draft](/en/doubaowork/case-life) | Health report interpretation, purchase comparisons, travel planning |
+
+If you deal with inboxes, meetings, documents, and spreadsheets, read this group:
 
 **Personal Productivity**—inbox, meetings, documents, spreadsheets, research, daily reports, reading, personal brand:
 
@@ -58,6 +86,8 @@ flowchart LR
 | [Read a Book Fast and Actually Master Its Skills](/en/doubaowork/case-reading) | The Cangjie Skill distills books into reusable methods |
 | [Package Yourself with a Beautiful Personal Website](/en/doubaowork/case-personal-site) | A design-led-website-builder walkthrough |
 
+If you write and publish content, read this group:
+
 **Content Creation**—from topic selection to publishing, multi-platform distribution, audio/video, retrospectives:
 
 | Chapter | What You'll Get |
@@ -71,6 +101,8 @@ flowchart LR
 | [Give Your Personal Brand a GEO Checkup](/en/doubaowork/case-geo-checkup) | An AI-era "being seen" audit |
 | [Turn a Hit WeChat Article into a Short Video](/en/doubaowork/case-viral-to-video) | Screenwriter buddy + a full Remotion editing pipeline |
 
+If you manage bookmarks and knowledge bases, read this group:
+
 **Knowledge Management**—bookmarks, files, projects, organizational knowledge:
 
 | Chapter | What You'll Get |
@@ -82,6 +114,8 @@ flowchart LR
 | [Look Up Company Policy in One Sentence, with Sources](/en/doubaowork/case-policy-search) | Policy search with versions, original text, and owning department |
 | [Re-Categorize 541 Prompt Examples](/en/doubaowork/case-prompt-library) | Deriving a taxonomy from real user search queries |
 | [Find Stale Knowledge Automatically and Ask the Owner to Confirm](/en/doubaowork/case-knowledge-expiry) | Old knowledge + fresh verification + no silent overwrites on conflict |
+
+If you work with data or investment research, focus on this group:
 
 **E-Commerce and Finance**—visual production and full investment research workflows:
 
@@ -96,23 +130,52 @@ flowchart LR
 | [What Is the Market Actually Arguing About: Bull-Bear Debates and Sell-Side Audit](/en/doubaowork/case-bull-bear-audit) | Shared facts + disagreement matrix + source-graded research reports |
 | [From One Candlestick Chart to a Full Investment Review Meeting](/en/doubaowork/case-kline-review) | VLM chart reading + a four-advisor private board |
 
+Advanced only matters once your work genuinely spans multiple roles. Ignore it early on.
+
 ### Advanced: From Using It to Directing It
+
+Come to this group's "Work Buddy" and "Work Squad" pages once your work is complex enough that you need to split it across roles.
 
 | Chapter | What You'll Get |
 | --- | --- |
 | [Work Buddy or Work Squad?](/en/doubaowork/adv-buddy-or-squad) | Two real tasks to nail the decision + complete prompts |
 | [Multi-Agent (Work Squad) in Practice](/en/doubaowork/adv-multi-agent) | How squads work, finding your way back to tasks, when splitting is worth it |
 
+Need a prompt you can send right now? These two pages are what you're after.
+
 ### Quick Reference
+
+If you need a prompt you can paste and send, or you want to find your way by role, turn to these two:
 
 | Chapter | What You'll Get |
 | --- | --- |
 | [Common Prompt Templates](/en/doubaowork/ref-templates) | Ready-to-use prompts for file cleanup, Excel, PPT, minutes, research, briefings, and more |
 | [Scenario Lookup Table](/en/doubaowork/ref-scenarios) | Quickly find the right tutorial by role and need |
 
+Which one are you? Find your row and read that one closely.
+
 ## Who Is This For
 
-- **Office newcomers**: want to use AI for everyday chores like Office documents, file cleanup, meeting notes, and daily or weekly reports
-- **Heavy Feishu users**: want AI to read and write Feishu docs, sheets, wikis, and group chats directly, instead of shuffling data around
-- **Content creators**: want an AI production line that runs from topic selection through drafting, distribution, and retrospective
-- **Investment research and data roles**: want traceable, reproducible screening, earnings, and valuation workflows on a consistent basis
+- **Office newcomers**: you have Office documents, file cleanup, meeting notes, and daily or weekly reports piling up, and you want AI to take them off your hands
+- **Heavy Feishu users**: you want AI to read and write Feishu docs, sheets, wikis, and group chats directly, instead of shuffling data around
+- **Content creators**: you want an AI production line that runs from topic selection through drafting, distribution, and retrospective
+- **Investment research and data roles**: you want traceable, reproducible screening, earnings, and valuation workflows on a consistent basis
+
+Walk the route step by step, and check the FAQ whenever you're unsure. If you get properly stuck, copy the prompt from the matching case page instead of trying to write one from scratch.
+
+## FAQ
+
+**I've never used an AI tool before. Where do I start?**
+Go through the first four pages of Getting Started: what it is → install it → the interface → your first job. Once that first job runs, pick the case study closest to your role and copy its prompt.
+
+**The table of contents is huge. Do I need to read all the case studies?**
+No. There are 35 of them, already sorted into six scenarios. Read only the group for your industry — "E-Commerce and Finance" if you work with data, "Content Creation" if you write. Don't scroll through from the top.
+
+**What's the relationship between Doubao Work and Feishu?**
+They're deeply connected: documents, sheets, group chats, and Base tables can all be read in and written back. If you live in Feishu, go straight to the case-feishu page — it'll save you a lot of shuffling.
+
+**I'll only use this occasionally. Do I need Advanced and Quick Reference?**
+Advanced covers Work Buddy and Work Squad, which are built for complex jobs. Quick Reference holds templates and role-based routing. If you don't need them yet, leave them; come back once you've got the basics down.
+
+**Do the links in these tables take me to another site?**
+No. Every entry points to a page inside this section (they all start with /doubaowork/). You click one, you land on that tutorial, and you stay in the same site.

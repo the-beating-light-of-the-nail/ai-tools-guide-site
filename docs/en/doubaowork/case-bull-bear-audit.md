@@ -1,10 +1,16 @@
-# What Is the Market Actually Arguing About: From Bull-Bear Disagreement to Research Report Fact-Checking
+---
+description: "This chapter uses Cambricon to find the facts both bulls and bears accept, then takes a Foxconn Industrial Internet research report apart: establish what both sides acknowledge, then check who slipped which assumption into the conclusion."
+---
+
+# What Are Bulls and Bears Actually Fighting About? Get the Common Facts on the Table, Then Audit the Assumptions
+
+You open a research report or stumble into a bull-bear argument, and both sides sound reasonable—the bulls have one complete thesis, the bears have another, and both cite data. The real disagreement is usually not in the numbers. It's in the assumptions hidden inside the conclusions. Research reports work the same way: facts, forecasts, and target prices sit on the same page, and it's easy to read a model assumption as something that already happened. This chapter starts with Cambricon to pin down the facts both sides accept, then takes apart a Foxconn Industrial Internet report: first settle what everyone acknowledges, then check who baked which assumption into their conclusion.
 
 > Scenario: for the same company, the bulls can lay out one complete thesis and the bears another—both citing data. The real disagreement usually hides in the assumptions. Research reports have the same problem: facts, forecasts, and target prices sit on the same page, and readers easily mistake model assumptions for things that have already happened.
 
-This chapter first uses Cambricon to find common facts between bulls and bears, then uses Foxconn Industrial Internet to dissect a research report: **first establish what both sides acknowledge, then check who baked which assumptions into their conclusions.**
-
 ## Part 1: Bulls and Bears, Put the Common Facts on the Table First
+
+Don't pick a side yet. Step one is getting the facts both sides accept onto the table.
 
 The more heated the opinions, the more important it is to find common facts first—whether revenue, customers, product progress, and capital expenditure can be traced to primary sources determines whether the ensuing debate has any foundation. Using the "Market Hotspot Analysis" capability, handle anonymous tips, secondhand research reports, and official disclosures separately:
 
@@ -59,6 +65,8 @@ for insufficient sourcing. Do not pick a side for me.
 
 ## Part 2: When You Get a Research Report, Split Facts, Assumptions, and Target Prices First
 
+When a research report lands on your desk, skip the target price and break it down in three steps.
+
 A research report is not an announcement—it can offer frameworks and forecasts, but each layer of material carries a different evidence tier, and target prices must be traced back to model assumptions. Use the "Stock Research" capability to retrieve public research material, while checking facts that have already happened against the company's periodic reports:
 
 ```text
@@ -83,7 +91,7 @@ to press the analysts on next. Do not recite the full reports, and do not give t
 
 ### OCR Material Is Not a Qualified Source
 
-The first draft's limits were obvious: the Goldman Sachs full text came from a third-party research archive (an Hibor OCR archive, with OCR ambiguity even in the author's name) and can't be treated as the institution's official original; the UOB PDF was directly accessible (official PDF, with the print date, target-price methodology, and earnings forecasts all supported by the original text). Source audit:
+Watch out: neither OCR output nor screenshots count as a qualified source. The first draft's limits were obvious: the Goldman Sachs full text came from a third-party research archive (an Hibor OCR archive, with OCR ambiguity even in the author's name) and can't be treated as the institution's official original; the UOB PDF was directly accessible (official PDF, with the print date, target-price methodology, and earnings forecasts all supported by the original text). Source audit:
 
 ```text
 Please re-verify the two research reports you just used, item by item. List the original links, publication dates,
@@ -98,8 +106,32 @@ with no support from the original text. Then regenerate a comparison table that 
 
 ## First Know Which Assumption the Two Sides Split On
 
-Putting bull-bear debates and research report audits together has one big benefit: you can see where opinions come from. The same set of facts can produce entirely different conclusions depending on how long growth lasts, how intense capital expenditure is, how the competitive landscape evolves, or where the valuation anchor sits. What a researcher needs to record isn't just "who's bullish, who's bearish," but **which assumption, once changed, invalidates the original judgment**. Target prices can wait—separate facts from assumptions first, and a market argument turns from emotion into a set of questions you can keep verifying.
+Once you start using this lens, bull-bear debates and research reports can be read together.
+
+Putting bull-bear debates and research report audits together has one big benefit: you can see where opinions come from. The same set of facts can produce entirely different conclusions depending on how long growth lasts, how intense capital expenditure is, how the competitive landscape evolves, or where the valuation anchor sits. What a researcher needs to record isn't just "who's bullish, who's bearish," but **which assumption, once changed, invalidates the original judgment**. Target prices can wait—separate facts from assumptions first, and a market argument turns from emotion into a set of questions you can keep verifying. Once you've got this breakdown down, you can put it to work in the next chapter.
 
 ---
 
 Next: [Starting from a Candlestick Chart, Run an Evidence-Based Investment Review →](/en/doubaowork/case-kline-review)
+
+## FAQ
+
+**Both sides cite data. How do you tell who's right?**
+
+Don't pick a side yet. Write down the common facts—revenue, profit, cash flow—by date and source, then list each side's assumptions, strongest counterargument, and falsification conditions. Once the foundation is solid, the views can actually be compared.
+
+**Can you trust the target price in a research report?**
+
+No. A target price sits on top of model assumptions, so first confirm the file in your hand really is the report—web summaries, screenshots, and OCR text don't count as the original. If you can't get the original, downgrade the conclusion.
+
+**What if an institutional view is just a name and a number?**
+
+Treat it as a secondhand lead, nothing more. The source-tier audit requires the institution, author, publication date, and accessible scope. Without those, drop the target price and earnings forecast rather than filling them in yourself.
+
+**Can't find a second qualified report—how do you still do a two-report comparison?**
+
+Don't lower the bar just to have two. Switch the scope to "verifying one qualified report against the company's original disclosures" and close the two-report comparison. That's more honest than keeping two target prices you can't support.
+
+**What's the disagreement matrix actually for?**
+
+It turns slogans like "domestic substitution has huge headroom" into checkable variables like "can these orders turn into sustained revenue." Pair each variable with one observable indicator and one checkpoint, then check against the same table next round—that's how your judgment moves with the evidence.

@@ -1,10 +1,18 @@
-# QoderWork Tutorial
+---
+description: "This section is original to this site, fact-checked against the official documentation (as of 2026-08-31; the product iterates fast, so the official docs are the source of truth). Case-study chapters are adapted from community practice with sources credited. The structure follows the five-part framework of the WorkBuddy Practical Playbook."
+---
+
+# How Should You Learn QoderWork? One Roadmap From Install to Advanced
+
+You want an AI that actually does the work for you, but there are a dozen tools on the market and you have no idea where to start. This QoderWork guide is written for office workers like you: install it, run your first task, then move on to file organizing, data analysis, and browser automation. You don't need to understand the theory first. Follow the route, and you'll pick it up as you go.
 
 **QoderWork** is a desktop intelligent work assistant from the Alibaba camp—"you state the need, it delivers the result." File organization, data processing, document generation, browser automation, scheduled tasks, remote command via IM: every one of those jobs ends up on your own drive as real files. Acceptance is simple too—skip the chat log and open the folder.
 
 > Official download: [qoderwork.com](https://qoderwork.com) (China edition at [qoder.com.cn/qoderwork](https://qoder.com.cn/qoderwork)) | Official docs: [docs.qoder.com/zh/qoderwork](https://docs.qoder.com/zh/qoderwork/introduction)
 
 This section is original content for this site, fact-checked against the official documentation (as of 2026-08-31; the product iterates fast, so trust the official docs). Case-study chapters are adapted from real community posts with sources credited. The structure follows the five-part framework of the WorkBuddy Practical Playbook.
+
+If you're in a hurry, remember one line: the Getting Started chapters get you running, Extending brings capabilities in, Case Studies show you how other people work, and Advanced digs deeper. Here are the entry points, grouped along those four lines.
 
 ## Learning Path
 
@@ -53,10 +61,10 @@ This section is original content for this site, fact-checked against the officia
 
 ## Who It's For
 
-- Office workers with a messy desktop and files scattered everywhere
-- Functional roles dealing daily with spreadsheets, receipts, resumes, and forms
-- Productivity enthusiasts who want to command their computer from a chat window
-- Anyone comparing WorkBuddy / TraeWork before choosing
+- Office workers with a messy desktop and files scattered everywhere—start with the file-organizing case study
+- Functional roles dealing daily with spreadsheets, receipts, resumes, and forms—the data and batch-document cases will match your work
+- Productivity enthusiasts who want to command their computer from a chat window—the IM channels and computer control chapters are for you
+- Anyone comparing WorkBuddy / TraeWork before choosing—the scenario lookup table lays out how to pick between the three
 
 ## Official and Community Resources
 
@@ -64,3 +72,19 @@ This section is original content for this site, fact-checked against the officia
 - Docs: [docs.qoder.com/zh/qoderwork](https://docs.qoder.com/zh/qoderwork/introduction)
 - Release notes (fast iteration, worth following): [release-notes/qoderwork](https://docs.qoder.com/release-notes/qoderwork.md)
 - Community skills: [lexburner/skill-collection](https://github.com/lexburner/skill-collection), official forum [forum.qoder.com](https://forum.qoder.com)
+
+You don't have to read all of it. Pick one task you actually need to do this week, open that chapter, and run it end to end—one working run teaches you more than ten chapters of reading.
+
+## FAQ
+
+**I'm a complete beginner. Where do I start?**
+Start with Your First Task. Once you've run one full loop yourself, the concepts behind it fall into place quickly.
+
+**Are the numbers in these case studies real?**
+The case chapters are adapted from community practice with sources credited, and the figures come from the original authors' own testing. Treat them as reference, not as an official promise.
+
+**How do I choose between QoderWork and the other two?**
+If you live in DingTalk, Feishu, or WeChat, or you need to run web pages with your login session intact, pick this one. For deep Feishu or Tencent Docs work, look elsewhere. The scenario lookup table has the details.
+
+**What if I can't get through every chapter?**
+You don't need to. Pick the one thing you have to do this week, follow the matching case study, and do it. A single working run matters more than reading everything.

@@ -1,21 +1,23 @@
-# Chapter 18: Making Investment Analysis Part of Your Daily Routine
+---
+description: "Investing is information-dense, highly structured, and utterly dependent on judgment: endless financial reports, tangled industries, relentless bull-versus-bear arguments. Organizing fragments, breaking down dense material, and laying the reasoning out in the open is exactly what AI is good at."
+---
 
-Investing is information-dense, highly structured, and utterly dependent on judgment: endless financial reports, tangled industries, relentless bull-vs-bear arguments. Organizing fragmented information, breaking down complex materials, and laying the reasoning out in the open happen to be exactly what AI is good at. This chapter walks through a complete stock research cycle and shows which low-grade repetitive labor AI can take off your plate, giving your attention back to judgment itself.
+# Chapter 18: Drowning in Filings and Forum Noise? Make Stock Research a Daily Habit
+
+You open your trading app and it's a wall of red and green — reports you'll never finish, an industry you can't get straight, bulls and bears shouting past each other. Investing is dense, and it leans hard on judgment. But pulling fragments together, breaking down dense material, and spreading the reasoning out in front of you — that's precisely what AI is good at. This chapter shows, across one complete stock research cycle, which low-grade repetitive work AI can take off your hands so your attention goes back to the judgment itself. You don't have to do every step yourself; put AI in the research-assistant seat first.
 
 > **Risk disclaimer: all prompts, Skills, and examples in this chapter are for research assistance only and do not constitute investment advice. Markets carry risk; invest with caution.**
 
 ## First, Be Clear: What Should AI Do in Investing
 
-Most people imagine "AI stock trading" as predicting ups and downs. But looking at real, high-frequency usage, the valuable applications cluster into four kinds:
+Most people imagine "AI stock trading" as predicting ups and downs. But looking at real, high-frequency usage, the value worth your time clusters into four kinds:
 
 - Financial reports I can't finish — summarize them for me;
 - The industry is too complicated — walk me through the logic;
 - The market is too noisy — put the bull and bear cases in one table;
 - I'm afraid of talking myself into it — find me the counter-evidence.
 
-None of these is "predict the price." They're all about **cutting time spent on low-quality thinking**. The most sensible role for AI in investing is a tireless, emotionless, on-call research assistant — it builds the factual foundation, and leaves the judgment to you.
-
-Before starting, calibrate with five questions, just like in [the Office Trio](/en/workbuddy/case-office/):
+None of these is "predict the price." They're all about **cutting time spent on low-quality thinking**. The most sensible role for AI in investing is a tireless, emotionless, on-call research assistant — it builds the factual foundation, and leaves the judgment to you. Before you start, calibrate with the same five questions used in [the Office Trio](/en/workbuddy/case-office/):
 
 | Question | What to pin down | Example |
 | --- | --- | --- |
@@ -34,11 +36,11 @@ Before starting, calibrate with five questions, just like in [the Office Trio](/
 | `financial-expert` | Financial data queries and screening | Stock screening, financial metrics, macro/industry time series, research report retrieval (depends on a data-source MCP) |
 | `peers-advisory-group` | Multi-perspective decision discussion | Four "advisors" cross-examine one another around a single question |
 
-How to combine them: **for daily market watching and batch screening, use `a-share-analyst` and `financial-expert`; to go deep on one stock and produce a full report, use `stock-advisor`; when you need to break out of a single perspective and force yourself to see the other side, bring in `peers-advisory-group`.**
+How to combine them: **for daily market watching and batch screening, use `a-share-analyst` and `financial-expert`; to go deep on one stock and produce a full report, use `stock-advisor`; when you need to break out of a single perspective and force yourself to see the other side, bring in `peers-advisory-group`.** One rule when choosing: don't expect a single Skill to cover the whole flow. Combine them per need and you'll be on steadier ground.
 
 ## A Reusable Research Prompt Chain
 
-Ordered from simplest to most involved, covering the full chain from "gathering facts" to "making the call." Build the factual base with the first three; go further when you need to dig. Usage: replace the placeholders in `【】` with your target and paste.
+Ordered from simplest to most involved, covering the full chain from "gathering facts" to "making the call." Build your factual base with the first three; move further down only when you need to dig. Usage is simple: swap the bracketed placeholders for your target and paste it in.
 
 ### Prompt 1 | Build a "Factual Base" for the Company
 
@@ -60,7 +62,7 @@ Please systematically organize the fundamentals of [Company XXX] and output a st
 
 ### Prompt 2 | Industry Lens: Is This a "Good Industry"
 
-What you're often picking isn't a company but an industry. AI is well suited to a "first-principles" industry overview — but don't expect it to call industry inflection points or price bottoms.
+What you're often picking isn't a company but an industry. Have AI do a "first-principles" pass on the industry — but don't expect it to call inflection points or price bottoms.
 
 ```markdown
 From an industry research perspective, analyze the [XXX industry] where [Company XXX] operates:
@@ -75,7 +77,7 @@ Output: a cycle-stage judgment + a list of key evidentiary charts + 3 leading in
 
 ### Prompt 3 | Business Breakdown: How Is the Money Actually Made
 
-The key step from "looking at a company" to "looking at a business." Mixed-type companies (main business A, profits from B) especially benefit from having AI lay this bare.
+The key step from "looking at a company" to "looking at a business." Let AI show you how a mixed-type company — main business A, profits from B — actually earns its money.
 
 ```markdown
 From a [value investing / fundamental research] perspective, break down the business of [Company XXX].
@@ -99,7 +101,7 @@ VI. Stability and fragility: which assumptions, if broken, collapse the profit l
 
 ### Prompts 4–7 | Financial quality, governance, market disagreement, valuation moat
 
-The middle four steps each tackle one specific question, with similar prompt skeletons (explicit requirements + cross-validation + no conclusions):
+The middle four steps each tackle one specific question. Just fill in the skeleton: explicit requirements + cross-validation + no conclusions.
 
 ```markdown
 Analyze the financial quality of [Company XXX] over recent years:
@@ -127,7 +129,7 @@ Output: a moat strength score (0–5) + an evidence table + the most likely poin
 
 ### Prompt 8 | The Full Package: A Due-Diligence-Grade DeepResearch
 
-This compresses the logic of the first seven steps into a single "investor due diligence report" framework, mandating separation of facts from judgments, cross-validation, and forced bear-case and black-swan reasoning — built to counter the **confirmation bias** humans fall into most easily. It works well in any AI's DeepResearch mode. Skeleton:
+This compresses the logic of the first seven steps into a single "investor due diligence report" framework, mandating separation of facts from judgments, cross-validation, and forced bear-case and black-swan reasoning — built to counter the **confirmation bias** humans fall into most easily. It works well in the DeepResearch mode of any major AI. Skeleton:
 
 ```markdown
 I need an investor due diligence report on [XXX], style [value investing], horizon [1–3 years, medium-to-long term].
@@ -164,17 +166,19 @@ Each of the eight prompts works well alone, but researching a stock fully means 
 | ④ Advisory board discussion | Invokes `peers-advisory-group`; four advisors cross-examine each other | Reuses an existing Skill, institutionalizing "find the counter-evidence" |
 | ⑤ Formatted output | Structured report, convertible to magazine-style HTML / PDF, uploadable to Feishu | Reuses layout and document Skills |
 
-Here lies the most valuable lesson for Skill building: **reuse rather than rewrite**. The technical indicator scripts reuse `a-share-analyst`, the decision discussion reuses `peers-advisory-group`, the layout reuses `magazine-layout` — only a few blocks were newly written. To build a complex Skill, treat existing capabilities as building blocks: fill whichever block is missing, then orchestrate them along one main line.
+Here lies the most valuable lesson for Skill building: **reuse rather than rewrite**. The technical indicator scripts reuse `a-share-analyst`, the decision discussion reuses `peers-advisory-group`, the layout reuses `magazine-layout` — only a few blocks were newly written. When you build a complex Skill, treat existing capabilities as building blocks: fill whichever block is missing, then orchestrate them along one main line. That's the part worth remembering.
 
 It also has two "product-grade" touches: a profile on first use (asking your risk preference, horizon, industries of interest, and position cap, saved into memory); and two entry points feeding the same pipeline (uploading screenshots goes through image recognition + data verification, while giving the ticker goes purely data-driven).
 
-In one sentence: **it compresses "a serious stock research session" from half a day of manual work into a single conversation.** The human shifts from "hauling and stitching" to "deciding and challenging."
+In one sentence: **it compresses "a serious stock research session" from half a day of manual work into a single conversation.** You shift from "hauling and stitching" to "deciding and challenging."
 
 ## In Practice: Running T&S Communications (300394) Through `stock-advisor`
 
-The target is T&S Communications (300394), optical communications / CPO sector. The whole run proceeds in three steps: first the chart, then the financials, and finally an advisory board session.
+The target is T&S Communications (300394), optical communications / CPO sector. Run it once yourself and the whole thing advances in three steps: look at the chart, then the financials, then convene the advisory board.
 
 ### Step 1: Upload the Candlestick Chart and Ask for a Technical Quick-Read
+
+Upload the candlestick chart and ask for a technical quick-read:
 
 ```text
 I've uploaded a daily candlestick chart and a technical indicator chart (MACD) of an A-share stock. Acting as a professional technical analyst:
@@ -192,6 +196,8 @@ WorkBuddy first recognized from the chart that this was T&S Communications, curr
 ![Technical readout: moving averages, support and resistance](/workbuddy/case-investment/assets/004_image_WX6WbFC9Oo.png)
 
 ### Step 2: Add Financial Report Screenshots for a Full Analysis
+
+Add the earnings screenshots and ask for a full analysis:
 
 ```text
 I've now also uploaded this stock's Q3 2025 results and full-year pre-announcement data. Please:
@@ -220,6 +226,8 @@ The final rating was "buy," with a notably restrained core conclusion: **the med
 ![Composite rating: weighted technical, fundamental, valuation, flow](/workbuddy/case-investment/assets/008_image_I6uBbecypo.png)
 
 ### Step 3: Still Undecided? Convene the Advisory Board
+
+When you can't decide, convene an advisory board:
 
 ```text
 But I'm still on the fence about this stock. Please convene an advisory board with four advisors to discuss whether it's worth investing in:
@@ -251,7 +259,11 @@ The moderator then synthesized an **action plan segmented by investor type**, an
 
 After the conversation, you can have it turn the whole analysis into a magazine-style report (save locally as PDF or upload to Feishu). Looking back: `stock-advisor` turned eight loose prompts into a complete research run finished in three conversational rounds — **read the chart → read the financials → convene the board → produce the report** — and at no point did it make that most critical "buy or sell" decision for you.
 
+One thing to carry away from this chain: AI lays the facts out for you; it doesn't place the bet. State your criteria, cross-verify the numbers, and make the key calls yourself — that's when research actually starts working. Don't treat the AI report as gospel, and don't skip over the factual base it assembled.
+
 ## Common Mistakes and Boundaries of Use
+
+The traps you're most likely to hit with AI and investing are all in this table:
 
 | Common mistake | Why it's wrong | The right approach |
 | --- | --- | --- |
@@ -260,3 +272,20 @@ After the conversation, you can have it turn the whole analysis into a magazine-
 | Expecting it to call industry inflection points or price bottoms | That takes forward-looking information and experience AI doesn't have | Have it organize "which leading indicators to watch," and watch them yourself |
 | Only reading the bull case until you're swept up | Confirmation bias — AI will amplify your tone | Use the disagreement prompt and the advisory board to force out counter-evidence |
 | Treating the AI report as an investment basis | The report is research assistance, not investment advice | Conclusions are for reference; decisions and risks are yours |
+
+## FAQ
+
+**Can AI decide whether I buy or sell?**
+No — and it shouldn't. It doesn't hold real-time complete information, and it isn't responsible for your money. Use it for fact-gathering and bull/bear reasoning, and make the trade yourself. That step stayed yours the whole way through.
+
+**Can I trust the numbers it reads off a screenshot?**
+Not entirely. Image recognition misreads things, and reporting conventions change. Cross-verify every key number; don't treat a screenshot as the only source of truth.
+
+**Can it answer questions like an industry inflection point or a price bottom?**
+No. Those depend on forward-looking information and experience, which AI doesn't have. Have it tell you which leading indicators to watch, and watch them yourself.
+
+**How is `stock-advisor` different from plain prompts?**
+It turns eight loose prompts into a pipeline that runs end to end on one trigger: read the chart, read the financials, convene the board, produce the report — done in three conversational rounds. It reuses existing Skills as building blocks, so you never wire things up by hand.
+
+**Is the advisory board just theater?**
+No. Four advisors debate with data in hand, the system refreshes to the latest facts from across the web, and you get an action plan tiered by investor type with decisions tied to future verification checkpoints. It forces you to look at the other side and pushes back on confirmation bias.

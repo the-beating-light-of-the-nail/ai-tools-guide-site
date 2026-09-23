@@ -9,6 +9,10 @@ sources:
 
 # Security Governance: Actions, Data, Consequences, and Human-Machine Responsibility
 
+## Plain-Language Orientation
+
+This chapter helps you see that the same set of meeting minutes carries completely different risk depending on whether you read it, save a draft, write it into an internal ledger, or send it to a customer. When you bring AI office workflows to a team, the most common mistake is a single "read versus write" cut—but reading candidate information touches privacy too, and drafting a legal opinion can shape a high-consequence decision even while it sits unsent. This chapter grades action risk with G0–G3, then layers data sensitivity and professional consequence on top, taking the strictest of the three. When you finish you will know that a G2 write to an internal ledger defaults to confirmation per batch, and only after formal release plus jointly granted continuous authorization may it run with spot checks; a G3 outward send needs confirmation every single time, and the executor and the approver may not be the same person. You will grant permissions with fewer traps, and when something breaks you will know who stops it and who takes over. Think about the action and the consequence before you start; when unsure, take the strictest level; write the division of labor down so there is someone to hold accountable; and never skip a level.
+
 ## When You Need This Chapter
 
 If you are only reading materials you are authorized to see or organizing a draft that touches no one else, you can skip this chapter for now. Return here to confirm who may act, who must confirm, and how to stop on failure whenever a task involves team sharing, personal or customer data, automatic writes to ledgers or to-dos, cross-system connections, outward sending, payments, deletion, approvals, or output that could affect legal, financial, or personnel decisions. You need not memorize G0–G3 first: look at the actual action, data sensitivity, and possible consequences, then register per this chapter.
@@ -21,11 +25,15 @@ If you are only reading materials you are authorized to see or organizing a draf
 
 <span id="claim-human-responsibility-01" data-claim-id="claim-human-responsibility-01"></span>The business owner is always accountable for the final business outcome and cannot transfer responsibility to AI or the process maintainer; the G3 executor and the action approver may not be the same person.
 
+Plain-language note: fix three things in your head. G0–G3 is an action risk level, not a "may execute" label; confidential data or high-consequence judgment pushes control upward, and the strictest wins. G2 defaults to confirmation per batch, and spot checks are allowed only after formal release plus jointly approved continuous authorization. G3 needs confirmation every time, and the person doing the work cannot be the person signing for it.
+
 ## Why It Matters
 
 Judging risk only by "read" or "write" misses two classes of problems: reading candidate information changes no system state yet involves personal data; generating legal, financial, or personnel judgments, even saved only as a draft, may affect high-consequence decisions. Conversely, a reversible new file on ordinary internal data and overwriting originals, sending outward, or deleting cannot share one confirmation rule.
 
 With actions, data, and professional consequences separated, business owners can see who bears the outcome, process maintainers can implement the right confirmation and rollback, and data/security owners can set control floors by authorization scope. A level is not automation maturity, nor an "allowed to execute" label; it is only one dimension deciding the minimum control intensity.
+
+Plain-language note: stop splitting risk along "read/write" alone—reading candidate information touches privacy, and a saved draft of a legal judgment can sway a personnel decision. Separate action, data, and consequence and you know who owns the outcome, how to roll back, and where the control floor sits. The level is one dimension of control intensity, not a maturity score.
 
 ## Method or Model
 
@@ -40,6 +48,8 @@ With actions, data, and professional consequences separated, business owners can
 
 "Reversible" must be proven by an actual recovery path. Writing only "deletable" without identifying the object, recovering the original, or verifying the recovery does not satisfy G1; overwriting originals is not G1 either. G2's "explicit confirmation" must let the approver see this batch's objects, fields, and impact; a generic popup or past consent is not a substitute.
 
+Plain-language note: you cannot claim G1 "reversible" in words alone—you must actually locate the object, recover the original, and verify the restore. Overwriting the original disqualifies G1. And G2's confirmation has to show the approver this batch's objects, fields, and impact; a generic popup or "they agreed last time" will not do.
+
 ### Then Judge Data Sensitivity
 
 | Data category | Typical scope | Minimum handling requirements |
@@ -48,6 +58,8 @@ With actions, data, and professional consequences separated, business owners can
 | Internal | General business and collaboration information for internal use only | Restrict members, systems, and uses; keep access records |
 | Confidential / personal or customer data | Trade secrets, personal information, customer data, and re-identifiable data | Minimal authorization, restricted use and retention; control no lower than G2 |
 | Regulated or organizational secrets | Data governed by special regulation, contract, or the organization's highest-sensitivity rules | Control at G3 and comply with applicable policy and professional requirements |
+
+Plain-language note: when classifying data, confidential and personal information get controls no lower than G2, and regulated data or organizational secrets go straight to G3. Don't relax because "it's only internal data"—control follows the data, not what is convenient for the action. When you build the inventory, flag the most sensitive category separately and your authorization scope shrinks to the minimum.
 
 ### Judge Professional Consequence Independently
 
@@ -58,6 +70,8 @@ With actions, data, and professional consequences separated, business owners can
 | Legal / financial / HR and other high-consequence judgments | Could the output affect rights and obligations, funds, hiring or rejection, compensation, or other major decisions | Independent professional review by someone with the duty or credentials, plus explicit approval |
 
 The action level stays independently judged: confidential data or high-consequence judgments take controls no lower than G2; regulated data, organizational secrets, or G3 actions are controlled at G3; where organizational policy is stricter, organizational policy prevails. Raising controls does not relabel the action—reading personal information remains a G0 action, but authorization must be restricted, access logged, and review arranged at no less than G2 intensity.
+
+Plain-language note: reading personal information is still a G0 action, but because the data is sensitive the control runs at no less than G2—authorization, access logs, and review all required. What you raise is control intensity, not the label: the name of the action stays, the requirements get stricter.
 
 ### Fix the Six Responsible Roles
 
@@ -71,6 +85,8 @@ The action level stays independently judged: confidential data or high-consequen
 | Action approver | Verifies objects, scope, and impact before the action happens; approves or rejects G2/G3 actions |
 
 Small teams may combine roles, but the G3 executor and the action approver may not be the same person. The process maintainer answers for run quality, the content reviewer for the reviews they sign, and the action approver for specific action authorizations; none of these divisions relieves the business owner of accountability for the final business outcome.
+
+Plain-language note: in a small team one person may wear several hats, but "the person doing the G3 work" and "the person signing the G3 approval" must be different people—you cannot approve your own action. However carefully you divide the work, the business owner still carries the final result.
 
 ### Set Up Bounded Registration for G2 Continuous Authorization
 
@@ -94,9 +110,13 @@ G2 defaults to batch-by-batch pre-confirmation. Only workflows that have passed 
 
 An old authorization is valid only for the registered workflow version, execution account/service identity, run environment, and approved purpose; it cannot be moved to other versions, executors, environments, or purposes. Continuous authorization becomes void immediately and unconditionally when permissions, fields, recipients, or error rates change in any way. It also becomes void immediately when workflow logic or rules, version, model, connector, execution entity, or run environment changes in any way. The workflow should first be deactivated and restored to batch-by-batch confirmation, then re-enabled after revision, re-verification, and joint approval. Expiry of the default validity period also voids it—no silent renewal.
 
+Plain-language note: once granted, a G2 continuous authorization is nailed to that one registered workflow version, that account, that environment, that purpose. Change permissions, fields, recipients, or error rates and it is void on the spot; change the version or the model and you must deactivate, drop back to batch-by-batch confirmation, re-verify, and re-approve before switching it back on. Expiry does not renew itself.
+
 During continuous authorization, run logs must cover 100% of runs with at least weekly spot checks. Logs record at least run ID, workflow version, execution entity, objects, before/after values of key fields, results, and anomalies; where personal information, customer information, or other sensitive content is involved, record only necessary values, protected references, or content digests per the approved log policy, with corresponding access and retention controls. "100% retention" means every run has an auditable record; it does not mean unlimited copying or permanent storage of sensitive originals.
 
 G3 allows no continuous-authorization exemption from per-execution confirmation. Before every execution, the action approver must be shown the recipient or object, the specific action, key content or fields, the impact scope, and the irreversible consequences; every approval binds an immutable action version or content digest, a one-time execution ID, and the registered validity period. Re-showing and re-approval are required whenever the recipient or object, action, key content, fields, or impact changes, when validity expires, on repeated execution, or when retrying after a failure; spot checks cannot replace pre-approval.
+
+Plain-language note: there is no such thing as a G3 continuous authorization—every execution gets confirmed again, showing this run's recipient, action, key fields, and irreversible consequences. If the object changes, the approval expires, or you are about to retry, everything goes back in front of the approver; spot checks never stand in for pre-approval.
 
 G3 audit records keep both the approval snapshot identifier and the actual executed recipient or object, action, key content or field values, results, and anomalies, so approved content and actual results can be compared. Sensitive content is logged only within the authorized scope, using protected references or content digests; audit must not become a pretext to widen copying, access, or retention.
 
@@ -117,6 +137,8 @@ The ordinary reader's minimum record: input versions, what was manually changed,
 
 One "customer visit follow-up" workflow can carry multiple levels at once: reading authorized CRM records is G0; saving an email draft that reaches no customer while keeping the original is G1; updating internal CRM follow-up status is G2; emailing the customer is G3. Even with G2 continuous authorization for the update, the final outward send still needs per-execution confirmation. Leaving traces of input versions, manual edits, anomalies, acceptance, and results is what lets you locate, after a failure, whether the problem was permissions, content, or action confirmation.
 
+Plain-language note: inside one "customer visit follow-up" flow, reading the CRM is G0, saving a draft is G1, writing internal status is G2, and emailing the customer is G3. Even if G2 has continuous authorization, that final outward email still gets confirmed every time; when something goes wrong, only the traces tell you whether permissions, content, or the confirmation step failed.
+
 Consider candidate status organization next: the action may be only G0 reading and aggregation, but the inputs contain personal information, so controls are no lower than G2; if the output feeds high-consequence judgments such as hiring, rejection, or compensation, the corresponding professional owner must also review. Raising control intensity does not authorize automated personnel decisions.
 
 The official Qwen Work help center provides privacy and security documentation. [R9](/en/qwenwork/appendix-sources#r9) Actual product capabilities, data handling, and organizational configuration should be governed by the page and contract at time of use; this chapter's G0–G3, role division, and continuous authorization terms are community governance suggestions, not an official product risk rating or legal advice.
@@ -136,10 +158,43 @@ Complete one governance card per workflow about to pilot or already running:
 
 Minimum launch evidence includes the current workflow version, authorization records, role list, confirmation interface or records, log location, spot-check results, deactivation switch, and a recovery drill. Missing any required control means shrinking scope or keeping manual execution.
 
+Plain-language note: fill in the governance card action by action—never one vague average level for the whole flow. Drill an actual recovery once for G1; for G2 set up batch preview and explicit confirmation, and if continuous authorization is truly needed, fill every field and approve jointly; for G3, confirm every time with no spot-check exemption. Missing a single required control means shrinking the scope or going back to manual.
+
 ## Boundaries and Next Steps
 
 This chapter provides a general governance model; it does not replace organizational policy, contractual obligations, regulatory requirements, or legal, financial, and HR professional judgment. Data categories must be confirmed by people who know the organization's data and applicable rules; when professional consequence is uncertain, control at the higher level and request professional review.
 
 Governance levels do not prove a workflow works, and stage gates do not grant permissions automatically. Organizations should use the Chapter 10 pilot stage gates and the automation takeover chain together, so workflows both pass quality and value validation and can stop, hand over, and recover when permissions, inputs, or error rates change.
+
+Plain-language note: a governance level is not proof the workflow is useful, and passing a stage gate does not hand you permissions. Use the Chapter 10 stage gates and the automation takeover chain together, so the flow both clears quality and value validation and can stop, hand over, and recover the moment permissions, inputs, or error rates shift.
+
+## Plain-Language Glossary
+
+| Term | Plain language |
+|---|---|
+| G0–G3 | Four action risk tiers: read-only, draft, write internal state, outward high-consequence. You grade by action, not by maturity—and you don't skip a tier to make life easier |
+| Data sensitivity | Public / internal / confidential / regulated. The more sensitive, the stricter; confidential is at least G2. Keep the authorization scope minimal |
+| Professional consequence | Whether the output can sway legal, financial, or HR decisions. When unsure, control one tier higher and have a credentialed person sign |
+| Continuous authorization | The "spot-check within scope" permission granted after a G2 formal release; it is nailed to a version and an account, and any change voids it |
+| Action approver | The person who signs before G2/G3 runs. On G3 this cannot be the person doing the work; signing means owning it |
+| Six roles | Business owner, process maintainer, data/security, user, content reviewer, action approver. Divide the work clearly or there is nobody to hold afterward |
+| Recovery path | A channel that really finds the original and verifies the restore. A slogan of "it can be deleted" is not G1—you have to have drilled it |
+
+## FAQ
+
+**Is "read or write" enough to decide which tier a set of meeting minutes falls into?**
+No. Reading candidate information touches privacy, and saving a draft legal judgment can affect a personnel decision. Separate the action, the data sensitivity, and the professional consequence and apply the strictest of the three. Don't grade by action alone; the three layers are what make it hold.
+
+**Your G2 workflow has continuous authorization. Does that mean no more batch-by-batch confirmation?**
+Only if it is formally released, has enumerable boundaries, was jointly approved by you and the business owner, and is nailed to a specific version and account—then spot checks within scope are allowed. Change permissions, fields, recipients, or error rates and it is void on the spot, back to batch-by-batch confirmation. Change means void, not renewal, and an old authorization cannot be moved elsewhere.
+
+**Can the same person perform a G3 outward send and sign its approval?**
+No. The G3 executor and the action approver must be separate people; you cannot approve your own action. The business owner is accountable for the final business outcome, but that separation at the signing step is not optional. Skip the separation and there is nobody to hold afterward.
+
+**You got one approval for a G3 action. Can spot checks replace confirming it again?**
+No. G3 has no continuous-authorization exemption; before every execution you re-show the recipient, action, key fields, and irreversible consequences and get approval. If the object changes, the approval expires, or you are about to retry, you confirm again from scratch. Spot checks never stand in for pre-approval.
+
+**Your team is small. Can one person hold several governance roles?**
+Yes, roles may be combined—but the G3 executor and approver must be different people, and the business owner's final accountability cannot be waived. You may economize on roles, never on separation; don't blur the line of who is responsible.
 
 [Next chapter: Team Workflow Operations](/en/qwenwork/ch12-workflow-operations)

@@ -1,8 +1,12 @@
-# From Casual Bookmarks to Things You Can Actually Find Later
+---
+description: "You've saved plenty of bookmarks, but when you actually need one you can never find it. You jotted an idea down in one line, and a few days later you can't recall why you noted it or what you planned to do with it."
+---
+
+# Your Bookmarks Are Overflowing and Your Ideas Are One Line Each—How Do You Get Them Sorted Out?
+
+You've saved plenty of bookmarks, but when you actually need one you can never find it. You jotted an idea down in one line, and a few days later you can't remember why you noted it or what you meant to do with it. This page covers two independent tasks—use whichever one you're hitting. You don't have to clean out your entire bookmark collection just to organize a single idea.
 
 > Scenario: you've saved a lot of bookmarks, but when you actually need one, you can never find it. One-line sparks of inspiration made sense at the time—a few days later you can't recall why you noted them or what you were planning to do with them.
-
-These are two independent tasks—use whichever one you hit. You don't need to clean out your entire bookmark collection just to organize a single idea:
 
 | Independent task | When to use | Main deliverable |
 | --- | --- | --- |
@@ -55,3 +59,25 @@ Acceptance habits: spot-check one or two conclusions by going back to the origin
 ---
 
 Next: [Duplicate Files and Conflicting Versions: Check the Differences Before Deciding →](/en/doubaowork/case-duplicate-files)
+
+## FAQ
+
+**Will organizing my bookmarks touch the original files?**
+
+Not by default. Your prompt says "do not move or delete without my confirmation," so every archive and delete comes back as a suggestion only. Before any real action, check the versions, sources, and categories once more yourself.
+
+**Why not just sort by file type?**
+
+Because how you search and how you saved things are often two different things. Generating summaries and keywords around "how I'll search for this later" beats sorting by file type.
+
+**Will it make up content for my idea fragments?**
+
+Not if you tell it not to. The prompt says "ask at most 3 key questions; don't invent what I was thinking." Anything unclear gets marked "to confirm," and it won't fill in the meaning of your original sentence on its own.
+
+**When does a note actually go into the knowledge base?**
+
+After you confirm. It produces a draft first; you check the original content and timestamp against it, and only then does it get written in. If the note affects other people or money, keep it as a draft even longer.
+
+**Do I have to run both tasks together?**
+
+No. Messy bookmarks, sort the bookmarks. Scattered ideas, sort the ideas. Deal with whichever one you're hitting—you don't need to clear out the whole bookmark collection just to handle one idea.

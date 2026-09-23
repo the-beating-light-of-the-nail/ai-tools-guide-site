@@ -1,6 +1,12 @@
-# Case Study: Build a Presentation-Ready PPT with TraeWork
+---
+description: "Ask the AI to 'make me a PPT' and you'll probably get something that isn't a deck—it looks like a webpage screenshot, an admin panel, a design demo."
+---
 
-> Adapted from a detailed hands-on write-up by K Shu, a core TRAE user: ["Making PPTs with TRAE Work: The Key Isn't 'Generation'"](https://zhuanlan.zhihu.com/p/2056077700767428956) (July 2026). His task: turn his takeaways from two OpenAI engineering articles into an 11-slide PPT for a community talk.
+# How Do You Build a Presentation-Ready PPT? Five Steps That Won't Let You Down
+
+Ask the AI to "make me a PPT" and you'll probably get something that isn't a deck. It looks like a webpage screenshot, a backend page, a design demo. This chapter follows K Shu, a core TRAE user, turning his takeaways from two OpenAI engineering articles into an 11-slide deck for a community talk. Walk his route and you'll skip most of the pain.
+
+> Adapted from a detailed hands-on write-up by K Shu, a core TRAE user: ["Making PPTs with TRAE Work: The Key Isn't 'Generation'"](https://zhuanlan.zhihu.com/p/2056077700767428956) (July 2026).
 
 ## Why "Make Me a PPT" Always Fails
 
@@ -26,7 +32,7 @@ Do not summarize paragraph by paragraph; focus on how the two articles build on 
 Stop after output and wait for my confirmation.
 ```
 
-The key: **steer direction at the memo stage**. Once the PPT is generated, problems pile on top of each other (narrative, titles, visuals, text boxes), and fixing them then costs the most.
+The key is to **steer direction while you're still at the memo stage**. Once the PPT is generated, problems pile on top of each other (narrative, titles, visuals, text boxes), and fixing them then costs the most.
 
 ### Step 2: Slide Plan—One Claim per Slide
 
@@ -64,7 +70,7 @@ Export a PNG preview of every slide, generate a contact sheet (overview image),
 and record verification results.
 ```
 
-**The division of labor with image-gen: images carry the mood; text carries the facts.** Titles, page numbers, quote sources, key terms, and captions must never be baked into images—Chinese text in generated images can contain typos, the copy will change later, and others will need to move things around.
+Remember the division of labor with image-gen: **images carry the mood; text carries the facts.** Titles, page numbers, quote sources, key terms, and captions must never be baked into images—generated Chinese text can come out with typos, the copy will change later, and whoever opens the file will have to move things around.
 
 ### Step 5: Fix Annotated Issues One by One
 
@@ -75,7 +81,7 @@ Check for leftover old copy, awkward line breaks, safe-zone violations,
 and that the PPTX still opens.
 ```
 
-Revision instructions must be specific: "polish it a bit more" tells the AI nothing. Break it into actionable items like "text box width / mask size / whether padding is balanced."
+Make your revision instructions specific: "polish it a bit more" tells the AI nothing. Break it into actionable items like "text box width / mask size / whether padding is balanced."
 
 ## Four Kinds of Acceptance Checks
 
@@ -96,3 +102,20 @@ Revision instructions must be specific: "polish it a bit more" tells the AI noth
 - Run the full pipeline only for formal external presentations; for internal drafts, the memo and slide plan are enough;
 - For quick jobs, try the [template library](/en/traework/03-first-task) and PPT-related plugins/skills first;
 - K Shu's closing line is worth writing down: **"The human work didn't disappear—it just moved. From standing inside every detail to standing above the process."**
+
+## FAQ
+
+**Why does my deck always end up looking like a webpage?**
+Because you never said what "done well" looks like. Write "techy" and the AI heads for blue-purple gradients. Negation is what works: spell out that you don't want isometric cards or dashboard-style pages, and aim for a "paper notes, live walkthrough" feel.
+
+**How do I write titles that don't sound machine-made?**
+Read each title out of context. If it's not something you'd say on stage, don't put it at the top of a slide. Turning "cognitive progression" into "AI buzzwords don't come out of nowhere" is exactly the move.
+
+**Do I really have to stop at every step?**
+No, but the earlier you stop the cheaper the fix. Correcting direction at the memo stage is the best deal you get; changes after the deck is generated cost the most.
+
+**Can I generate images containing Chinese text?**
+Better not. Keep the split clear: images handle the mood, the text layer handles the facts. Titles, page numbers, and captions belong in text, because generated Chinese often comes out wrong and you'll be nudging things around afterward.
+
+**Do internal drafts need all five steps?**
+No. Save the full pipeline for formal external talks. An internal draft needs the memo and the slide plan, and that's plenty.

@@ -152,3 +152,17 @@ Start with one real task: your own weekly report, meeting minutes, or a similar 
 While running, record manual edits, anomalies, and who confirmed against which standard; complete the personal task and verify stability before entering the limited-scope team pilot of the [Chapter 10 pilot roadmap](/en/qwenwork/ch10-pilot-roadmap). When sharing, sensitive materials, automatic sending, or cross-system writes are involved, revisit [Chapter 11 Security Governance](/en/qwenwork/ch11-security-governance) and [Chapter 12 Workflow Operations](/en/qwenwork/ch12-workflow-operations) to confirm stage, governance, permissions, versions, and failure-takeover boundaries.
 
 [Next chapter: Appendices](/en/qwenwork/)
+
+## FAQ
+
+**Are the four status columns a product feature or an analysis method?**
+An analysis method, not a product feature. They separate "published / tested / feasible inference / awaiting verification" into layers, and they make no promises on behalf of official documentation.
+
+**Can I use sample artifacts as production evidence?**
+No. A sample proves only an observable delivery form. To promote it to "tested combination" you must add inputs, runs, acceptance, and failure records.
+
+**Is the roadmap priority the official schedule?**
+No. It is only the suggested validation order, not the product team's schedule or a commercial commitment.
+
+**Do I have to write out the empty columns?**
+Yes. Writing plainly that "no reviewable combination currently exists" serves the next round of evidence work better than filling the roadmap with demo links.

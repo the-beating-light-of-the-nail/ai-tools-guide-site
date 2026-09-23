@@ -1,8 +1,12 @@
-# Inbox Overflowing: Find What Actually Needs Handling Today
+---
+description: "You open your mailbox and the unread has already filled a screen: work notices, project updates, collaboration requests, and every kind of CC mixed together. Reading them one by one takes forever, and you still miss the few genuinely urgent ones. Which need a reply today, which can wait, which are just FYI—you can't really tell anymore."
+---
+
+# Inbox Overloaded? Let the AI Pick Out What You Must Handle Today
+
+You open your mailbox each morning and the unread has already piled up a full screen: work notices, project updates, collaboration requests, and every conceivable CC mixed together. Going through them one by one eats your time, and you still miss the two or three that genuinely matter. Which ones need an answer today, which can slide, which are only FYI—honestly, you can't sort that out yourself anymore. This page hands the inbox to the AI for prioritization first, so your attention goes to what actually needs action.
 
 > Scenario: unread email piling up. Let the AI rank priorities and draw processing windows first, saving your attention for what truly needs action.
-
-Open your mailbox each morning and the unread count has usually ballooned: work notices, project updates, collaboration requests, and every conceivable CC mixed together. Reading one by one eats time—and the truly urgent item slips through. Which messages need a reply today, which can wait, and which are FYI only?
 
 ## Step 1: Authorize the Mailbox via a Connector
 
@@ -27,8 +31,30 @@ After submission, the system reads the past seven days of email and splits it in
 
 ## Send with Restraint
 
-The connector can send email too, but work email involves wording, recipients, attachments, and promised timelines—**generate a draft first, confirm, then send**.
+The connector can send email too, but work email involves wording, recipients, attachments, and promised timelines—**generate a draft first, confirm, then send**. Don't let it fire messages off on your behalf; that's how the wrong person or the wrong wording goes out.
 
 ---
 
 Related: [One Meeting, from Prep to Action Items →](/en/doubaowork/case-meeting)
+
+## FAQ
+
+**Will the AI mess with the email in my mailbox?**
+
+No. It works through connector authorization, and the read-only stage only sorts. Even when something needs sending, a draft comes to you for confirmation first—nothing goes out on its own.
+
+**Is authorization a hassle? What do I need to fill in?**
+
+Click "+" on NetEase Mail under "Skills · Connectors · Mates" and follow the prompts to authorize (the link in this page explains how to get an authorization code). After authorizing, expand the capability list and check that read, search, and send are all enabled.
+
+**Does this still help when I have very little mail?**
+
+Yes. Even an empty result tells you whether the connector is reading correctly and whether the time range and sorting rules take effect. It's a dry run before real use.
+
+**Do I still need to read the five buckets myself?**
+
+Yes. It sorts the mail, and you work through "must handle today" one by one, pushing the rest down the queue. The final call stays with you.
+
+**What counts as "suspected risk" in the digest?**
+
+Mail it thinks you should look at: bounce notices, unusual-login alerts, unfamiliar senders with attachments. Give that bucket one deliberate scan so you don't miss a security problem.

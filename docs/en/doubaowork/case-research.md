@@ -1,8 +1,16 @@
-# From Ad-Hoc Research to a Formal Report
+---
+description: "You're busy with something else when your boss drops a line: 'look into this direction, I need it for Friday.' You start searching, end up with dozens of tabs open and numbers from different years, and by the time you present, you're holding a pile of material but can't state a conclusion."
+---
+
+# A Research Topic Lands on You Last-Minute—How Do You Ship a Report That's Ready for the Meeting?
+
+You're busy with something else when your boss drops a line: "look into this direction, I need it for Friday." You start searching and end up with dozens of tabs open, numbers from different years, and by the time you actually present, you're holding a pile of material but can't state a conclusion. This page gives you one reusable prompt that turns messy ad-hoc research into a formal report with sources attached, ready to put on the screen.
 
 > Scenario: A research task lands on you out of nowhere—tight deadline, huge topic. Browser tabs multiply, numbers come from different years, and by presentation time you're holding a pile of material but still can't state a conclusion.
 
-Settle three things first: **whose decision this research supports, which sources are allowed, and whether the final deliverable is a document or a PPT deck**—lock those in before letting Doubao Work search, read closely, and organize, so the later pages don't get torn up and redone repeatedly.
+## Before You Start, Settle Three Things
+
+Don't send Doubao Work off to search right away. Settle three things first: **whose decision this research supports, which sources are allowed, and whether the final deliverable is a document or a PPT deck**—lock those in before letting Doubao Work search, read closely, and organize, so the later pages don't get torn up and redone repeatedly.
 
 A presentation-ready piece of research has to handle four things at once: the research question serves a concrete decision, the material is traceable, the conclusions carry evidence, and the pages let readers grasp things quickly. The safe order is: **fix the scope and acceptance criteria → collect and verify material → build conclusions with an evidence mapping table → produce the PPT**. Leaving visual polish until after the content is confirmed cuts down rework.
 
@@ -101,3 +109,25 @@ You can also just describe the style out loud, like "convert this into a neo-bru
 ---
 
 Related scenario: [Auto-Summarize Your Work Day and Get Daily Task Reminders →](/en/doubaowork/case-daily-report)
+
+## FAQ
+
+**What's the actual first step in ad-hoc research?**
+
+Settle three things: whose decision it supports, which sources are allowed, and whether you're delivering a doc or a deck. Get those straight before you let Doubao Work search, or the pages will keep getting rebuilt.
+
+**Will Doubao Work invent data on its own?**
+
+Pin it down in your prompt with "do not fabricate." The template already requires it to mark unverifiable information "to be verified" and to prefer authoritative sources like government, financial reports, and academic work. When you get the report, check that key numbers carry a citation.
+
+**Why can't key data citations be dropped?**
+
+Because someone at the meeting will ask "where does that growth come from," and not having an answer is awkward. Keeping the citation means you can absorb the challenge—and check back against the original yourself.
+
+**Can I have it make the PPT pretty from the start?**
+
+Not yet. Visual polish goes after the content is confirmed. Pretty up an unconfirmed draft and every change to a conclusion drags the layout with it—more work, not less.
+
+**How do I cut scope when time is tight?**
+
+Reduce the number of questions and slides, but keep the sources for key data. Fewer slides is fine; a conclusion with no basis behind it isn't.

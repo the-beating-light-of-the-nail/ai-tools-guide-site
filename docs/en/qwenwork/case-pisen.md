@@ -7,7 +7,7 @@ sources:
   - Customer-provided case transcript (authorized for publication)
 ---
 
-# Pisen: Competitive Research and Product Collateral Production
+# How Does Pisen Use Qwen Work? Two Reusable Plays for Competitive Research and Product Collateral
 
 > This case was organized from customer-provided materials; the quantitative results were not independently audited by this project. Use it together with your own organization's data, permissions, and human-review requirements. V2.0 keeps the text readable but does not auto-promote customer statements into verified public cases.
 
@@ -163,3 +163,17 @@ All of the above are customer statements and do not represent the results other 
 ## Contributors and Verification Date
 
 Source: customer-provided transcript of a Qwen Work AI practice case; organized by the QwenWorkGuide maintainers; verification date: 2026-07-29.
+
+## FAQ
+
+**Can I report the numbers from this case directly?**
+No. They are customer statements and have not been independently audited. Before you report them, retest using your own baseline hours and verification time—don't treat them as a guarantee.
+
+**Can I apply the competitive research fields directly?**
+No. The competitor list, the sources, the collection frequency, and the report fields all have to be swapped for your own, and the historical baseline cannot be carried over either.
+
+**Once the product display image is generated, can I send it out?**
+No. It is only a draft. Have the product manager verify the parameters and selling points, and then have the design or brand owner confirm authorization and the final release version.
+
+**Can both workflows be distilled into team templates?**
+Yes. The confirmed prompts, fields, and review rules can all be saved as team templates—just remember to review false positives, omissions, and rework causes periodically.

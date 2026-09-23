@@ -1,10 +1,16 @@
-# Hand Life's Odds and Ends to Doubao Work for a First Pass
+---
+description: "How to plan a trip, what to eat for dinner, which of a few products to buy—these small life questions look like one-sentence requests, but they pull in budget, preferences, live information, and personal privacy. Researching them yourself is scattered work, and you're never sure you covered everything."
+---
+
+# Can't Decide the Small Stuff in Life? Let It Gather Material and List Options—You Make the Final Call
+
+How to arrange a trip, what to eat for dinner, which of a few products to buy—these little life questions look like one-sentence requests, but they drag in budget, preferences, live information, and personal privacy. Researching them yourself is fragmented, and you're always worried you missed something. Doubao Work is a good fit for the front half: gather the material, list candidates, produce a checklist. The decisions that matter—booking, paying, diagnosing—stay with you for final confirmation.
 
 > Scenario: travel planning, what's for dinner, choosing among a few products. The AI gathers material, lists candidates, produces checklists; the important decisions—booking, paying, diagnosing—still get a final human sign-off.
 
-How to arrange a trip, what to cook for dinner, which of a few products to buy—these little life questions sound like one-sentence tasks, but they tangle with budget, preferences, live information, and personal privacy. Doubao Work shines at **gathering material, laying out candidates, and generating checklists first**.
-
 ## First, Decide What Kind of Task It Is
+
+Not sure how far to delegate? Check against this table:
 
 | Type | Doubao Work can help | The human owns |
 | --- | --- | --- |
@@ -84,3 +90,25 @@ In testing it first offered two options (with pace, pros and cons, and estimated
 ---
 
 On to the personal-productivity scenarios: [Inbox Overflowing: Find What Actually Needs Handling Today →](/en/doubaowork/case-inbox)
+
+## FAQ
+
+**Is it safe to hand over everything in my life?**
+
+Hand over the organizing, the listing, and the candidate generation. Keep booking, paying, and diagnosing for yourself. Check its proposal before you act on it—don't follow it with your eyes closed.
+
+**Is the live information it returns—weather, ticket prices—accurate?**
+
+Make it note the query date and source, then confirm the latest status on the official page yourself. Live data moves fast; don't treat its first draft as the final answer.
+
+**Can it replace a doctor for my checkup report?**
+
+No. A report-reading skill gives you a first pass and a list of questions to ask the doctor; it explicitly doesn't diagnose or prescribe. If something looks wrong, take that list to a real doctor.
+
+**Will it push me toward the expensive product?**
+
+The prompt says "do not recommend based on sales volume, ratings, or brand fame," so it lays out specs and limitations objectively. Who each product suits—and who it doesn't—is your call, based on your situation.
+
+**Does it hand over a full itinerary in one go?**
+
+No. You answer no more than 8 questions, it offers two directions, and you pick one before it writes the day-by-day plan. That's how the itinerary ends up matching what you actually want.

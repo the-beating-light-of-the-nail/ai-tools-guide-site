@@ -1,8 +1,16 @@
-# No More Digging Through the Company Knowledge Base: Find the Process (with Sources) in One Question
+---
+description: "You need to request overtime today and have no idea what the process is: apply in advance or not, who approves, where to submit, can you take time off instead. The answers may be spread across several documents."
+---
+
+# Company Policies Scattered Across Documents? Get the Process—With Sources—in One Question
+
+You need to file an overtime request today and don't know which process applies: does it have to be submitted in advance, who approves it, where do you submit it, can you take compensatory time off instead? The answers are probably spread across several documents. Digging through them yourself costs time, and asking a colleague may just get you an outdated answer. This page shows you how to plug the policy knowledge base in and get an answer that carries a version and a source.
 
 > Scenario: It's not that the company lacks policies—the trouble is finding **the currently effective version** quickly when you actually need to do something. Overtime requests are a classic case: do you apply in advance, who approves, where do you submit, can you take time off instead—the answers may be scattered across several documents. Digging yourself wastes time, and asking a colleague may get you an outdated answer.
 
 Test question: "What's the process for applying for overtime today." Add the company policy knowledge base to the Doubao conversation and require the answer to include **the policy name, section, original text, and version info**. Focus on two things: can it find the genuinely relevant policy, and how does it handle conflicting or missing material.
+
+You've probably hit this yourself: something needs doing right now, and you spend forever hunting through the policy library for the version currently in force. Ask a colleague and you may get the old answer. Rather than guessing, hand it to Doubao Work and get the process back in one question, with sources and versions attached.
 
 > Prerequisite: the Doubao login account must match the account that owns the Feishu knowledge base, and must already have access to the target knowledge base—without sufficient permissions, Doubao can't read the content.
 
@@ -54,3 +62,25 @@ What AI saves is search-and-compare time; the policy text and its owner remain t
 ---
 
 Next: [Re-Categorizing 541 GPT Prompt Examples →](/en/doubaowork/case-prompt-library)
+
+## FAQ
+
+**Doubao Work can't read my policy library—what do I check?**
+
+Two things: is the logged-in account the same one that owns the Feishu knowledge base, and do you have access to that library? Without permission it reads nothing, and no amount of asking will help.
+
+**Will it fill gaps in the policy with common sense?**
+
+Your prompt pins it down: "if you can't find a basis, say clearly that the material is insufficient—don't fill gaps with common sense." Anything the policy doesn't spell out stays a gap, pointed at the owning department, rather than the tool inventing a rule for the company.
+
+**Why isn't a "last edited" time enough?**
+
+Because edit time and effective date are two different things. Before you formally file anything, open the original and confirm the effective date so an old version doesn't mislead you.
+
+**How does it handle two conflicting policies?**
+
+It shows both sides separately and tells you to contact the policy owner to confirm. It won't make the call for you—especially on individual-case approvals and exception requests.
+
+**Can I use this for other policy questions?**
+
+Yes. Leave, reimbursements, purchase requests—all of them. Run one question you ask often and check whether the result carries the currently effective version, an accurate source, and a way to confirm; that tells you how reliable your library is.

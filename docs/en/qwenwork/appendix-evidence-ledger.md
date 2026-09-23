@@ -12,6 +12,23 @@ sources: []
 
 Published claims: 44; leads awaiting verification: 0.
 
+## Plain-Language Orientation
+
+This page is the book's evidence ledger. Every claim you read elsewhere—"automation qualifies for enterprise operation only if it can stop," "calendar time cannot replace stage gates"—can be looked up here to find out what it rests on: what the source is, how far it has been verified, how far its applicable scope reaches, and where its limitations lie.
+
+When do you come here? Three situations are typical: someone challenges a conclusion you cited; you want to move it into your own company's material and need to confirm the boundaries first; or you want to know whether a recommendation actually has evidence behind it or is only a community judgment.
+
+You don't read it front to back. To look one up, search the page for the claim ID (of the form `claim-xxx-01`), or use the "Body location" row to jump back to the chapter that made it.
+
+## How to Read This Table
+
+Each card is a two-column table. The rows that matter most:
+
+- **Source type**: entries marked `community-framework` are community framework judgments, not industry statistical fact. When you cite one, say so along with it.
+- **Verification status**: `editor-reviewed` means it has passed editorial review; entries without it should not be treated as conclusions.
+- **Applicable scope** and **Limitations**: these two rows decide whether you can carry the claim into your own scenario. Lifting the conclusion while skipping them is where things most often go wrong.
+- **Body location**: follow it to jump back to the chapter that put the claim forward. Use it whenever you need the surrounding context.
+
 ## Published Claims
 
 ## claim-automation-human-handoff-01
@@ -764,3 +781,22 @@ When adopting AI, enterprises should extend the focus from one-off model Q&A to 
 
 ## Leads Awaiting Verification (Publicly Safe)
 
+## FAQ
+
+**Are these claims generally accepted industry facts?**
+Not all of them. Check each card's "Source type": entries marked `community-framework` are this book's community judgment, and the "Limitations" row usually says as much—that they do not represent universally proven fact backed by industry statistics. When you cite them externally, carry that boundary along with them.
+
+**I want to verify one specific claim. Where do I start?**
+Start with the card's "Body location" and jump back to the chapter that made it, reading the surrounding context; then read "Source location" to confirm the original source. If you cannot find a source location, treat it as unverified.
+
+**How many verification statuses are there, and what do they mean?**
+`editor-reviewed`, the one that appears on this page, means the entry has passed editorial review. If you see an entry with no verification status marked, do not cite it as a conclusion.
+
+**Can I copy a passage wholesale into my company's material?**
+The content is public and you may quote it, but you have to carry the applicable scope and the limitations with it. Taking the conclusion without the boundaries is the usage most likely to cause trouble.
+
+**How often is the ledger updated?**
+This page is generated from structured data, and the source data is maintained in the upstream project. The "Verification date" you see is each claim's own review time, not the update time of the page as a whole.
+
+**Why do some cards carry a statistical basis while others say "not applicable"?**
+Only quantified conclusions need a statistical basis. When you see "Not applicable: community judgment," the entry is a judgment rather than a statistic—don't use it as data.

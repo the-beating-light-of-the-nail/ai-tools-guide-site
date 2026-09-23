@@ -1,12 +1,26 @@
-# How to Build Scheduled Tasks That Deliver Consistently
+---
+description: "You've collected a pile of jobs you do every day that come out nearly the same each time: scan AI news in the morning, draft the weekly report, watch whether a competitor has moved."
+---
 
-Scheduled tasks are best suited to work that is **repetitive, rule-based, and easy to verify**: news briefings, weekly report drafts, competitor monitoring all qualify. Conversely, never hand unattended workflows anything like payments, publishing, or data deletion.
+# Will Your Scheduled Task Backfire? Set It Up Right and Get One Usable Briefing Every Morning
+
+You've collected a pile of jobs you do every day that come out nearly the same each time: scan AI news in the morning, draft the weekly report, watch whether a competitor has moved. Doesn't it wear you out? Run them by hand and one miss breaks the chain, so the next day you're backfilling from scratch. Doubao Work's "scheduled tasks" take that grind off your hands: you set the rules, it works at the appointed time, and the result lands back in your hands. You don't have to sit and watch it, and you don't have to worry about sleeping through it—when the time comes, it starts on its own.
+
+One thing up front, though: not everything should be handed over.
+
+## Is This Job Even Right for a Scheduled Task?
+
+Scheduled tasks fit work that is **repetitive, rule-stable, and easy to verify**: news briefings, weekly report drafts, competitor monitoring all qualify. The reverse is just as true—don't hand payments, publishing, or data deletion to a workflow nobody is watching. When something goes wrong there, no one is around to hit stop, and you're the one who pays. The test is one line: if the rules can be written clearly and the result can be read clearly, it's safe to hand over.
 
 ## Two Ways to Create a Task
 
-**Manual configuration**: open "Scheduled Tasks" on the left → New, then fill in the title, task description, schedule, and run environment.
+### Manual setup
 
-**Create by conversation**: just tell Doubao Work in the chat box to set one up for you, for example:
+Open "Scheduled Tasks" on the left → New, and fill in the title, task description, schedule, and run environment. This route suits you best when you already know exactly what you want—filling out a form step by step is the least thinking.
+
+### Create by conversation
+
+If filling forms annoys you, just tell Doubao Work in the chat box and let it build the task. Say something like this:
 
 ```text
 Every day at 8:30, search for major AI product and Agent developments from the past 24 hours.
@@ -15,30 +29,61 @@ If sources are insufficient or fewer than 5 solid items are found, stop generati
 Don't pad the count with old news, and don't send or publish anything automatically.
 ```
 
+The more specifically you describe it, the closer the task it builds sits to what you actually need—and the less rework you face later.
+
 ## Five Checks Before Saving
 
-**Time range, time zone, data sources, failure handling, run environment.** If you choose "local computer" as the run environment, make sure the machine is on and online at execution time.
+Before you hit save, go through these five one at a time: **time range, time zone, data sources, failure handling, run environment**. If you pick "local computer," the machine also has to be on and online at execution time—otherwise it's ready to run at the appointed hour and the computer is asleep, and the whole thing was for nothing. Time zones trip people up especially easily: you're in one country, the data source is in another, and a few hours of difference delivers your briefing at the wrong moment.
 
 ## Three Rules to Keep It Running Reliably
 
-1. **Run it manually first, then schedule it**: execute the first run in a regular work task, and only save it as a scheduled task once the output passes;
-2. **Spot-check regularly**: review the output periodically after it runs, and update the prompt when the rules change;
-3. **Clean up promptly**: don't let a substandard old task quietly run in the background for six months—that's just burning tokens for nothing.
+### Run it manually first, then schedule it
+
+Run the first pass by hand in a regular work task, and save it as a scheduled task only once the output passes. Don't schedule on the first go, or you'll have something running wrong every single day.
+
+### Spot-check regularly
+
+Once it's running, review the output now and then, and update the prompt when the rules change. An automated flow isn't finished the moment you set it—an occasional glance is what lets you relax.
+
+### Clean up promptly
+
+Don't let one substandard old task grind away in the background for six months—that's just burning tokens for nothing. When a task stops earning its keep, delete it.
 
 ## In Practice: A Usable News Briefing Every Morning
 
-News aggregation fears two things: too much information, so important items drown; and notifications too noisy, so everyone eventually tunes them out. Run it once manually, then save it as a scheduled task, and you'll receive a consistently structured briefing at a fixed time.
+News aggregation fails in two places: too much information, so the important items drown; and notifications so noisy that everyone eventually tunes them out. Run it once by hand, then save it as a scheduled task, and you'll get a consistently structured briefing at a fixed time without rebuilding the frame every day.
 
-**Pipeline design** (works for tracking news, open-source projects, papers, policy, and competitors alike):
+### Pipeline design
 
-1. **Collect**: define the topic, time range, source scope, and language;
-2. **Deduplicate**: merge the same event, keeping the original and authoritative sources;
-3. **Filter**: set thresholds for relevance, importance, and item count;
-4. **Summarize**: say what happened, why it matters, and who should read it;
-5. **Verify**: keep links, publication dates, and open questions for key facts;
-6. **Output**: use a fixed format so you're not re-laying it out every day.
+The pipeline below works for tracking news, open-source projects, papers, policy, and competitors alike. Think each step through before moving to the next.
 
-**Test it once first** (don't set it to run automatically on the first go):
+#### Collect
+
+Fix the topic, time range, source scope, and language.
+
+#### Deduplicate
+
+Merge the same event, keeping the original and authoritative sources.
+
+#### Filter
+
+Set thresholds for relevance, importance, and item count.
+
+#### Summarize
+
+Say what happened, why it matters, and who should read it.
+
+#### Verify
+
+Keep links, publication dates, and open questions for key facts.
+
+#### Output
+
+Use a fixed format so you're not re-laying it out every day.
+
+### Test it once first
+
+Don't set it running automatically yet. Run the prompt below once as a normal task and see whether what comes out is to your taste:
 
 ```text
 Compile the important news related to [TOPIC] from the past 24 hours.
@@ -53,13 +98,19 @@ Output at most 10 items, each including:
 Put anything whose source or date you can't confirm under "unverified"—don't fabricate.
 ```
 
-**Once it passes, save it as a scheduled task**: "Scheduled Tasks" on the left → "New," and fill in the title, full task description, repeat cycle, exact time, model, and run environment. With "local computer," make sure the machine is on and online at execution time; start with a lower frequency and observe a few runs before adjusting.
+Once you're happy with the result, move to the next step.
+
+### Once it passes, save it as a scheduled task
+
+Go to "Scheduled Tasks" on the left → "New," and fill in the title, full task description, repeat cycle, exact time, model, and run environment. With "local computer," make sure the machine is on and online at execution time; start at a lower frequency, watch a few runs, then adjust once you're confident.
 
 If you want results sent to a Feishu group, email, or another system, **you must first confirm the corresponding connector is authorized**, and the task description must spell out the destination, duplicate-send checks, and any human-confirmation requirements. Without a connector, let results stay inside the Doubao Work task—don't promise automatic delivery.
 
 ## Two Templates You Can Adapt Directly
 
-**GitHub Project Briefing**
+Both prompts below work if you just copy them and change a few details. No need to write from scratch.
+
+### GitHub Project Briefing
 
 ```text
 Every day, compile open-source AI projects from the past 24 hours worth attention.
@@ -70,7 +121,7 @@ Mark items as "unverified" if activity or license can't be confirmed.
 Don't recommend based on star count alone, and never install or run code automatically.
 ```
 
-**AI Industry Briefing**
+### AI Industry Briefing
 
 ```text
 Every day, compile AI model, product, open-source, paper, and industry developments from the past 24 hours.
@@ -80,6 +131,23 @@ Major model releases, pricing, or policy changes must cite official sources firs
 Don't repeat the same event; when information conflicts, present both side by side.
 End with "today's three big stories" and "still needs verification."
 ```
+
+## FAQ
+
+**Will a scheduled task send things out behind my back while I'm away?**
+It won't act on its own—but writing actions like publishing, payment, or deleting data into a task is high risk, so don't let an unattended flow touch them. Keep results inside the Doubao Work task and send them yourself once you've looked. That's the safe way.
+
+**Should I pick local computer or cloud execution?**
+Pick "local computer" and the machine has to be on and online at the moment of execution, or nothing runs. If you shut down often, don't use it—choose something that stays online instead.
+
+**What if the task produces garbage?**
+Review the output regularly and update the prompt when the rules change. If an old task isn't up to standard, don't let it grind away in the background for half a year burning tokens—clear it out.
+
+**Can it send to a Feishu group automatically if the connector isn't authorized?**
+No. To send results to a Feishu group, email, or another system, you must first confirm the connector is authorized, and the task description has to spell out the destination, duplicate-send checks, and human-confirmation requirements. If it isn't authorized, don't promise automatic delivery.
+
+**How often should I set it to run?**
+Start at a lower frequency, watch a few runs, then raise it once the results hold up. Don't crank it to maximum on day one—if it goes wrong, you won't have time to stop it.
 
 ---
 

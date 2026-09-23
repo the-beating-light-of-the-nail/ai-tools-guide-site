@@ -1,10 +1,14 @@
-# Chapter 25: Reliability of Automated Workflows
+---
+description: "Using \"daily AI hotspot topic aggregation\" as a running case, this chapter covers what you have to solve to take an automated workflow from manual runs to reliable scheduled execution."
+---
 
-Using "daily AI hotspot topic aggregation" as a running case, this chapter explains what it takes to move an automated workflow from manual runs to reliable scheduled execution.
+# Chapter 25: Scheduled Task Fell Apart on Day Three? Make Automation Actually Reliable
+
+You take a task that ran fine by hand, turn it into a scheduled job, and assume you're done for good — then one day a data source misbehaves and pushes out a pile of half-finished content, or a retry sends the same message three times. The hard part of automation isn't getting it to run; it's keeping it running. This chapter uses "daily AI hotspot topic aggregation" as a running case to walk through everything you have to handle on the path from manual to scheduled. Follow it and your scheduled tasks will misbehave a lot less.
 
 ## Case Background: A Content Blogger's Daily Topic Task
 
-The AI field moves fast, and every day a blogger needs to sift through multiple information sources to find today's worthiest topics. Doing it manually is time-consuming and easy to miss things. A typical topic request:
+The AI field moves fast, and every day you need to sift through multiple information sources to find today's worthiest topics. Doing it manually by hand is slow and easy to miss things. A typical topic request:
 
 ```text
 I'm a blogger in the AI field, focusing on AI tutorials, AI tools, AI coding, AI reviews, and the like.
@@ -24,7 +28,7 @@ Run it once manually and WorkBuddy calls all four data sources in parallel and p
 
 ## Three Thresholds Before Automating
 
-Not every task is ready for immediate automation:
+Not every task is ready for immediate automation. Check it against these three first:
 
 1. **The same Prompt has run manually at least three times**, with output quality and format basically stable;
 2. **Trigger conditions, input sources, and acceptance criteria are clear**: when it runs, which data sources it depends on, what format the output takes;
@@ -66,7 +70,7 @@ stateDiagram-v2
     Blocked --> WaitingTrigger: Re-triggered next day
 ```
 
-Key principle: **a partial data source failure should not block the whole task** — mark it missing and keep aggregating; a push failure should preserve the results and raise an alert, never losing content that was already generated.
+Remember the key principle: **a partial data source failure should not block the whole task** — mark it missing and keep aggregating; on a push failure, preserve the results and raise an alert, never losing content that was already generated.
 
 ## Data Source Readiness Checks
 
@@ -79,7 +83,7 @@ A scheduled trigger doesn't mean the data sources are ready — check availabili
 | @多引擎搜索 | Search engines reachable | Mark missing, continue with other sources |
 | @AIHOT | Hotspot tracking service healthy | Mark missing, continue with other sources |
 
-Only output the full hotspot list if at least three of the four sources are healthy; if all fail, enter the Blocked state, push an alert, and re-trigger the next day.
+Only output the full hotspot list when at least three of the four sources are healthy; if all fail, enter the Blocked state, push an alert, and re-trigger the next day.
 
 ## Content Quality Gates
 
@@ -107,7 +111,7 @@ Valid items: 18 | Sources: 4/4 | Run time: 09:02
 GitHub: OK | WeChat: OK | Multi-engine search: OK | AIHOT: OK
 ```
 
-With the format fixed, the blogger makes topic decisions in 5 minutes instead of reformatting everything each time.
+With the format fixed, you can finish your topic decisions in 5 minutes instead of reformatting everything each time.
 
 ## Push Targets and Idempotency
 
@@ -118,7 +122,7 @@ With the format fixed, the blogger makes topic decisions in 5 minutes instead of
 | Feishu document (append) | Keeping history | Append by date, never overwrite history |
 | Email | Cross-platform notification | Record the sent message ID |
 
-**Idempotency principle**: when a task retries after a push failure, it must not re-send content that was already pushed successfully. Each run generates a unique batch ID (e.g. `ai-hotspot-2026-07-10`); record the state after a successful push, and on retry check that state and skip completed steps.
+Remember the **idempotency principle**: when a task retries after a push failure, it must not re-send content that was already pushed successfully. Give each run a unique batch ID (e.g. `ai-hotspot-2026-07-10`), record the state after a successful push, and on retry check that state and skip completed steps.
 
 ## Timeout and Retry Strategy
 
@@ -134,17 +138,19 @@ Retry only transient faults — never retry on input or configuration problems.
 
 ## Resumable Runs and Actionable Alerts
 
-Each run generates a state file recording completed steps and outputs (batch ID, status, per-source status, item counts, last error). After a push failure, the retry resumes from the `delivering` step instead of re-fetching and re-aggregating.
+Have each run generate a state file recording completed steps and outputs (batch ID, status, per-source status, item counts, last error). After a push failure, resume from the `delivering` step instead of re-fetching and re-aggregating.
 
-Alert content must let a person immediately decide what to do — batch, status, failure reason, impact, suggested handling steps, and a recovery entry point. "Task failed, please check" is not enough for anyone to act on.
+Make the alert content something a person can act on immediately — batch, status, failure reason, impact, suggested handling steps, and a recovery entry point. "Task failed, please check" doesn't tell you enough to do anything.
 
 ## Degraded Delivery and Logging
 
 When some data sources fail, don't wait for everything to be ready: 3+ sources healthy → output the list with missing sources flagged; 2 healthy → output a simplified list marked incomplete; 1 or 0 → skip the body and push only an explanation and alert. Degraded results must explicitly state source coverage — **never masquerade as a complete run**.
 
-Log each run: batch ID and trigger type, per-source response status and latency, item counts after aggregation and filtering, push result, total duration and errors, and run cost (tokens, API calls). Do not log the body of the hotspot content.
+Log each run: batch ID and trigger type, per-source response status and latency, item counts after aggregation and filtering, push result, total duration and errors, and run cost (tokens, API calls). Don't log the body of the hotspot content.
 
 ## Pre-Launch Drills
+
+Before going live, walk through this table scenario by scenario:
 
 | Scenario | Expected behavior |
 | --- | --- |
@@ -155,6 +161,8 @@ Log each run: batch ID and trigger type, per-source response status and latency,
 | Duplicate trigger (manual and scheduled at once) | Detect the batch ID and skip the duplicate run |
 
 ## Automated Task Definition Template
+
+Write the task out using this template and maintenance gets much easier later:
 
 ```text
 Task name: AI Hotspot Topic Daily
@@ -181,6 +189,23 @@ Disable via: WorkBuddy automation task management page → Pause
 | Failure handling | Handle it yourself | Named owner and backup handler |
 | Cost attribution | Personal account | Team budget |
 
-Expanding into a team service requires adding: a clear owner, a runbook, permissions (who can change the Prompt and push configuration), and a change management process.
+Expanding into a team service means adding: a clear owner, a runbook, permissions (who can change the Prompt and push configuration), and a change management process.
 
-**The advanced form of automation isn't having zero humans — it's that the happy path rarely disturbs people, while the failure path quickly reaches the right person.** After launch, keep iterating based on feedback (Prompt tuning, data source changes, format updates, schedule adjustments), and follow the "change → verify manually → re-save" flow for every adjustment — never experiment directly on a scheduled task.
+**The advanced form of automation isn't having zero humans — it's that the happy path rarely disturbs people, while the failure path quickly reaches the right person.** After launch, keep iterating based on how it's actually used (Prompt tuning, data source changes, format updates, schedule adjustments), and follow the "change → verify manually → re-save" flow for every adjustment — never experiment directly on a scheduled task.
+
+## FAQ
+
+**A task ran fine once — can I schedule it right away?**
+Run it manually at least three times and get the output stable first. A task with unclear trigger conditions, data sources, or acceptance criteria will only have its instability amplified by a schedule.
+
+**If one data source goes down, does the whole task fail?**
+No — if you've designed it as a state machine. When some sources time out or go missing, you mark them and keep aggregating. Only a total failure puts it into Blocked with an alert, and it re-runs the next day.
+
+**Will retries send the same message several times?**
+Not if you handle idempotency. Give each run a unique batch ID, record the state after a successful push, and skip completed steps on retry — then nothing gets sent twice.
+
+**Is content lost when a push fails?**
+It shouldn't be. Have the task preserve what it generated and raise an alert, then resume from the `delivering` step instead of re-fetching and re-aggregating.
+
+**What changes when a team uses it instead of one person?**
+Owner, review, and permissions. When you expand into a team service, decide who can edit the Prompt, who confirms distribution, and who picks up failures — then add a runbook and a change process.

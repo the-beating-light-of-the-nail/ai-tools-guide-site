@@ -1,6 +1,10 @@
-# Advanced: Awareness, Costs, and the Secure Working Environment
+---
+description: "You've used QoderWork a few times and it still makes you restate your preferences every session: which format you like, that you hate long paragraphs, what your company is called. It can remember all of that—if you know where to switch it on."
+---
 
-Three mechanisms that make it smoother the more you use it: letting the AI remember you (Awareness), making your Credits count (cost), and running tasks in an isolated zone (secure working environment).
+# Tired of Restating Your Preferences Every Session? Three Mechanisms That Make It Smoother Over Time
+
+You've used QoderWork a few times and it still makes you restate your preferences every session: which format you like, that you hate long paragraphs, what your company is called. It can remember all of that—if you know where to switch it on. This chapter covers three mechanisms that get smoother the more you use it: letting the AI remember you (Awareness), making your Credits count (cost), and running tasks in an isolated zone (secure working environment).
 
 > Official docs: [memory](https://docs.qoder.com/zh/qoderwork/memory) | [settings](https://docs.qoder.com/zh/qoderwork/settings)
 
@@ -15,7 +19,7 @@ Entry point: the "Awareness" icon in the left navigation. Two main switches:
 
 The evolution dashboard: memory trend charts (by day/week/month), today's stats (review count, new memories, skill updates, reflections), and recent activity.
 
-**Awareness file reference** (for deep customization):
+**Awareness file reference** (for deep customization, look here):
 
 | Item | File/location |
 | --- | --- |
@@ -29,11 +33,11 @@ The evolution dashboard: memory trend charts (by day/week/month), today's stats 
 
 Three dangerous operations that **cannot be undone**: resetting collaboration style, resetting the work manual, and clearing memory—think twice before pulling any of them.
 
-Practical advice: when the AI makes the same mistake twice, write it into the rules/work manual immediately instead of correcting by mouth each time; more memory isn't better—prune stale entries regularly. Authority comes from "every entry counting".
+Practical advice: catch the AI making the same mistake and write the rule into your work manual right away instead of correcting it by mouth each time; more memory isn't better—prune stale entries regularly. Authority comes from "every entry counting".
 
 ## Controlling Credit Costs
 
-QoderWork bills in Credits, shared across the Qoder family (international: Pro $20/month = 2000 Credits, Pro+ $60, Ultra $200; credit packs $20/1500; the China edition has check-in and student/teacher bonuses). Model tiers vary a lot in cost (standard / advanced / flagship, rising step by step). Money-saving plays:
+QoderWork bills in Credits, shared across the Qoder family (international: Pro $20/month = 2000 Credits, Pro+ $60, Ultra $200; credit packs $20/1500; the China edition has check-in and student/teacher bonuses). Model tiers vary a lot in cost (standard / advanced / flagship, rising step by step). Five ways to spend less:
 
 1. **Stagger your models**: standard tier to get it running → flagship tier for the key conclusions → standard tier to format (switching takes effect instantly without losing context);
 2. **Run it once, then automate**: execute a workflow in full once to learn its cost before setting up a scheduled task;
@@ -57,6 +61,20 @@ Use it alongside three baseline rules:
 - **Seven system permissions**: full disk access, screen and audio recording, accessibility, microphone, automation, notifications, location services—enable only what you use;
 - **Shortcuts and QuickPick**: see [Computer Use and Voice Input](/en/qoderwork/adv-computer-use);
 - **Experimental features**: generative UI, pop-out standalone windows, conversation-list filtering—turn on if you like living on the edge.
+
+## FAQ
+
+**Can it really remember my preferences?**
+Yes. Switch on Awareness mode plus Auto memory and it keeps your profile and habits across conversations. Change a rule once and it holds from then on.
+
+**How do I spend fewer Credits?**
+Get the flow working on the standard tier, then switch to flagship only for the key conclusions. State word count and format in your output request—fewer rework rounds is the whole game.
+
+**What is the secure working environment for?**
+It carves out an isolated space on your machine for sensitive work, and files never leave the device. Use it for skills from unknown sources or large batch operations.
+
+**If I clear my memory, can I get it back?**
+No. Resetting collaboration style, resetting the work manual, and clearing memory are all irreversible. Think twice before you click.
 
 ---
 

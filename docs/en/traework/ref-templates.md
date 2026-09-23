@@ -1,17 +1,23 @@
-# TraeWork Common Prompt Templates
+---
+description: "Staring at an empty task box, what scares you isn't writing badly. It's not knowing which sentence to start with."
+---
 
-Ready to use as-is. Replace `【】` placeholders with your actual content. For a refresher on writing style, see the six elements (goal / input / action / constraints / output / acceptance) in [Your First Task](/en/traework/03-first-task).
+# How Do You Copy TraeWork's Prompt Templates? Take Them and Use Them
+
+Staring at an empty task box, what scares you isn't writing badly. It's not knowing which sentence to start with. This chapter packages up prompts for the highest-frequency scenarios—swap in a file name, fill in the blanks, and hit send.
+
+For a refresher on how these are written, see the six elements (goal / input / action / constraints / output / acceptance) in [Your First Task](/en/traework/03-first-task). Replace the `【】` placeholders with your real content.
 
 ## Documents
 
-**Speed-read a document**
+### Speed-read a document
 
 ```text
 Tell me what [document name/attachment] is mainly about. Group it by theme and flag
 the 3 issues I should pay the most attention to.
 ```
 
-**Weekly report**
+### Weekly report
 
 ```text
 Polish [my work summary document] into a weekly report structured as this week's
@@ -21,14 +27,14 @@ the single most report-worthy result of the week. List 3-5 key progress items
 (what to push forward, what support is needed).
 ```
 
-**Write to Feishu and push**
+### Write to Feishu and push
 
 ```text
 Save the [weekly report / minutes / report] you just produced into a Feishu document
 and send it to [group name].
 ```
 
-**Compare two document versions**
+### Compare two document versions
 
 ```text
 Compare [file A] and [file B]. Output the differences in three groups—added, removed,
@@ -38,7 +44,9 @@ conditions. Produce a list of questions to confirm. Do not modify the original f
 
 ## Data
 
-**Excel analysis**
+You've got a spreadsheet to analyze. Pin down the definitions first so it can't quietly invent numbers.
+
+### Excel analysis
 
 ```text
 Read [data file.xlsx]. Do not modify the original file yet.
@@ -49,7 +57,7 @@ Requirements: numbers must match the source file exactly; mark anything you can'
 confirm as "to be verified."
 ```
 
-**Data dashboard**
+### Data dashboard
 
 ```text
 Build a [period] data dashboard: an overview of [core metric] at the top, then trend
@@ -58,7 +66,7 @@ charts, funnel charts, and comparison charts by [dimension]. Charts should be in
 
 ## Reporting
 
-**Performance review report**
+### Performance review report
 
 ```text
 Based on my work records, produce a performance review report. Requirements:
@@ -70,7 +78,7 @@ Based on my work records, produce a performance review report. Requirements:
 Role: [role] Review period: [period] Work records: [@document]
 ```
 
-**Build a PPT (methodology version; see the case study)**
+### Build a PPT (methodology version; see the case study)
 
 ```text
 Do not generate any slides yet. First analyze [the material]: extract the core claims
@@ -81,7 +89,9 @@ Stop after output and wait for my confirmation.
 
 ## Automation
 
-**Scheduled news digest**
+Want it running on a schedule? Write these more carefully than usual—nobody is there at midnight to fill in what you left out.
+
+### Scheduled news digest
 
 ```text
 At [9 a.m. on workdays], collect public coverage related to [topic] from the past
@@ -90,7 +100,7 @@ than 3 substantive items, say so instead of padding.
 Save the output as Markdown in [directory].
 ```
 
-**Weekly brand-monitoring report**
+### Weekly brand-monitoring report
 
 ```text
 Every Monday at 9 a.m., summarize last week's coverage and social media discussion
@@ -100,14 +110,16 @@ user feedback / competitor updates"—noting sentiment and sources.
 
 ## Computer Control
 
-**Form filling (safe version)**
+When you let the AI drive an interface, keep the safety line tight: stop on the submission page and wait for a human to confirm.
+
+### Form filling (safe version)
 
 ```text
 Fill out the [form name/URL] form for me, using the information in [attachment].
 When done, stay on the submission page and wait for my confirmation—do not click Submit.
 ```
 
-**Batch processing from a template**
+### Batch processing from a template
 
 ```text
 Copy the [template] file, replace [fields] with each record's corresponding data,
@@ -118,17 +130,36 @@ Do not send or publish any of the output.
 
 ## Workflows
 
-**Plan mode (review the plan first)**
+Running a long job? Box the steps in with a workflow before you let go.
+
+### Plan mode (review the plan first)
 
 ```text
 /plan Organize the [N] files under [directory]: first give me your plan (how many steps,
 which files you'll touch, how you'll name things), and execute only after I confirm.
 ```
 
-**Goal mode (run to a finish line)**
+### Goal mode (run to a finish line)
 
 ```text
 /goal Convert all [file type] files under [directory] to [target format].
 Spot-check 1 out of every 10 completed; stop only when all are done and every
 spot check passes.
 ```
+
+## FAQ
+
+**How do I handle the brackets?**
+Swap them for the real thing—`[document name]` becomes your actual file. Don't send the brackets along, or the AI will treat them as placeholders.
+
+**Do I have to write out all six elements?**
+Write them all the first time; trim once you're comfortable. Goal, input, constraints, and acceptance are the four you can least afford to drop—leave them out and it starts making things up.
+
+**Why is the automation template so much longer?**
+A scheduled task is an unattended conversation with no one there to fill gaps. Data sources, paths, and exception handling all have to be pinned down, or it stalls the first time it runs.
+
+**Why does the form template say "wait for my confirmation"?**
+Because stopping on the submission page is the safe move. Don't let it click Submit on its own—once it's sent, you can't easily pull it back.
+
+**How do I stop the AI inventing numbers in data work?**
+Say it plainly: "numbers must match the source file exactly; mark anything you can't confirm as to be verified." That plus clean definitions for dirty data keeps it honest.

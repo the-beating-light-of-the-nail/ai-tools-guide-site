@@ -1,6 +1,10 @@
-# Connectors and MCP
+---
+description: "What you actually want isn't \"answer me a question\"—it's \"go post a message in DingTalk\" or \"pull the table off that web page.\" That's the job of QoderWork's connectors: the bridge between your computer and the outside world."
+---
 
-Connectors are the bridge between QoderWork and external systems—once enabled, the AI can operate the browser just like you, read and write your system calendar and email, and hook into Microsoft 365 and DingTalk. MCP, in turn, is the open protocol for plugging in even more external tools.
+# Need the AI to Reach Beyond Your Computer? Connect It Once—It Drives the Browser and DingTalk, No Babysitting
+
+What you actually want isn't "answer me a question"—it's "go post a message in DingTalk" or "pull the table off that web page." That's exactly what QoderWork's connectors do: they're the bridge between your computer and external systems. Once enabled, the AI can operate the browser the way you do, read and write your system calendar and email, and hook into Microsoft 365 and DingTalk. MCP, in turn, is the open protocol for plugging in even more external tools.
 
 > Official docs: [connectors](https://docs.qoder.com/zh/qoderwork/connectors) | [DingTalk MCP walkthrough](https://docs.qoder.com/zh/qoderwork/mcp-walkthrough)
 
@@ -70,6 +74,23 @@ Frequently used DingTalk MCPs: DingTalk Docs, DingTalk Calendar, DingTalk Contac
 **Best practices**: put URLs directly in the prompt; combine connectors with local file access; for complex flows, run it manually first, then solidify it into a Skill or a scheduled task.
 
 > For the general principles and security boundaries of MCP (how it relates to APIs, "how to connect" versus "is connecting safe"), see the WorkBuddy section's [Understanding AI Work Systems](/en/workbuddy/11-ai-work-system/).
+
+## FAQ
+
+**Are connectors on by default?**
+No. Everything ships off, and QoderWork only gets permission after you explicitly authorize and configure it. Anything you haven't turned on, it can't touch.
+
+**I enabled a connector, so why is nothing happening in my conversation?**
+Toggling a connector only takes effect in a newly created task. Asking again in the old conversation does nothing—just open a new one.
+
+**Does the browser connector work with every browser?**
+Chromium only—Chrome, Edge, that family. Safari and Firefox can't connect yet.
+
+**An MCP won't connect. What do I check first?**
+Work down the list: is the JSON/URL complete, is the network reachable, are there extra authorization requirements—and only then remove and re-add it.
+
+**How do I know the DingTalk MCP connected?**
+A green dot appears to the left of the server name. Send something like "find me a document" in the conversation and you'll know right away.
 
 ---
 

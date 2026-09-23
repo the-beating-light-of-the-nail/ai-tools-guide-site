@@ -1,6 +1,10 @@
-# Office Assistant: Assign Work Right Inside Feishu and WeChat
+---
+description: "The most tedious part of your day is probably hauling material out of your chat tool, feeding it to an AI, waiting for an answer, then hauling it back. The Office Assistant flips that around."
+---
 
-The Office Assistant (Bot Assistant) lets you **handle work directly in the chat tools you already use**: submit tasks, check progress, and receive results in one-on-one or group chats. Instead of moving your work materials into the AI, the AI moves into your workspace.
+# How Do You Use the Office Assistant? Assign Work Right Inside Feishu and WeChat
+
+The most tedious part of your day is probably hauling material out of your chat tool, feeding it to an AI, waiting for an answer, then hauling it back. The Office Assistant flips that around: the AI moves into Feishu and WeChat, and one `@TraeWork` in a group chat is enough to get the job started.
 
 > Official docs: [docs.trae.cn/work_bot-assistant](https://docs.trae.cn/work_bot-assistant)
 
@@ -22,9 +26,9 @@ WeChat Work and DingTalk are officially listed as "coming soon."
 
 ## How to Use It
 
-- **One-on-one chat**: Message the app directly, e.g., "Tell me what this document is mainly about";
-- **Group chat**: `@TraeWork` plus your message to have it work in the group;
-- Once you get a result, keep asking follow-ups until you're satisfied.
+One-on-one chat is the simplest: message the app directly, something like "Tell me what this document is mainly about."
+
+In a group chat, `@TraeWork` plus your message gets it working right there in front of everyone. Once you have a result, keep asking follow-ups until you're satisfied.
 
 Four high-frequency scenarios (prompts you can copy as-is):
 
@@ -55,7 +59,7 @@ send it to the reporting group.
 3. Messages sent in the desktop app's chat panel **are not synced** to the messaging tool;
 4. Conversations across multiple messaging tools **don't merge context automatically**—for a given task, continue in the original conversation (the icon next to the username shows where a message came from);
 5. By default it cannot directly operate Feishu Docs / Calendar / Base; you need to set up [external app authorization](/en/traework/06-plugins-integrations) first;
-6. A sleeping computer may interrupt message delivery.
+6. A sleeping computer may interrupt message delivery, so keep an eye on it.
 
 ## Two Security Switches
 
@@ -63,6 +67,23 @@ In the "Manage Connections > Channel Connections" panel, watch these two switche
 
 - **Keep computer awake**: With this on, the computer stays awake from the moment a message arrives until the reply is generated—recommended;
 - **Full access**: ⚠️ This mode **turns off sandbox protection and all approval checks**, letting TraeWork perform arbitrary operations directly on the host machine. Do not enable it unless you fully understand the consequences.
+
+## FAQ
+
+**Does the first binding have to happen in the desktop app?**
+Yes. You have to open it in the desktop app for the initial connection; mobile only works afterward. The web version can't do this step.
+
+**Can other people in the group @ it too?**
+No. Only the creator can assign work through the Office Assistant in a group chat; everyone else sees the message history. If a colleague wants something added, they'll have to route it through you.
+
+**Why can't it touch my Feishu Docs?**
+The permission is off by default. To read or write Feishu Docs, Calendar, and Base, set up [external app authorization](/en/traework/06-plugins-integrations) first—it won't work until you do.
+
+**Should I ever turn on "Full access"?**
+Leave it off. It disables sandbox protection and every approval check, letting TraeWork run anything on your machine. Keep the default unless you know exactly what is happening at every moment.
+
+**What happens if my computer falls asleep?**
+Message delivery can get interrupted. Turn on "Keep computer awake," especially if you expect it to answer at any hour.
 
 ---
 

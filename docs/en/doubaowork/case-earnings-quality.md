@@ -1,8 +1,16 @@
-# After the Earnings Report: Read the Growth First, Then Audit Its Quality
+---
+description: "On earnings day it's easy to get swept along by \"growth\": revenue is up, profit is up, gross margin moved. It looks like a lot of information, but only two or three items may actually drive your judgment."
+---
+
+# Earnings Day: How Do You Catch the Real Changes First, Then Check Whether the Growth Survives Recomputation?
+
+On earnings day, "growth" is the easiest thing to follow: revenue is up, profit is up, gross margin moved. It looks like a lot of information, but only two or three items may actually drive your judgment. Worse, the income statement can tell a rosy story that the cash flow statement and the balance sheet don't agree with—do a plain performance summary and you'll easily mistake accounting profit for money already in hand. This walkthrough uses a two-layer approach: catch the changes first, then check the quality.
 
 > Scenario: earnings day makes it easy to get swept along by "growth"—revenue up, profit up, gross margin moved. It looks like a lot of information, but only two or three items may actually drive your judgment. Worse, the income statement can tell a rosy story that the cash flow statement and balance sheet don't agree with; a plain performance summary easily mistakes accounting profit for money already collected.
 
 This chapter uses Century Huatong's semi-annual report to catch operating changes, then CATL to check cash, receivables, and profit quality: the first half answers "what happened", the second half asks "does this growth survive a recalculation". The tool is the "Performance Analysis" skill (the Skill runs the earnings-analysis workflow; it doesn't mean numbers can skip verification against the original text).
+
+When you read an earnings report, it's tempting to stare at the profit line and draw a conclusion. Don't rush. Confirm the report's identity, period, and units before you talk about growth. Pull operating cash flow, receivables, and inventory into one table and accounting profit can't fool you. Formulas can be right while units are still wrong. When you see "not disclosed," let it stay "not disclosed"—don't fill in zeros on the company's behalf. Follow these two layers and what you get is a list of questions you can keep verifying. You don't recalculate everything yourself, and you don't have to worry about it handing you buy or sell advice.
 
 ## Layer One: Find What Actually Changes the Judgment
 
@@ -120,3 +128,25 @@ This process doesn't stop at "revenue grew X%, profit grew Y%". It keeps asking:
 ---
 
 Next: [Researching a Company for the First Time: from Business Model to Eight Key Questions →](/en/doubaowork/case-first-company)
+
+## FAQ
+
+**Why can't you conclude from the income statement alone?**
+
+Because a healthy income statement doesn't mean the cash flow statement and balance sheet agree. Put operating cash flow, receivables, and inventory side by side, or accounting profit will convince you the money already arrived.
+
+**Why not fill "not disclosed" with a zero?**
+
+Your prompt says "write not disclosed; don't fill in zeros." A zero is a fabricated number, and every ratio downstream inherits the error. Mark what's missing as missing.
+
+**If the formulas all check out, is the report trustworthy?**
+
+No. In this case every formula was right, yet a second-round audit caught two unit-conversion errors—thousands of yuan converted to hundred-millions with the ten-thousands factor, inflating amounts 10x. Mix up units once and every ratio distorts, so watch units separately.
+
+**What does "compare like periods" mean?**
+
+2026H1 gets compared with 2025H1 only; don't run a semi-annual report against a quarterly one. Get the basis wrong and the growth figures mean nothing.
+
+**Will it give me buy or sell advice?**
+
+No. The prompt states plainly: no target prices, ratings, or buy/sell advice. What you get is a unit-consistent list of questions you can keep verifying. The decision stays with you.

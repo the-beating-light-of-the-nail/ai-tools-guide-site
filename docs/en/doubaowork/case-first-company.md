@@ -1,4 +1,10 @@
-# Researching a Company for the First Time: from Business Model to Eight Key Lines of Inquiry
+---
+description: "A better starting point is a company fact map: products, customers, channels, costs, moats, and risks on one page, so every later question has somewhere to land. It works both for covering a company for the first time and for picking up research someone else left behind."
+---
+
+# Researching a Company for the First Time and Don't Know Where to Start? Build a Fact Map, Then Attach Eight Lines of Inquiry
+
+You open a company's filings for the first time, and it usually goes like this: you've bookmarked a pile of material, skimmed the stock price, the news, the hot concepts—and when someone asks you to explain what it actually sells, why customers pay, and where the profit comes from, you stall. Covering a company for the first time isn't a contest over who has more information. It's about whether you can land scattered material on a stable base. This page gives you a company fact map plus eight key lines of inquiry you can apply straight away, whether you're looking at a company for the first time or inheriting research from someone else.
 
 > Scenario: looking at a company for the first time, it's easiest to start with the stock price, hot concepts, or news—you collect a pile of material and still can't say what it sells, why customers pay, or where the profit comes from.
 
@@ -32,7 +38,7 @@ conclusions.
 
 This prompt has one clear center: every piece of material must answer "how does this company turn products into revenue and cash". Brand lore, company history, and generic industry background off that main line stay out—both to control report length and to make it easy to check whether material actually changed the understanding of the business.
 
-The most useful thing about the generated business map is that it reminds the researcher **not to lift out one pretty metric in isolation**: a shift in direct-sales share can affect channel relationships and cash collection, product mix shapes gross margin, base-liquor output and inventory determine future sellable volume, and terminal wholesale prices must never be mixed with the company's ex-factory basis. When a new report lands, update along the same map instead of restarting from the company intro. First-time researchers can use the business map as a reading order: where revenue comes from → margin and collection → capacity and inventory → and only then brand and valuation.
+The most useful thing about the generated business map is that it reminds you **not to lift out one pretty metric in isolation**: a shift in direct-sales share can affect channel relationships and cash collection, product mix shapes gross margin, base-liquor output and inventory determine future sellable volume, and terminal wholesale prices must never be mixed with the company's ex-factory basis. When a new report lands, update along the same map instead of restarting from the company intro. On your first pass, use the business map as a reading order: where revenue comes from → margin and collection → capacity and inventory → and only then brand and valuation.
 
 ## Step 2: Plug the Eight Prompt Types into the Fact Base
 
@@ -106,3 +112,25 @@ Eight prompt types don't mean running all eight for every company. On first cove
 ---
 
 Next: [From Screening to Valuation: Compare and Price Only After Unifying the Basis →](/en/doubaowork/case-screening-valuation)
+
+## FAQ
+
+**Is it fine to start from the stock price on first look?**
+
+Better not. Stock price, hot concepts, and news are the easy entry, but no matter how much material you pile up, you still can't explain what it sells or why customers pay. Build the fact map first and your later questions have something to land on.
+
+**Do I run all eight prompts for every company?**
+
+No. On first coverage, build the skeleton with the business model, then go where it hurts: unclear revenue structure, read the filings; heavy market dispute, run the bull-bear audit; many peers, do a horizontal comparison on a unified basis.
+
+**What if figures run past my data cutoff?**
+
+Pull them back with an audit prompt: roll the latest reporting period back one, mark data without a same-basis comparison as pending verification, and never force-fill third-party numbers.
+
+**A long task stalled halfway—how do I resume it?**
+
+Just say "continue from the original requirements already submitted; generate the files and give me their paths," and restate the cutoff, sources, and delivery format. It picks up from there.
+
+**How do you keep inference separate from disclosure?**
+
+Give every figure its period, unit, and original source, and write company disclosures, management claims, and your own inferences in separate places. For inventory or wholesale prices from third-party surveys, note the sample and date separately.

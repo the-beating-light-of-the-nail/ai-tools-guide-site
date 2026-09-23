@@ -1,10 +1,18 @@
-# Qwen Work Blue Book
+---
+description: "This section is adapted from the Qwen Work Blue Book V2.0. The whole book answers one core question: how to move AI from \"can generate\" to \"can deliver\"—generating content is not the same as completing work; only when the result is editable, verifiable, and transferable does it count as an acceptable delivery."
+---
 
-**Qwen Work** (qwenwork.cn, an AI office assistant from Alibaba built for real work tasks) is not yet another "chat-capable" AI. State your goal in one plain sentence and it reads the materials you authorize, lays out the steps, invokes Skills and connectors, and delivers work products that are editable, verifiable, and transferable: Word documents, Excel spreadsheets, PPT decks, research reports—not a block of text you can copy but never build on.
+# What Is Qwen Work? A Beginner's Manual for Getting Work Actually Delivered
 
-This section is adapted from the *Qwen Work Blue Book V2.0*, which answers one core question throughout: how to move AI from "can generate" to "can deliver"—generating content is not the same as completing work; only when the result is editable, verifiable, and transferable does it count as an acceptable delivery. Around this main thread, the Blue Book provides a set of practical team standards covering the task delivery protocol, work environment architecture, automation boundaries, security governance, and value measurement.
+You've probably run into this: you ask AI to write a weekly report, it hands you a block of text, and you still have to copy, paste, and edit for ages before you'd dare send it. The thing exists, but it's still a long way from "something you can hand over as-is."
 
-## Learning Path
+**Qwen Work** (qwenwork.cn, an AI office assistant from Alibaba built for real work tasks) is not yet another "chat-capable" AI. You give it one task and it reads the materials you authorize, lays out the steps, invokes Skills and connectors, and hands back a work product that is editable, verifiable, and transferable—a Word document, an Excel spreadsheet, a PPT deck, a research report—not a block of text you can only copy and never build on.
+
+This section is adapted from the *Qwen Work Blue Book V2.0*, which answers one core question throughout: how to move AI from "can generate" to "can deliver"—generating content is not the same as completing work; only when what you get back is editable, verifiable, and transferable does it count as a delivery you can actually accept. Around that main thread, the Blue Book gives you a full set of team standards you can put into practice: the task delivery protocol, work environment architecture, automation boundaries, security governance, and value measurement.
+
+## How to Read This Guide
+
+You don't have to plow through it front to back. The three layers below run "get started, then go deeper, then roll out to a team"—just pick the part you need right now.
 
 ### Getting Started
 
@@ -62,4 +70,18 @@ This section is adapted from the *Qwen Work Blue Book V2.0*, which answers one c
 
 ## Provenance
 
-This section is adapted from the open-source project [mickyzhou-glitch/QwenWorkGuide](https://github.com/mickyzhou-glitch/QwenWorkGuide), the *Qwen Work Blue Book V2.0* (document text under CC BY 4.0). It is an unofficial, community-maintained guide; product capabilities are subject to the [official materials](https://qwenwork.cn). Content snapshot: 2026-08-01.
+This guide is not official documentation. It is adapted from the open-source project [mickyzhou-glitch/QwenWorkGuide](https://github.com/mickyzhou-glitch/QwenWorkGuide), the *Qwen Work Blue Book V2.0* (document text under CC BY 4.0)—an unofficial, community-built guide. Keep one rule in mind as you use it: for product capabilities, the [official materials](https://qwenwork.cn) are the source of truth; the guide only helps you organize your thinking and settle on a method. Content snapshot: 2026-08-01.
+
+## FAQ
+
+**How is Qwen Work different from chat AI?**
+Chat AI gives you an answer. Qwen Work gives you a deliverable you can keep editing, verify, and pass along. Ask it to put together a weekly report and it reads the material, runs the numbers, lays out the formatting, and hands back a file you can keep working on—not just text.
+
+**I'm starting from zero. Where do I begin?**
+Start with [Quick Start](/en/qwenwork/quick-start) and use one task card to run your first low-risk task end to end. To get the shape of the whole book, read the [Executive Summary](/en/qwenwork/executive-summary).
+
+**Can I trust the numbers in the case studies?**
+The cases come from client-authorized material, and the quantified results haven't been independently audited. Before you use them, swap in your own baseline and add human review—don't treat someone else's numbers as a guarantee for you.
+
+**Who has the final word on product capabilities?**
+This is community-built and unofficial. For product capabilities, go to the [official materials](https://qwenwork.cn). The guide only helps you work out how to use it and how to roll it out.

@@ -1,4 +1,12 @@
-# From One Raw Product Photo to a Full Set of Listing Images
+---
+description: "You have one casually shot product photo—plants in the background—and you want to list it on an e-commerce site without a single decent hero image. You'd think one image-generation prompt solves it, but it's really an e-commerce visual production workflow."
+---
+
+# Only One Casual Product Photo? Turn It into a Full Set of Listing-Ready Hero Images
+
+You have one casually shot product photo, plants still in the background, and you want to list it on an e-commerce site but don't have a single presentable hero image. You might assume one image-generation prompt solves this. It doesn't—it's an e-commerce visual production workflow. This page walks you through one skill that turns a single raw photo into a matched set of hero images, without inventing a single product number.
+
+You may be thinking, isn't this just telling AI to make a picture? Try it and you'll see: an off-the-cuff prompt gives you a distorted product and made-up numbers. If you want to actually sell it, you need the full workflow. Follow the skill below and one casual shot becomes a complete set. You don't need design skills—it handles the hard part. You don't need to worry about copyright either—it never inherits a competitor's numbers. You just hand it the real product and the real selling points.
 
 > Scenario: E-commerce hero image design. All you have is a casually shot product photo, and you want a complete, listing-ready set of images. This isn't a simple image-generation prompt—it's an e-commerce visual production workflow.
 
@@ -54,3 +62,25 @@ Don't rush to finalize—around the same product, try a set of directions across
 ---
 
 On to the finance scenarios: [After the Close: Turning Market Moves into a Research List →](/en/doubaowork/case-market-review)
+
+## FAQ
+
+**Can I use this skill without any design background?**
+
+Yes. Hand it one raw product photo and it deconstructs references, sets the visual direction, and writes production-grade prompts. What you actually need to watch is that product details and numbers don't get invented.
+
+**Can I just copy a reference image?**
+
+No, and you shouldn't. You borrow the mechanism from each one—composition, information skeleton, mood—while the product and the real data stay yours. Copy someone else's product and numbers and you're infringing the moment you list it.
+
+**Why can't competitor acreage and yield figures be inherited?**
+
+They aren't your facts. The skill requires facts to be locked first, so competitor numbers can't carry over; they get replaced with this product's confirmed information, keeping invented scale figures off your listing.
+
+**How many images should I generate at once?**
+
+Follow "diverge first, then converge": produce 3–4 variants of the same mechanism, compare, and pick what goes into the final set. Generating a huge batch at once just makes choosing harder; smaller batches stay clearer.
+
+**Can the generated images go straight onto the listing?**
+
+The skill handles visual production; final QC is still yours. Check product share, information density, and whether the tone is consistent. Once that's confirmed, take them to the listing.
