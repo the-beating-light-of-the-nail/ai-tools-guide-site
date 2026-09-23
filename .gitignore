@@ -1,6 +1,8 @@
 node_modules
 docs/.vitepress/cache
 docs/.vitepress/dist
+docs/.vitepress/.temp
+docs/.vitepress/config.ts.timestamp-*.mjs
 .vercel
 .DS_Store
 *.log

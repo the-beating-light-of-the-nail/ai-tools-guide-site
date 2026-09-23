@@ -1,10 +1,18 @@
-# QoderWork 教程
+---
+description: "本板塊為本站原創，事實依據官方檔案（截至 2026-08-31，產品迭代很快，以官方檔案為準）核對撰寫，案例篇改編自社群實戰並註明出處。結構對標《WorkBuddy 實戰藍皮書》五組框架。"
+---
 
-**QoderWork** 是阿里系的桌面端智慧工作助手，「你說需求，它交付結果」。檔案整理、資料處理、檔案生成、瀏覽器自動化、定時任務、IM 遠端指揮，每一樣活最後都落到你電腦上，產出的是真實檔案。驗收也簡單：不用翻聊天記錄，直接打開硬碟看產物。
+# QoderWork 怎麼學？從安裝到進階，一份路線圖帶你走完
+
+你想找個能替你幹活的 AI，但市面上工具一堆，不知道從哪下手。這份 QoderWork 指南就是給你這樣的辦公人寫的：從裝好它、跑通第一個任務，到檔案整理、資料分析、瀏覽器自動化，一步步來。你不用先懂原理，跟著路線走，邊用邊懂。
+
+**QoderWork** 是阿里系的桌面端智慧工作助手，「你說需求，它交付結果」。檔案整理、資料處理、檔案生成、瀏覽器自動化、定時任務、IM 遠端指揮，每一樣活最後都落到你電腦上，產出的是真實檔案。驗收也簡單：不用翻聊天記錄，直接開啟硬碟看產物。
 
 > 官網下載：[qoderwork.com](https://qoderwork.com)（國內版 [qoder.com.cn/qoderwork](https://qoder.com.cn/qoderwork)） ｜ 官方檔案：[docs.qoder.com/zh/qoderwork](https://docs.qoder.com/zh/qoderwork/introduction)
 
 本板塊為本站原創，事實依據官方檔案（截至 2026-08-31，產品迭代很快，以官方檔案為準）核對撰寫，案例篇改編自社群實戰並註明出處。結構對標《WorkBuddy 實戰藍皮書》五組框架。
+
+你如果趕時間，先記住一句話：上手篇讓你跑起來，擴充套件篇把能力接進來，案例篇看別人怎麼打，進階篇往深了挖。下面按這四塊給你列好路口。
 
 ## 學習路線
 
@@ -22,7 +30,7 @@
 | 章節 | 你會得到什麼 |
 | --- | --- |
 | [技能與專家套件](/zh-tw/qoderwork/05-skills) | 從市場裝技能到法務套件實戰 |
-| [聯結器與 MCP](/zh-tw/qoderwork/06-connectors) | 瀏覽器、M365、釘釘 MCP 接入 |
+| [連接器與 MCP](/zh-tw/qoderwork/06-connectors) | 瀏覽器、M365、釘釘 MCP 接入 |
 | [IM 頻道](/zh-tw/qoderwork/07-im-channels) | 7 平臺聊天窗遠端指揮 + /bind |
 | [定時任務](/zh-tw/qoderwork/08-automation) | 到點自己幹：六種週期 + Prompt 清單 |
 
@@ -32,7 +40,7 @@
 | --- | --- |
 | [檔案整理與照片管理](/zh-tw/qoderwork/case-file-organize) | 查重/歸檔/年度總結，含安全底線 |
 | [資料分析與調研報告](/zh-tw/qoderwork/case-data-report) | 十萬行 CSV、帶來源的調研 PPT |
-| [瀏覽器自動化](/zh-tw/qoderwork/case-browser) | 20 分鐘整理 230 篇公眾號文章全程覆盤 |
+| [瀏覽器自動化](/zh-tw/qoderwork/case-browser) | 20 分鐘整理 230 篇公眾號文章全程復盤 |
 | [批次檔案處理與多媒體](/zh-tw/qoderwork/case-office-docs) | 簡歷篩選、Tech Pack、字幕、GIF |
 
 ### 進階篇
@@ -48,15 +56,15 @@
 
 | 章節 | 你會得到什麼 |
 | --- | --- |
-| [常用指令模板](/zh-tw/qoderwork/ref-templates) | 整理/資料/檔案/自動化/流程五類别範本 |
+| [常用指令模板](/zh-tw/qoderwork/ref-templates) | 整理/資料/檔案/自動化/流程五類別範本 |
 | [場景速查表](/zh-tw/qoderwork/ref-scenarios) | 功能索引 + 提示詞誤區 + 硬限制備忘 |
 
 ## 適合誰
 
-- 桌面一團糟、檔案滿天飛的辦公人
-- 每天和表格、票據、簡歷、單據打交道的職能崗
-- 想用聊天窗遠端指揮電腦幹活的效率玩家
-- 同時在對比 WorkBuddy / TraeWork 的選型者
+- 桌面一團糟、檔案滿天飛的辦公人——你最該先讀檔案整理案例；
+- 每天和表格、票據、簡歷、單據打交道的職能崗——資料類和批次檔案案例對得上；
+- 想用聊天窗遠端指揮電腦幹活的效率玩家——IM 頻道和電腦操控給你看；
+- 同時在對比 WorkBuddy / TraeWork 的選型者——速查表裡三家怎麼選說得清楚。
 
 ## 官方與生態資源
 
@@ -64,3 +72,19 @@
 - 檔案：[docs.qoder.com/zh/qoderwork](https://docs.qoder.com/zh/qoderwork/introduction)
 - 更新日誌（迭代很快，值得追）：[release-notes/qoderwork](https://docs.qoder.com/release-notes/qoderwork.md)
 - 社群技能：[lexburner/skill-collection](https://github.com/lexburner/skill-collection)、官方論壇 [forum.qoder.com](https://forum.qoder.com)
+
+你剛開始不必全看。挑一個你這週真要做的活，點進對應章節，跑通一遍比讀完十篇都管用。
+
+## 常見問題
+
+**我完全是新手，先從哪篇看？**
+從第一個任務開始，你跟著跑完一個完整迴圈，後面的概念一下就通了。
+
+**這份指南里的資料案例是真的嗎？**
+案例篇改編自社群實戰並註明出處，資料來自原作者實測，你當參考即可，別當成官方承諾。
+
+**QoderWork 和其他兩家怎麼選？**
+你常泡釘釘、飛書、微信，或要帶登入態跑網頁，選它；深度飛書 / 騰訊檔案選別的。詳見場景速查表。
+
+**看不完所有章節怎麼辦？**
+不用看完。你只挑本週要做的那件事，進對應案例照做，跑通比通讀重要。
