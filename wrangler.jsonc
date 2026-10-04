@@ -7,6 +7,6 @@
     "not_found_handling": "404-page"
   },
   "routes": [
-    { "pattern": "www.aiworkagent.org", "custom_domain": true }
+    { "pattern": "aiworkagent.org", "custom_domain": true }
   ]
 }

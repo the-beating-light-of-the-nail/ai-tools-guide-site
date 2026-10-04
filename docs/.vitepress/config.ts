@@ -9,7 +9,9 @@ import { de } from "./i18n/de";
 import { fr } from "./i18n/fr";
 import { zhTw } from "./i18n/zh-tw";
 
-const siteUrl = process.env.VITEPRESS_SITE_URL || "https://www.aiworkagent.org";
+// 2026-10-04 域名正主翻转：裸域 aiworkagent.org 为 canonical，www 恒 308 → 裸域
+//（redirect-worker 承担；此前 www 为正主、裸域 301 → www）。
+const siteUrl = process.env.VITEPRESS_SITE_URL || "https://aiworkagent.org";
 
 // 路径前缀 → 语言元信息（key 与 i18n/index.ts 的 langPrefixes 值一致）
 type NavItem = { text: string; link?: string; items?: NavItem[] };
