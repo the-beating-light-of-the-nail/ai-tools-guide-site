@@ -1,5 +1,7 @@
 ---
-description: "你用 WorkBuddy 写完一份纪要，想顺手发到腾讯文档、或者让它帮你建个明天的会议。可它默认碰不到这些外部服务——它待在自己的世界里，看不见你的邮箱和日历。"
+title: "WorkBuddy 连接器教程：打通腾讯文档、会议与日历"
+description: "WorkBuddy 连接器（Connectors）是什么？配置后可打通腾讯文档、腾讯会议、邮箱与日历，让 AI 直接替你发纪要、建会议、查日程，跨应用办事不来回切换。"
+keywords: "WorkBuddy连接器,WorkBuddy Connector,腾讯WorkBuddy,WorkBuddy教程"
 ---
 
 # WorkBuddy 的连接器是什么？接上腾讯系工具让它直接替你办事

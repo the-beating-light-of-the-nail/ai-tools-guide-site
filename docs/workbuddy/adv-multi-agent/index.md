@@ -1,5 +1,7 @@
 ---
-description: "本章以一个“产品宣传片专家团”的实际案例，回答多 Agent 系统的三个核心问题：如何设计分工、如何串联产物、何时值得拆分。"
+title: "WorkBuddy 多 Agent 实战：多智能体分工与协作"
+description: "一个大任务单个 AI 顾此失彼？本章以「产品宣传片专家团」为例，讲透 WorkBuddy 多 Agent（多智能体）系统的三个核心：怎么分工、产物怎么交接、何时值得拆。"
+keywords: "WorkBuddy多Agent,多智能体,Multi-Agent,WorkBuddy教程"
 ---
 
 # 多 Agent 系统怎么设计？用一支产品宣传片专家团讲透分工与交接

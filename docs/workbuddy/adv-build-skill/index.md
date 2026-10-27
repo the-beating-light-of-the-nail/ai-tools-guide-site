@@ -1,5 +1,7 @@
 ---
-description: "除了把自己的 SOP 沉淀为 Skill，还有一个更简单的办法：用 [cangjie-skill](https://github.com/kangarooking/cangjie-skill)（仓颉 ……"
+title: "WorkBuddy 自定义 Skill 开发：把专业书蒸馏成技能"
+description: "怎么快速造出好用的 WorkBuddy Skill？本章讲六阶段蒸馏法：用开源工具 cangjie-skill（仓颉技能生成器），把整本专业书变成可复用的 AI 技能包。"
+keywords: "WorkBuddy Skill开发,自制Skill,cangjie-skill,WorkBuddy技能"
 ---
 
 # 怎么把一本书蒸馏成能用的 Skill？六阶段 SOP 一次讲清

@@ -1,5 +1,7 @@
 ---
-description: "你打开 WorkBuddy，想让它帮你干活，却发现自己账号里积分不够了，弹窗提示额度不足。"
+title: "WorkBuddy 积分不够用？接入自己的 API 教程"
+description: "WorkBuddy 免费积分用完、提示额度不足怎么办？教程教你在设置里接入自定义 API Key（支持 DeepSeek、OpenAI 等接口），零积分照常跑任务。"
+keywords: "WorkBuddy积分,WorkBuddy API,WorkBuddy额度,WorkBuddy DeepSeek"
 ---
 
 # 没积分也能用 WorkBuddy？接上你自己的 API 照常跑任务

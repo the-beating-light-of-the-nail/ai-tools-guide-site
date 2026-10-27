@@ -1,5 +1,7 @@
 ---
-description: "你第一次打开 WorkBuddy，左边一栏、中间一片空白、右边又一栏，光标在输入框里一闪一闪。你想让它帮你干活，又怕点错了它乱动你电脑里的文件；想先把界面研究清楚再动手，可满屏的按钮看得人发懵。"
+title: "WorkBuddy 界面操作手册：三大区域五分钟上手"
+description: "第一次打开 WorkBuddy 不知道怎么使用？本节操作手册带你 5 分钟摸清界面布局：详解左侧导航、中间对话工作区与右侧文件面板三大区域的功能，快速上手不再迷路。"
+keywords: "WorkBuddy界面,WorkBuddy操作手册,WorkBuddy怎么使用,WorkBuddy如何使用"
 ---
 
 # WorkBuddy 界面长啥样？三块区域带你五分钟不再迷路

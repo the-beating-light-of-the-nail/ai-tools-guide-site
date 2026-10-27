@@ -1,5 +1,7 @@
 ---
-description: "按“你是谁”和“我想做什么”组织的词典式速查。找到场景，对照推荐入口和人工检查点。"
+title: "WorkBuddy 功能速查表：按人群与场景查用法"
+description: "不知道该用 WorkBuddy 哪个功能？速查手册按「你是谁（HR/运营/销售/研发）」和「想做什么」双维度做成检索表，一秒查到推荐功能入口和人工检查点。"
+keywords: "WorkBuddy功能,WorkBuddy速查,WorkBuddy场景,WorkBuddy用法"
 ---
 
 # 不知道该用哪个功能？按人群和场景一张表查到你该去哪

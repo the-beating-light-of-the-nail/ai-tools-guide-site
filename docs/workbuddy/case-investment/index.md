@@ -1,5 +1,7 @@
 ---
-description: "投资是一件高度信息密集、强结构化、又极度依赖判断的事：读不完的财报、理不清的行业、吵不停的多空。整理碎片信息、拆解复杂材料、把思考过程摆到台面上，恰好是 AI 擅长的。"
+title: "WorkBuddy 股票研究实战：提示词搭投研流水线"
+description: "怎么把股票研究变成日常？本案例用 WorkBuddy 配 8 条提示词和 stock-advisor 流水线，自动拆解财报、梳理行业与多空观点，搭出个人 AI 投研系统。"
+keywords: "WorkBuddy股票,WorkBuddy投资,WorkBuddy提示词,AI投研"
 ---
 
 # 怎么把股票研究变成日常？八条提示词加 stock-advisor 流水线

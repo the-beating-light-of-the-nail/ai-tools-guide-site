@@ -1,5 +1,7 @@
 ---
-description: "如果一个人同时使用 WPS、ima、Obsidian、微信收藏、会议记录和本地文件，怎样分工才能避免“每个地方都有一份，但没有一份可信”？"
+title: "WorkBuddy 知识库实战：WPS、ima、Obsidian 分工"
+description: "收藏散落在 WPS、ima、Obsidian、微信收藏和本地文件里？本案例教你以 WorkBuddy 为中枢搭个人知识库，明确各工具分工，把碎片收藏变成可信可用的知识。"
+keywords: "WorkBuddy知识库,WorkBuddy ima,WorkBuddy Obsidian,个人知识库"
 ---
 
 # 收藏的东西怎么变成能用的知识？WPS / ima / Obsidian / 微信收藏这样分工

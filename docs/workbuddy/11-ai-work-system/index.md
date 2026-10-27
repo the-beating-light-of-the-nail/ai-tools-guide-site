@@ -1,5 +1,7 @@
 ---
-description: "前面十章讲的是「怎么用 WorkBuddy」。这一章讲「为什么这么设计」——把 LLM、Token、Prompt、Agent、Tool、Skill、MCP、知识库、工作流这些词放进同一张图。"
+title: "WorkBuddy 原理详解：LLM、Agent、Skill 与 MCP"
+description: "WorkBuddy 底层的 AI 工作系统怎么运转？本章用一张全景图把 LLM、Agent、Tool、Skill、MCP、知识库与工作流的关系讲透，理解整体设计。"
+keywords: "WorkBuddy原理,AI Agent,Skill,MCP,WorkBuddy教程"
 ---
 
 # AI 工作系统到底怎么运转？一章看懂 LLM、Agent、Skill 各管什么事

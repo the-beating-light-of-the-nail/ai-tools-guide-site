@@ -1,5 +1,7 @@
 ---
-description: "你盯着空荡荡的 WorkBuddy 界面，材料其实都齐了——一份电商销售表格、几份零散文档——可你就是不知道第一句该敲什么。复制进聊天框自己写？那又绕回老路了，AI 替的活最后还是你干。"
+title: "WorkBuddy 怎么用？跑通第一个任务的 8 步教程"
+description: "WorkBuddy 到底怎么用？以电商销售表格和零散文档为例，给出使用教程详细步骤：跟着 8 步跑完第一个任务，学会给材料、写指令，拿到能交的汇报。"
+keywords: "WorkBuddy怎么用,WorkBuddy使用教程详细步骤,WorkBuddy新手入门,WorkBuddy教程"
 ---
 
 # WorkBuddy 第一单怎么跑？八步走完拿到能交的汇报

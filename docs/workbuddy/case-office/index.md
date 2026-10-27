@@ -1,5 +1,7 @@
 ---
-description: "办公三件套是多数人第一次感受到 WorkBuddy 价值的地方。本章聚焦三类最常见的办公产物：Word 文档、Excel 表格和 PPT 汇报。"
+title: "WorkBuddy 办公实战：AI 生成 Word/Excel/PPT"
+description: "Word、Excel、PPT 怎么让 WorkBuddy 代劳？详解 AI 写 Word 文档、清洗 Excel 表格、一键生成 PPT 汇报的流程，日常文书交给智能体。"
+keywords: "WorkBuddy PPT,WorkBuddy Excel,WorkBuddy Word,WorkBuddy办公"
 ---
 
 # Word、Excel、PPT 怎么让 AI 帮你做？三件套的正确打开方式

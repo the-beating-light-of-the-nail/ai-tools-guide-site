@@ -1,5 +1,7 @@
 ---
-description: "你让 WorkBuddy 分析一份销售数据，它读完给你画了图、总结了趋势。结果能用，但总觉得差了点意思——它没问你这数据要服务什么业务目标，也没揪出异常背后可能的原因。"
+title: "WorkBuddy 专家功能怎么用？配置领域 AI 助手"
+description: "普通 AI 分析数据浮于表面？WorkBuddy 专家（Experts）功能让你调用自带业务视角的领域 AI 助手。本文详解怎么选怎么配，深挖异常原因，交出专业级结果。"
+keywords: "WorkBuddy专家,WorkBuddy Experts,WorkBuddy功能,WorkBuddy教程"
 ---
 
 # WorkBuddy 的专家是什么？派一个懂行的 AI 同事替你扛专业活

@@ -1,5 +1,7 @@
 ---
-description: "先说人话版定义：WorkBuddy 是腾讯推出的全场景职场 AI 智能体工作台，面向 HR、行政、运营、销售、研发这些每天要跟文件、表格、报告打交道的人。"
+title: "腾讯 WorkBuddy 是什么？全场景 AI 智能体功能介绍"
+description: "WorkBuddy 是什么意思？腾讯推出的全场景职场 AI 智能体工作台（常被误拼为 Workbody，另有国际版）。详解功能介绍、适用人群，以及它和聊天 AI 的区别。"
+keywords: "WorkBuddy是什么,腾讯WorkBuddy,Workbody,WorkBuddy功能介绍,WorkBuddy国际版"
 ---
 
 # 第 1 章 初识 WorkBuddy：它是干活的，不是聊天的
@@ -65,6 +67,12 @@ flowchart LR
 
 **我这种岗位用得上吗？**
 HR、行政、运营、销售、研发都有对应场景。判断方法很朴素：你的活里有没有「读一堆材料、产出一份东西」的环节。
+
+**搜 Workbody 找到这页的，是打错字了吗？**
+没关系，说的是同一个东西。Workbody 是 WorkBuddy 的常见误拼——名字来自「工作伙伴（Work Buddy）」，两个写法指的都是这个腾讯出的 AI 工作台。
+
+**WorkBuddy 是腾讯的吗？有国际版吗？**
+是腾讯出品的，所以也有人叫它腾讯 WorkBuddy 或腾讯 AI 工作台。腾讯在 2026 年推出了面向海外用户的 WorkBuddy 国际版；国内用户直接用国内版就行，本教程以国内版为准。
 
 ---
 

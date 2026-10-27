@@ -1,5 +1,7 @@
 ---
-description: "想试 WorkBuddy，第一步往往最劝退：你不知道从哪下、下完不知道装哪、装完不知道该扫微信还是输手机号。"
+title: "WorkBuddy 下载安装与注册教程：登录全流程图文步骤"
+description: "腾讯 WorkBuddy 怎么下载、安装与注册？提供官方下载入口、Windows 与 macOS 安装、微信扫码与手机号注册登录全流程图文步骤，附安装报错排查与更新方法。"
+keywords: "WorkBuddy下载,WorkBuddy安装教程,WorkBuddy注册,腾讯WorkBuddy,WorkBuddy登录"
 ---
 
 # WorkBuddy 怎么装？下载、安装、登录全流程（附截图）
@@ -10,7 +12,7 @@ description: "想试 WorkBuddy，第一步往往最劝退：你不知道从哪�
 
 ## 下载：只认官方入口
 
-你打开官方地址 [codebuddy.cn/work](https://www.codebuddy.cn/work/)，选择 WorkBuddy，点「下载 WorkBuddy」。
+你打开官方地址 [codebuddy.cn/work](https://www.codebuddy.cn/work/)，选择 WorkBuddy，点「下载 WorkBuddy」。这是腾讯 WorkBuddy 国内版的下载入口；海外用户用的 WorkBuddy 国际版不在这里发，本教程后面都以国内版为准。
 
 ![官网下载入口](/workbuddy/02-install/assets/001_image_GGeabJkE2o.png)
 
@@ -57,6 +59,8 @@ description: "想试 WorkBuddy，第一步往往最劝退：你不知道从哪�
 ![从应用程序启动](/workbuddy/02-install/assets/012_image_LtqPbQ2z6o.png)
 
 ## 登录
+
+WorkBuddy 不用单独注册账号：走下面的登录流程，用微信或手机号验证通过，账号就自动建好了。
 
 1. 你点登录按钮。
 

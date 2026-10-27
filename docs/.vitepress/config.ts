@@ -13,6 +13,10 @@ import { zhTw } from "./i18n/zh-tw";
 //（redirect-worker 承担；此前 www 为正主、裸域 301 → www）。
 const siteUrl = process.env.VITEPRESS_SITE_URL || "https://aiworkagent.org";
 
+// 全站默认 keywords：仅当页面 frontmatter 未提供 keywords 时使用（transformHead 输出）
+const siteKeywords =
+  "AI办公,WorkBuddy教程,TraeWork教程,QoderWork教程,豆包工作教程,Trae Work,Qoder Work,豆包工作,AI工作台,AI工作助手,AI Agent,办公智能体,白领AI办公";
+
 // 路径前缀 → 语言元信息（key 与 i18n/index.ts 的 langPrefixes 值一致）
 type NavItem = { text: string; link?: string; items?: NavItem[] };
 const LOCALES: Record<
@@ -125,10 +129,13 @@ export default withMermaid(
       const title = String(pageData.frontmatter.title ?? pageData.title ?? meta.siteName);
       const fullTitle = `${title} · ${meta.siteName}`;
       const description = String(pageData.frontmatter.description ?? meta.description);
+      // keywords 支持页面级覆盖：frontmatter 有就用页面的，没有才用全站默认
+      const keywords = String(pageData.frontmatter.keywords ?? siteKeywords);
       const ogImage = `${siteUrl}/og-image.png`;
 
       const head: HeadConfig[] = [
         ["link", { rel: "canonical", href: canonical }],
+        ["meta", { name: "keywords", content: keywords }],
         ["meta", { property: "og:url", content: canonical }],
         ["meta", { property: "og:title", content: fullTitle }],
         ["meta", { property: "og:description", content: description }],
@@ -223,14 +230,6 @@ export default withMermaid(
         "script",
         { type: "text/javascript" },
         `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a]=c[a].q||c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "yak6yh0qjj");`,
-      ],
-      [
-        "meta",
-        {
-          name: "keywords",
-          content:
-            "AI办公,WorkBuddy教程,TraeWork教程,QoderWork教程,豆包工作教程,Trae Work,Qoder Work,豆包工作,AI工作台,AI工作助手,AI Agent,办公智能体,白领AI办公",
-        },
       ],
     ],
     markdown: {

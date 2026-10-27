@@ -1,5 +1,7 @@
 ---
-description: "本板块按「上手 → 扩展 → 案例 → 进阶 → 速查」五组组织，从安装一路带到搭起自己的 AI 工作系统。"
+title: "腾讯 WorkBuddy 使用教程：从入门到搭建 AI 工作系统"
+description: "腾讯 WorkBuddy 中文使用教程与操作手册：按「新手入门→扩展→案例→进阶→速查」五组组织，手把手教你 WorkBuddy 怎么用，从零搭建 AI 办公智能体工作台。"
+keywords: "WorkBuddy,腾讯WorkBuddy,WorkBuddy使用教程,WorkBuddy使用指南,WorkBuddy使用手册"
 ---
 
 # WorkBuddy 是什么、怎么学？五组路线带你从安装用到自己搭系统

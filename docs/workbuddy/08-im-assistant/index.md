@@ -1,5 +1,7 @@
 ---
-description: "你装好了 WorkBuddy 客户端，可人一离开工位，电脑一锁屏，活就派不出去了。你想在地铁上让它在家里那台电脑上跑个分析，或者直接在微信里丢一句「帮我建明天的会」，不用再开电脑。"
+title: "WorkBuddy 怎么接入微信？IM 助理手机远程派活"
+description: "离开电脑怎么用手机操作 WorkBuddy？开启 IM 助理并绑定微信后，你可以在微信里远程给工位电脑派任务、查收结果，地铁上也能让家里的电脑跑分析，不用再开电脑。"
+keywords: "WorkBuddy微信,WorkBuddy IM助理,WorkBuddy手机,WorkBuddy远程"
 ---
 
 # WorkBuddy 能装进微信和手机吗？接上 IM 助理随时远程派活

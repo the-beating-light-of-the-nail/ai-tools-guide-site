@@ -1,5 +1,7 @@
 ---
-description: "你让 WorkBuddy 写一篇文章，每次都得在对话框里反复叮嘱：「别写太 AI」「长短句结合」「别编例子」。同样的叮嘱你说了一遍又一遍，它还是偶尔走样。"
+title: "WorkBuddy Skill 是什么？技能插件安装使用教程"
+description: "每次写稿都要重复叮嘱格式？详解 WorkBuddy Skill（技能插件）是什么、怎么装怎么用：一键装上现成 Skill，把老手 SOP 固化给 AI，干活照套路不走样。"
+keywords: "WorkBuddy Skill,WorkBuddy技能,WorkBuddy插件,WorkBuddy教程"
 ---
 
 # WorkBuddy 的 Skill 是什么？装一个就让 AI 照着老手的套路干活

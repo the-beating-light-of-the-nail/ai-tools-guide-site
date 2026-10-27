@@ -1,5 +1,7 @@
 ---
-description: "在 WorkBuddy 里把短视频工作拆成两支 AI 专家团：一支负责自动生产视频，一支负责拆解爆款视频。"
+title: "WorkBuddy 短视频实战：AI 视频生成与爆款拆解"
+description: "怎么一句话召唤 AI 视频团队？本案例教你在 WorkBuddy 里搭两支专家团：一支全流程生成短视频，一支专门拆解爆款视频脚本，互相喂料持续出片。"
+keywords: "WorkBuddy视频,WorkBuddy短视频,AI视频生成,爆款拆解"
 ---
 
 # 怎么一句话召唤 AI 视频团队？生成和拆解两支队伍一次讲清

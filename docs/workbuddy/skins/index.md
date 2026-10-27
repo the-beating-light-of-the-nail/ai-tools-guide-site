@@ -1,21 +1,7 @@
 ---
-title: WorkBuddy 皮肤工坊 · 让 WorkBuddy 是你喜欢的模样
-description: WorkBuddy 皮肤工坊：下载皮肤管理器 App，挑喜欢的皮肤一键下载，导入即应用。也提供 skin-generator Skill 供想自己造皮肤的人学习使用。
-layout: page
-sidebar: false
-aside: false
-pageClass: skin-studio
-head:
-  - - link
-    - rel: preconnect
-      href: https://fonts.googleapis.com
-  - - link
-    - rel: preconnect
-      href: https://fonts.gstatic.com
-      crossorigin: ""
-  - - link
-    - rel: stylesheet
-      href: https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&display=swap
+title: "WorkBuddy 皮肤工坊：主题一键下载与自制教程"
+description: "WorkBuddy 皮肤工坊：下载皮肤管理器 App，海量客户端主题一键下载、导入即用；附 skin-generator Skill 教程，教你自制专属皮肤。"
+keywords: "WorkBuddy皮肤,WorkBuddy主题,skin-generator,WorkBuddy美化"
 ---
 
 <script setup>
