@@ -1,5 +1,5 @@
 ---
-title: "腾讯 WorkBuddy 是什么？全场景 AI 智能体功能介绍"
+title: "WorkBuddy 是什么？全场景 AI 智能体功能介绍"
 description: "WorkBuddy 是什么意思？腾讯推出的全场景职场 AI 智能体工作台（常被误拼为 Workbody，另有国际版）。详解功能介绍、适用人群，以及它和聊天 AI 的区别。"
 keywords: "WorkBuddy是什么,腾讯WorkBuddy,Workbody,WorkBuddy功能介绍,WorkBuddy国际版"
 ---
